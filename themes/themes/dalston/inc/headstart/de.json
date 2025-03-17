@@ -1,0 +1,163 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "primary": "primary",
+                "social": "social-media"
+            },
+            "custom_css_post_id": -1,
+            "hide_front_page_title": true
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [],
+    "content": [
+        {
+            "post_title": "Über",
+            "post_content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">Besucher möchten wissen, <em>wer hinter der Website steckt</em>. Hier kannst du etwas über dich, deine Website, dein Unternehmen und all das schreiben, was du sonst noch mitteilen willst. In den Referenzen weiter unten kannst du andere zitieren, die in ihren eigenen Worten darüber berichten.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">Das sind Beispielinhalte, die die Funktionen in der Vorlage veranschaulichen sollen. Entferne oder ersetze sie durch deine eigenen Texte und Medien.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\",\"level\":3} -->\n<h3 class=\"has-text-align-center\">Was andere sagen</h3>\n<!-- /wp:heading -->\n\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"has-3-columns\"} -->\n<div class=\"wp-block-columns alignwide has-3-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Der erste Schritt beginnt nicht mit Worten, sondern mit Taten.</p><cite>Walt Disney</cite></blockquote>\n<!-- /wp:quote --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Es sind unsere Entscheidungen, Harry, die zeigen, wer wir wirklich sind, viel mehr als unsere angeborenen Fähigkeiten.</p><cite>J. K. Rowling</cite></blockquote>\n<!-- /wp:quote --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Weine nicht, weil es vorbei ist. Lächle, weil es geschah.</p><cite>Dr. Seuss</cite></blockquote>\n<!-- /wp:quote --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:separator {\"className\":\"is-style-wide\"} -->\n<hr class=\"wp-block-separator is-style-wide\" />\n<!-- /wp:separator -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\"} -->\n<h2 class=\"has-text-align-center\">Lass uns zusammen etwas aufbauen.</h2>\n<!-- /wp:heading -->\n\n<!-- wp:button {\"align\":\"center\"} -->\n<div class=\"wp-block-button aligncenter\"><a class=\"wp-block-button__link\" href=\"#\">In Kontakt treten</a></div>\n<!-- /wp:button -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:separator {\"className\":\"is-style-wide\"} -->\n<hr class=\"wp-block-separator is-style-wide\" />\n<!-- /wp:separator -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->",
+            "post_status": "publish",
+            "menu_order": 2,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_about_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "attachment_url": "https://headstartdata.files.wordpress.com/2016/06/stairs-lights-abstract-bubbles1.jpg",
+            "hs_old_id": 100
+        },
+        {
+            "post_title": "Kontakt",
+            "post_content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">Lass uns darüber reden &amp;#128075; Du erreichst uns einfach über die Kontaktangaben weiter unten. Über das Formular kannst du uns auch eine Nachricht senden.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"has-2-columns\"} -->\n<div class=\"wp-block-columns alignwide has-2-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"left\"} -->\n<h2 class=\"has-text-align-left\">Kontaktiere uns</h2>\n<!-- /wp:heading -->\n\n<!-- wp:jetpack/contact-info -->\n<div class=\"wp-block-jetpack-contact-info\"><!-- wp:jetpack/address {\"address\":\"10 Street Road\",\"city\":\"City\",\"postal\":\"10100\",\"country\":\"USA\"} -->\n<div class=\"wp-block-jetpack-address\"><div class=\"jetpack-address__address jetpack-address__address1\">Hauptstraße 10</div><div><span class=\"jetpack-address__city\">12345</span>, <span class=\"jetpack-address__region\"></span> <span class=\"jetpack-address__postal\">Musterstadt</span></div><div class=\"jetpack-address__country\">Deutschland</div></div>\n<!-- /wp:jetpack/address -->\n\n<!-- wp:jetpack/email {\"email\":\"mail@example.com\"} -->\n<div class=\"wp-block-jetpack-email\"><a href=\"mailto:mail@example.com\">mail@beispiel.de</a></div>\n<!-- /wp:jetpack/email -->\n\n<!-- wp:jetpack/phone {\"phone\":\"(555) 555 1234\"} -->\n<div class=\"wp-block-jetpack-phone\"><a href=\"tel:5555551234\">00112 - 12345</a></div>\n<!-- /wp:jetpack/phone --></div>\n<!-- /wp:jetpack/contact-info --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"left\"} -->\n<h2 class=\"has-text-align-left\">Eine Nachricht senden</h2>\n<!-- /wp:heading -->\n\n<!-- wp:jetpack/contact-form -->\n<!-- wp:jetpack/field-name {\"required\":true} /-->\n\n<!-- wp:jetpack/field-email {\"label\":\"Email\",\"required\":true} /-->\n\n<!-- wp:jetpack/field-url /-->\n\n<!-- wp:jetpack/field-textarea {\"required\":true} /-->\n<!-- /wp:jetpack/contact-form --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+            "post_status": "publish",
+            "menu_order": 3,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_contact_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "attachment_url": "https://headstartdata.files.wordpress.com/2016/06/person-smartphone-office-table.jpeg",
+            "hs_old_id": 101
+        },
+        {
+            "post_title": "Erster Blogbeitrag",
+            "post_content": "Dies ist dein erster Beitrag. Klicke auf den Link „Bearbeiten“, um ihn zu bearbeiten oder zu löschen, oder <a href=\"https://wordpress.com/post\">beginne einen neuen Beitrag</a>. Wenn du möchtest, kannst du deinen Lesern in diesem Beitrag mitteilen, warum du diesen Blog begonnen hast und was du damit vorhast.",
+            "post_excerpt": "Dies ist die Kurzfassung deines ersten Beitrags.",
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "open",
+            "post_type": "post",
+            "hs_custom_meta": "_hs_first_post",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "attachment_url": "https://headstartdata.files.wordpress.com/2016/06/pexels-photo-30732.jpg",
+            "hs_old_id": 102
+        },
+        {
+            "post_title": "Startseite",
+            "post_content": "<!-- wp:group {\"backgroundColor\":\"foreground\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-foreground-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/success-3.png\",\"id\":19,\"dimRatio\":80,\"overlayColor\":\"foreground\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"align\":\"wide\",\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover alignwide has-background-dim-80 has-foreground-background-color has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/success-3.png);background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong><a href=\"#\">Im Schwitzkasten</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">– <a href=\"#\">Sport auf einen Blick, 2019</a> –</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:columns {\"align\":\"full\",\"className\":\"is-style-full-bleed margin-top-none margin-bottom-none\"} -->\n<div class=\"wp-block-columns alignfull is-style-full-bleed margin-top-none margin-bottom-none\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#695daf\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#695daf\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-unsubscribed.png\",\"id\":16,\"dimRatio\":80,\"customOverlayColor\":\"#695daf\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-unsubscribed.png);background-color:#695daf;background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong><a href=\"#\">Abonnements beenden</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">– <a href=\"#\">Die Tagespost, 2019</a> –</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"backgroundColor\":\"background-dark\"} -->\n<div class=\"wp-block-group has-background-dark-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/no-connection-5.png\",\"id\":10,\"dimRatio\":90,\"overlayColor\":\"background-dark\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-90 has-background-dark-background-color has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/no-connection-5.png);background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">Kopfloser Astronaut findet Kopf wieder</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">– <a href=\"#\"><em>Stadtmagazin</em>, 2016</a> –</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:group {\"backgroundColor\":\"background\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-background-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-list-is-empty.png\",\"id\":13,\"dimRatio\":80,\"overlayColor\":\"background\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"align\":\"wide\",\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover alignwide has-background-dim-80 has-background-background-color has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-list-is-empty.png);background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">Museum für soziale Medien</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">– <a href=\"#\"><em>Kleinstädter Nachrichten</em>, 2019</a> –</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:columns {\"align\":\"full\",\"className\":\"is-style-full-bleed margin-top-none margin-bottom-none\"} -->\n<div class=\"wp-block-columns alignfull is-style-full-bleed margin-top-none margin-bottom-none\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#f5ede2\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#f5ede2\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-uploading.png\",\"id\":17,\"dimRatio\":80,\"customOverlayColor\":\"#f5ede2\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-uploading.png);background-color:#f5ede2;background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">Wie auf Wolken schweben</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">– <a href=\"#\"><em>Sofas im Check</em>, 2018</a> –</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#bbfbc0\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#bbfbc0\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-fatal-error.png\",\"id\":12,\"dimRatio\":80,\"customOverlayColor\":\"#bbfbc0\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-fatal-error.png);background-color:#bbfbc0;background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">Mit dem Rad unterwegs</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">– <a href=\"#\"><em>Stadtmagazin</em>, 2016</a> –</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:columns {\"align\":\"full\",\"className\":\"is-style-full-bleed margin-top-none margin-bottom-none\"} -->\n<div class=\"wp-block-columns alignfull is-style-full-bleed margin-top-none margin-bottom-none\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"backgroundColor\":\"background\"} -->\n<div class=\"wp-block-group has-background-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-logged-out.png\",\"id\":14,\"dimRatio\":80,\"overlayColor\":\"background\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-background-color has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-logged-out.png);background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">Abonnement nicht beenden</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">– <a href=\"#\"><em>Sofas im Check</em>, 2018</a> –</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#d65d58\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#d65d58\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/done-5.png\",\"id\":9,\"dimRatio\":80,\"customOverlayColor\":\"#d65d58\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/done-5.png);background-color:#d65d58;background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"background\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-background-color has-text-align-center margin-bottom-none\"><strong><a href=\"https://allancoletest.wordpress.com/project-block-style-example/\">Karos statt Streifen</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-background-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-background-color margin-top-none\">– <a href=\"#\"><em>Szene-News</em>, 2018</a> –</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#f5ede2\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#f5ede2\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-waiting.png\",\"id\":18,\"dimRatio\":80,\"customOverlayColor\":\"#f5ede2\",\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-waiting.png);background-color:#f5ede2\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">Höchste Zeit für die Zukunft</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">– <a href=\"#\"><em>Szene-News</em>, 2018</a> –</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+            "post_status": "publish",
+            "menu_order": 1,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_front_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "attachment_url": "https://headstartdata.files.wordpress.com/2019/09/success-3.png",
+            "page_template": "default",
+            "hs_old_id": 103
+        },
+        {
+            "post_title": "Blog",
+            "post_content": "Auf dieser Seite finden Benutzer das Blog deiner Website.",
+            "post_status": "publish",
+            "menu_order": 4,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_blog_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "hs_old_id": 104
+        },
+        {
+            "post_title": "Projekt 1",
+            "post_content": "<!-- wp:columns {\"align\":\"full\",\"className\":\"is-style-project\"} -->\n<div class=\"wp-block-columns alignfull is-style-project\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"fontSize\":\"small\"} -->\n<p class=\"has-small-font-size\">Basketballspieler beim Korbwurf; Bild von <a href=\"https://icons8.com/ouch/style/pale\">Icons8</a>. Eum non sunt, eu, quos nulla doloribus vel voluptas nesciunt necessitatibus fuga aute mi, nunc, officiis iste? Vulputate atque deserunt cras sit accusamus. Fringilla velit modi. Sociis cupiditate repellendus ac pulvinar wisi, iure veritatis consequatur fringilla fermen tum taciti a quas sociis.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\" href=\"#\">Live-Projekt ansehen</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"backgroundColor\":\"foreground-dark\"} -->\n<div class=\"wp-block-group has-foreground-dark-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:image {\"id\":19,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://headstartdata.files.wordpress.com/2019/09/success-3.png?w=750\" alt=\"\" class=\"wp-image-19\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:image {\"id\":15,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://headstartdata.files.wordpress.com/2019/09/pale-order-completed.png?w=750\" alt=\"\" class=\"wp-image-15\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:image {\"id\":9,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://headstartdata.files.wordpress.com/2019/09/done-5.png?w=750\" alt=\"\" class=\"wp-image-9\" /></figure>\n<!-- /wp:image --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+            "post_status": "publish",
+            "menu_order": 4,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_project_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "hs_old_id": 106
+        }
+    ],
+    "menus": {
+        "social-media": {
+            "name": "Soziale Medien",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 175,
+                    "menu-item-object-id": "175",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 0,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http://www.facebook.com"
+                },
+                {
+                    "menu-item-title": "LinkedIn",
+                    "menu-item-db-id": 176,
+                    "menu-item-object-id": "176",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http://www.linkedin.com"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 177,
+                    "menu-item-object-id": "177",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http://www.twitter.com"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 178,
+                    "menu-item-object-id": "178",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http://www.instagram.com"
+                }
+            ]
+        }
+    }
+}

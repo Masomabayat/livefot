@@ -1,0 +1,1278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeNews\n"
+"POT-Creation-Date: 2020-01-21 16:11+0000\n"
+"PO-Revision-Date: 2020-01-25 08:28+0000\n"
+"Language-Team: العربية\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;_x;_n;esc_html__;"
+"esc_html_e;_nx\n"
+"Last-Translator: Ibrahim <computertk2018@gmail.com>\n"
+"Language: ar\n"
+"X-Poedit-SearchPath-0: .\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "عفوا! لم يتم العثور علي الصفحة."
+
+#: 404.php:22
+msgid "404 Not Found"
+msgstr "خطأ 404! الصفحة غير موجودة"
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"يبدو أنه لم يتم العثور على أي شيء بهذه الصفحة. جرب أي من الروابط ادناه او "
+"استخدم اداة البحث؟"
+
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "فكرة واحدة بخصوص &ldquo;%1$s&rdquo;"
+
+#: comments.php:41
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr "%1$s فكر في &ldquo;%2$s&rdquo;"
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: footer.php:56
+msgid "Go Top"
+msgstr "اذهب للأعلى"
+
+#: functions.php:47
+msgid "Primary"
+msgstr "أساسي"
+
+#: functions.php:48
+msgid "Social Links"
+msgstr "روابط وسائل التواصل"
+
+#: functions.php:49
+msgid "Secondary"
+msgstr "ثانوي"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "انتقل إلى المحتوى"
+
+#: header.php:40 header.php:139 inc/about-theme/about-theme.php:151
+msgid "Primary Menu"
+msgstr "القائمة الرئيسية"
+
+#: header.php:154
+msgid "l, F d, Y"
+msgstr "l, F d, Y"
+
+#: image.php:40 template-parts/content-page.php:28 
+#: template-parts/content.php:119
+msgid "Pages:"
+msgstr "الصفحات :"
+
+#: image.php:44
+msgid "Page"
+msgstr "الصفحة"
+
+#: image.php:57
+msgid "Full size"
+msgstr "الحجم الكامل"
+
+#: inc/about-theme/about-theme.php:14
+msgid "About Theme"
+msgstr "عن القالب"
+
+#: inc/about-theme/about-theme.php:31 inc/information.php:21
+#, php-format
+msgid "Welcome to %s"
+msgstr "مرحباً بك %s"
+
+#: inc/about-theme/about-theme.php:32
+msgid "Version:"
+msgstr "الإصدار :"
+
+#: inc/about-theme/about-theme.php:34
+msgid ""
+"FreeNews Magazine theme is an amazing modern WordPress theme. You can choose "
+"to build professional websites. It is easy to customize for all kinds of "
+"news, newspaper, magazine, publishing, blog or review sites. It also include "
+"all major aspects like responsive, performance, cross-browser compatible, "
+"SEO ready and supports RTL. It is ready to promotion with social media icons "
+"to reach maximum target audience. Responsive slider impress your customers "
+"with lively eye-catching images right on your banner section."
+msgstr ""
+"قالب مجلة FreeNews هو قالب WordPress حديث ومذهل. يمكنك اختيار بناء المواقع "
+"المهنية. من السهل تخصيص جميع أنواع الأخبار أو الصحف أو المجلات أو النشر أو "
+"المدونات أو مواقع المراجعة. ويشمل أيضًا جميع الجوانب الرئيسية مثل الاستجابة "
+"والأداء ومتوافق عبر المستعرض وجاهز تحسين محركات البحث ودعم RTL. إنه جاهز "
+"للترقية باستخدام رموز الوسائط الاجتماعية للوصول إلى أقصى جمهور مستهدف. شريط "
+"التمرير سريع الاستجابة لإقناع عملائك بصور لافتة للنظر حية مباشرة على قسم "
+"لافتة الخاص بك."
+
+#: inc/about-theme/about-theme.php:38
+#, php-format
+msgid ""
+"%s theme is the most Popular Free WordPress Magazine theme. Please click the "
+"below button to display how your site looks like"
+msgstr ""
+"%s قالب هو الأكثر شعبية حرة في مجلة قوالب الووردبريس. يرجى النقر على الزر "
+"أدناه لعرض كيف يبدو موقعك"
+
+#: inc/about-theme/about-theme.php:41
+msgid "Visit Free Demo"
+msgstr "زيارة النسخة المجانية"
+
+#: inc/about-theme/about-theme.php:41
+msgid "Visit Pro Demo"
+msgstr "زيارة النسخة الPro"
+
+#: inc/about-theme/about-theme.php:45
+msgid "Getting Started?"
+msgstr "هيا نبدأ ؟"
+
+#: inc/about-theme/about-theme.php:48 inc/about-theme/about-theme.php:75
+msgid "Demo Importer"
+msgstr "مستورد النسخة"
+
+#: inc/about-theme/about-theme.php:51
+msgid "Support"
+msgstr "الدعم"
+
+#: inc/about-theme/about-theme.php:54 inc/about-theme/about-theme.php:133
+msgid "Video Tutorials"
+msgstr "فيديوهات تعليمية"
+
+#: inc/about-theme/about-theme.php:57
+msgid "Pro Features"
+msgstr "ميزات نسخة الPro"
+
+#: inc/about-theme/about-theme.php:60
+msgid "About Documentation"
+msgstr "حول الوثائق"
+
+#: inc/about-theme/about-theme.php:61
+msgid ""
+"Documentation is the information that describes the product to its users. "
+"Our documentation covers only related to Free Themes and Pro Extension "
+"Plugins. It will guide your to develop your Website as we displayed in demo "
+"site without any others help."
+msgstr ""
+"الوثائق هي المعلومات التي تصف المنتج لمستخدميه. تغطي وثائقنا فقط الموضوعات "
+"المتعلقة بـ Free Themes و Pro Extension Plugins. سوف يرشدك لتطوير موقع الويب "
+"الخاص بك كما عرضنا في الموقع التجريبي دون مساعدة الآخرين."
+
+#: inc/about-theme/about-theme.php:63
+#, php-format
+msgid "%s Documentation"
+msgstr "وثائق %s"
+
+#: inc/about-theme/about-theme.php:65
+msgid "Theme Customizer"
+msgstr "قالب مخصص"
+
+#: inc/about-theme/about-theme.php:66
+#, php-format
+msgid ""
+"%s supports the Theme Customizer for all theme settings. Click \"Customize\" "
+"to personalize your site."
+msgstr ""
+"%s يدعم أداة تخصيص القالب لجميع إعدادات القالب. انقر فوق \"تخصيص\" لتخصيص "
+"موقعك."
+
+#: inc/about-theme/about-theme.php:67
+msgid "Start Customizing"
+msgstr "إبدأ التخصيص"
+
+#: inc/about-theme/about-theme.php:69
+msgid "F.A.Q (Frequently Asked Questions)"
+msgstr "الأسئلة الشائعة"
+
+#: inc/about-theme/about-theme.php:70
+msgid "Want to know more about Themes and Plugins developed by Theme Spiral? "
+msgstr "تريد أن تعلم أكثر عن مطوري القوالب و اللإضافات بواسطة القالب الولبي ؟ "
+
+#: inc/about-theme/about-theme.php:70
+msgid "F.A.Q"
+msgstr "الأسئلة الشائعة"
+
+#: inc/about-theme/about-theme.php:77
+msgid ""
+"If your site have your own content then do not use this plugins to import "
+"dummy content. It will mess your site with dummy content. Is your site fresh?"
+" Install the Demo importer plugins and activate it."
+msgstr ""
+"إذا كان موقعك يحتوي على محتوى خاص بك ، فلا تستخدم هذه المكونات الإضافية "
+"لاستيراد المحتوى الوهمي. انها سوف تعبث موقعك مع المحتوى الوهمي. هل موقعك "
+"جديد؟ تثبيت الإضافات المستوردة التجريبية و تفعيلها."
+
+#: inc/about-theme/about-theme.php:78
+msgid "Do you want to install One Click Demo Import Plugin? "
+msgstr "هل تريد تنزيل إضافة One Click Demo Import ؟ "
+
+#: inc/about-theme/about-theme.php:81 inc/about-theme/about-theme.php:85
+msgid "Install Demo Plugin"
+msgstr "تنزيل إضافات النسخة"
+
+#: inc/about-theme/about-theme.php:89
+msgid "How to install Dummy Content ?"
+msgstr "كيفية تثبيت المحتوى الوهمي؟"
+
+#: inc/about-theme/about-theme.php:91
+msgid ""
+" Please install One Click Demo Import plugins. You can install it after "
+"activating freenews theme. It is listed in recommended Plugins"
+msgstr ""
+" الرجاء تثبيت الإضافات التجريبية بنقرة واحدة. يمكنك تثبيته بعد تفعيل سمة "
+"freenews. وهي مدرجة في الإضافات الموصى بها"
+
+#: inc/about-theme/about-theme.php:93
+msgid ""
+"After plugin is activated, it asks you to upload  XML, WIE and  DAT dummy "
+"file"
+msgstr ""
+"بعد تنشيط الإضافات ، سيطلب منك تحميل ملفات المحتوى الوهمي XML و WIE و DAT"
+
+#: inc/about-theme/about-theme.php:94
+msgid "Download it from Here "
+msgstr "حملها من هنا "
+
+#: inc/about-theme/about-theme.php:95
+msgid ""
+"Unzip freenews-dummy-content.zip file. You can find all XML, WIE and  DAT "
+"dummy file"
+msgstr ""
+"بفك ملف freenews-dummy-content.zip يمكنك العثور على كل ملف XML و WIE و DAT"
+
+#: inc/about-theme/about-theme.php:96
+msgid "Navigate to Appearance > Import Demo Data"
+msgstr "انتقل إلى المظهر> Import Demo Data"
+
+#: inc/about-theme/about-theme.php:97
+msgid "Upload"
+msgstr "ارفع"
+
+#: inc/about-theme/about-theme.php:98
+msgid "Upload manually and Click on Import demo data."
+msgstr "تحميل يدويا وانقر على Import demo data."
+
+#: inc/about-theme/about-theme.php:99 inc/about-theme/about-theme.php:101
+msgid ""
+"Now all your files and settings has been imported. Now you just need to "
+"setup your menu and front page."
+msgstr ""
+"الآن تم استيراد جميع الملفات والإعدادات الخاصة بك. الآن تحتاج فقط إلى إعداد "
+"القائمة والصفحة الرئيسية."
+
+#: inc/about-theme/about-theme.php:102
+msgid "Setup Menu:"
+msgstr "إعدادات القائمة :"
+
+#: inc/about-theme/about-theme.php:105
+msgid "In the Blog Dashboard, select Appearance > Menus."
+msgstr "في لوحة تحكم المدونة ، حدد المظهر> القوائم."
+
+#: inc/about-theme/about-theme.php:106
+msgid ""
+"Under the Menu Settings, located at the bottom of your screen, select "
+"Primary/ Secondary menu"
+msgstr ""
+"ضمن إعدادات القائمة ، الموجودة في الجزء السفلي من الشاشة ، حدد القائمة "
+"الابتدائية / الثانوية"
+
+#: inc/about-theme/about-theme.php:107
+msgid "Click save menu"
+msgstr "اضغط لحفظ القائمة"
+
+#: inc/about-theme/about-theme.php:109
+msgid "Setup Home Page:"
+msgstr "إعدادات الصفحة الرئيسية :"
+
+#: inc/about-theme/about-theme.php:111
+msgid ""
+"Navigate to Dashboard > Reading > Click on ( A static page ) from Your "
+"homepage displays"
+msgstr ""
+"انتقل إلى لوحة التحكم> القراءة> انقر على (صفحة ثابتة) من شاشة صفحتك الرئيسية"
+
+#: inc/about-theme/about-theme.php:113
+msgid "Select Homepage as Home and Postpage as Blog"
+msgstr "اختر الصفحة الرئيسية على أنها الرئيسية و صفحة المقال على أنها مدونة"
+
+#: inc/about-theme/about-theme.php:116
+msgid "Watch Demo Import Video"
+msgstr "شاهد فيديو استيراد النسخة"
+
+#: inc/about-theme/about-theme.php:121
+msgid "About Support"
+msgstr "عن الدعم"
+
+#: inc/about-theme/about-theme.php:122
+msgid ""
+"Need Help? Use our Forums if you have any Themes and Plugins related "
+"questions. Support will be provided only related to our Themes and Plugins"
+msgstr ""
+"تحتاج مساعدة؟ استخدم منتدياتنا إذا كان لديك أي أسئلة متعلقة بالقوالب "
+"والإضافات. سيتم تقديم الدعم المتعلق فقط بقوالبنا وملحقاتنا"
+
+#: inc/about-theme/about-theme.php:123
+msgid "Forums"
+msgstr "المنتديات"
+
+#: inc/about-theme/about-theme.php:125
+msgid "Sales Questions"
+msgstr "أسئلة الشراء"
+
+#: inc/about-theme/about-theme.php:126
+msgid ""
+"Do you have discussion relating to billing, your account or have pre-sales "
+"questions? Get touch with us!"
+msgstr ""
+"هل لديك مناقشة تتعلق بفواتير ، حسابك أو لديك أسئلة قبل الشراء؟ للحصول على "
+"المساعدة اتصل بنا!"
+
+#: inc/about-theme/about-theme.php:127
+msgid "Contact us"
+msgstr "اتصل بنا"
+
+#: inc/about-theme/about-theme.php:134
+msgid "Setup Site Identity"
+msgstr "إعداد هوية موقع"
+
+#: inc/about-theme/about-theme.php:135
+msgid "Site Identity"
+msgstr "التعريف بالموقع"
+
+#: inc/about-theme/about-theme.php:137
+msgid "Setup Main Banner"
+msgstr "إعدادت الراية الرئيسية"
+
+#: inc/about-theme/about-theme.php:138 inc/about-theme/about-theme.php:148
+msgid "Watch Video"
+msgstr "شاهد الفيديو"
+
+#: inc/about-theme/about-theme.php:139 inc/customizer/customizer.php:66
+msgid "Main Banner"
+msgstr "الراية الرئيسية"
+
+#: inc/about-theme/about-theme.php:141
+msgid "Setup Highlighted Category"
+msgstr "إعداد التصنيف المميز"
+
+#: inc/about-theme/about-theme.php:142 inc/customizer/customizer.php:73
+msgid "Highlighted Category"
+msgstr "تصنيف مميز"
+
+#: inc/about-theme/about-theme.php:144
+msgid "Setup Social Icons"
+msgstr "إعدادات أيقونات التواصل الإجتماعي"
+
+#: inc/about-theme/about-theme.php:145
+msgid "Social Icons"
+msgstr "أيقونات التواصل الإجتماعي"
+
+#: inc/about-theme/about-theme.php:147
+msgid "Setup Home Template"
+msgstr "إعداد قالب الرئيسي"
+
+#: inc/about-theme/about-theme.php:150
+msgid "Setup Primary Menu"
+msgstr "إعدادات القائمة الرئيسية"
+
+#: inc/about-theme/about-theme.php:153 inc/about-theme/about-theme.php:154
+msgid "Setup Header"
+msgstr "إعدادات الترويسة"
+
+#: inc/about-theme/about-theme.php:158 inc/about-theme/about-theme.php:159
+msgid "Upgrade to Pro"
+msgstr "حدث لنسخة الPro"
+
+#: inc/about-theme/about-theme.php:159
+msgid ""
+"Want additional features? Pro extension plugin adds additinal features for "
+"free themes. "
+msgstr ""
+"تريد ميزات إضافية؟ الإضافات الملحقة بالنسخة الPro تضيف ميزات إضافية للقالب "
+"المجاني. "
+
+#: inc/about-theme/about-theme.php:160
+msgid "Pro Features Extension"
+msgstr "ميزات ملحقات نسخة الpro"
+
+#: inc/about-theme/about-theme.php:163
+msgid "Site Layout"
+msgstr "تخطيط الموقع"
+
+#: inc/about-theme/about-theme.php:164
+msgid "Single Sidebar Layout"
+msgstr "تخطيط الشريط الجانبي الفردي"
+
+#: inc/about-theme/about-theme.php:165
+msgid "Flexible Content Width"
+msgstr "عرض محتوى مرن"
+
+#: inc/about-theme/about-theme.php:166
+msgid "Sidebar Content Width"
+msgstr "عرض محتوى الشريط الجانبي"
+
+#: inc/about-theme/about-theme.php:167
+msgid "Custom Design"
+msgstr "تصميم معين"
+
+#: inc/about-theme/about-theme.php:168
+msgid "Default Text Edit"
+msgstr "تعديل النص الافتراضي"
+
+#: inc/about-theme/about-theme.php:169
+msgid "Choose Main Banner"
+msgstr "اختر الراية الرئيسية"
+
+#: inc/about-theme/about-theme.php:170
+msgid "Category highlight settings"
+msgstr "إعدادات التصنيفات المميزة"
+
+#: inc/about-theme/about-theme.php:171
+msgid "Excerpt Text edit"
+msgstr "مقتطفات تحرير النص"
+
+#: inc/about-theme/about-theme.php:172
+msgid "Footer Layout"
+msgstr "تخطيط تذييل الصفحة"
+
+#: inc/about-theme/about-theme.php:173
+msgid "Footer Edit"
+msgstr "تعديل تذييل الصفحة"
+
+#: inc/about-theme/about-theme.php:174
+msgid "Instagram Compatible"
+msgstr "متوافق مع Instagram"
+
+#: inc/about-theme/about-theme.php:175
+msgid "Unlimited Color"
+msgstr "ألوان لا نهائية"
+
+#: inc/about-theme/about-theme.php:176
+msgid "Font Color"
+msgstr "لون الخط"
+
+#: inc/about-theme/about-theme.php:177
+msgid "Color Schemes"
+msgstr "ألوان المخططات"
+
+#: inc/about-theme/about-theme.php:178
+msgid "Background Color"
+msgstr "لون الخلفية"
+
+#: inc/about-theme/about-theme.php:179
+msgid "Font Size"
+msgstr "حجم الخط"
+
+#: inc/about-theme/about-theme.php:180
+msgid "Font Family"
+msgstr "خطوط العائلة"
+
+#: inc/about-theme/about-theme.php:181
+msgid "Footer Column 1/2/3/4"
+msgstr "تذييل العمود 1/2/3/4"
+
+#: inc/about-theme/about-theme.php:182
+msgid "Footer Edit options"
+msgstr "تعديل إعدادات تذييل الصفحة"
+
+#: inc/about-theme/about-theme.php:183
+msgid "More Social Icons"
+msgstr "أيقونات تواصل الإجتماعي أكثر"
+
+#: inc/about-theme/about-theme.php:184
+msgid "Change Featured Text in Sticky Post"
+msgstr "تغيير النص المميز في المقالات المنزلقة"
+
+#: inc/about-theme/about-theme.php:185
+msgid "Standard Section"
+msgstr "القسم البسيط"
+
+#: inc/about-theme/about-theme.php:186
+msgid "Standard Section Column 3/4/5"
+msgstr "القسم البسيط العامود 3/4/5"
+
+#: inc/about-theme/about-theme.php:194
+msgid "Powerful Pro Extension Features"
+msgstr "ميزات ملحقات نسخة الPro القوية"
+
+#: inc/about-theme/about-theme.php:195
+msgid ""
+"Get unlimited features using Pro extension. Purchase FreeNews Pro extension "
+"and get additional features and advanced customization options to make your "
+"website look awesome in different styles. "
+msgstr ""
+"احصل على ميزات غير محدودة باستخدام ملحقات نسخة الPro . قم بشراء امتداد "
+"FreeNews Pro واحصل على ميزات إضافية وخيارات التخصيص المتقدمة لجعل موقع الويب "
+"الخاص بك رائعًا في أنماط مختلفة. "
+
+#: inc/about-theme/about-theme.php:197
+msgid "Free vs Pro"
+msgstr "النسخة المجانية ضد النسخة Pro"
+
+#: inc/common-functions.php:10 inc/theme-functions.php:115 
+#: inc/widgets/blog-category-post.php:87 template-parts/content.php:45
+msgid "Read More"
+msgstr "اقرأ أكثر"
+
+#: inc/common-functions.php:39
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: inc/common-functions.php:42
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "مشغل بواسطة %s"
+
+#: inc/common-functions.php:48
+#, php-format
+msgid "Theme: %1$s By %2$s."
+msgstr "قالب : %1$s بواسطة : %2$s."
+
+#: inc/custom-header.php:34
+msgid "Default Header Image"
+msgstr "صورة الترويسة الإفتراضية"
+
+#: inc/customizer/all-theme-options.php:25
+msgid "Front/ Home page posts categories"
+msgstr "تصنيفات منشورات الصفحة الرئيسية"
+
+#: inc/customizer/all-theme-options.php:26
+msgid ""
+"Selected category display on front/ home page. If not selected, all post "
+"will be displayed"
+msgstr ""
+"عرض التصنيف المحدد على الصفحة الأمامية / الرئيسية. إذا لم يتم تحديده ، فسيتم "
+"عرض كل المنشورات"
+
+#: inc/customizer/all-theme-options.php:41
+msgid "Disable Blog/ Single Options"
+msgstr "تعطيل المدونة/إعداد وحيد"
+
+#: inc/customizer/all-theme-options.php:53
+msgid "Disable Author"
+msgstr "تعطيل اسم المؤلف"
+
+#: inc/customizer/all-theme-options.php:64
+msgid "Disable Date"
+msgstr "تعطيل التاريخ"
+
+#: inc/customizer/all-theme-options.php:75
+msgid "Disable Category"
+msgstr "تعطيل التصنيفات"
+
+#: inc/customizer/all-theme-options.php:86
+msgid "Disable Comments"
+msgstr "تعطيل التعليقات"
+
+#: inc/customizer/all-theme-options.php:98
+msgid "Select Sidebar Layout"
+msgstr "حدد تخطيط الشريط الجانبي"
+
+#: inc/customizer/all-theme-options.php:102
+msgid "Default Right Sidebar"
+msgstr "الشريط الجانبي الأيمن الافتراضي"
+
+#: inc/customizer/all-theme-options.php:103
+msgid "Left Sidebar"
+msgstr "الشريط الجانبي الأيسر"
+
+#: inc/customizer/all-theme-options.php:104
+msgid "Fullwidth"
+msgstr "عرض كامل"
+
+#: inc/customizer/all-theme-options.php:114
+msgid "Enable Sticky Menu"
+msgstr "تمكين القائمة المنزلقة"
+
+#: inc/customizer/all-theme-options.php:125
+msgid "Post Pagination"
+msgstr "ترقيم صفحات المقال"
+
+#: inc/customizer/all-theme-options.php:129
+msgid "Default"
+msgstr "افتراضي"
+
+#: inc/customizer/all-theme-options.php:130
+msgid "Numeric"
+msgstr "رقمية"
+
+#: inc/customizer/category-color.php:17
+msgid "Category Lists"
+msgstr "قوائم التصنيفات"
+
+#: inc/customizer/category-color.php:18
+msgid "Change default Category Color to any"
+msgstr "تغيير لون التصنيفات الافتراضي إلى أي لون"
+
+#: inc/customizer/customizer.php:43
+msgid "Theme Options"
+msgstr "إعدادات القالب"
+
+#: inc/customizer/customizer.php:52
+msgid "All theme Options"
+msgstr "جميع إعدادت القالب"
+
+#: inc/customizer/customizer.php:59 inc/customizer/flash-news.php:15 
+#: inc/customizer/flash-news.php:31 inc/theme-functions.php:318
+msgid "Flash News"
+msgstr "أخبار حصرية"
+
+#: inc/customizer/excerpt-display.php:17
+msgid "Excerpt Settings"
+msgstr "إعدادات متقدمة"
+
+#: inc/customizer/excerpt-display.php:27
+msgid "Post Excerpt Content"
+msgstr "نشر مقتطفات المحتوى"
+
+#: inc/customizer/excerpt-display.php:31
+msgid "Full Content"
+msgstr "المحتوى الكامل"
+
+#: inc/customizer/excerpt-display.php:32
+msgid "Excerpt Content"
+msgstr "مقتطفات المحتوى"
+
+#: inc/customizer/flash-news.php:20 inc/customizer/highlighted-category.php:38
+msgid "Title"
+msgstr "العنوان"
+
+#: inc/customizer/flash-news.php:32
+msgid "Select Category from Dropdown "
+msgstr "حدد التصنيف من القائمة المنسدلة "
+
+#: inc/customizer/highlighted-category.php:22
+msgid "Select  highlighted Category Left"
+msgstr "حدد تمييز الفئة اليسار"
+
+#: inc/customizer/highlighted-category.php:23
+msgid ""
+"Selected below category will display Left side under Highlighted Section"
+msgstr "سيتم تحديد الفئة المحددة أدناه الجانب الأيسر تحت القسم المميز"
+
+#: inc/customizer/highlighted-category.php:33 inc/theme-functions.php:238
+msgid "World News"
+msgstr "أخبار العالم"
+
+#: inc/customizer/highlighted-category.php:53
+msgid "Select  highlighted Category Right"
+msgstr "حدد التصنيف المميزة لليمين"
+
+#: inc/customizer/highlighted-category.php:54
+msgid ""
+"Selected below category will display Right side under Highlighted Section"
+msgstr "سيتم تحديد التصنيف المحدد أدناه بالجانب الأيمن تحت القسم المميز"
+
+#: inc/customizer/main-banner.php:19
+msgid "Select Main Banner"
+msgstr "اختر الراية الرئيسية"
+
+#: inc/information.php:26
+#, php-format
+msgid ""
+"Thank you for choosing %1$s! To fully take advantage of our best theme, make "
+"sure you visit Welcome page"
+msgstr ""
+"شكرا لاختيارك %1$s ! للاستفادة الكاملة من أفضل قوالبنا ، تأكد من زيارة صفحة "
+"الترحيب"
+
+#: inc/information.php:32
+#, php-format
+msgid "Get started with %s"
+msgstr "ابدأ مع %s"
+
+#: inc/style-scripts.php:64 inc/style-scripts.php:69
+msgid "on"
+msgstr "تشغيل"
+
+#: inc/template-functions.php:77
+msgid "--Select--"
+msgstr "--اختر--"
+
+#: inc/template-tags.php:57
+#, php-format
+msgid "Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "تعليق <span class=\"screen-reader-text\"> على %s</span>"
+
+#: inc/template-tags.php:74 template-parts/content-page.php:41
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "تعديل <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "تثبيت الإضافات المطلوبة"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "تثبيت الإضافات"
+
+#: inc/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "تثبيت إضافة : %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "تحديث إضافة : %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "حدث خطأ مع API الإضافة."
+
+#: inc/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "ارجع الى مثبت الاضافات المطلوبة"
+
+#: inc/tgm/class-tgm-plugin-activation.php:386 
+#: inc/tgm/class-tgm-plugin-activation.php:827 
+#: inc/tgm/class-tgm-plugin-activation.php:2533 
+#: inc/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "العودة إلى لوحة التحكم"
+
+#: inc/tgm/class-tgm-plugin-activation.php:387 
+#: inc/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "تم تفعيل الإضافة بنجاح."
+
+#: inc/tgm/class-tgm-plugin-activation.php:388 
+#: inc/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr "تم تنشيط الإضافة التالية بنجاح :"
+
+#: inc/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "لم يتم اتخاذ أي إجراء. إضافة %1$s مفعلة بالفعل."
+
+#: inc/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"الإضافة غير مفعل. نسخة أعلى من %s يحتاجها هذا القالب. يرجى تحديث البرنامج "
+"المساعد."
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "تم تثبيت جميع الإضافات وتفعيلها بنجاح. %1$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "تجاهل هذا الإشعار"
+
+#: inc/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"هناك واحد أو أكثر من الإضافات المطلوبة أو الموصى بها للتثبيت أو تحديث أو "
+"تنشيط."
+
+#: inc/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "يرجى الاتصال بمسؤول هذا الموقع للحصول على المساعدة."
+
+#: inc/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "يجب تحديث هذه الإضافة لتكون متوافقة مع قالبك ."
+
+#: inc/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "تحديث مطلوب"
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"لا تحتوي حزمة المكوّن الإضافي عن بُعد على مجلد يحتوي على الإزاحة المرغوبة "
+"ولم تنجح إعادة التسمية."
+
+#: inc/tgm/class-tgm-plugin-activation.php:934 
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"يرجى الاتصال بمزود البرنامج المساعد واطلب منهم أن يحزموا البرنامج المساعد "
+"الخاص بهم وفقًا لإرشادات WordPress."
+
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"تتكون حزمة البرنامج المساعد عن بعد من أكثر من ملف واحد ، لكن لا يتم حزم "
+"الملفات في مجلد."
+
+#: inc/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "مطلوب"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "موصى به"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "مستودع ووردبريس"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "مصدر خارجي"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "قبل التعبئة"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "ليس مثبتاً"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "مثبت و لكن غير مفعل"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "تفعيل"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "التحديث المطلوب غير متوفر"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "يتطلب تحديث"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "تحديث موصى به"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr "الكل<span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr "للتثبيت <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr "تحديث متوفر <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr "للتفعيل <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr "غير معروف"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "الإصدار المثبت :"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "الحد الأدنى للإصدار المطلوب :"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "الإصدار المتاح :"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "لا يوجد إضافات للتثبيت, التحديث أو التفعيل."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "الإضافة"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "المصدر"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "النوع"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "الإصدار"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "الحالة"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "تحميل %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "تحديث %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "تفعيل %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "رسالة التحديث من صانع الإضافة :"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "تثبيت"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "تحديث"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "تفعيل"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "لم يتم اختيار إضافات ليتم تثبيتها. لم يتم اتخاذ أي إجراء."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "لم يتم تحديد أي مكونات إضافية ليتم تحديثها. لم يتم اتخاذ أي إجراء."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "لا توجد إضافات متاحة ليتم تثبيتها في هذا الوقت."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "لا توجد إضافات متاحة ليتم تحديثها في هذا الوقت."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "لم يتم اختيار إضافات لتفعيلها. لم يتم اتخاذ أي إجراء."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "لا توجد إضافات متاحة لتفعيلها في هذا الوقت."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "فشل تنشيط الإضافة."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "تحديث الإضافة %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "حدث خطأ أثناء تثبيت %1$s: <strong>%2$s</strong>."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "تثبيت %1$s قد فشل."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"بدأت عملية التثبيت والتفعيل. قد تستغرق هذه العملية بعض الوقت على بعض "
+"المضيفين ، لذا يرجى التحلي بالصبر."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s تم تثبيته وتفعيله بنجاح."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509 
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "إضهار التفاصيل"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509 
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "إخفاء التفاصيل"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "تم الانتهاء من جميع التثبيات و تفعيلها."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت وتفعيل الإضافة %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"بدأت عملية التثبيت. قد تستغرق هذه العملية بعض الوقت على بعض المضيفين ، لذا "
+"يرجى التحلي بالصبر."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s تم تثبيته بنجاح."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "تم الانتهاء من جميع التنزيلات."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "تثبيت الإضافة %1$s (%2$d/%3$d)"
+
+#: inc/tgm/tgm.php:40
+msgid "One Click Demo Import"
+msgstr "One Click Demo Import"
+
+#: inc/theme-functions.php:12 inc/theme-functions.php:32
+msgid "Menu"
+msgstr "القائمة"
+
+#: inc/theme-functions.php:29
+msgid "Secondary Navigation"
+msgstr "الملاحة الثانوية"
+
+#: inc/theme-functions.php:50 inc/theme-functions.php:53
+msgid "Search"
+msgstr "البحث"
+
+#: inc/theme-functions.php:64
+msgid "Social Navigation"
+msgstr "الملاحة الاجتماعية"
+
+#: inc/upgrade/class-customize.php:63
+msgid "FreeNews"
+msgstr "أخبار مجانية"
+
+#: inc/upgrade/class-customize.php:64
+msgid "Upgrade To Pro"
+msgstr "حدث إلى نسخة الحقخ"
+
+#: inc/widgets/blog-category-post.php:16 inc/widgets/list-category-post.php:16 
+#: inc/widgets/post-widgets.php:16
+msgid "Display Latest Posts/ Category"
+msgstr "عرض آخر المقالات / التصنيفات"
+
+#: inc/widgets/blog-category-post.php:18
+msgid "T-Spiral: Blog Category Posts"
+msgstr "تي لولبي : مدونة تصنيف المقالات"
+
+#: inc/widgets/blog-category-post.php:35
+msgid "Number of posts:"
+msgstr "عدد المقالات :"
+
+#: inc/widgets/blog-category-post.php:40 inc/widgets/category-slide.php:41 
+#: inc/widgets/list-category-post.php:45 inc/widgets/list-category-post.php:60 
+#: inc/widgets/post-widgets.php:40
+msgid "Title:"
+msgstr "العنوان :"
+
+#: inc/widgets/blog-category-post.php:43 inc/widgets/category-slide.php:48 
+#: inc/widgets/list-category-post.php:48 inc/widgets/list-category-post.php:63 
+#: inc/widgets/post-widgets.php:43
+msgid "Latest Posts"
+msgstr "آخر المقالات"
+
+#: inc/widgets/blog-category-post.php:45 inc/widgets/category-slide.php:50 
+#: inc/widgets/list-category-post.php:50 inc/widgets/list-category-post.php:65 
+#: inc/widgets/post-widgets.php:45
+msgid "Show Category posts"
+msgstr "اظهر تصنيف المقال"
+
+#: inc/widgets/blog-category-post.php:48 inc/widgets/category-slide.php:53 
+#: inc/widgets/post-widgets.php:48
+msgid "Select category"
+msgstr "اختر التصنيف"
+
+#: inc/widgets/blog-category-post.php:49 inc/widgets/category-slide.php:54 
+#: inc/widgets/list-category-post.php:54 inc/widgets/list-category-post.php:69 
+#: inc/widgets/post-widgets.php:49
+msgid "-- Select -- "
+msgstr "--اختر-- "
+
+#: inc/widgets/category-slide.php:16
+msgid "Select any Category to Display."
+msgstr "حدد أي فئة لعرضها."
+
+#: inc/widgets/category-slide.php:18
+msgid "T-Spiral: Category Slide"
+msgstr "تي لولبي : شريط التصنيفات"
+
+#: inc/widgets/category-slide.php:36
+msgid "Number of Slider:"
+msgstr "عدد الشرائح :"
+
+#: inc/widgets/category-slide.php:44
+msgid "Multiple Slide"
+msgstr "شرائح متعددة"
+
+#: inc/widgets/category-slide.php:46
+msgid "Single Slide"
+msgstr "شريحة واحدة"
+
+#: inc/widgets/list-category-post.php:18
+msgid "T-Spiral: List Category Posts"
+msgstr "تي لولبي : آخر تصنيف المقالات"
+
+#: inc/widgets/list-category-post.php:38 inc/widgets/post-widgets.php:35
+msgid "Number of popular posts:"
+msgstr "عدد المقالات المنشورة :"
+
+#: inc/widgets/list-category-post.php:53 inc/widgets/list-category-post.php:68
+msgid "Select Category"
+msgstr "اختر التصنيف"
+
+#: inc/widgets/post-widgets.php:18
+msgid "T-Spiral: Latest Posts"
+msgstr "تي لولبي: آخر المشاركات"
+
+#: inc/widgets/sidebars.php:10
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: inc/widgets/sidebars.php:12
+msgid "Add widgets here."
+msgstr "اضف ويدجت هنا."
+
+#: inc/widgets/sidebars.php:20
+msgid "Header Banner"
+msgstr "راية الترويسة"
+
+#: inc/widgets/sidebars.php:22
+msgid "Add widgets here. This section will appear at right side of Site Title"
+msgstr "إضافة الودجات هنا. سيظهر هذا القسم في الجانب الأيمن من عنوان الموقع"
+
+#: inc/widgets/sidebars.php:30
+msgid "Advertise Area"
+msgstr "منطقة الإعلان"
+
+#: inc/widgets/sidebars.php:32
+msgid ""
+"Add widgets here. This section will appear just below Highlighted Category "
+"and Main Banner"
+msgstr ""
+"إضافة الودجات هنا. سيظهر هذا القسم أسفل التصنيفات و الراية الرئيسي مباشرةً"
+
+#: inc/widgets/sidebars.php:40
+msgid "FreeNews Template Left Section"
+msgstr "قالب FreeNews القسم الايسر"
+
+#: inc/widgets/sidebars.php:42
+msgid ""
+"Add widgets here. This section will appear when FreeNews Template is "
+"selected at Left Section"
+msgstr ""
+"إضافة الودجات هنا. سيظهر هذا القسم عند اختيار قالب FreeNews في القسم الأيسر"
+
+#: inc/widgets/sidebars.php:50
+msgid "FreeNews Template Main Section"
+msgstr "قالب FreeNews القسم الرئيسي"
+
+#: inc/widgets/sidebars.php:52
+msgid ""
+"Add widgets here. This section will appear when FreeNews Template is "
+"selected at Main Section"
+msgstr ""
+"إضافة الودجات هنا. سيظهر هذا القسم عند اختيار قالب FreeNews في القسم الرئيسي"
+
+#: inc/widgets/sidebars.php:60
+msgid "FreeNews Template Right Section"
+msgstr "قالب FreeNews القسم الأيمن"
+
+#: inc/widgets/sidebars.php:62
+msgid ""
+"Add widgets here. This section will appear when FreeNews Template is "
+"selected at Right Section"
+msgstr ""
+"إضافة الودجات هنا. سيظهر هذا القسم عند اختيار قالب FreeNews في القسم الأيمن"
+
+#: search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr "نتائج البحث عن : %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "لاشيء وجد"
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "مستعد لنشر أول منشوراتك؟ <a href=\"%1$s\"> ابدأ هنا</a>."
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"آسف ، ولكن لا شيء يطابق مصطلحات البحث الخاصة بك. أرجو المحاولة مرة أخرى "
+"بإستخدام كلمات أخرى."
+
+#: template-parts/content-none.php:43
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"يبدو أننا لا نستطيع &rsquo; العثور على ما تبحث عنه. &rsquo ربما يمكن أن "
+"يساعد البحث."
+
+#: template-parts/content.php:18
+msgid "Featured"
+msgstr "مميز"
+
+#: template/freenews-template.php:35
+msgid "Template Left"
+msgstr "قالب اليسار"
+
+#: template/freenews-template.php:46
+msgid "Template Right"
+msgstr "قالب اليمين"

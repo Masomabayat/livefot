@@ -1,0 +1,153 @@
+/*--------------------------------------------------------------
+>>> Some Global Styles for AnWP Football Leagues Admin part:
+----------------------------------------------------------------*/
+#customize-control-anwp-fl-customizer-standing-show_standing_arrows {
+	position: relative;
+}
+
+#customize-control-anwp-fl-customizer-standing-show_standing_arrows label {
+	padding-right: 35px;
+}
+
+#customize-control-anwp-fl-customizer-standing-show_standing_arrows:before {
+	content: "pro";
+	position: absolute;
+	top: 5px;
+	right: 0;
+	background-color: #d48a0f;
+	color: #fff;
+	font-size: 10px;
+	font-style: normal;
+	padding: 2px 5px;
+	opacity: .8;
+	line-height: 1;
+	text-transform: uppercase;
+	display: inline-block
+}
+
+#accordion-section-fl_standing {
+	position: relative;
+}
+
+#accordion-section-fl_standing:before {
+	content: "pro";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #d48a0f;
+	color: #fff;
+	font-size: 10px;
+	font-style: normal;
+	padding: 1px 5px;
+	opacity: .8;
+	line-height: 1;
+	text-transform: uppercase;
+	display: inline-block;
+	z-index: 2;
+}
+
+/* AnWP Transfer - Hide default WP CSS */
+#anwp_transfer {
+	background-color: #F1F1F1;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border: none;
+}
+
+#anwp_transfer .inside {
+	margin: 0;
+	padding: 0;
+}
+
+#anwp_transfer h2.hndle,
+#anwp_transfer .postbox-header {
+	display: none;
+}
+
+/**/
+body.post-type-anwp_fl_builder .select2-dropdown {
+	z-index: 1000055;
+}
+
+/* TinyMCE Button Icon */
+.mce-btn .anwpfl-premium-button-icon {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAflBMVEUAAADPYADPYBDOYwjHWAjHYADHYAjFWgXFYAXKYAXHXATHYATGYAPJXAbJYAPJYAbHXQXHYAXKXgXGXQXGYAXIXQfLXgbHXgbHYAbJXwXIXgXIXgfIYAXKXwXKXwbHXgbJXwbIXgbKXwXJXwXKXwbIXwbJXwbJXwXJXwbJXwYcJCxnAAAAKXRSTlMAEBAfICAgMDAwQEBQUFBQYGBvcHBwf4CAj5CQkJ+foK+wv8/P39/v77kbnN8AAADbSURBVHgBRc7RUsIwEEbhkyoVqUAqUEpFiEnZuO//gi47jHyXZ3Zmf1zYJVGdU+RpXXPfVjXyn0/SQRB1A26YG1jVsdtbP5cTJoq1tSwxYyHIFhC5zKLeCDXQ/Qbij6iJuPQB+UCa9G7CXSN2Rrl4LN4+qw60gs7qclww+KZB0a+qqtJurlXUjcrtZSnWMEdv8l5IkbY+Bnm82KNdhtLhbmq61BNqx3TAZTVrATYSOllghty2zUp7zDR/q8S3Rc4NhHnEjepGYCVnHnpRc3yNuW556lNRlbRvuPsDimEdzOfUBe8AAAAASUVORK5CYII=);
+}
+
+body.post-new-php.post-type-anwp_fl_builder #post-body-content {
+	display: none !important;
+}
+
+body.wp-admin.post-type-anwp_competition table.wp-list-table td.column-anwpfl_multistage .anwp-g-stage-wrap {
+	counter-increment: anwp-stage-counter;
+}
+
+body.wp-admin.post-type-anwp_competition table.wp-list-table td.column-anwpfl_multistage .anwp-g-stage-wrap:before {
+	content: '#' counter( anwp-stage-counter ) ' ';
+}
+
+.anwp-metabox-tabs__control-item span {
+	width: min-content !important;
+	margin: auto;
+}
+
+.anwp-metabox-tabs__control-item {
+	text-align: center;
+}
+
+.anwpfl-pro-menu-text {
+	color: #ffb118; margin-right: 5px;
+}
+
+body.wp-admin.post-type-anwp_transfer #post-body-content {
+	display: none;
+}
+
+.anwp-admin-list-club-logo {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-right: 6px;
+	position: relative;
+	top: 6px;
+}
+
+#toast-container.toast-top-center {
+	top: 15px;
+}
+
+.anwp-b-wrap .align-text-bottom {
+	vertical-align: text-bottom !important;
+}
+
+.anwp-builder-list {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 26px auto;
+	width: 36px;
+	height: 34px;
+	margin: 0;
+	text-align: center;
+	display: inline-block;
+	color: #a0a5aa;
+	font-size: 32px;
+}
+
+.anwp-builder-list.anwp-competition {
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAuNDc5IDEuMDY0IDE5LjA5OSAxOC45MzYiPjxwYXRoIGZpbGw9IiNhMGE1YWEiIGQ9Ik02IDE5SDV2MWgxMHYtMWgtMXYtMWgtMS4xMzVhNy4xNjQgNy4xNjQgMCAwIDEtLjc2NS0xLjUgMTAuMTkgMTAuMTkgMCAwIDEtLjU1My0yLjQ3MWMxLjc4LS42MzkgMy4xMjMtMi4zNDcgMy4zOTEtNC40MzcgMS40NjctLjgyOCAzLjIyMi0yLjA2NyAzLjkwNi0zLjMwNS45OC0xLjY1Ny45OC0zLjMxNCAwLTQuMTQzLS45NTUtLjgwNy0yLjg0MS0uODI4LTMuODQ0LjcwM1YxLjA2NEg1LjAxNnYxLjcxOWMtMS4wMTQtMS40NjYtMi44Ni0xLjQzNC0zLjgwMS0uNjM5LS45ODEuODI5LS45ODEgMi40ODYgMCA0LjE0My42NzQgMS4yMjEgMi4zODkgMi40NDEgMy44NDIgMy4yNjguMjU3IDIuMTA3IDEuNjA2IDMuODMxIDMuMzk2IDQuNDc0QTEwLjE5IDEwLjE5IDAgMCAxIDcuOSAxNi41YTcuMTY0IDcuMTY0IDAgMCAxLS43NjUgMS41SDZ2MXoiLz48L3N2Zz4=") !important;
+}
+
+.anwp-builder-list.anwp-match {
+	background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSJmaWxsOiNhMGE1YWEiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+PGRlZnM+PGNsaXBQYXRoIGlkPSJhIj48cGF0aCBkPSJNMCAwaDIwdjIwSDB6Ii8+PC9jbGlwUGF0aD48L2RlZnM+PGcgY2xpcC1wYXRoPSJ1cmwoI2EpIj48cGF0aCBkPSJNNi42NjcgMXMyLjg1NyAyLjEyNSA2LjY2NiAyLjEyNUMxMy4zMzMgMTQuODEyIDYuNjY3IDE4IDYuNjY3IDE4UzAgMTQuODEyIDAgMy4xMjVDMy44MSAzLjEyNSA2LjY2NyAxIDYuNjY3IDF6Ii8+PHBhdGggZD0iTTEzLjMzMyAxUzE2LjE5IDMuMTI1IDIwIDMuMTI1QzIwIDE0LjgxMiAxMy4zMzMgMTggMTMuMzMzIDE4UzYuNjY3IDE0LjgxMiA2LjY2NyAzLjEyNUMxMC40NzYgMy4xMjUgMTMuMzMzIDEgMTMuMzMzIDF6IiBmaWxsLW9wYWNpdHk9Ii40Ii8+PC9nPjwvc3ZnPg==") !important;
+}
+
+#anwp_layout_icon {
+	width: 20px;
+}
+
+#anwp-fl-import-matches-table .jcalendar_hour, #anwp-fl-import-matches-table  .jcalendar_min {
+	padding: 4px !important;
+}

@@ -1,0 +1,325 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "primary": "primary-menu",
+                "expanded": null,
+                "mobile": "primary-menu",
+                "footer": "primary-menu",
+                "jetpack-social-menu": "social-links-menu",
+                "social": "social-links-menu"
+            },
+            "custom_css_post_id": -1,
+            "hide_front_page_title": false
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [],
+    "content": [
+        {
+            "post_type": "page",
+            "post_title": "시냑부터 마티스까지",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">\"평범한 초상화가 아니라 색상과 선을 매우 신중하게 배열하여 신중하게 구성한 그림입니다. 포즈의 리듬과 각이 살아 있습니다.\"</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:group {\"backgroundColor\":\"primary\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-primary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:columns --> <div class=\"wp-block-columns\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>날짜</em><br>8월 1일—12월 1일</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>위치</em><br>B 전시관</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>가격</em><br>포함됨</p> <!-- /wp:paragraph --></div> <!-- /wp:column --></div> <!-- /wp:columns --></div></div> <!-- /wp:group --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- /wp:paragraph --> <!-- wp:gallery {\"ids\":[38,39],\"align\":\"wide\"} --> <figure class=\"wp-block-gallery alignwide columns-2 is-cropped\"><ul class=\"blocks-gallery-grid\"><li class=\"blocks-gallery-item\"><figure><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" data-id=\"38\" data-link=\"http://2020.wordpress.net/2020-square-1/\" class=\"wp-image-38\" /></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&h=1024\" alt=\"\" data-id=\"39\" data-link=\"http://2020.wordpress.net/2020-square-2/\" class=\"wp-image-39\" /></figure></li></ul></figure> <!-- /wp:gallery --> <!-- wp:pullquote {\"align\":\"left\"} --> <figure class=\"wp-block-pullquote alignleft\"><blockquote><p>이번 전시에서는 페네옹이 경탄한 주요 작품을 포함하여 160여 점의 오브제를 선보입니다.</p><cite>전시 카탈로그</cite></blockquote></figure> <!-- /wp:pullquote --> <!-- wp:paragraph --> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> <!-- /wp:paragraph --> <!-- wp:image {\"align\":\"full\",\"id\":37,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image alignfull size-large\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png?w=1024&h=498\" alt=\"\" class=\"wp-image-37\" /></figure> <!-- /wp:image --> <!-- wp:paragraph --> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p> <!-- /wp:paragraph --> <!-- wp:separator {\"className\":\"is-style-wide\"} --> <hr class=\"wp-block-separator is-style-wide\" /> <!-- /wp:separator --> <!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"accent\"} --> <h6 class=\"has-accent-color has-text-color has-text-align-center\">기타 전시회</h6> <!-- /wp:heading --> <!-- wp:block {\"ref\":53} /-->",
+            "post_name": "from-signac-to-matisse",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 60,
+            "hs_post_parent": 57,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/e9bd7-2020-landscape-3.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "전시회",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">UMOMA에서 현재 전시 중인 모든 전시회를 여기에서 확인할 수 있습니다. 지난 전시회를 참조하려면 <a href=\"https://twentytwentydemo.wordpress.com/exhibitions/\">여기를 클릭하세요.</a></h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:block {\"ref\":53} /--> <!-- wp:block {\"ref\":54} /-->",
+            "post_name": "exhibitions",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 57,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "wp_block",
+            "post_title": "전시회 2번 줄",
+            "post_content": "<!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-3.png\" alt=\"\" class=\"wp-image-42\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Theatre of Operations</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10월 1일--12월 1일</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">더 읽기</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":95,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png?w=1024\" alt=\"\" class=\"wp-image-95\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>시냑부터 마티스까지</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10월 1일--12월 1일</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">더 읽기</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns -->",
+            "post_name": "untitled-reusable-block-2",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 54,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "wp_block",
+            "post_title": "전시회 1번 줄",
+            "post_content": "<!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":40,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-1.png\" alt=\"\" class=\"wp-image-40\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Works and Days</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8월 1일--12월 1일</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">더 읽기</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":94,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png?w=1024\" alt=\"\" class=\"wp-image-94\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>The Life I Deserve</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8월 1일--12월 1일</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">더 읽기</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns -->",
+            "post_name": "untitled-reusable-block",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 53,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "스웨덴 현대미술관 방문 환영",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\",\"className\":\"alignwide\"} --> <h2 class=\"has-text-align-center alignwide\">스웨덴 현대 미술의 최고 관광지입니다. 겨울에는 매일 오전 10시부터 오후 6시까지 문을 엽니다.</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":40,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-1.png\" alt=\"\" class=\"wp-image-40\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Works and Days</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8월 1일--12월 1일</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">더 읽기</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":94,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png?w=1024\" alt=\"\" class=\"wp-image-94\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>The Life I Deserve</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8월 1일--12월 1일</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">더 읽기</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns --> <!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-3.png\" alt=\"\" class=\"wp-image-42\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Theatre of Operations</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10월 1일--12월 1일</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">더 읽기</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":95,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png?w=1024\" alt=\"\" class=\"wp-image-95\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>시냑부터 마티스까지</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10월 1일--12월 1일</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">더 읽기</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns --> <!-- wp:image {\"align\":\"full\",\"id\":37,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image alignfull size-full\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png\" alt=\"\" class=\"wp-image-37\" /></figure> <!-- /wp:image --> <!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"accent\",\"className\":\"alignwide\"} --> <h2 class=\"has-accent-color has-text-color has-text-align-center alignwide\">\"제작자 도나 해러웨이가 설정한 사이보그는 경건하지 않습니다. 우주를 기억하지 못합니다.\"</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:separator {\"className\":\"is-style-wide\"} --> <hr class=\"wp-block-separator is-style-wide\" /> <!-- /wp:separator --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">인상적인 7층 건축물이 있는 UMoMA에서는 국제 현대 미술 전시회를 개최하며 미술사 회고전을 가끔 엽니다. 실존적, 정치적, 철학적 문제가 프로그램에 내재합니다. 무료로 입장하여 작가와의 대화, 강의, 영화 상영 및 기타 이벤트를 둘러보세요.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>전시회는 UMoMA에서 전 세계 예술가 및 박물관과 협력하여 연출하며 자주 국제적인 관심을 끌고 있습니다. UMoMA는 올해의 유럽 박물관 특별상을 받았으며 올해의 스웨덴 박물관상과 유럽 박물관 협회상의 유력한 후보 중 하나입니다.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --> <!-- wp:group {\"customBackgroundColor\":\"#ffffff\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-background\" style=\"background-color:#ffffff;\"><div class=\"wp-block-group__inner-container\"><!-- wp:group --> <div class=\"wp-block-group\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">회원이 되어 독점 혜택을 받으세요!</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\"} --> <p class=\"has-text-align-center\">회원은 독점 전시회와 판매를 이용할 수 있습니다. 멤버쉽 가격은 $99.99이며 1년에 한 번 청구됩니다.</p> <!-- /wp:paragraph --> <!-- wp:button {\"align\":\"center\",\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button aligncenter is-style-outline\"><a class=\"wp-block-button__link\" href=\"#\">클럽 가입</a></div> <!-- /wp:button --></div></div> <!-- /wp:group --></div></div> <!-- /wp:group --> <!-- wp:gallery {\"ids\":[39,38],\"align\":\"wide\"} --> <figure class=\"wp-block-gallery alignwide columns-2 is-cropped\"><ul class=\"blocks-gallery-grid\"><li class=\"blocks-gallery-item\"><figure><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&amp;h=1024\" alt=\"\" data-id=\"39\" data-link=\"http://2020.wordpress.net/2020-square-2/\" class=\"wp-image-39\" /></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" data-id=\"38\" data-link=\"http://2020.wordpress.net/2020-square-1/\" class=\"wp-image-38\" /></figure></li></ul></figure> <!-- /wp:gallery -->",
+            "post_name": "the-new-umoma-opens-its-doors",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 68,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_front_page",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "소개",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">스웨덴 현대 미술의 최고 관광지입니다. 겨울에는 매일 오전 10시부터 오후 6시까지 문을 엽니다.</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> <!-- /wp:paragraph --> <!-- wp:media-text {\"customBackgroundColor\":\"#ffffff\",\"mediaId\":39,\"mediaType\":\"image\"} --> <div class=\"wp-block-media-text alignwide has-background is-stacked-on-mobile\" style=\"background-color:#ffffff;\"><figure class=\"wp-block-media-text__media\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&amp;h=1024\" alt=\"\" class=\"wp-image-39\" /></figure><div class=\"wp-block-media-text__content\"><!-- wp:heading --> <h2>사명</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"large\"} --> <p class=\"has-large-font-size\">여기에 UMoMA의 사명에 대한 정보를 두세 줄 정도 추가합니다.</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/about/\">더 읽기</a></div> <!-- /wp:button --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --></div></div> <!-- /wp:media-text --> <!-- wp:media-text {\"customBackgroundColor\":\"#ffffff\",\"mediaId\":38,\"mediaType\":\"image\"} --> <div class=\"wp-block-media-text alignwide has-background is-stacked-on-mobile\" style=\"background-color:#ffffff;\"><figure class=\"wp-block-media-text__media\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" class=\"wp-image-38\" /></figure><div class=\"wp-block-media-text__content\"><!-- wp:heading --> <h2>역사</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"large\"} --> <p class=\"has-large-font-size\">유구한 역사가 있습니다. 아래 버튼을 통해 모두 읽어보세요.</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/about/\">더 읽기</a></div> <!-- /wp:button --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --></div></div> <!-- /wp:media-text --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph -->",
+            "post_name": "about",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 69,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra",
+            "page_template": "templates/template-cover.php",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "문의하기",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">박물관, 전시회 또는 스토어와 관련한 궁금한 점이 있나요? 아래로 연락하세요!</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:group {\"backgroundColor\":\"primary\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-primary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:columns --> <div class=\"wp-block-columns\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"background\"} --> <h6 class=\"has-background-color has-text-color has-text-align-center\">주소</h6> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\">123 Main Street<br>New York, NY 10001</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"background\"} --> <h6 class=\"has-background-color has-text-color has-text-align-center\">개장 시간</h6> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\">평일 9:00~5:00<br>주말 11:00~3:00</p> <!-- /wp:paragraph --></div> <!-- /wp:column --></div> <!-- /wp:columns --></div></div> <!-- /wp:group --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph -->",
+            "post_name": "contact",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 70,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "새소식",
+            "post_content": "",
+            "post_name": "blog",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 71,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_blog_page"
+        },
+        {
+            "post_type": "post",
+            "post_title": "안녕하세요!",
+            "post_content": "<!-- wp:paragraph --> <p>워드프레스에 오신 것을 환영합니다. 이것은 첫번째 글입니다. 수정하거나 삭제한 후 작성을 시작하세요.</p> <!-- /wp:paragraph -->",
+            "post_name": "hello-world",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "open",
+            "_starter_page_template": "",
+            "hs_old_id": 66,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Uncategorized"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "샘플 페이지",
+            "post_content": "<!-- wp:paragraph --> <p>이것은 예제 페이지입니다. 페이지는 한 곳에 고정되며 사이트 네비게이션에 표시되기 때문에 블로그 글과는 다릅니다 (대부분의 테마). 대다수의 사람들은 사이트 방문자들에게 자신들을 소개하기 위한 About 페이지부터 시작합니다. 다음과 같이 작성할 수 있습니다.</p> <!-- /wp:paragraph --> <!-- wp:quote --> <blockquote class=\"wp-block-quote\"><p>안녕하세요? 낮에는 자전거로 배달을 하고 밤에는 배우가 되기 위해 연기 연습을 하는 주인장의 블로그입니다. 서울에서 순돌이라는 멋진 개와 함께 살고 있죠. 음악 듣기와 영화 보기를 좋아합니다.</p></blockquote> <!-- /wp:quote --> <!-- wp:paragraph --> <p>... 또는 이런 것:</p> <!-- /wp:paragraph --> <!-- wp:quote --> <blockquote class=\"wp-block-quote\"><p>이 가나다 회사는 1971년에 만들어졌으며 그 후로 소비자를 위해 품질 좋은 생산품을 만들고 있습니다. 서울에 있는 가나다 회사에서는 2,000명 이상의 직원들이 모여 서울시를 위한 멋진 일들을 하고 있습니다.</p></blockquote> <!-- /wp:quote --> <!-- wp:paragraph --> <p>신규 워드프레스 사용자는 <a href=\"http://2020.wordpress.net/wp-admin/\">대시보드</a>로 이동하여 이 페이지를 삭제하고 콘텐츠의 새 페이지를 만들어야 합니다. 즐기십시오!</p> <!-- /wp:paragraph -->",
+            "post_name": "sample-page",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "open",
+            "_starter_page_template": "",
+            "hs_old_id": 67,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        }
+    ],
+    "menus": {
+        "primary-menu": {
+            "name": "기본 메뉴",
+            "items": [
+                {
+                    "menu-item-title": "홈",
+                    "menu-item-db-id": 90,
+                    "menu-item-object-id": "68",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "전시회",
+                    "menu-item-db-id": 75,
+                    "menu-item-object-id": "57",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "소개",
+                    "menu-item-db-id": 73,
+                    "menu-item-object-id": "69",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "문의하기",
+                    "menu-item-db-id": 76,
+                    "menu-item-object-id": "70",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "73",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "새소식",
+                    "menu-item-db-id": 74,
+                    "menu-item-object-id": "71",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 5,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                }
+            ]
+        },
+        "social-links-menu": {
+            "name": "소셜 링크 메뉴",
+            "items": [
+                {
+                    "menu-item-title": "페이스북",
+                    "menu-item-db-id": 12,
+                    "menu-item-object-id": "12",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.facebook.com/wordpress"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 13,
+                    "menu-item-object-id": "13",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://twitter.com/wordpress"
+                },
+                {
+                    "menu-item-title": "인스타그램",
+                    "menu-item-db-id": 14,
+                    "menu-item-object-id": "14",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.instagram.com/explore/tags/wordcamp/"
+                },
+                {
+                    "menu-item-title": "이메일",
+                    "menu-item-db-id": 15,
+                    "menu-item-object-id": "15",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "mailto:wordpress@example.com"
+                }
+            ]
+        }
+    },
+    "images": [
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-square-1.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/e9bd7-2020-landscape-3.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/74b66-2020-three-quarters-3.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/48815-2020-three-quarters-1.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+    ]
+}

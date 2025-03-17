@@ -1,0 +1,869 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ads.txt & App-ads.txt Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-26 20:31+0000\n"
+"PO-Revision-Date: 2021-05-27 20:43+0000\n"
+"Last-Translator: Gautier Dorval\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#: admin-ui-inc/ads-txt-inc.php:44 admin-ui-inc/ads-txt-inc.php:109 
+#: admin-ui-inc/app-ads-txt-inc.php:44 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:45 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:109
+msgid ""
+" This must contain the same value used in transactions (i.e. OpenRTB bid "
+"requests) in the field specified by the SSP/exchange (For OpenRTB = "
+"publisher ID | For OpenDirect = publisher’s organization ID)."
+msgstr ""
+" Dies muss denselben Wert enthalten, der in Transaktionen (d. H. OpenRTB-"
+"Gebotsanforderungen) in dem vom SSP / Exchange angegebenen Feld verwendet "
+"wird (Für OpenRTB = Herausgeber-ID | Für OpenDirect = Organisations-ID des "
+"Herausgebers)."
+
+#: inc/recommendations.php:28
+msgid "404 to 301 By Joel James"
+msgstr "404 bis 301 Von Joel James"
+
+#: app-ads-txt-admin.php:80
+#, php-format
+msgid "<a href=\"%s\">Get Pro version</a> to enable"
+msgstr "<a href=\"%s\">Holen Sie sich die Pro-Version</a> zum Aktivieren"
+
+#: inc/recommendations.php:148
+msgid ""
+"A new way to boost your marketing content. Writing Web Content that is "
+"ranking like those of SEO Experts."
+msgstr ""
+"Eine neue Möglichkeit, Ihre Marketinginhalte zu verbessern. Schreiben von "
+"Webinhalten, die dem Ranking von SEO-Experten entsprechen."
+
+#: inc/faq.php:92
+msgid ""
+"Ad fraud prevention. App-ads.txt blocks unauthorized developers who "
+"impersonate legitimate apps and mislead DSPs into spending brand budgets on "
+"fake inventory. With fraud instances minimized, authentic developers can "
+"retain more of the ad revenue from inventory genuinely targeted to their app."
+msgstr ""
+"Verhinderung von Anzeigenbetrug. App-ads.txt blockiert nicht autorisierte "
+"Entwickler, die sich als legitime Apps ausgeben und DSPs irreführen, "
+"Markenbudgets für gefälschtes Inventar auszugeben. Durch die Minimierung von "
+"Betrugsfällen können authentische Entwickler einen größeren Teil der "
+"Werbeeinnahmen aus dem Inventar behalten, das wirklich auf ihre App "
+"ausgerichtet ist."
+
+#: admin-ui-inc/ads-txt-inc.php:162 admin-ui-inc/app-ads-txt-inc.php:95 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:162
+msgid "Add more custom rules if you need them, otherwise, leave it blank."
+msgstr ""
+"Fügen Sie bei Bedarf weitere benutzerdefinierte Regeln hinzu. Andernfalls "
+"lassen Sie das Feld leer."
+
+#: admin-ui-inc/ads-txt-inc.php:15
+msgid "Add rules for Ads.txt, one line at a time. Then save"
+msgstr "Fügen Sie zeilenweise Regeln für Ads.txt hinzu. Dann speichern"
+
+#: admin-ui-inc/app-ads-txt-inc.php:15 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:15
+msgid "Add rules for App-Ads.txt, one line at a time. Then save"
+msgstr "Fügen Sie zeilenweise Regeln für App-Ads.txt hinzu. Dann speichern"
+
+#. Name of the plugin
+msgid "Ads.txt & App-ads.txt Manager"
+msgstr "Ads.txt & App-ads.txt Manager"
+
+#: inc/recommendations.php:16
+msgid "Akismet Anti-Spam by Automattic"
+msgstr "Akismet Anti-Spam von Automattic"
+
+#: inc/recommendations.php:17
+msgid ""
+"Akismet checks your comments and contact form submissions against our global "
+"database of spam to protect you and your site from malicious content."
+msgstr ""
+"Akismet vergleicht Ihre Kommentare und Kontaktformularübermittlungen mit "
+"unserer globalen Spam-Datenbank, um Sie und Ihre Website vor schädlichen "
+"Inhalten zu schützen."
+
+#: admin-ui-inc/ads-txt-inc.php:68 admin-ui-inc/ads-txt-inc.php:133 
+#: admin-ui-inc/app-ads-txt-inc.php:68 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:69 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:133
+msgid ""
+"An ID that uniquely identifies the advertising system within a certification "
+"authority."
+msgstr ""
+"Eine ID, die das Werbesystem innerhalb einer Zertifizierungsstelle eindeutig "
+"identifiziert."
+
+#: inc/seo-recommendations.php:16 inc/seo-recommendations.php:18
+msgid "Analyse my site"
+msgstr "Analysieren Sie meine Website"
+
+#: inc/seo-recommendations.php:27
+msgid ""
+"Analyse your Google ranking with keywords, traffic and more (REGISTER TO GET "
+"10 FREE REQUESTS)"
+msgstr ""
+"Analysieren Sie Ihr Google-Ranking mit Keywords, Traffic und mehr "
+"(REGISTRIEREN SIE SICH, um 10 KOSTENLOSE ANFRAGEN ZU ERHALTEN)"
+
+#: admin-ui-inc/app-ads-txt-inc.php:19
+msgid "App-Ads.txt"
+msgstr "App-Ads.txt"
+
+#. Description of the plugin
+msgid ""
+"App-ads.txt & Ads.txt manager allows you to create, manage & publish your "
+"app-ads.txt & ads.txt files from your WordPress dashboard."
+msgstr ""
+"Mit dem App-ads.txt- und Ads.txt-Manager können Sie Ihre app-ads.txt- und "
+"ads.txt-Dateien über Ihr WordPress-Dashboard erstellen, verwalten und "
+"veröffentlichen."
+
+#: inc/recommendations.php:49
+msgid ""
+"App-Ads.txt & Ads.txt Manager by Pagup provides a selection of plugins "
+"allowing to keep your website healthy, get better results on Search engines "
+"and increase your sales for ecommerce solutions."
+msgstr ""
+"App-Ads.txt & Ads.txt Manager von Pagup bietet eine Auswahl an Plugins, mit "
+"denen Sie Ihre Website gesund halten, bessere Ergebnisse in Suchmaschinen "
+"erzielen und Ihren Umsatz mit E-Commerce-Lösungen steigern können."
+
+#: inc/faq.php:88
+msgid ""
+"Authorized in-app inventory. An ever-increasing amount of brands are looking "
+"to advertise in-app today. Brand buyers now rely on an adherence to app-ads."
+"txt to make sure they don’t buy unauthorized inventory from app developers "
+"and negatively impact campaign performance. Developers who don’t implement "
+"app-ads.txt can be removed from any brand buyer’s target media list. That’s "
+"why joining the app-ads.txt movement is crucial for publishers to maintain "
+"their revenue."
+msgstr ""
+"Autorisiertes In-App-Inventar. Immer mehr Marken möchten heute in der App "
+"werben. Markenkäufer verlassen sich jetzt auf die Einhaltung von app-ads.txt,"
+" um sicherzustellen, dass sie kein nicht autorisiertes Inventar von App-"
+"Entwicklern kaufen und die Kampagnenleistung negativ beeinflussen. "
+"Entwickler, die app-ads.txt nicht implementieren, können aus der "
+"Zielmedienliste eines Markenkäufers entfernt werden. Aus diesem Grund ist "
+"der Beitritt zur Bewegung app-ads.txt für Publisher von entscheidender "
+"Bedeutung, um ihre Einnahmen aufrechtzuerhalten."
+
+#: inc/sidebar.php:13
+msgid ""
+"Auto optimize all image alt texts (including Woocommerce online store), of "
+"your pages, posts & product, from Yoast SEO optimization settings (keywords) "
+"and/or Post title."
+msgstr ""
+"Optimieren Sie automatisch alle Bildaltentexte (einschließlich Woocommerce-"
+"Onlineshop) Ihrer Seiten, Beiträge und Produkte aus den Einstellungen für "
+"die SEO-Optimierung (Schlüsselwörter) und / oder dem Beitragstitel von Yoast."
+
+#: inc/recommendations.php:124
+msgid ""
+"Automatically insert rel=nofollow and target=_blank to all the external "
+"links into your website posts, pages or menus. Support exclude domain."
+msgstr ""
+"Fügen Sie automatisch rel = nofollow und target = _blank in alle externen "
+"Links in Ihre Website-Beiträge, -Seiten oder -Menüs ein. Support Domain "
+"ausschließen."
+
+#: inc/recommendations.php:29
+msgid ""
+"Automatically redirect, log and notify all 404 page errors to any page using "
+"301 redirection."
+msgstr ""
+"Automatische Umleitung, Protokollierung und Benachrichtigung aller 404-"
+"Seitenfehler auf jede Seite mithilfe der 301-Umleitung."
+
+#: inc/recommendations.php:156
+msgid "Awesome plugins for SEO & Conversion performance:"
+msgstr "Tolle Plugins für SEO & Conversion-Leistung:"
+
+#: inc/seo-recommendations.php:90
+msgid "Bing Webmaster tool"
+msgstr "Bing Webmaster-Tool"
+
+#: inc/recommendations.php:11
+msgid ""
+"Boost the way people interact with your website, e-commerce or blog with an "
+"easy and intuitive WordPress rating system!"
+msgstr ""
+"Steigern Sie die Art und Weise, wie Menschen mit Ihrer Website, Ihrem E-"
+"Commerce oder Ihrem Blog interagieren, mit einem einfachen und intuitiven "
+"WordPress-Bewertungssystem!"
+
+#: inc/sidebar.php:6
+msgid "Boost your ranking on Google"
+msgstr "Steigern Sie Ihr Ranking bei Google"
+
+#: inc/faq.php:67
+msgid ""
+"Capturing revenue from brand spend. Brands today represent a growing and "
+"potentially significant revenue opportunity for developers. We can expect "
+"that many DSPs that adhere to app-ads.txt won’t purchase inventory missing "
+"the app-ads.txt file, just as they won’t buy unauthorized inventory on web. "
+"Developers who don’t implement app-ads.txt are likely to be removed from "
+"DSPs’ pool of targeted media."
+msgstr ""
+"Erfassen von Einnahmen aus Markenausgaben. Marken stellen heute eine "
+"wachsende und potenziell bedeutende Umsatzmöglichkeit für Entwickler dar. "
+"Wir können davon ausgehen, dass viele DSPs, die sich an app-ads.txt halten, "
+"kein Inventar kaufen, bei dem die Datei app-ads.txt fehlt, genauso wie sie "
+"kein nicht autorisiertes Inventar im Web kaufen. Entwickler, die app-ads.txt "
+"nicht implementieren, werden wahrscheinlich aus dem Pool der Zielmedien der "
+"DSPs entfernt."
+
+#: inc/seo-recommendations.php:48 inc/seo-recommendations.php:50
+msgid "Check my links"
+msgstr "Überprüfen Sie meine Links"
+
+#: app-ads-txt-admin.php:239
+msgid ""
+"Checking this box will remove ALL settings (app-ads.txt & ads.txt) when you "
+"deactivate plugin."
+msgstr ""
+"Wenn Sie dieses Kontrollkästchen aktivieren, werden ALLE Einstellungen (app-"
+"ads.txt & ads.txt) entfernt, wenn Sie das Plugin deaktivieren."
+
+#: inc/recommendations.php:23
+msgid ""
+"Compress and optimize (or optimise) image files, improve performance and "
+"boost your SEO rank using Smush WordPress image compression and optimization."
+msgstr ""
+"Komprimieren und optimieren (oder optimieren) Sie Bilddateien, verbessern "
+"Sie die Leistung und steigern Sie Ihren SEO-Rang mithilfe der "
+"Bildkomprimierung und -optimierung von Smush WordPress."
+
+#: inc/faq.php:37
+msgid ""
+"Concretely, publishers drop a text file on their web servers that lists all "
+"of the companies that are authorized to sell the publishers’ inventory. "
+"Similarly, programmatic platforms also integrate ads.txt files to confirm "
+"which publishers’ inventory they are authorized to sell. This allows buyers "
+"to check the validity of the inventory they purchase."
+msgstr ""
+"Konkret legen Publisher eine Textdatei auf ihren Webservern ab, in der alle "
+"Unternehmen aufgelistet sind, die zum Verkauf des Inventars der Publisher "
+"berechtigt sind. In ähnlicher Weise integrieren programmatische Plattformen "
+"auch ads.txt-Dateien, um zu bestätigen, welches Publisher-Inventar sie "
+"verkaufen dürfen. Auf diese Weise können Käufer die Gültigkeit des von ihnen "
+"gekauften Inventars überprüfen."
+
+#: inc/seo-recommendations.php:44
+msgid "Dead links"
+msgstr "Tote Links"
+
+#: inc/seo-recommendations.php:45
+msgid ""
+"Dead links, 404 errors, 503 errors, ... all bad links that could hurt your "
+"website ranking."
+msgstr ""
+"Tote Links, 404 Fehler, 503 Fehler, ... alle schlechten Links, die Ihr "
+"Website-Ranking beeinträchtigen könnten."
+
+#: app-ads-txt-admin.php:226
+msgid "Delete Settings"
+msgstr "Einstellungen löschen"
+
+#: inc/recommendations.php:69 inc/recommendations.php:175
+msgid "Download"
+msgstr "Herunterladen"
+
+#: inc/faq.php:71
+msgid ""
+"Fighting ad fraud. Bad actors may forge apps that impersonate legitimate "
+"apps, and mislead DSPs to spend brand budgets on their forged inventory. "
+"Legitimate developers end up losing out on ad revenue that was originally "
+"intended for them. App-ads.txt blocks unauthorized developer impersonations "
+"and minimizes instances of fraud that ultimately hurt developers’ bottom "
+"line."
+msgstr ""
+"Bekämpfung von Werbebetrug. Schlechte Schauspieler können Apps fälschen, die "
+"sich als legitime Apps ausgeben, und DSPs irreführen, um Markenbudgets für "
+"ihr gefälschtes Inventar auszugeben. Legitime Entwickler verlieren am Ende "
+"die Werbeeinnahmen, die ursprünglich für sie bestimmt waren. App-ads.txt "
+"blockiert nicht autorisierte Entwicklerimitationen und minimiert "
+"Betrugsfälle, die letztendlich das Endergebnis der Entwickler "
+"beeinträchtigen."
+
+#: inc/seo-recommendations.php:59
+msgid ""
+"Get a simple and professional-quality SEO audit of your website for FREE"
+msgstr ""
+"Holen Sie sich KOSTENLOS ein einfaches und professionelles SEO-Audit Ihrer "
+"Website"
+
+#: inc/sidebar.php:14
+msgid "Get BIALTY by Pagup &raquo;"
+msgstr "Holen Sie sich BIALTY von Pagup »"
+
+#: inc/seo-recommendations.php:13
+msgid ""
+"Get insight on how well your site loads with actionable recommendations on "
+"how to optimize it."
+msgstr ""
+"Erhalten Sie Einblicke in die Auslastung Ihrer Website mit umsetzbaren "
+"Empfehlungen zur Optimierung."
+
+#: inc/sidebar.php:20
+msgid "Get Mobilook by Pagup &raquo;"
+msgstr "Holen Sie sich Mobilook von Pagup »"
+
+#: inc/recommendations.php:5
+msgid ""
+"Get Schema.org structured data for all pages, posts, categories and profile "
+"pages on activation."
+msgstr ""
+"Erhalten Sie bei Aktivierung strukturierte Schema.org-Daten für alle Seiten, "
+"Beiträge, Kategorien und Profilseiten."
+
+#: inc/seo-recommendations.php:26
+msgid "Google Ranking"
+msgstr "Google-Ranking"
+
+#: inc/recommendations.php:129
+msgid "Google Reviews Widget By RichPlugins"
+msgstr "Google Reviews Widget von RichPlugins"
+
+#: inc/recommendations.php:130
+msgid ""
+"Google Reviews Widget show Google Places Reviews on your WordPress website "
+"to increase user confidence and SEO."
+msgstr ""
+"Das Google Reviews Widget zeigt Google Places Reviews auf Ihrer WordPress-"
+"Website an, um das Vertrauen der Nutzer und die Suchmaschinenoptimierung zu "
+"erhöhen."
+
+#: inc/seo-recommendations.php:82
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+#: app-ads-txt.php:86
+#, php-format
+msgid ""
+"Hey %1$s, %2$s Click on Allow & Continue to start optimizing your app-ads."
+"txt and ads-txt files. %2$s Never miss an important update -- opt-in to our "
+"security and feature updates notifications. %2$s See you on the other side."
+msgstr ""
+"Hey% 1 $ s,% 2 $ s Klicken Sie auf Zulassen & Weiter, um mit der Optimierung "
+"Ihrer app-ads.txt- und ads-txt-Dateien zu beginnen. % 2 $ s Verpassen Sie "
+"nie ein wichtiges Update - melden Sie sich für unsere Benachrichtigungen zu "
+"Sicherheits- und Funktionsupdates an. % 2 $ s Wir sehen uns auf der anderen "
+"Seite."
+
+#: inc/faq.php:60
+msgid "How app-ads.txt can benefit your mobile app?"
+msgstr "Wie kann app-ads.txt Ihrer mobilen App zugute kommen?"
+
+#: inc/faq.php:84
+msgid ""
+"How does app-ads.txt help mobile app developers capture more ad revenue?"
+msgstr ""
+"Wie hilft app-ads.txt Entwicklern mobiler Apps, mehr Werbeeinnahmen zu "
+"erzielen?"
+
+#. Author URI of the plugin
+msgid "https://pagup.com/"
+msgstr "https://pagup.com/"
+
+#: app-ads-txt-admin.php:260
+msgid "If app-ads.txt is still not working. Please try to save Settings >"
+msgstr ""
+"Wenn app-ads.txt immer noch nicht funktioniert. Bitte versuchen Sie "
+"Einstellungen> zu speichern"
+
+#: inc/recommendations.php:35
+msgid ""
+"Improve your WordPress SEO: Write better content and have a fully optimized "
+"WordPress site using the Yoast SEO plugin."
+msgstr ""
+"Verbessern Sie Ihre WordPress-SEO: Schreiben Sie mit dem Yoast SEO-Plugin "
+"bessere Inhalte und erstellen Sie eine vollständig optimierte WordPress-Site."
+
+#: inc/faq.php:9
+msgid ""
+"In June 2017, the IAB (The Interactive Advertising Bureau Tech Lab) launched "
+"ads.txt, a file enabling web publishers to designate authorized digital "
+"sellers of their ad inventory. Ads.txt helped the industry distinguish real "
+"supply sources from fake ones, and after its immediate success and adoption, "
+"the next logical step was to extend the reach of ads.txt into the mobile app "
+"ecosystem. App-ads.txt is the mobile in-app equivalent of this specification,"
+" which mobile publishers can implement."
+msgstr ""
+"Im Juni 2017 startete das IAB (The Interactive Advertising Bureau Tech Lab) "
+"ads.txt, eine Datei, mit der Web-Publisher autorisierte digitale Verkäufer "
+"ihres Anzeigeninventars bestimmen können. Ads.txt half der Branche dabei, "
+"echte Bezugsquellen von gefälschten zu unterscheiden. Nach dem sofortigen "
+"Erfolg und der Einführung bestand der nächste logische Schritt darin, die "
+"Reichweite von ads.txt auf das Ökosystem für mobile Apps auszudehnen. App-"
+"ads.txt ist das mobile In-App-Äquivalent dieser Spezifikation, das mobile "
+"Publisher implementieren können."
+
+#: inc/recommendations.php:100
+msgid ""
+"Increase engagement and drive more repeat traffic to your WordPress site "
+"with desktop push notifications. Now supporting Chrome, Firefox, and Safari."
+msgstr ""
+"Steigern Sie das Engagement und sorgen Sie mit Desktop-Push-"
+"Benachrichtigungen für mehr Wiederholungsverkehr auf Ihrer WordPress-Site. "
+"Unterstützt jetzt Chrome, Firefox und Safari."
+
+#: inc/seo-recommendations.php:88
+msgid "Index your Website (Bing)"
+msgstr "Indizieren Sie Ihre Website (Bing)"
+
+#: inc/seo-recommendations.php:80
+msgid "Index Your Website (Google)"
+msgstr "Indizieren Sie Ihre Website (Google)"
+
+#: inc/sidebar.php:19
+msgid ""
+"Instant mobile view of website (pages, posts, products) for responsive web "
+"design on phone (+ dualscreen). This plugin also offers helpful tools on "
+"each page, such as Facebook Debugger, LinkedIn Post Inspector, and Google "
+"Mobile-Friendly Test Tool."
+msgstr ""
+"Sofortige mobile Ansicht der Website (Seiten, Beiträge, Produkte) für "
+"reaktionsschnelles Webdesign auf dem Telefon (+ Dualscreen). Dieses Plugin "
+"bietet außerdem hilfreiche Tools auf jeder Seite, z. B. den Facebook-"
+"Debugger, den LinkedIn Post Inspector und das Google Mobile-Friendly Test "
+"Tool."
+
+#: inc/sidebar.php:18
+msgid "Instant Mobile Viewer"
+msgstr "Instant Mobile Viewer"
+
+#: inc/faq.php:33
+msgid ""
+"It is an IAB-approved text file that aims to prevent unauthorized inventory "
+"sales. In a fragmented advertising ecosystem, ads.txt serves as a method of "
+"improving transparency for demand side platforms. In fact, DSPs aren’t "
+"buying web supply that isn’t authorized via ads.txt."
+msgstr ""
+"Es handelt sich um eine vom IAB genehmigte Textdatei, mit der nicht "
+"autorisierte Bestandsverkäufe verhindert werden sollen. In einem "
+"fragmentierten Werbe-Ökosystem dient ads.txt als Methode zur Verbesserung "
+"der Transparenz für nachfrageseitige Plattformen. Tatsächlich kaufen DSPs "
+"keine Web-Angebote, die nicht über ads.txt autorisiert sind."
+
+#: app-ads-txt-admin.php:278
+msgid ""
+"Just a sample for copy-paste purpose. Make sure to change itaccordingaly "
+"inside custom rules box."
+msgstr ""
+"Nur ein Beispiel zum Kopieren und Einfügen. Stellen Sie sicher, dass Sie es "
+"entsprechend im Feld für benutzerdefinierte Regeln ändern."
+
+#: inc/seo-recommendations.php:12
+msgid "Loading performance"
+msgstr "Ladeleistung"
+
+#: app-ads-txt-admin.php:268
+msgid ""
+"Make sure search engines can crawl your .txt files. Optimize your robots.txt "
+"with"
+msgstr ""
+"Stellen Sie sicher, dass Suchmaschinen Ihre TXT-Dateien crawlen können. "
+"Optimieren Sie Ihre robots.txt mit"
+
+#: inc/seo-recommendations.php:100
+msgid "MASS PING"
+msgstr "MASSENPING"
+
+#: inc/seo-recommendations.php:101
+msgid ""
+"Mass ping is a free online tool that easily promotes your blog or website on "
+"70 different search engines."
+msgstr ""
+"Mass Ping ist ein kostenloses Online-Tool, mit dem Sie Ihr Blog oder Ihre "
+"Website in 70 verschiedenen Suchmaschinen auf einfache Weise bewerben können."
+
+#: inc/faq.php:41
+msgid "More details here : https://youtu.be/T_4uK2HnOy0"
+msgstr "Weitere Details hier: https://youtu.be/T_4uK2HnOy0"
+
+#: inc/faq.php:49
+msgid "My .txt file doesn’t show up at all."
+msgstr "Meine TXT-Datei wird überhaupt nicht angezeigt."
+
+#: inc/seo-recommendations.php:30 inc/seo-recommendations.php:32
+msgid "My Google Ranking"
+msgstr "Mein Google-Ranking"
+
+#: inc/seo-recommendations.php:62 inc/seo-recommendations.php:64
+msgid "My SEO profile"
+msgstr "Mein SEO-Profil"
+
+#: inc/recommendations.php:123
+msgid "Nofollow for external link By CyberNetikz"
+msgstr "Nofollow für externen Link Von CyberNetikz"
+
+#: app-ads-txt-admin.php:257
+msgid ""
+"Note: app-ads.txt & ads.txt Manager creates virtual app-ads.txt & ads.txt "
+"files. Please make sure that your permalinks are enabled and there is no "
+"physical app-ads.txt & ads.txt file on your server. If you're using any kind "
+"of cache then make sure to clear it after Saving Changes. Please read FAQ "
+"for more details."
+msgstr ""
+"Hinweis: Der Manager app-ads.txt & ads.txt erstellt virtuelle Dateien app-"
+"ads.txt & ads.txt. Stellen Sie sicher, dass Ihre Permalinks aktiviert sind "
+"und sich auf Ihrem Server keine physische Datei app-ads.txt & ads.txt "
+"befindet. Wenn Sie einen Cache verwenden, müssen Sie ihn nach dem Speichern "
+"von Änderungen löschen. Bitte lesen Sie die FAQ für weitere Details."
+
+#: admin-ui-inc/ads-txt-inc.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your ads.txt</a>"
+msgstr ""
+"Sobald Ihre Einstellungen übernommen wurden, überprüfen Sie bitte Ihre ads."
+"txt-Dateien hier. <a href=\"%s\" target=\"_blank\" class=\"note-btn\">Ihre "
+"ads.txt</a>"
+
+#: admin-ui-inc/app-ads-txt-inc.php:5 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your app-ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your app-ads.txt</a>"
+msgstr ""
+"Sobald Ihre Einstellungen übernommen wurden, überprüfen Sie bitte Ihre app-"
+"ads.txt-Dateien hier. <a href=\"%s\" target=\"_blank\" class=\"note-btn\">"
+"Ihre app-ads.txt</a>"
+
+#: inc/recommendations.php:99
+msgid "OneSignal – Free Web Push Notifications By OneSignal"
+msgstr "OneSignal - Kostenlose Web-Push-Benachrichtigungen von OneSignal"
+
+#: inc/sidebar.php:12
+msgid "Optimize your ALT TEXT"
+msgstr "Optimieren Sie Ihren ALT TEXT"
+
+#: inc/sidebar.php:7
+msgid ""
+"Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
+"ranking on search engines."
+msgstr ""
+"Optimieren Sie Ihre Robots.txt mit Better Robots.txt (erstellt von PAGUP) "
+"und steigern Sie Ihr Ranking in Suchmaschinen."
+
+#. Author of the plugin
+msgid "Pagup"
+msgstr "Pagup"
+
+#: app-ads-txt-admin.php:261
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: inc/seo-recommendations.php:102
+msgid "Ping my links"
+msgstr "Ping meine Links"
+
+#: inc/faq.php:53
+msgid ""
+"Please clear your browser cache and reload the ads.txt OR app-ads.txt link."
+msgstr ""
+"Bitte leeren Sie Ihren Browser-Cache und laden Sie den Link ads.txt ODER app-"
+"ads.txt neu."
+
+#: inc/seo-recommendations.php:5
+msgid "Premium Feature"
+msgstr "Premium-Funktion"
+
+#: inc/recommendations.php:111
+msgid "Recart - Abandoned Cart Toolbox"
+msgstr "Recart - Abandoned Cart Toolbox"
+
+#: inc/recommendations.php:112
+msgid ""
+"Recart Messenger Marketing and Abandoned Cart Toolbox is a All in one cart "
+"recovery marketing tools for ecommerce solution"
+msgstr ""
+"Recart Messenger Marketing und Abandoned Cart Toolbox ist ein All-in-One-"
+"Tool zur Wiederherstellung von Warenkörben für E-Commerce"
+
+#: app-ads-txt-admin.php:248
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: inc/recommendations.php:4
+msgid "Schema App Structured Data by Hunch Manifest"
+msgstr "Strukturierte Daten der Schema-App nach Hunch-Manifest"
+
+#: inc/seo-recommendations.php:58
+msgid "SEO Score"
+msgstr "SEO Score"
+
+#: inc/seo-recommendations.php:1
+msgid "SEO tools recommended by App-Ads.txt & Ads.txt Manager:"
+msgstr "Von App-Ads.txt & Ads.txt Manager empfohlene SEO-Tools:"
+
+#: app-ads-txt-admin.php:139
+msgid "Settings"
+msgstr "die Einstellungen"
+
+#: app-ads-txt-admin.php:126
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: inc/recommendations.php:88
+msgid ""
+"Share buttons from AddThis help you get more traffic from sharing through "
+"social networks."
+msgstr ""
+"Teilen-Schaltflächen von AddDies hilft Ihnen dabei, mehr Verkehr durch das "
+"Teilen über soziale Netzwerke zu erhalten."
+
+#: inc/notices.php:13
+#, php-format
+msgid ""
+"Show support for App-ads.txt & Ads.txt Manager with a 5-star rating » <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr ""
+"Zeigen Sie Unterstützung für App-ads.txt &amp; Ads.txt Manager mit einer 5-"
+"Sterne-Bewertung an » <a href=\"%s\" target=\"_blank\">Klicken Sie hier</a>"
+
+#: inc/recommendations.php:22
+msgid "Smush Image Compression and Optimization By WPMU DEV"
+msgstr "Smush-Bildkomprimierung und -optimierung durch WPMU DEV"
+
+#: inc/faq.php:96
+msgid ""
+"Source : https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+msgstr ""
+"Quelle: https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+
+#: inc/faq.php:75
+msgid "Source : https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+msgstr "Quelle: https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+
+#: inc/recommendations.php:118 inc/recommendations.php:136
+msgid ""
+"Speed up your WordPress website, more traffic, conversions and money with WP "
+"Rocket caching plugin."
+msgstr ""
+"Beschleunigen Sie Ihre WordPress-Website, mehr Traffic, Conversions und Geld "
+"mit dem WP Rocket Caching Plugin."
+
+#: inc/seo-recommendations.php:89
+msgid ""
+"Submit your website to Bing Webmaster tool and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"Senden Sie Ihre Website an das Bing Webmaster-Tool und profitieren Sie von "
+"den Vorteilen von Better Robots.txt"
+
+#: inc/seo-recommendations.php:81
+msgid ""
+"Submit your website to Google Search Console and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"Senden Sie Ihre Website an die Google Search Console und profitieren Sie von "
+"den Vorteilen von Better Robots.txt"
+
+#: inc/faq.php:17
+msgid ""
+"Thanks to app-ads.txt file, Mobile and OTT app publishers can list the ad "
+"tech vendors that are authorized to sell or resell their ad inventory, and "
+"programmatic ad buyers can check these lists to make sure that a company "
+"claiming to offer an app’s inventory is actually able to sell the app’s "
+"inventory."
+msgstr ""
+"Dank der Datei app-ads.txt können Publisher von Mobil- und OTT-Apps die Ad-"
+"Tech-Anbieter auflisten, die zum Verkauf oder Weiterverkauf ihres "
+"Anzeigeninventars berechtigt sind, und programmatische Anzeigenkäufer können "
+"diese Listen überprüfen, um sicherzustellen, dass ein Unternehmen behauptet, "
+"eine App anzubieten Inventar ist tatsächlich in der Lage, das Inventar der "
+"App zu verkaufen."
+
+#: inc/faq.php:13
+msgid ""
+"The app-ads.txt file is the version of ads.txt for mobile in-app and OTT "
+"advertising, to combat bad actors that disguise themselves as another "
+"company’s app in order to siphon the money that advertisers are spending on "
+"mobile and OTT advertising. App-ads.txt files are formatted the same as ads."
+"txt files (view IAB FAQ for ads.txt and app-ads.txt)."
+msgstr ""
+"Die Datei app-ads.txt ist die Version von ads.txt für mobile In-App- und OTT-"
+"Werbung, um schlechte Schauspieler zu bekämpfen, die sich als App eines "
+"anderen Unternehmens tarnen, um das Geld abzusaugen, das Werbetreibende für "
+"mobile und OTT-Werbung ausgeben. App-ads.txt-Dateien werden genauso "
+"formatiert wie ads.txt-Dateien (siehe IAB-FAQ für ads.txt und app-ads.txt)."
+
+#: admin-ui-inc/ads-txt-inc.php:34 admin-ui-inc/ads-txt-inc.php:99 
+#: admin-ui-inc/app-ads-txt-inc.php:34 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:35 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:99
+msgid ""
+"The canonical domain name of the SSP, Exchange, system that bidders connect "
+"to (they publishes a document detailing what domain name to use)."
+msgstr ""
+"Der kanonische Domänenname des SSP-, Exchange- und Systemsystems, mit dem "
+"sich Bieter verbinden (sie veröffentlichen ein Dokument, in dem angegeben "
+"ist, welcher Domänenname verwendet werden soll)."
+
+#: inc/faq.php:64
+msgid "There are two main benefits for app developers."
+msgstr "Es gibt zwei Hauptvorteile für App-Entwickler."
+
+#: inc/faq.php:21
+msgid "This file opens the door for a new level of transparency."
+msgstr "Diese Datei öffnet die Tür für ein neues Maß an Transparenz."
+
+#: inc/recommendations.php:43
+msgid "Top plugins for SEO performance:"
+msgstr "Top-Plugins für SEO-Leistung:"
+
+#: inc/sidebar.php:8
+msgid "Try Better Robots.txt &raquo;"
+msgstr "Versuchen Sie es besser Robots.txt »"
+
+#: inc/recommendations.php:186
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\">PRO version</a> to UNLOCK 12 additional awesome "
+"plugins recommendations for SEO & Conversion performance"
+msgstr ""
+"Upgrade auf <a href=\"%s\">PRO-Version</a> auf UNLOCK 12 zusätzliche "
+"fantastische Plugin-Empfehlungen für SEO &amp; Conversion-Leistung"
+
+#: inc/recommendations.php:192
+msgid ""
+"Want to suggest another plugin ? ... Send us a message at support@better-"
+"robots.com"
+msgstr ""
+"Möchten Sie ein anderes Plugin vorschlagen? ... Senden Sie uns eine "
+"Nachricht an support@better-robots.com"
+
+#: app-ads-txt-admin.php:216
+msgid "Warning: make sure to clear your cache after saving changes."
+msgstr ""
+"Warnung: Stellen Sie sicher, dass Sie den Cache leeren, nachdem Sie die "
+"Änderungen gespeichert haben."
+
+#: inc/faq.php:29
+msgid "What’s ads.txt ?"
+msgstr "Was ist ads.txt?"
+
+#: inc/faq.php:5
+msgid "What’s app-ads.txt?"
+msgstr "Was ist app-ads.txt?"
+
+#: inc/recommendations.php:87
+msgid "WordPress Share Buttons Plugin – AddThis By The AddThis Team"
+msgstr "WordPress Share Buttons Plugin - AddThis vom AddThis-Team"
+
+#: inc/recommendations.php:135
+msgid "WP Chatbot for facebook Messenger customer chat By HoliThemes"
+msgstr "WP Chatbot für Facebook Messenger Kundenchat Von HoliThemes"
+
+#: inc/recommendations.php:141
+msgid "WP Google My Business Auto Publish By Martin Gibson"
+msgstr "WP Google My Business Auto-Veröffentlichung von Martin Gibson"
+
+#: inc/recommendations.php:142
+msgid ""
+"WP Google My Business Auto Publish lets you publish posts, custom posts and "
+"pages automatically from WordPress to your Google My Business page."
+msgstr ""
+"Mit WP Google My Business Auto Publish können Sie Beiträge, "
+"benutzerdefinierte Beiträge und Seiten automatisch von WordPress auf Ihrer "
+"Google My Business-Seite veröffentlichen."
+
+#: inc/recommendations.php:147
+msgid "WP Search Console"
+msgstr "WP Search Console"
+
+#: inc/recommendations.php:81
+msgid "WP-Optimize by David Anderson, Ruhani Rabin, Team Updraft"
+msgstr "WP-Optimize von David Anderson, Ruhani Rabin, Team Updraft"
+
+#: inc/recommendations.php:82
+msgid ""
+"WP-Optimize is WordPress's most-installed optimization plugin. With it, you "
+"can clean up your database easily and safely, without manual queries."
+msgstr ""
+"WP-Optimize ist das am häufigsten installierte Optimierungs-Plugin von "
+"WordPress. Damit können Sie Ihre Datenbank einfach und sicher ohne manuelle "
+"Abfragen bereinigen."
+
+#: inc/recommendations.php:117
+msgid "Wp-Roket - Probably the best caching Plugin for WordPress"
+msgstr "Wp-Roket - Wahrscheinlich das beste Caching-Plugin für WordPress"
+
+#: inc/recommendations.php:94
+msgid ""
+"WP-SpamShield is a leading WordPress anti-spam plugin that stops spam "
+"instantly and improves your site's security. "
+msgstr ""
+"WP-SpamShield ist ein führendes WordPress-Anti-Spam-Plugin, das Spam sofort "
+"stoppt und die Sicherheit Ihrer Website verbessert."
+
+#: inc/recommendations.php:93
+msgid "WP-SpamShield WordPress Anti-Spam Plugin by Red Sand Media Group"
+msgstr "WP-SpamShield WordPress Anti-Spam-Plugin von Red Sand Media Group"
+
+#: inc/recommendations.php:105
+msgid "WPfomify - Social Proof & FOMO Marketing Plugin"
+msgstr "WPfomify - Social Proof & FOMO Marketing Plugin"
+
+#: inc/recommendations.php:106
+msgid ""
+"WPfomify increases conversion rates on your websites by displaying recent "
+"interaction, sales and sign-ups"
+msgstr ""
+"WPfomify erhöht die Conversion-Raten auf Ihren Websites, indem aktuelle "
+"Interaktionen, Verkäufe und Anmeldungen angezeigt werden"
+
+#: inc/recommendations.php:10
+msgid "Yasr – Yet Another Stars Rating by Dario Curvino"
+msgstr "Yasr - Noch eine Sternebewertung von Dario Curvino"
+
+#: inc/recommendations.php:34
+msgid "Yoast SEO By Team Yoast"
+msgstr "Yoast SEO von Team Yoast"
+
+#: admin-ui-inc/ads-txt-inc.php:54 admin-ui-inc/ads-txt-inc.php:119 
+#: admin-ui-inc/app-ads-txt-inc.php:54
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your ads-txt.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"Ihre direkten Nachfragepartner sollten als \"direkt\" aufgeführt sein. Wenn "
+"Ihre Partner Wiederverkäufer von Drittanbietern verwenden, um Ihr Inventar "
+"zu verkaufen, sollten diese Anbieter als \"Wiederverkäufer\" aufgeführt "
+"werden. In jedem Fall sollten Sie Ihrer Datei ads-txt.txt keinen Anbieter "
+"hinzufügen, es sei denn, Sie oder Ihr Partner haben eine direkte Beziehung "
+"zu ihnen."
+
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:55 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:119
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your app-ads.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"Ihre direkten Nachfragepartner sollten als \"direkt\" aufgeführt sein. Wenn "
+"Ihre Partner Wiederverkäufer von Drittanbietern verwenden, um Ihr Inventar "
+"zu verkaufen, sollten diese Anbieter als \"Wiederverkäufer\" aufgeführt "
+"werden. In jedem Fall sollten Sie Ihrer Datei app-ads.txt keinen Anbieter "
+"hinzufügen, es sei denn, Sie oder Ihr Partner haben eine direkte Beziehung "
+"zu ihnen."

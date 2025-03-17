@@ -1,0 +1,135 @@
+/**
+ * WP.com stylesheet for Twenty Twenty
+ */
+
+ /**
+ * Hide page title on the homepage
+ */
+.home.page.hide-homepage-title .entry-header {
+	display: none;
+}
+
+.home.page.hide-homepage-title .hentry:not(.has-post-thumbnail) .entry-content > .alignfull:first-child {
+	margin-top: 0;
+}
+
+.home.page.hide-homepage-title .hentry .post-inner {
+	padding-top: 0;
+}
+
+/**
+ * Fix Direct Manipulation icons in the Customizer
+ */
+.cdm-icon svg {
+	fill: #fff;
+}
+
+/**
+* Fix 'reply' comment textarea vertical spacing
+*/
+
+.comment-list #respond #commentform {
+	clear: both;
+}
+
+.comment-reply-title #cancel-comment-reply-link {
+	font-size: 15.65px;
+	margin-bottom: 1em;
+}
+
+/**
+ * Hide Footer Credit comma
+ */
+.hide-footer-credit .comma {
+	display: none;
+}
+
+/**
+ * Highlander Comments
+ */
+.highlander-enabled #respond form,
+.highlander-enabled .akismet_comment_form_privacy_notice {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.highlander-enabled .akismet_comment_form_privacy_notice {
+	max-width: 58rem;
+}
+
+.highlander-enabled #respond p.comment-subscription-form label {
+	margin-left: 0.5rem;
+}
+
+.highlander-enabled #respond p.comment-subscription-form input {
+	height: 1.5rem;
+}
+
+.entry-content .wp-block-jetpack-contact-form,
+.entry-content .wp-block-jetpack-button button
+ {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+.entry-content .wp-block-jetpack-contact-form label {
+	font-weight: 400;
+}
+
+@media (min-width: 700px) {
+	.highlander-enabled .comment-respond .comment-form-author,
+	.highlander-enabled .comment-respond .comment-form-email {
+		float: inherit;
+	}
+}
+
+
+/* Admin + Marketing bar --------------------- */
+
+body.admin-bar,
+body.has-marketing-bar {
+	position: unset !important;
+}
+
+.has-marketing-bar .screen-height {
+	min-height: calc(100vh - 49px);
+}
+
+.admin-bar.has-marketing-bar .screen-height {
+	min-height: calc(100vh - 32px - 49px);
+}
+
+.has-marketing-bar.overlay-header #site-header,
+.has-marketing-bar .search-modal.active,
+.has-marketing-bar .menu-modal {
+	top: 49px;
+}
+
+.admin-bar.has-marketing-bar .menu-modal,
+.admin-bar.has-marketing-bar.overlay-header #site-header,
+.admin-bar.has-marketing-bar .search-modal.active {
+	top: calc(32px + 49px);
+}
+
+@media (max-width: 782px) {
+
+	.has-marketing-bar .screen-height {
+		min-height: calc(100vh - 45px);
+	}
+
+	.admin-bar.has-marketing-bar .screen-height {
+		min-height: calc(100vh - 46px - 45px);
+	}
+
+	.has-marketing-bar.overlay-header #site-header,
+	.has-marketing-bar .menu-modal,
+	.has-marketing-bar .search-modal.active {
+		top: 45px;
+	}
+
+	.admin-bar.has-marketing-bar.overlay-header #site-header,
+	.admin-bar.has-marketing-bar .menu-modal,
+	.admin-bar.has-marketing-bar .search-modal.active {
+		top: calc(46px + 45px);
+	}
+}

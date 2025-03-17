@@ -1,0 +1,325 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "primary": "primary-menu",
+                "expanded": null,
+                "mobile": "primary-menu",
+                "footer": "primary-menu",
+                "jetpack-social-menu": "social-links-menu",
+                "social": "social-links-menu"
+            },
+            "custom_css_post_id": -1,
+            "hide_front_page_title": false
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [],
+    "content": [
+        {
+            "post_type": "page",
+            "post_title": "从 Signac 到 Matisse",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">“它不是一幅普通的肖像画，而是一幅经过精心构图、色彩和线条张弛有度的画。而且节奏分明、棱角有度。”</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:group {\"backgroundColor\":\"primary\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-primary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:columns --> <div class=\"wp-block-columns\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>日期</em><br>8 月 1 日 — 12 月 1 日</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>地点</em><br>展厅 B</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>价格</em><br>已包含在内</p> <!-- /wp:paragraph --></div> <!-- /wp:column --></div> <!-- /wp:columns --></div></div> <!-- /wp:group --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- /wp:paragraph --> <!-- wp:gallery {\"ids\":[38,39],\"align\":\"wide\"} --> <figure class=\"wp-block-gallery alignwide columns-2 is-cropped\"><ul class=\"blocks-gallery-grid\"><li class=\"blocks-gallery-item\"><figure><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" data-id=\"38\" data-link=\"http://2020.wordpress.net/2020-square-1/\" class=\"wp-image-38\" /></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&h=1024\" alt=\"\" data-id=\"39\" data-link=\"http://2020.wordpress.net/2020-square-2/\" class=\"wp-image-39\" /></figure></li></ul></figure> <!-- /wp:gallery --> <!-- wp:pullquote {\"align\":\"left\"} --> <figure class=\"wp-block-pullquote alignleft\"><blockquote><p>此次展览将展出大约 160 件展品，其中包括 Fénéon 欣赏的主要作品。</p><cite>展品目录</cite></blockquote></figure> <!-- /wp:pullquote --> <!-- wp:paragraph --> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> <!-- /wp:paragraph --> <!-- wp:image {\"align\":\"full\",\"id\":37,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image alignfull size-large\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png?w=1024&h=498\" alt=\"\" class=\"wp-image-37\" /></figure> <!-- /wp:image --> <!-- wp:paragraph --> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><!-- /wp:paragraph --> <!-- wp:separator {\"className\":\"is-style-wide\"} --> <hr class=\"wp-block-separator is-style-wide\" /> <!-- /wp:separator --> <!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"accent\"} --> <h6 class=\"has-accent-color has-text-color has-text-align-center\">其他展览</h6> <!-- /wp:heading --> <!-- wp:block {\"ref\":53} /-->",
+            "post_name": "from-signac-to-matisse",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 60,
+            "hs_post_parent": 57,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/e9bd7-2020-landscape-3.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "展览",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">在这里，您可以找到 UMOMA 正在举办的所有展览。要了解我们之前举办的展览，<a href=\"https://twentytwentydemo.wordpress.com/exhibitions/\">请点击此处。</a></h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:block {\"ref\":53} /--> <!-- wp:block {\"ref\":54} /-->",
+            "post_name": "exhibitions",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 57,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "wp_block",
+            "post_title": "展览第二行",
+            "post_content": "<!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-3.png\" alt=\"\" class=\"wp-image-42\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>战区</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10 月 1 日 -- 12 月 1 日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">阅读更多</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":95,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png?w=1024\" alt=\"\" class=\"wp-image-95\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>从 Signac 到 Matisse</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10 月 1 日 -- 12 月 1 日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">阅读更多</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns -->",
+            "post_name": "untitled-reusable-block-2",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 54,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "wp_block",
+            "post_title": "展览第 1 行",
+            "post_content": "<!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":40,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-1.png\" alt=\"\" class=\"wp-image-40\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>作品与时间</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8 月 1 日 --12 月 1 日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">阅读更多</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":94,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png?w=1024\" alt=\"\" class=\"wp-image-94\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>我要的生活</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8 月 1 日 --12 月 1 日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">阅读更多</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns -->",
+            "post_name": "untitled-reusable-block",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 53,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "欢迎来到瑞典现代艺术博物馆",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\",\"className\":\"alignwide\"} --> <h2 class=\"has-text-align-center alignwide\">瑞典现代艺术的第一站。开放时间：每年冬天上午10 点 → 下午 6 点。</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":40,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-1.png\" alt=\"\" class=\"wp-image-40\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>作品与时间</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8 月 1 日 --12 月 1 日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">阅读更多</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":94,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png?w=1024\" alt=\"\" class=\"wp-image-94\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>我要的生活</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8 月 1 日 --12 月 1 日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">阅读更多</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns --> <!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-3.png\" alt=\"\" class=\"wp-image-42\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>战区</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10 月 1 日 -- 12 月 1 日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">阅读更多</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":95,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png?w=1024\" alt=\"\" class=\"wp-image-95\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>从 Signac 到 Matisse</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10 月 1 日 -- 12 月 1 日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">阅读更多</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns --> <!-- wp:image {\"align\":\"full\",\"id\":37,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image alignfull size-full\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png\" alt=\"\" class=\"wp-image-37\" /></figure> <!-- /wp:image --> <!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"accent\",\"className\":\"alignwide\"} --> <h2 class=\"has-accent-color has-text-color has-text-align-center alignwide\">“Donna Haraway 提出的半机械人并不虔诚。他们不记得宇宙。”</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:separator {\"className\":\"is-style-wide\"} --> <hr class=\"wp-block-separator is-style-wide\" /> <!-- /wp:separator --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">UMoMA 是一座七层的标志性建筑，可举办国际当代艺术展览，有时也会举办艺术历史回顾展。存在主义、政治和哲学问题是我们的本质特色。游客可由导游引领，免费参加艺术家演讲、讲座、电影放映及其他活动</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>这些展览由 UMoMA 与世界各地的艺术家和博物馆合作举办，通常会在国际引起反响。UMoMA 已经获得了欧洲博物馆的年度特别表彰，也曾是瑞典博物馆年度奖以及欧洲博物馆协会奖的热门候选。</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --> <!-- wp:group {\"customBackgroundColor\":\"#ffffff\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-background\" style=\"background-color:#ffffff;\"><div class=\"wp-block-group__inner-container\"><!-- wp:group --> <div class=\"wp-block-group\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">加入会员，获取独家优惠！</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\"} --> <p class=\"has-text-align-center\">会员可以参加独家展览和销售活动。我们的会费为每年 99.99 美元。</p> <!-- /wp:paragraph --> <!-- wp:button {\"align\":\"center\",\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button aligncenter is-style-outline\"><a class=\"wp-block-button__link\" href=\"#\">加入俱乐部</a></div> <!-- /wp:button --></div></div> <!-- /wp:group --></div></div> <!-- /wp:group --> <!-- wp:gallery {\"ids\":[39,38],\"align\":\"wide\"} --> <figure class=\"wp-block-gallery alignwide columns-2 is-cropped\"><ul class=\"blocks-gallery-grid\"><li class=\"blocks-gallery-item\"><figure><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&amp;h=1024\" alt=\"\" data-id=\"39\" data-link=\"http://2020.wordpress.net/2020-square-2/\" class=\"wp-image-39\" /></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" data-id=\"38\" data-link=\"http://2020.wordpress.net/2020-square-1/\" class=\"wp-image-38\" /></figure></li></ul></figure> <!-- /wp:gallery -->",
+            "post_name": "the-new-umoma-opens-its-doors",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 68,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_front_page",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "关于我们",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">瑞典现代艺术的第一站。开放时间：每年冬天上午 10 点 → 下午 6 点。</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> <!-- /wp:paragraph --> <!-- wp:media-text {\"customBackgroundColor\":\"#ffffff\",\"mediaId\":39,\"mediaType\":\"image\"} --> <div class=\"wp-block-media-text alignwide has-background is-stacked-on-mobile\" style=\"background-color:#ffffff;\"><figure class=\"wp-block-media-text__media\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&amp;h=1024\" alt=\"\" class=\"wp-image-39\" /></figure><div class=\"wp-block-media-text__content\"><!-- wp:heading --> <h2>我们的使命</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"large\"} --> <p class=\"has-large-font-size\">在这里，我们写下自己的使命，与您共勉。</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/about/\">阅读更多</a></div> <!-- /wp:button --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --></div></div> <!-- /wp:media-text --> <!-- wp:media-text {\"customBackgroundColor\":\"#ffffff\",\"mediaId\":38,\"mediaType\":\"image\"} --> <div class=\"wp-block-media-text alignwide has-background is-stacked-on-mobile\" style=\"background-color:#ffffff;\"><figure class=\"wp-block-media-text__media\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" class=\"wp-image-38\" /></figure><div class=\"wp-block-media-text__content\"><!-- wp:heading --> <h2>我们的历史</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"large\"} --> <p class=\"has-large-font-size\">我们有着悠远绵长的历史。点击以下按钮了解详情。</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/about/\">阅读更多</a></div> <!-- /wp:button --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --></div></div> <!-- /wp:media-text --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph -->",
+            "post_name": "about",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 69,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra",
+            "page_template": "templates/template-cover.php",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "联系我们",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">您对博物馆、我们的展览或者商店有什么问题吗？请通过以下信息联系我们！</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:group {\"backgroundColor\":\"primary\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-primary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:columns --> <div class=\"wp-block-columns\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"background\"} --> <h6 class=\"has-background-color has-text-color has-text-align-center\">地址</h6> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\">123 Main Street<br>New York, NY 10001</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"background\"} --> <h6 class=\"has-background-color has-text-color has-text-align-center\">工作时间</h6> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\">工作日：上午 9:00 — 下午 5:00<br>周末：上午 11:00 — 下午 3:00</p> <!-- /wp:paragraph --></div> <!-- /wp:column --></div> <!-- /wp:columns --></div></div> <!-- /wp:group --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph -->",
+            "post_name": "contact",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 70,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "新闻",
+            "post_content": "",
+            "post_name": "blog",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 71,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_blog_page"
+        },
+        {
+            "post_type": "post",
+            "post_title": "世界，您好！",
+            "post_content": "<!-- wp:paragraph --> <p>欢迎使用 WordPress。这是您的第一篇文章。您可以编辑它或是删除它，然后开始写您自己的文章。</p> <!-- /wp:paragraph -->",
+            "post_name": "hello-world",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "open",
+            "_starter_page_template": "",
+            "hs_old_id": 66,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Uncategorized"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "示例页面",
+            "post_content": "<!-- wp:paragraph --> <p>这是示例页面。页面和博文不同，它的位置是固定的，且会在站点导航栏显示（在多数主题中）。大部分用户都会先创建一个“关于”页面，向潜在的站点访客介绍自己。该页面的内容可能如下：</p> <!-- /wp:paragraph --> <!-- wp:quote --> <blockquote class=\"wp-block-quote\"><p>嗨！我白天是个邮递员，晚上就是个有抱负的演员。这是我的网站。我住在洛杉矶，有条很棒的狗，狗的名字叫作杰克，我喜欢果汁朗姆冰酒。（以及被雨淋。）</p></blockquote> <!-- /wp:quote --> <!-- wp:paragraph --> <p>……或这个：</p> <!-- /wp:paragraph --> <!-- wp:quote --> <blockquote class=\"wp-block-quote\"><p>XYZ Doohickey 公司成立于 1971 年，自从建立以来，我们一直向社会贡献着各种优质装置。XYZ 公司位于高谭市，有着超过 2,000 名员工，对高谭市社区有着巨大贡献。</p></blockquote> <!-- /wp:quote --> <!-- wp:paragraph --> <p>如果您是 WordPress 新用户，建议您转至<a href=\"http://2020.wordpress.net/wp-admin/\">控制面板</a>， 删除本页面，然后添加您自己的新页面。使用愉快！</p> <!-- /wp:paragraph -->",
+            "post_name": "sample-page",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "open",
+            "_starter_page_template": "",
+            "hs_old_id": 67,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        }
+    ],
+    "menus": {
+        "primary-menu": {
+            "name": "主菜单",
+            "items": [
+                {
+                    "menu-item-title": "首页",
+                    "menu-item-db-id": 90,
+                    "menu-item-object-id": "68",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "展览",
+                    "menu-item-db-id": 75,
+                    "menu-item-object-id": "57",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "关于我们",
+                    "menu-item-db-id": 73,
+                    "menu-item-object-id": "69",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "联系我们",
+                    "menu-item-db-id": 76,
+                    "menu-item-object-id": "70",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "73",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "新闻",
+                    "menu-item-db-id": 74,
+                    "menu-item-object-id": "71",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 5,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                }
+            ]
+        },
+        "social-links-menu": {
+            "name": "社交链接菜单",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 12,
+                    "menu-item-object-id": "12",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.facebook.com/wordpress"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 13,
+                    "menu-item-object-id": "13",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://twitter.com/wordpress"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 14,
+                    "menu-item-object-id": "14",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.instagram.com/explore/tags/wordcamp/"
+                },
+                {
+                    "menu-item-title": "电子邮件",
+                    "menu-item-db-id": 15,
+                    "menu-item-object-id": "15",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "mailto:wordpress@example.com"
+                }
+            ]
+        }
+    },
+    "images": [
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-square-1.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/e9bd7-2020-landscape-3.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/74b66-2020-three-quarters-3.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/48815-2020-three-quarters-1.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+    ]
+}

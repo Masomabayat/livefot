@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Dalston\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-21T04:47:07+00:00\n"
+"PO-Revision-Date: 2022-06-02 09:54:03+0000\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://wordpress.com/theme/dalston"
+msgstr "https://wordpress.com/theme/dalston"
+
+#: inc/wpcom-colors.php:423
+#: inc/wpcom-editor-colors.php:173
+msgid "Secondary Color"
+msgstr "보조 색상"
+
+#: inc/wpcom-colors.php:403
+#: inc/wpcom-editor-colors.php:156
+msgid "Text Color"
+msgstr "텍스트 색상"
+
+#: inc/wpcom-colors.php:270
+#: inc/wpcom-editor-colors.php:100
+msgid "Link Color"
+msgstr "링크 색깔"
+
+#: inc/wpcom-colors.php:138
+#: inc/wpcom-editor-colors.php:66
+msgid "Background Color"
+msgstr "배경 색상"
+
+#: functions.php:99
+msgid "Foreground Dark"
+msgstr "전경 어둡게"
+
+#: functions.php:94
+msgid "Foreground Light"
+msgstr "전경 밝게"
+
+#: functions.php:89
+msgid "Background"
+msgstr "배경"
+
+#: functions.php:84
+msgid "Foreground"
+msgstr "전경"
+
+#. Description of the theme
+#: style.css
+msgid "Make your online portfolio impressively awesome with Dalston. With the ability to beautifully highlight your illustration and other projects, Dalston is also versatile enough to be your personal site too."
+msgstr "Dalston 테마로 여러분의 인상적인 온라인 포트폴리오를 완성하세요. 여러분의 일러스트레이션 등의 작품을 아름답게 강조하는 Dalston은 개인용 사이트로 쓰기에도 훌륭한 디자인입니다."
+
+#: functions.php:152
+msgctxt "Crimson Text font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:79
+msgid "Secondary"
+msgstr "보조"
+
+#: functions.php:74
+msgid "Primary"
+msgstr "기본"
+
+#: functions.php:49
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:48
+msgid "Huge"
+msgstr "큼"
+
+#: functions.php:43
+msgid "L"
+msgstr "L"
+
+#: functions.php:42
+msgid "Large"
+msgstr "최대 크기"
+
+#: functions.php:37
+msgid "M"
+msgstr "M"
+
+#: functions.php:36
+msgid "Normal"
+msgstr "일반"
+
+#: functions.php:31
+msgid "S"
+msgstr "S"
+
+#: functions.php:30
+msgid "Small"
+msgstr "소"

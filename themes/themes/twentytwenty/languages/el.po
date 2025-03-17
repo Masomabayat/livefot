@@ -1,0 +1,554 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Twentytwenty\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-19T06:08:13+00:00\n"
+"PO-Revision-Date: 2022-10-21 09:57:11+0000\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: inc/block-patterns.php:33
+msgid "Call to Action"
+msgstr "Κλήση για ενέργεια"
+
+#: inc/block-patterns.php:142
+msgid "Featured Content"
+msgstr "Χαρακτηριστικό περιεχόμενο"
+
+#: inc/block-patterns.php:187
+msgid "Introduction"
+msgstr "Εισαγωγή"
+
+#: inc/block-patterns.php:93
+msgid "Shop Now"
+msgstr "Αγορά τώρα"
+
+#: index.php:54
+msgid "Nothing Found"
+msgstr "Κανένα αποτέλεσμα"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "Δημοσίευση"
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr "Πρότυπο πλήρους πλάτους"
+
+#. Description of the theme
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr "Το προεπιλεγμένο μας θέμα για το 2020 έχει σχεδιαστεί για να αξιοποιήσει πλήρως την ευελιξία του επεξεργαστή μπλοκ. Οι οργανισμοί και οι επιχειρήσεις έχουν τη δυνατότητα να δημιουργούν δυναμικές σελίδες με ατελείωτες διατάξεις χρησιμοποιώντας τα μπλοκ ομάδας και στηλών. Η στήλη περιεχομένου στο κέντρο και η λεπτομερής τυπογραφία το καθιστούν επίσης ιδανικό για τα παραδοσιακά ιστολόγια. Τα ολοκληρωμένα στυλ στον επεξεργαστή σας δίνουν μια καλή ιδέα για το πώς θα μοιάζει το περιεχόμενό σας, ακόμη και πριν από τη δημοσίευση. Μπορείτε να δώσετε στον ιστότοπό σας μια προσωπική πινελιά αλλάζοντας τα χρώματα φόντου και το χρώμα έμφασης στο εργαλείο προσαρμογής. Τα χρώματα όλων των στοιχείων στον ιστότοπό σας υπολογίζονται αυτόματα με βάση τα χρώματα που θα επιλέξετε, εξασφαλίζοντας μια υψηλή, προσβάσιμη χρωματική αντίθεση για τους επισκέπτες σας."
+
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:27
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "Παλαιότερα <span class=\"nav-short\">Άρθρα</span>"
+
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:19
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "Πιο πρόσφατα <span class=\"nav-short\">Άρθρα</span>"
+
+#. translators: Hidden accessibility text.
+#: template-parts/modal-search.php:29
+msgid "Close search"
+msgstr "Κλείσιμο αναζήτησης"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "η Ομάδα του WordPress"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Κλείσιμο Μενού"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "Σύνδεσμοι Social media"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "Συνεχίστε την ανάγνωση"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: template-parts/entry-author-bio.php:30
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "Προβολή αρχείου <span aria-hidden=\"true\">\t</span>"
+
+#: template-parts/content-cover.php:148
+#: template-parts/content.php:48
+msgid "Page"
+msgstr "Σελίδα"
+
+#: template-parts/content-cover.php:148
+#: template-parts/content.php:48
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#. translators: Hidden accessibility text.
+#: template-parts/content-cover.php:96
+msgid "Scroll Down"
+msgstr "Κύλιση προς τα κάτω"
+
+#: searchform.php:36
+msgctxt "submit button"
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: inc/template-tags.php:488
+msgid "Sticky post"
+msgstr "Άρθρο Μόνιμα στην Πρώτη Σελίδα"
+
+#: index.php:35
+msgid "Search:"
+msgstr "Αναζήτηση:"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:31
+#: template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr "Αναζήτηση για:"
+
+#: searchform.php:34
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Αναζήτηση&hellip;"
+
+#: index.php:104
+msgid "search again"
+msgstr "αναζήτηση ξανά"
+
+#. translators: %s: Number of search results.
+#: index.php:42
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Βρέθηκε %s αποτέλεσμα για την αναζήτηση σας."
+msgstr[1] "Βρέθηκαν %s αποτελέσματα για την αναζήτηση σας."
+
+#: index.php:51
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "Δεν μπορέσαμε να βρούμε αποτελέσματα για την αναζήτησή σας. Μπορείτε να κάνετε μια άλλη προσπάθεια μέσω της παρακάτω φόρμας αναζήτησης."
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:425
+#: template-parts/content-cover.php:73
+#: template-parts/entry-header.php:39
+msgid "Categories"
+msgstr "Kατηγορίες"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:448
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: inc/template-tags.php:431
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "Σε"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:402
+msgid "Post date"
+msgstr "Ημ. δημοσίευσης"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "Μενού Συνδέσμων Κοινωνικών Δικτύων"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:223
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Επεξεργασία του<span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:373
+msgid "Post author"
+msgstr "Συντάκτης άρθρου"
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:382
+#: template-parts/entry-author-bio.php:21
+msgid "By %s"
+msgstr "από %s"
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr "Γίνετε μέλος"
+
+#: inc/block-patterns.php:45
+#: inc/starter-content.php:148
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr "Τα μέλη αποκτούν πρόσβαση σε αποκλειστικά εκθέματα και πωλήσεις. Τα μέλη μας κοστίζουν $99,99 και χρεώνονται ετησίως."
+
+#: inc/block-patterns.php:78
+#: inc/block-patterns.php:160
+#: inc/block-patterns.php:174
+#: inc/starter-content.php:73
+#: inc/starter-content.php:88
+#: inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr "Ανάγνωση του υπολοίπου"
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "Το νέο UMoMA ανοίγει τις πόρτες του"
+
+#: inc/starter-content.php:145
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr "Γίνετε Μέλος και Αποκτήστε Αποκλειστικές Προσφορές!"
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "Από το Signac στο Matisse"
+
+#: inc/block-patterns.php:168
+#: inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "Η ζωή που μου αξίζει"
+
+#: inc/starter-content.php:85
+#: inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr "1 Οκτωβρίου - 1 Δεκεμβρίου"
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "Θέατρο επιχειρήσεων"
+
+#: inc/starter-content.php:70
+#: inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr "1 Αυγούστου -- 1 Δεκεμβρίου"
+
+#: inc/block-patterns.php:154
+#: inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "Έργα και Ημέρες"
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "Ο κορυφαίος προορισμός για τη σύγχρονη τέχνη στη Βόρεια Σουηδία. Ανοιχτό από 10 Π.Μ. έως 6 Μ.Μ. κάθε μέρα κατά τη διάρκεια των καλοκαιρινών μηνών."
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr "Το νέο UMoMA ανοίγει τις πόρτες του"
+
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "Οι εκθέσεις πραγματοποιούνται από τον UMoMA σε συνεργασία με καλλιτέχνες και μουσεία σε όλο τον κόσμο και συχνά προσελκύουν τη διεθνή προσοχή. Ο UMoMA έχει λάβει ειδικό έπαινο από το Ευρωπαϊκό Μουσείο της χρονιάς, και ήταν μεταξύ των κορυφαίων υποψηφίων για το Σουηδικό Μουσείο της χρονιάς, καθώς και για το Βραβείο Μουσείου του Συμβουλίου της Ευρώπης."
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "Με επτά ορόφους εντυπωσιακής αρχιτεκτονικής, το UMoMA παρουσιάζει εκθέσεις της διεθνούς σύγχρονης τέχνης, μερικές φορές μαζί με ιστορικές ρετροσπεκτίβες τέχνης. Τα υπαρξιακά, πολιτικά και φιλοσοφικά ζητήματα είναι εγγενή στο πρόγραμμά μας. Ως επισκέπτης σας προσκαλούμε σε ξεναγήσεις Καλλιτεχνών, διαλέξεις, προβολές ταινιών και άλλες εκδηλώσεις με δωρεάν είσοδο"
+
+#: header.php:76
+#: header.php:137
+msgid "Menu"
+msgstr "Μενού"
+
+#: functions.php:560
+msgid "Background Color"
+msgstr "Χρώμα φόντου"
+
+#: template-parts/modal-search.php:11
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: functions.php:594
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:593
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "Μεγαλύτερο"
+
+#: functions.php:588
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:587
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: functions.php:582
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:581
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "Κανονικά"
+
+#: functions.php:576
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:575
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "Μικρό"
+
+#: functions.php:547
+msgid "Subtle Background"
+msgstr "Διακριτικό φόντο"
+
+#: functions.php:279
+msgid "Footer Menu"
+msgstr "Μενού υποσέλιδου"
+
+#: functions.php:280
+msgid "Social Menu"
+msgstr "Μενού κοινωνικών δικτύων"
+
+#: functions.php:532
+msgid "Accent Color"
+msgstr "Χρώμα"
+
+#: inc/starter-content.php:177
+#: inc/starter-content.php:187
+msgid "Primary"
+msgstr "Βασικό"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr "Επάνω %s"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr "Στην κορυφή %s"
+
+#: functions.php:409
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "Οι μικροεφαρμογές σε αυτή τη περιοχή θα προβάλλονται στη δεύτερη στήλη του υποσέλιδου."
+
+#: functions.php:407
+msgid "Footer #2"
+msgstr "Υποσέλιδο #2"
+
+#: functions.php:397
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "Οι μικροεφαρμογές σε αυτή τη περιοχή θα προβάλλονται στη πρώτη στήλη του υποσέλιδου."
+
+#: functions.php:395
+msgid "Footer #1"
+msgstr "Υποσέλιδο #1"
+
+#. translators: Hidden accessibility text.
+#: functions.php:367
+msgid "Skip to the content"
+msgstr "Μετάβαση στο περιεχόμενο"
+
+#: functions.php:278
+msgid "Mobile Menu"
+msgstr "Μενού για κινητά"
+
+#: functions.php:277
+msgid "Desktop Expanded Menu"
+msgstr "Αναπτυγμένο μενού για Desktop υπολογιστή"
+
+#: functions.php:276
+msgid "Desktop Horizontal Menu"
+msgstr "Οριζόντιο μενού για σταθερούς υπολογιστές"
+
+#. Author URI of the theme
+#: footer.php:32
+msgid "https://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "Βασισμένο στο WordPress"
+
+#. translators: Copyright date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Τα σχόλια είναι απενεργοποιημένα."
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Μία απάντηση στο &ldquo;%s&rdquo;"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s απάντηση στο &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s απαντησεις στο &ldquo;%2$s&rdquo;"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Νεώτερα σχόλια"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "Παλιότερα σχόλια"
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Αφήστε ένα σχόλιο"
+
+#. translators: Hidden accessibility text.
+#: classes/class-twentytwenty-walker-page.php:117
+#: inc/template-tags.php:604
+msgid "Show sub menu"
+msgstr "Εμφάνιση του υπό μενού"
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:78
+msgid "#%d (no title)"
+msgstr "#%d (χωρίς τίτλο)"
+
+#: classes/class-twentytwenty-walker-comment.php:137
+msgid "By Post Author"
+msgstr "Από τον συντάκτη του άρθρου"
+
+#: classes/class-twentytwenty-walker-comment.php:102
+msgid "Your comment is awaiting moderation."
+msgstr "Το σχόλιό σας είναι σε αναμονή."
+
+#: classes/class-twentytwenty-walker-comment.php:86
+msgid "Edit"
+msgstr "Αλλαγή"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:73
+msgid "%1$s at %2$s"
+msgstr "%1$s στο %2$s"
+
+#: classes/class-twentytwenty-customize.php:273
+msgid "Full text"
+msgstr "Πλήρες κείμενο"
+
+#: classes/class-twentytwenty-customize.php:274
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#. translators: Hidden accessibility text.
+#: classes/class-twentytwenty-walker-comment.php:61
+msgid "says:"
+msgstr "Λέει:"
+
+#: classes/class-twentytwenty-customize.php:250
+msgid "Show author bio"
+msgstr "Εμφάνιση πληροφοριών συντάκτη"
+
+#: classes/class-twentytwenty-customize.php:399
+msgid "Overlay Opacity"
+msgstr "Διαφάνεια Επικάλυψης"
+
+#: classes/class-twentytwenty-customize.php:379
+msgid "The color used for the text in the overlay."
+msgstr "Το χρώμα που χρησιμοποιείται για το κείμενο στην επικάλυψη."
+
+#: classes/class-twentytwenty-customize.php:378
+msgid "Overlay Text Color"
+msgstr "Χρώμα κειμένου επικάλυψης"
+
+#: classes/class-twentytwenty-customize.php:357
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr "Το χρώμα που χρησιμοποιείται για την επικάλυψη. Εξ ορισμού είναι ίδιο με το χρώμα έμφασης."
+
+#: classes/class-twentytwenty-customize.php:356
+msgid "Overlay Background Color"
+msgstr "Χρώμα Φόντου Επικάλυψης"
+
+#: classes/class-twentytwenty-customize.php:287
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr "Ρυθμίσεις για το πρότυπο σελίδας \"Πρότυπο εξωφύλλου\". Προσθέστε μια επιλεγμένη εικόνα για να τη χρησιμοποιήσετε ως φόντο."
+
+#: classes/class-twentytwenty-customize.php:400
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "Βεβαιωθείτε ότι η αντίθεση είναι αρκετά υψηλή ώστε το κείμενο να είναι ευανάγνωστο."
+
+#: classes/class-twentytwenty-customize.php:310
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "Δημιουργεί ένα εφέ parallax όταν ο επισκέπτης κάνει κύλιση."
+
+#: classes/class-twentytwenty-customize.php:309
+msgid "Fixed Background Image"
+msgstr "Σταθερή εικόνα φόντου"
+
+#. Template Name of the theme
+#: classes/class-twentytwenty-customize.php:285
+msgid "Cover Template"
+msgstr "Πρότυπο εξωφύλλου"
+
+#: classes/class-twentytwenty-customize.php:271
+msgid "On archive pages, posts show:"
+msgstr "Στις ιστοσελίδες αρχείου, τα άρθρα εμφανίζουν:"
+
+#: classes/class-twentytwenty-customize.php:229
+msgid "Show search in header"
+msgstr "Προβολή αναζήτησης στην κεφαλίδα"
+
+#: classes/class-twentytwenty-customize.php:206
+msgid "Theme Options"
+msgstr "Επιλογές θέματος"
+
+#: classes/class-twentytwenty-customize.php:187
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "Εφαρμόστε ένα χρώμα της επιλογής σας για συνδέσμους, κουμπιά, επιλεγμένες εικόνες."
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Η σελίδα δε βρέθηκε"
+
+#: classes/class-twentytwenty-customize.php:127
+msgid "Primary Color"
+msgstr "Κύριο χρώμα"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 η σελίδα δεν βρέθηκε"
+
+#: classes/class-twentytwenty-customize.php:105
+msgid "Header &amp; Footer Background Color"
+msgstr "Χρώμα φόντου κεφαλίδας &amp; υποσέλιδου"
+
+#: classes/class-twentytwenty-customize.php:86
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Προσαρμόζει το λογότυπο στο μισό του αρχικού του μεγέθους, καθιστώντας το ευκρινές σε οθόνες υψηλής ανάλυσης."
+
+#: classes/class-twentytwenty-customize.php:85
+msgid "Retina logo"
+msgstr "Λογότυπο Retina"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "Η σελίδα που αναζητήσατε δεν βρέθηκε. Μπορεί να έχει αφαιρεθεί, μετονομαστεί ή να μην έχει δημιουργηθεί."

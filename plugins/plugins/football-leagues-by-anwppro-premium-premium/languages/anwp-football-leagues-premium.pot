@@ -1,0 +1,2450 @@
+# Copyright (C) 2024 AnWP Football Leagues Premium
+# This file is distributed under the same license as the AnWP Football Leagues Premium package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AnWP Football Leagues Premium\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: football-leagues-by-anwppro-premium/admin/views/import-matches.php:24
+msgid "Batch Matches Import"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/import-matches.php:31
+msgid "Import Matches tool"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/import-matches.php:51
+msgid "if both \"Goals H (Home)\" and \"Goals A (Away)\" will be empty, match will be treated as fixture (upcoming)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/import-matches.php:52
+msgid "you may copy and paste data from MS Excel or other spreadsheet into the table below"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/import-matches.php:53
+msgid "home club stadium will be set as a game venue"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/import-matches.php:54
+msgid "\"HT - Goals H\" - half time goals by home team"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/live-scores.php:33
+msgid "Live Scores Dashboard"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:128
+msgid "all"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:130
+msgid "Available Column Types"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:131
+msgid "Calculation"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:133
+msgid "Club Statistics"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:135
+msgid "Default Field"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:136
+msgid "Delete Stats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:137
+msgid "difference"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:138
+msgid "Digits"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:139
+msgid "Digits after decimal point"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:140
+msgid "Do not remove Statistical parameter which has been used in finished games."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:141
+msgid "Field 1"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:142
+msgid "Field 2"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:143
+msgid "Field 3"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:144, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:131, football-leagues-by-anwppro-premium/templates/match/match-player-stats.php:167, football-leagues-by-anwppro-premium/templates/match/match-player-stats.php:191
+msgid "Field Players"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:145
+msgctxt "statistical parameter"
+msgid "Full Name"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:146
+msgid "Full Width"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:148
+msgctxt "statistic config"
+msgid "Group"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:150
+msgid "Maximum value. Used to calculate the full bar width in the default layout."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:151
+msgid "Player Statistics"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:152
+msgid "Postfix"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:153
+msgid "Prefix"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:154
+msgid "ratio"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:155
+msgctxt "statistic config"
+msgid "Related Field"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:156
+msgid "Remove"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:159
+msgctxt "statistic config"
+msgid "Separator"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:160
+msgctxt "statistical parameter"
+msgid "Short Name"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:161
+msgid "Statistical parameter added to the Layout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:162
+msgid "sum"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:164
+msgid "Visibility"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:173, football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-setup.php:326
+msgid "Shots off Goal"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:174, football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-setup.php:327
+msgid "Blocked Shots"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:175, football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-setup.php:328
+msgid "Shots insidebox"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:176, football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-setup.php:329
+msgid "Shots outsidebox"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:177, football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-setup.php:330
+msgid "Goalkeeper Saves"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:178, football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-setup.php:331
+msgid "Total passes"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:179, football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-setup.php:332
+msgid "Passes accurate"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/admin/views/stats-config.php:212, football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:701
+msgid "Statistics Configurator"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/anwp-football-leagues-premium.php:164
+msgid "Missing required plugin"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/anwp-football-leagues-premium.php:165
+msgid "Football Leagues Premium requires free version of Football Leagues by AnWP.pro. Please install it first."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/anwp-football-leagues-premium.php:170
+msgid "Install plugin"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/anwp-football-leagues-premium.php:168
+msgid "Activate plugin"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/anwp-football-leagues-premium.php:138
+msgid "Football Leagues Premium cannot run on PHP versions older than %s. Please contact your hosting provider to update your site."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:516
+msgid "Tags"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:556, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:479
+msgid "load more"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:659, football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:660
+msgid "Add-ons"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:683, football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:684
+msgid "Import Matches"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:692, football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:693, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:178
+msgid "Live Scores"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:702
+msgid "Statistics"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:751, football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:766, football-leagues-by-anwppro-premium/class-anwp-football-leagues-premium.php:781
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-updater.php:235
+msgid "Data Error."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-updater.php:1715, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:779
+msgid "Red Card"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-updater.php:1716, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:785, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:74, football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:95, football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:73
+msgid "Yellow Cards"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/api-import/class-anwpfl-premium-api-api-football-updater.php:1717, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:791
+msgid "questionable"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/builder/class-anwpfl-premium-builder-competition-multi.php:29, football-leagues-by-anwppro-premium/includes/builder/class-anwpfl-premium-builder-competition.php:29, football-leagues-by-anwppro-premium/includes/builder/class-anwpfl-premium-builder-match.php:28
+msgid "IDs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/builder/class-anwpfl-premium-builder-competition.php:32
+msgid "Formats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/builder/class-anwpfl-premium-builder-match-live.php:18, football-leagues-by-anwppro-premium/includes/builder/class-anwpfl-premium-builder-match-live.php:43, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:304
+msgid "Match LIVE"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-api.php:83
+msgctxt "admin page title"
+msgid "FL API Import"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-api.php:84
+msgctxt "admin menu title"
+msgid "FL API Import"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:224, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:672
+msgctxt "statistic table"
+msgid "Show all"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:225, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:660
+msgctxt "statistic table: paginate_first"
+msgid "First"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:226
+msgctxt "statistic table: paginate_first (tooltip)"
+msgid "First Page"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:227, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:661
+msgctxt "statistic table: paginate_last"
+msgid "Last"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:228
+msgctxt "statistic table: paginate_last (tooltip)"
+msgid "Last Page"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:229, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:663
+msgctxt "statistic table: paginate_previous"
+msgid "Previous"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:230
+msgctxt "statistic table: paginate_previous (tooltip)"
+msgid "Previous Page"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:231, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:662
+msgctxt "statistic table: paginate_next"
+msgid "Next"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:232
+msgctxt "statistic table: paginate_next (tooltip)"
+msgid "Next Page"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:233
+msgctxt "statistic table: Rows"
+msgid "Rows"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:296
+msgid "Save Match Data"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:297
+msgid "saving ..."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:298
+msgid "edit match"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:299
+msgid "Error saving data. Please, reload page and try again."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:300
+msgid "Successfully saved. Reloading page ..."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:301
+msgid "LIVE"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:302
+msgid "Update LIVE status"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:303
+msgid "LIVE Scores"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:304
+msgid "Set Scores"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:305
+msgid "Update Scores"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-assets.php:306
+msgid "LIVE Events"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:103
+msgctxt "Post type general name"
+msgid "Layout Builder"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:104
+msgctxt "Post type singular name"
+msgid "Layout Builder"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:105
+msgctxt "Admin Menu text"
+msgid "Layout Builder"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:106
+msgctxt "Add New on Toolbar"
+msgid "Layout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:107, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:108
+msgid "Add New Layout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:109
+msgid "New Layout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:110
+msgid "Edit Layout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:111
+msgid "View Layout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:112
+msgid "All Layouts"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:113
+msgid "Search Layouts"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:114
+msgid "No Layouts found."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:115
+msgid "No Layouts found in Trash."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:300
+msgid "Layout Type"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:374
+msgid "Layout Info"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:376
+msgid "SEO Title"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:377
+msgid "SEO Description"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:626
+msgid "Layout Structure"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:658
+msgid "How to Use Layout Builder"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:664
+msgid "Shortcode Block"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:670
+msgid "Custom Classes"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:872
+msgid "Select Layout Type"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:886
+msgid "Select Type & Continue"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:762
+msgid "comma separated list of IDs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:763
+msgid "Competition IDs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:766
+msgid "Fill \"Display Options\" section to make this layout visible"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:767, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:54
+msgid "Finished"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:768
+msgid "Knockout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:770
+msgid "Match IDs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:771
+msgid "optional"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:772
+msgid "Optional. The highest priority. If set, all other fields will be ignored"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:773
+msgid "Round Robin"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:775
+msgid "SEO"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:777
+msgid "Game Status & League"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:778
+msgid "This layout will be applied to all clubs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:779
+msgid "This layout will be applied to all players"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:780
+msgid "This layout will be applied to all referees"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:781
+msgid "This layout will be applied to all stadiums"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:782
+msgid "This layout will be applied to all staff"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:783
+msgid "This layout will be applied to all LIVE games"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:784
+msgid "Upcoming"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:819, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:191, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-timezones.php:52
+msgid "Save"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-builder.php:838
+msgid "Copy and Close"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:77, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-birthdays.php:120, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:137
+msgid "Birthdays"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:78
+msgid "Players Stats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:79, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:59, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:83, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:51, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-transfers.php:193, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:132, football-leagues-by-anwppro-premium/templates/club/club-transfers.php:44, football-leagues-by-anwppro-premium/templates/competition/competition-transfers.php:45
+msgid "Transfers"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:101, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:210
+msgid "Club Shirt"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:107, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:306, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-competition.php:279, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:501, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:552, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-stadium.php:52
+msgid "Premium Options"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:116, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:160
+msgid "Trophies"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:148
+msgid "Add Another Trophy"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:153
+msgid "Do you really want to delete?"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:154
+msgctxt "Trophy Number"
+msgid "Number"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:155
+msgctxt "Trophy Number"
+msgid "Number tooltip (e.g.: years)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:161
+msgid "Trophy Image"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:216
+msgid "Shirt - Home"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:222, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:260
+msgid "SVG image"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:232, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:270
+msgid "Shirt Solid Color"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:236, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:274
+msgid "used when SVG image is empty"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:243, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:280
+msgid "Number Color"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:249, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:286
+msgid "Stroke Number Color"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:255
+msgid "Shirt - Away"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:293, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:605
+msgid "Scoreboard Background Image"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:312
+msgid "User Roles"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:317
+msgid "Club Captain (User role)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:318
+msgid "Grant user rights to edit club matches at frontent (only club data)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:344
+msgid "Using Club Shirt in Formation"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:1561
+msgid "Match Report Recipients"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:1573
+msgid "Recipient Email"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-club.php:1578
+msgid "Add"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-competition.php:298
+msgid "Competition Supervisor (User role)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-competition.php:299
+msgid "Grant user rights to edit competition matches at frontent"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-competition.php:318
+msgid "MatchWeeks as sliding tabs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:314
+msgid "Countdown Type"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:318, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:633
+msgid "Classic"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:319
+msgid "Modern"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:341, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-standing.php:931
+msgid "Show arrows (dynamic of ranking change)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:368
+msgid "Show Home/Away data"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:395
+msgid "Formation - Player"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:399
+msgid "Photo & Shirt"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:400
+msgid "Photo only"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:401
+msgid "Shirt only"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:422
+msgid "Formation - Player Nationality"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:448
+msgid "Formation - Events"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:474
+msgid "Formation - Rating"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:503
+msgid "Minimum Color Rating"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-customizer.php:528
+msgid "Maximum Color Rating"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:39, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:412, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1538, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:413, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:431, football-leagues-by-anwppro-premium/templates/match/match-timeline--live-api.php:58, football-leagues-by-anwppro-premium/templates/match/match-timeline.php:115
+msgid "1st Half"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:40, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:416, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1542, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:419, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:437, football-leagues-by-anwppro-premium/templates/match/match-timeline--live-api.php:86, football-leagues-by-anwppro-premium/templates/match/match-timeline.php:175
+msgid "2nd Half"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:41, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-standing.php:922
+msgid "Automatic data filling"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:42
+msgid "automatic"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:43, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-bracket.php:73, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:127
+msgid "Bracket Layout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:44, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:1801, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:395
+msgid "Cancelled goal"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:45
+msgid "Comment"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:46, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-standing.php:923
+msgid "Conference"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:47, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-standing.php:924
+msgid "Conferences Support"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:48
+msgid "Current MatchWeek"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:49, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-standing.php:925
+msgid "Display Options"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:50
+msgid "Edit Mode"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:51
+msgid "empty placeholder"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:52
+msgid "Event Comment"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:53, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:420, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1546, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:425, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:443, football-leagues-by-anwppro-premium/templates/match/match-timeline--live-api.php:124, football-leagues-by-anwppro-premium/templates/match/match-timeline.php:249
+msgid "Extra Time"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:55
+msgid "In \"Friendly\" status player statistics is NOT calculated"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:56
+msgid "For not finished only"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:57, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:482, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2080
+msgid "Formations"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:58, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:435, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1558, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:461
+msgid "Full Time"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:59
+msgid "Go to the Documentation"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:60, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:429, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1554, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:455
+msgid "Half Time"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:61
+msgid "hide"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:62
+msgid "inherit (from settings)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:63, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-standing.php:927
+msgid "Layout Mini (Widget)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:64, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:652, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:465
+msgid "Live"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:65
+msgid "Live status"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:66
+msgid "Matrix Results"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:67
+msgid "manual"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:68
+msgid "not set"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:69
+msgid "offset in minutes"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:70, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:424, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1550, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:449
+msgid "Penalty"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:71
+msgid "! player not in squad"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:72, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-standing.php:929
+msgid "Only works if Automatic Position Calculation is set to \"YES\""
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:73, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-standing.php:930
+msgid "The following criteria are applied in the order from top to bottom."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:74
+msgid "Saving data error"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:75
+msgid "Scores"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:76
+msgid "Set team formation from left to right"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:77
+msgid "show below Standing"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:78
+msgid "Significant event"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:79
+msgid "Sorting minute"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:80
+msgid "Used for sorting when minute field is empty. Useful for pre or post match comments. Enter additional minutes separated by \"+\". Example: \"90+9\", \"-5\""
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:81, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-standing.php:932
+msgid "Table columns (order and visibility)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:82
+msgid "Update"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:83
+msgid "Bracket Options"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:84
+msgid "Sorting Index"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:85
+msgid "Click to edit"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:86
+msgid "Team A (placeholder)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:87
+msgid "Team B (placeholder)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:90
+msgid "LIVE Status and Offset"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:91
+msgid "Current LIVE status"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:92
+msgid "Current minute"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:93
+msgid "Current Scores"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:94
+msgid "Set new status"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:95
+msgid "Add New Event"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:96
+msgid "Refresh Events"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:97
+msgid "Event Edit Mode"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:98
+msgid "You can edit only data associated with your club"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:325
+msgid "- select round -"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:285
+msgid "- select group -"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:297
+msgid "Available clubs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:642
+msgctxt "statistic table: aria_sortAscending"
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:643
+msgctxt "anwp-football-leagues-premium"
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:644
+msgctxt "statistic table"
+msgid "Column visibility"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:645
+msgctxt "statistic table: emptyTable"
+msgid "No data available in table"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:647
+msgctxt "statistic table: info"
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:648
+msgctxt "statistic table: infoEmpty"
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:649
+msgctxt "statistic table: infoFiltered"
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:651
+msgctxt "statistic table: lengthMenu"
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:653
+msgid "LIVE scheduled"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:656
+msgid "Loading data error! Please, reload page and try again."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:657
+msgctxt "statistic table: loadingRecords"
+msgid "Loading..."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:664
+msgctxt "statistic table: processing"
+msgid "Processing..."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:667
+msgctxt "statistic table"
+msgid "10 rows"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:668
+msgctxt "statistic table"
+msgid "25 rows"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:669
+msgctxt "statistic table"
+msgid "50 rows"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:670
+msgctxt "statistic table: search"
+msgid "Search:"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:671
+msgctxt "statistic table: show__rows"
+msgid "Show %d rows"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:677
+msgctxt "statistic table: zeroRecords"
+msgid "No matching records found"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-data.php:1798
+msgctxt "post date"
+msgid "Posted on"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:577, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:371, football-leagues-by-anwppro-premium/templates/match/match-timeline.php:144, football-leagues-by-anwppro-premium/templates/match/match-timeline.php:217, football-leagues-by-anwppro-premium/templates/match/match-timeline.php:276
+msgid "assistant"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:721, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:1604, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:383
+msgid "In"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:723, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:1606, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:389
+msgid "Out"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:831
+msgid "Incorrect Data"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:838, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:991, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1169, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1267, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1307, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:178, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:294, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:483, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:527, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:635, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:722, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:781
+msgid "Incorrect post type."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1162, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1260, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1300, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1328, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-live.php:1380, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:173, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:299, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:306, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:312, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:478, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:522, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:630, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:717, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:776
+msgid "You have no rights to edit this Match."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:162, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:472, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:516, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:624, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:711, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match-public.php:770
+msgid "Post ID not set."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:293
+msgid "Live Status"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:295
+msgid "Live active"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:298
+msgid "Live upcoming"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:474, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:113, football-leagues-by-anwppro-premium/templates/match/match-player-stats.php:145
+msgid "Players Statistics"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:493, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:520, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:530, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2079
+msgid "Custom Code"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:521
+msgid "add any HTML and JS code here"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:536
+msgid "Match Priority"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:542
+msgid "- not set -"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:547
+msgid "5 (highest)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:558
+msgid "Display Match Scoreboard with Image Background"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:569, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:556
+msgid "Match List (slim) custom button"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:580
+msgid "Match List custom button URL"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:585
+msgid "Match Editor (User role)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:586
+msgid "Grant user rights to edit match on frontent"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:596
+msgid "Alternative Prediction Text"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:777, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matches-scoreboard.php:197
+msgid "Priority"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:780
+msgid "Send Report"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:1019, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:401
+msgid "No matches for this date."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:1477, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:407
+msgid "No matches found."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2077
+msgid "Scoreboard"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2078
+msgid "Commentary"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2081
+msgid "Timeline"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2082, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:107, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matches-h2h.php:191, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:147, football-leagues-by-anwppro-premium/templates/match/match-h2h.php:66
+msgid "Head to Head Matches"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2281, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2313, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2341, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:95, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:719, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:118, football-leagues-by-anwppro-premium/templates/match/match-scoreboard.php:385
+msgid "Prediction"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-match.php:2413, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:77, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:89, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:299, football-leagues-by-anwppro-premium/templates/club/club-transfers.php:90, football-leagues-by-anwppro-premium/templates/competition/competition-transfers.php:70, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:54, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:55, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:57
+msgid "No data"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:60
+msgid "Football Leagues :: Premium Settings"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:125
+msgid "FrontEnd Match edit and User Roles"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:133
+msgid "Enable frontend Match edit"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:152
+msgid "Enable frontend LIVE Match edit"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:186
+msgid "Enable Manual Live Scores"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:190
+msgid "Activate this option only if you plan to add LIVE data manually."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:206
+msgid "Live Scores Settings (Manual & Automatic by API Import)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:214
+msgid "Update Period - single Match events (sec)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:223
+msgid "Update Period - match list (sec)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:232
+msgid "Blinking effect on changed score (1 min)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:251
+msgid "Play sound on changed scores"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:270
+msgid "Sound file to play on changed scores"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:295
+msgid "Use default user's timezone"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:326
+msgid "Partial"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:327, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:119
+msgid "Full"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:343
+msgid "Show calendar in club header"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:367, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:370, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-results-matrix.php:47, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:97
+msgid "Results Matrix"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:376
+msgid "Horizontal labels"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:381, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:396
+msgid "club name"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:382, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:397
+msgid "club logo"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:383, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:398
+msgid "club abbreviation"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:384, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:399
+msgid "club logo and abbreviation"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:391
+msgid "Vertical labels"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:406
+msgid "Show club place"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:425
+msgid "symmetric"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:436, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:451
+msgid "Display Scoreboard with Image Background"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:437, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:505
+msgid "Hide score before click"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:442
+msgid "Match Display Options"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:452
+msgid "display Scoreboard instead of default Match header"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:471
+msgid "Select Default Scoreboard Background Image"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:486
+msgid "Club form (outcomes) in the Game Scoreboard"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:528
+msgid "Player Match Rating"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:533
+msgid "Match Lineups"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:542
+msgid "Player Rating Field"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:544
+msgid "select rating field"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:561
+msgid "Match List Display Options"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:570
+msgid "Display MatchWeeks as Slides"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:589
+msgid "Custom button image"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:613
+msgid "Match Stats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:627
+msgid "Match Stats Layout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:640
+msgid "Show Shots Stat Widget"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:664
+msgid "Match Report"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:672
+msgid "Send Match Report by email"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:689
+msgid "Admin Email"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:694
+msgid "Add email"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:702
+msgid "Email Subject"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:710
+msgid "Match Report Template"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:728, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:733, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:101, football-leagues-by-anwppro-premium/templates/match/match-commentary.php:74
+msgid "Match Commentary"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:755
+msgid "Events Order"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:768
+msgid "Max Height (px)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:772
+msgid "Enter max height. 0 - no limit"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:778
+msgid "Show player photo in Match Commentary block"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:797
+msgid "Show scores in Match Commentary block"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:821
+msgid "Standing Display Options"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:829
+msgid "Click in the Standing table open a modal with a list of club matches"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:854
+msgid "API key"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:862
+msgid "Request URL"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:870
+msgid "Cache some requests (players, leagues, fixtures)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:878
+msgid "Import Stadiums"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:886
+msgid "Import Referees"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:902
+msgid "Import Additional Club Statistics"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:910
+msgid "Import Player Stats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:918
+msgid "Import LineUps Formation"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:934
+msgid "Import LIVE data from API"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:950
+msgid "Get game predictions from API"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-options.php:966
+msgid "Show prediction in Match List item (bottom line)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-player.php:114
+msgid "Stats Panel"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-player.php:1678, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:65, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players.php:125
+msgid "Appearance"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-player.php:1679, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:76, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:66, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:70, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:172, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:208, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:244, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:277
+msgid "Started"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-player.php:1681, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:1037, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:79, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:68, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:72, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:174, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:210, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:246, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:279, football-leagues-by-anwppro-premium/templates/shortcode-premium-player-stats-panel.php:108, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-players-custom--tabulator.php:129, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-players-custom.php:134
+msgid "Cards (All)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-player.php:1682, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:1043, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:80, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:69, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-club.php:131, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:70, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:163, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-h2h.php:162, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:73, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:175, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:211, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:247, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:280, football-leagues-by-anwppro-premium/templates/shortcode-premium-player-stats-panel.php:112
+msgid "Cards - Yellow"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-player.php:1683, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:1049, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:82, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:70, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-club.php:132, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:71, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:164, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-h2h.php:163, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:74, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:176, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:212, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:248, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:281, football-leagues-by-anwppro-premium/templates/shortcode-premium-player-stats-panel.php:116
+msgid "Cards - Red"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-stadium.php:71
+msgid "Match Scoreboard Image"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:43
+msgctxt "Post type general name"
+msgid "Card Suspensions"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:44
+msgctxt "Post type singular name"
+msgid "Card Suspensions"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:45
+msgctxt "Admin Menu text"
+msgid "Card Suspensions"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:46, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:47, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:46
+msgid "Add New"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:146
+msgid "Card Suspensions"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:195
+msgid "Select Competition"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:209
+msgid "Save & Continue"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:347
+msgid "Suspended Rules"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:348
+msgid "add yellow card's rule"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:353
+msgid "Number of Cards"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:354
+msgid "Games to suspend"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:355
+msgid "Automatically Suspend Players"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:512, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:797
+msgid "Red card suspension"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-suspension.php:513, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:803
+msgid "Yellow card suspension"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:53, football-leagues-by-anwppro-premium/templates/club/club-stats.php:76
+msgid "Player Stats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:65, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:324, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-transfers.php:88, football-leagues-by-anwppro-premium/templates/club/club-transfers.php:70
+msgid "Mid-season window"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:71, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:329, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-transfers.php:87, football-leagues-by-anwppro-premium/templates/club/club-transfers.php:81
+msgid "Pre-season window"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:137, football-leagues-by-anwppro-premium/templates/match/match-scoreboard.php:201
+msgid "Show Score"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:155, football-leagues-by-anwppro-premium/templates/shortcode-premium-player-stats-panel.php:70
+msgid "Games Played"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:161, football-leagues-by-anwppro-premium/templates/shortcode-premium-player-stats-panel.php:75
+msgid "Games Started"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:287, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-players-custom--tabulator.php:253, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-players-custom--tabulator.php:207, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-players.php:124
+msgid "min"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:293, football-leagues-by-anwppro-premium/templates/shortcode-premium-tag-posts.php:84
+msgid "No Posts Found"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:305, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:80, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:65
+msgid "Arrivals"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:317, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:319, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:584, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-transfers.php:155, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:63, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:79, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:88, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:104, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:56, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:72, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:73, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:89
+msgid "Club Out"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:329, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:339, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:585, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:71, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:83, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:96, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:106, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:275, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:285, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:64, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:78, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:81, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:91, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:258, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:268
+msgid "Transfer Date"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:335, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:321, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:587, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:75, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:85, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:100, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:108, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:279, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:287, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:68, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:80, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:85, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:93, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:262, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:270
+msgid "Fee"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:341, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:333, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:718, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:123, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:154, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:325, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:164, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:256, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:138, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:310
+msgid "Rumour"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:347, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:411, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:656, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:680, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:139, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:173, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:217, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:252, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:170, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:217, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:340, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:387, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:97, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:131, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:181, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:216, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:154, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:201, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:326, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:373
+msgid "unknown club"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:353, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:662, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:686, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:142, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:176, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:220, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:255, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:173, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:220, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:343, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:390, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:100, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:134, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:184, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:219, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:157, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:204, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:329, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:376
+msgid "without club"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:359, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:259, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:242
+msgid "Departures"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:365, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:314, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:583, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-transfers.php:156, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:67, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition-compact.php:81, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:267, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--competition.php:283, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:60, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers--player.php:74, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:250, football-leagues-by-anwppro-premium/templates/shortcode-premium-transfers.php:266
+msgid "Club In"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:467, football-leagues-by-anwppro-premium/templates/match/match-widget-shots.php:47, football-leagues-by-anwppro-premium/templates/match/match-widget-shots.php:62
+msgid "Off Target"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:473, football-leagues-by-anwppro-premium/templates/match/match-widget-shots.php:51, football-leagues-by-anwppro-premium/templates/match/match-widget-shots.php:58
+msgid "On Target"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:485, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:211, football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-stat-players.php:155, football-leagues-by-anwppro-premium/templates/shortcode-premium-stat-players.php:207
+msgid "Show full list"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:497, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:635, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:641, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:65, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:158, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-club.php:57, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-clubs.php:113, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-h2h.php:67
+msgid "Draws"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:503, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:647, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:653, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:66, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:159, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-club.php:58, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-clubs.php:117, football-leagues-by-anwppro-premium/templates/shortcode-premium-stats-h2h.php:68
+msgid "Losses"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:587, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-club.php:164, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:112, football-leagues-by-anwppro-premium/templates/club/club-game-stats.php:53
+msgid "Club Stats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:701, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:707
+msgid "API Import - Transfers"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:713, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:79
+msgid "Match Prediction"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:725, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:138
+msgid "Who Will Win"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:731, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:168
+msgid "Team comparison"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:737, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:187
+msgid "Current Form"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:743, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:188
+msgid "Attacking"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:749, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:189
+msgid "Defensive"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:755, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:190
+msgid "Poisson Distribution"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:761, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:191
+msgid "Head-to-Head"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:767, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:192
+msgid "Goals"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:773, football-leagues-by-anwppro-premium/templates/match/match-predictions.php:193
+msgid "Total"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:1025, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:77
+msgid "Substitute In"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:1067
+msgid "Per Game"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:1073, football-leagues-by-anwppro-premium/templates/shortcode-standing.php:157
+msgctxt "standing"
+msgid "All"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:1079, football-leagues-by-anwppro-premium/templates/shortcode-standing.php:160
+msgctxt "standing"
+msgid "Home"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-text.php:1085, football-leagues-by-anwppro-premium/templates/shortcode-standing.php:163
+msgctxt "standing"
+msgid "Away"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:42
+msgctxt "Post type general name"
+msgid "Transfer"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:43
+msgctxt "Post type singular name"
+msgid "Transfer"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:44
+msgctxt "Admin Menu text"
+msgid "Transfers"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:45
+msgctxt "Add New on Toolbar"
+msgid "Transfer"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:47
+msgid "Add New Transfer"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:48
+msgid "New Transfer"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:49
+msgid "Edit Transfer"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:50
+msgid "View Transfer"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:52
+msgid "Search Transfers"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:53
+msgid "No Transfers found."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:54
+msgid "No Transfers found in Trash."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:286
+msgid "Transfer Data"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:315
+msgid "Additional actions"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:318
+msgid "Club IN - OUT"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:320
+msgid "Enter club name manually without creating"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:322
+msgid "Examples: $120000, Free, Loan, Ended Loan 2019-06-01"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:323
+msgid "Loading more clubs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:326, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:716
+msgid "Official"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:327
+msgid "Player"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:328
+msgid "Player Details"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:330
+msgid "register in squad"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:331
+msgid "Register player in the club's squad"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:335
+msgid "Successfully Saved"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:337
+msgid "set as current club"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:338
+msgid "start typing player name"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:340, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:586
+msgid "Transfer End Date"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:341
+msgid "Transfer Details"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:342, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:588
+msgid "Transfer Status"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:343, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-transfers.php:82
+msgid "Window"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:416
+msgid "custom text"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:526, football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:892
+msgid "- player not selected -"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:582
+msgid "Season"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:806
+msgid "Club In ID"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:816
+msgid "Club Out ID"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:849
+msgid "Date End From"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/class-anwpfl-premium-transfer.php:851
+msgid "Date End To"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:71, football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-calendar.php:94
+msgid "Group by competition"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:81
+msgid "Competition Country"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:87, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:88
+msgid "Flag"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:93
+msgid "Show day of week"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:103
+msgid "Day of the month with leading zeros"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:114
+msgid "Textual representation of a month"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:118
+msgid "Short"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:126
+msgid "No games on this date"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:130
+msgid "Calendar Size"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:150
+msgid "Centered Active Day"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:160
+msgid "Day Width (px)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-calendar-slider.php:183
+msgid "Calendar Slider"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:34, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:162
+msgid "Charts: Team Goals per 15 min"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:35, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:167
+msgid "Charts: Team Default Stats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:104, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:243
+msgid "Club Header"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:108, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:247
+msgid "None"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:115
+msgid "Show Chart Legend"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:127, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:138
+msgid "Alternative Text"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:128, football-leagues-by-anwppro-premium/templates/shortcode-premium-charts--goals-15.php:84
+msgid "Scored"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:139, football-leagues-by-anwppro-premium/templates/shortcode-premium-charts--goals-15.php:85
+msgid "Conceded"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:182, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:70, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:70, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:60, football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-stat-players.php:62
+msgid "Stat Value"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:254
+msgid "Show Opposite Club Names in the Bottom"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:264
+msgid "Show Value Label Inside the Bar"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:276
+msgid "Chart Title"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:286
+msgid "Bar Color"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-charts.php:291
+msgid "Set bar color in hex format (e.g. #800000) or use \"club\" value for default team color"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-live.php:77
+msgid "LIVE Matches"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matches-scoreboard.php:34, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:122
+msgid "Matches Horizontal Scoreboard"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matches-scoreboard.php:177
+msgid "Club Titles"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matches-scoreboard.php:187
+msgid "Focus on Today"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matches-scoreboard.php:211
+msgid "Autoplay"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matches-scoreboard.php:221
+msgid "Continuous loop mode"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matchweeks-slides.php:87
+msgid "Matchweek Current"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matchweeks-slides.php:93
+msgid "Navigation Slides to Show"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matchweeks-slides.php:99
+msgid "Match Card"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matchweeks-slides.php:104
+msgid "Slim"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-matchweeks-slides.php:125, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:117
+msgid "MatchWeeks Slides"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-missing-players.php:52
+msgid "All Competition Clubs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-missing-players.php:82
+msgid "Show all season matches in one table."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-missing-players.php:89
+msgid "Set to \"No\" to create a separate table for every competition. Works only when Season is set."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-missing-players.php:93
+msgid "Show all players"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-missing-players.php:103
+msgid "Show finished games only"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-missing-players.php:113
+msgid "Show date"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-missing-players.php:124, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players.php:120
+msgid "Sections"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-missing-players.php:128
+msgid "all (missed + cards)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-missing-players.php:151, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:157
+msgid "Missing Players and Cards"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:33
+msgid "Player Stats Panel"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:74, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:64
+msgid "Default Stat"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:75, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:67, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:160
+msgid "Played"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:81, football-leagues-by-anwppro-premium/templates/shortcode-premium-player-stats-panel.php:120
+msgid "Cards - 2nd Yellow/Red"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:90, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:78
+msgid "Custom Simple Stat"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:132, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:120, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referees-stats.php:93, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:132, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-club.php:69, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:118, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-h2h.php:80, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:133, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players.php:139
+msgid "Include All Stages (in Multistage competition)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:155, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:131
+msgid "Block Width (px)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-player-stats-panel.php:162, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:138
+msgid "Show Per Game value"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:33
+msgid "Referee Statistics"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:75, football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:96
+msgid "Yellow Cards (Home)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:76, football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:97
+msgid "Yellow Cards (Away)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:77, football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:98, football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:74
+msgid "Red Cards"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:78, football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:99
+msgid "Red Cards (Home)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:79, football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:100
+msgid "Red Cards (Away)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:80, football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:101, football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:72
+msgid "Fouls"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:81, football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:102
+msgid "Fouls (Home)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:82, football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:103
+msgid "Fouls (Away)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referee-stats.php:148, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referees-stats.php:174
+msgid "Show Number of Games"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referees-stats.php:33
+msgid "Referees Statistics"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referees-stats.php:164
+msgid "Show Per Game Columns"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referees-stats.php:184
+msgid "Show Red Cards"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referees-stats.php:194
+msgid "Show Fouls"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referees-stats.php:204
+msgid "Show Home/Away statistics"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-referees-stats.php:214
+msgid "Link to Referee profile"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-standing-advanced.php:82
+msgid "Standing Table Advanced"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-standing-advanced.php:170
+msgid "Show Home/Away Selector"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-standing-advanced.php:180
+msgid "Filtered Data"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-standing-advanced.php:190
+msgid "Matchweeks"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-standings.php:87
+msgid "Show Standing Title"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-standings.php:149, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:152
+msgid "Standings"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:33, football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-stat-players.php:26
+msgid "Stat :: Players (Single Stat Value)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:171, football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-stat-players.php:131
+msgid "Emphasize the first player"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:181, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:154, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-suspension-risk.php:87, football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-stat-players.php:137
+msgid "Show link to Player profile"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stat-players.php:201, football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-stat-players.php:149
+msgid "Show number of games played"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-club.php:115, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-h2h.php:146
+msgid "Show Average per match value "
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-club.php:125, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-h2h.php:156
+msgid "Stats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:33, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:107
+msgid "Stats :: Clubs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:60, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:61
+msgid "Columns"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:142
+msgid "Side"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:153, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:164, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:200
+msgid "Sorting By Column"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-clubs.php:188, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:320
+msgid "Club Column"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-h2h.php:126
+msgid "Head-to-Head matches stats only"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-h2h.php:136
+msgid "Highlight Best Result"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-h2h.php:195
+msgid "Head to Head Team Stats"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:34
+msgid "Stats :: Players (Custom)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:69, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:171, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:207, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:243, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:276
+msgid "Appearance (Games Played)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:190, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:226
+msgid "Sorting Order"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:236, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:269
+msgid "Filter By Column"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:262
+msgid "Filter Column 1 value (min)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:295
+msgid "Filter Column 2 value (min)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:353
+msgid "Layout"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:357
+msgid "Regular Table"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players-custom.php:358
+msgid "Tabulator (with sorting and filtering)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players.php:34, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:102
+msgid "Stats :: Players"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players.php:85
+msgid "Rows"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-stats-players.php:149, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-transfers.php:127
+msgid "Show link to profile"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-suspension-risk.php:33
+msgid "Suspension Risk"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-suspension-risk.php:107
+msgid "Show Teams"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-tag-posts.php:47
+msgid "ID"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-tag-posts.php:50
+msgid "Club ID, Match ID, Competition ID, Player ID, Staff ID or Referee ID"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-tag-posts.php:54
+msgid "Posts Limit (0 - for all)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-tag-posts.php:60
+msgid "Show Tags"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-tag-posts.php:71
+msgid "Number of Columns"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-tag-posts.php:86
+msgid "Grid"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-tag-posts.php:87
+msgid "Simple"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-tag-posts.php:108, football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode.php:142
+msgid "Tag Posts"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-timezones.php:50
+msgid "UTC"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-timezones.php:51
+msgctxt "user timezone"
+msgid "auto"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-timezones.php:53
+msgid "Change Your Time Zone"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-transfers.php:89
+msgid "Not set"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/shortcodes/class-anwpfl-premium-shortcode-transfers.php:121
+msgid "Competition (compact)"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-calendar.php:26
+msgid "FL+ Calendar"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-calendar.php:35
+msgid "Show Matches for selected date."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-calendar.php:75
+msgid "Filter by Club IDs"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-calendar.php:100
+msgid "Group by time"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-matchweeks.php:26
+msgid "FL+ MatchWeeks Slider"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-matchweeks.php:35
+msgid "Show MatchWeeks as sliding tabs."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-matchweeks.php:69
+msgid "Active MatchWeek:"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-next-match.php:26
+msgid "FL+ Next Match"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-next-match.php:35
+msgid "Show Next Match with timer."
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-next-match.php:58
+msgctxt "widget default title"
+msgid "Next Match"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-next-match.php:96
+msgid "Timer Type:"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-next-match.php:99
+msgid "Static Date"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-next-match.php:100
+msgid "Modern Countdown"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/includes/widgets/class-anwpfl-premium-widget-next-match.php:101
+msgid "Classic Countdown"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/match/match-odds.php:48
+msgid "Odds"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/match/match-odds.php:64
+msgid "Updated"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-bracket-auto.php:120, football-leagues-by-anwppro-premium/templates/shortcode-premium-bracket-last.php:139, football-leagues-by-anwppro-premium/templates/shortcode-premium-bracket.php:121, football-leagues-by-anwppro-premium/templates/shortcode-premium-missing-players.php:158, football-leagues-by-anwppro-premium/templates/shortcode-premium-results-matrix.php:150
+msgid "show in full screen"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:104
+msgid "Per Match"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referee-stats.php:105, football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:71
+msgid "Games"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:70
+msgid "Referee"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:75
+msgctxt "All (abbr.) in Referees Stats"
+msgid "All"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:76
+msgctxt "All - tooltip in Referees Stats (default empty)"
+msgid "All"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:77
+msgctxt "Per Game (abbr.) in Referees Stats"
+msgid "PG"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:78
+msgctxt "Per Game - tooltip in Referees Stats"
+msgid "Per Game"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:79
+msgctxt "Home (abbr.) in Referees Stats"
+msgid "H"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:80
+msgctxt "Home - tooltip in Referees Stats"
+msgid "Home"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:81
+msgctxt "Away (abbr.) in Referees Stats"
+msgid "A"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:82
+msgctxt "Away - tooltip in Referees Stats"
+msgid "Away"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:83
+msgctxt "Home Per Game (abbr.) in Referees Stats"
+msgid "H-PG"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:84
+msgctxt "Home Per Game - tooltip in Referees Stats"
+msgid "Home - Per Game"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:85
+msgctxt "Away Per Game (abbr.) in Referees Stats"
+msgid "A-PG"
+msgstr ""
+
+#: football-leagues-by-anwppro-premium/templates/shortcode-premium-referees-stats.php:86
+msgctxt "Away Per Game - tooltip in Referees Stats"
+msgid "Away - Per Game"
+msgstr ""

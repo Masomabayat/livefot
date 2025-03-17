@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Dalston\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T02:22:59+00:00\n"
+"PO-Revision-Date: 2020-08-06 00:50:45+0000\n"
+"Language: kab_DZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: inc/wpcom-colors.php:390
+#: inc/wpcom-editor-colors.php:153
+msgid "Text Color"
+msgstr "Ini n uḍris"
+
+#: inc/wpcom-colors.php:405
+#: inc/wpcom-editor-colors.php:170
+msgid "Secondary Color"
+msgstr "Ini asinaw"
+
+#: inc/wpcom-colors.php:129
+#: inc/wpcom-editor-colors.php:64
+msgid "Background Color"
+msgstr "Ini n uɣawas n deffir"
+
+#: inc/wpcom-colors.php:257
+#: inc/wpcom-editor-colors.php:97
+msgid "Link Color"
+msgstr "Ini n useɣwen"
+
+#: functions.php:85
+msgid "Foreground"
+msgstr "Tazwart"
+
+#: functions.php:90
+msgid "Background"
+msgstr "Aɣawas n deffir"
+
+#: header.php:64
+msgid "Social Links Menu"
+msgstr "Umuɣ n izdayen n iẓeḍwan imettiyen"
+
+#: header.php:49
+msgid "collapsed"
+msgstr "yedrem"
+
+#: header.php:48
+msgid "expanded"
+msgstr "yebrareḥ"
+
+#: header.php:45
+msgid "Menu"
+msgstr "Umuɣ"
+
+#: header.php:42
+msgid "Main Navigation"
+msgstr "Tunigin tagejdant"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Ngez ɣer ugbur agejdan"
+
+#: functions.php:148
+msgctxt "Crimson Text font: on or off"
+msgid "on"
+msgstr "ɣef"
+
+#: functions.php:80
+msgid "Secondary"
+msgstr "Arnaw"
+
+#: functions.php:42
+msgid "Large"
+msgstr "Tahrawant"
+
+#: functions.php:75
+msgid "Primary"
+msgstr "Agejdan"
+
+#: functions.php:49
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:48
+msgid "Huge"
+msgstr "Meqqer aṭas"
+
+#: functions.php:43
+msgid "L"
+msgstr "L"
+
+#: functions.php:37
+msgid "M"
+msgstr "M"
+
+#: functions.php:36
+msgid "Normal"
+msgstr "Amagnu"
+
+#: functions.php:30
+msgid "Small"
+msgstr "Amecṭuḥ"
+
+#: functions.php:31
+msgid "S"
+msgstr "S"
+
+#. translators: %s: WordPress.
+#: footer.php:50
+msgid "proudly powered by %s."
+msgstr "Yettwasebgen-d s zzux sɣur %s"
+
+#: footer.php:47
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: footer.php:27
+msgid "Footer Menu"
+msgstr "Umuɣ n uḍar n usebter"

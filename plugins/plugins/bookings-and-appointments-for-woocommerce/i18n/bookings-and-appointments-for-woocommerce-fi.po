@@ -1,0 +1,504 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Bookings and Appointments For WooCommerce\n"
+"POT-Creation-Date: 2020-02-22 05:15+0000\n"
+"PO-Revision-Date: 2020-02-22 05:16+0000\n"
+"Language-Team: Finnish (Finland)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ph-bookings-appointments-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: admin <renjithp999@gmail.com>\n"
+"Language: fi_FI\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.2.2; wp-5.3.2"
+
+#: includes/admin/market.php:71
+msgid "Add Participants/Materials to the booking."
+msgstr "Lisää osallistujia/materiaaleja varaukselle."
+
+#: includes/admin/market.php:72
+msgid "Add Resources"
+msgstr "Lisää resursseja"
+
+#: includes/admin/market.php:75
+msgid "Allow booking cancellation"
+msgstr "Salli varauksen peruutus"
+
+#: includes/admin/market.php:70
+msgid "Allow multiple bookings for a time slot."
+msgstr "Salli useita varauksia."
+
+#: includes/html-ph-booking-product-admin-availability.php:58
+msgid "Appointments within this period will appear blocked on the calendar."
+msgstr "Ei varattavissa oleva ajankohta."
+
+#: ph-bookings-appointments-woocommerce.php:112
+msgid "Apr"
+msgstr "Huhti"
+
+#: ph-bookings-appointments-woocommerce.php:98
+msgid "April"
+msgstr "Huhtikuu"
+
+#: ph-bookings-appointments-woocommerce.php:125
+msgid "are not available."
+msgstr "ei varattavissa."
+
+#: ph-bookings-appointments-woocommerce.php:116
+msgid "Aug"
+msgstr "Elo"
+
+#: ph-bookings-appointments-woocommerce.php:102
+msgid "August"
+msgstr "Elokuu"
+
+#: includes/class-ph-booking-wc-product.php:132
+msgid "Book Now"
+msgstr "Varaa nyt"
+
+#: includes/class-ph-booking-product-manager.php:57
+msgid "Bookable product"
+msgstr "Varattava tuote"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:96
+msgid "Booked"
+msgstr "Varattu"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:30
+msgid "Booked by"
+msgstr "Varannut"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:102
+msgid "Booked from"
+msgstr "Varattu alkaen"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:108
+msgid "Booked to"
+msgstr "Varattu päättyen"
+
+#: ph-bookings-appointments-woocommerce.php:123
+#: includes/class-ph-booking-product-manager.php:44
+msgid "Booking"
+msgstr "Varaus"
+
+#: includes/class-ph-booking-product-manager.php:39
+msgid "Booking availability"
+msgstr "Varaus saatavuus"
+
+#: ph-bookings-appointments-woocommerce.php:122
+msgid "Booking cost"
+msgstr "Varauskustannukset"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:43
+msgid "Booking Done. Please check cart for payment."
+msgstr "Varaus tehty. Tarkista ostoskori maksaaksesi."
+
+#: includes/html-ph-booking-product-admin-options.php:16
+msgid "Booking Period"
+msgstr "Varausaika"
+
+#: includes/admin/class-ph-booking-admin-pages.php:14
+#: includes/admin/class-ph-booking-admin-pages.php:35
+msgid "Bookings"
+msgstr "Varaukset"
+
+#. Plugin Name of the plugin/theme
+msgid "Bookings and Appointments For WooCommerce"
+msgstr "Varaukset ja nimitykset WooCommerce-palveluun"
+
+#. Description of the plugin/theme
+msgid "Bookings and Appointments solution for all types of businesses."
+msgstr "Varaus- ja tapaamisratkaisu kaikenlaisille yrityksille."
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:249
+msgid "Calendar Design 1(default)"
+msgstr "Kalenterisuunnittelu 1 (oletus)"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:302
+msgid "Calendar Design 2"
+msgstr "Kalenterisuunnittelu 2"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:355
+msgid "Calendar Design 3"
+msgstr "Kalenterisuunnittelu 3"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:408
+msgid "Calendar Design 4"
+msgstr "Kalenterisuunnittelu 4"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:461
+msgid "Calendar Design 5"
+msgstr "Kalenterisuunnittelu 5"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:17
+msgid "Choose product"
+msgstr "Valitse tuote"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:511
+msgid "Click anywhere in the calendar to apply your desired colour."
+msgstr "Klikkaa kalenteria asettaaksesi halutun värin."
+
+#: includes/admin/market.php:76
+msgid "Configure the bookings to require confirmation from the Admin"
+msgstr "Määritä varaukset vaatimaan järjestelmänvalvojan vahvistuksen"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:132
+msgid "Cost"
+msgstr "Kustannus"
+
+#: includes/admin/market.php:74
+msgid "Create booking availability rules as you wish."
+msgstr "Luo varaussäännöt."
+
+#: includes/admin/class-ph-booking-admin-pages.php:56
+msgid "Customize Calendar Color"
+msgstr "Muokkaa kalenterin väriä"
+
+#: includes/html-ph-booking-product-admin-options.php:26
+msgid "Day(s)"
+msgstr "Päivät"
+
+#: ph-bookings-appointments-woocommerce.php:120
+msgid "Dec"
+msgstr "Joulu"
+
+#: ph-bookings-appointments-woocommerce.php:106
+msgid "December"
+msgstr "Joulukuu"
+
+#: includes/html-ph-booking-product-admin-options.php:19
+msgid "Enable Calendar Range"
+msgstr "Ota kalenterialue käyttöön"
+
+#: includes/html-ph-booking-product-admin-options.php:38
+msgid ""
+"Enable Range : Allows users to choose multiple days by selecting a start "
+"date and an end date."
+msgstr ""
+"Ota rajaukset käyttöön: Sallii käyttäjän valita useita päiviä valitsemalla "
+"aloitus- ja päättymispäivän."
+
+#: ph-bookings-appointments-woocommerce.php:110
+msgid "Feb"
+msgstr "Helmi"
+
+#: ph-bookings-appointments-woocommerce.php:96
+msgid "February"
+msgstr "Helmikuu"
+
+#: includes/html-ph-booking-product-admin-options.php:55
+msgid "First booking of the day starts at"
+msgstr "Päivän ensimmäinen varaus alkaa klo"
+
+#: includes/html-ph-booking-product-admin-options.php:33
+msgid ""
+"Fixed Period : Allows users to select a single appointment with the duration "
+"you define here."
+msgstr ""
+"Kiinteä ajanjakso: Sallii käyttäjien valita yhden tapaamisen tässä "
+"määrittelemäsi ajan."
+
+#: includes/html-ph-booking-product-admin-options.php:18
+msgid "Fixed period of"
+msgstr "Kiinteä ajanjakso"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:248
+#: includes/booking-callender/class-ph-booking-callender.php:370
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:280
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:333
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:386
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:439
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:492
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:546
+msgid "Fr"
+msgstr "Pe"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:120
+#: includes/class-ph-bookings-appointments-woocommerce.php:123
+#: includes/html-ph-booking-product-admin-availability.php:54
+#: includes/admin/class-ph-booking-admin-reports-list.php:28
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:28
+msgid "From"
+msgstr "Alkaen"
+
+#: includes/html-ph-booking-product-admin-options.php:25
+msgid "Hour(s)"
+msgstr "Tunnit"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/"
+
+#: includes/html-ph-booking-product-admin-availability.php:69
+msgid "If checked, these days would appear blocked on the calendar."
+msgstr "Valitut päivät eivät varattavissa."
+
+#: ph-bookings-appointments-woocommerce.php:24
+msgid ""
+"Is everything fine? You already have the Premium version installed in your "
+"website. For any issues, kindly raise a ticket via <a target='_blank' "
+"href='//pluginhive.com/support/'>pluginhive.com/support</a>"
+msgstr "Onko kaikki OK? Sinulla on jo Premium versio asennettuna."
+
+#: ph-bookings-appointments-woocommerce.php:124
+msgid "is not available."
+msgstr "ei varattavissa."
+
+#: ph-bookings-appointments-woocommerce.php:109
+msgid "Jan"
+msgstr "Tammi"
+
+#: ph-bookings-appointments-woocommerce.php:95
+msgid "January"
+msgstr "Tammikuu"
+
+#: ph-bookings-appointments-woocommerce.php:115
+msgid "Jul"
+msgstr "Heinä"
+
+#: ph-bookings-appointments-woocommerce.php:101
+msgid "July"
+msgstr "Heinäkuu"
+
+#: ph-bookings-appointments-woocommerce.php:114
+msgid "Jun"
+msgstr "Kesä"
+
+#: ph-bookings-appointments-woocommerce.php:100
+msgid "June"
+msgstr "Kesäkuu"
+
+#: includes/html-ph-booking-product-admin-options.php:62
+msgid "Last booking of the day starts at"
+msgstr "Päivän viimeinen varaus alkaa klo"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:511
+msgid "Legacy Design"
+msgstr "Vanha suunnittelu"
+
+#: includes/admin/market.php:82
+msgid "Live Demo"
+msgstr "Live Demo"
+
+#: ph-bookings-appointments-woocommerce.php:111
+msgid "Mar"
+msgstr "Maalis"
+
+#: ph-bookings-appointments-woocommerce.php:97
+msgid "March"
+msgstr "Maaliskuu"
+
+#: ph-bookings-appointments-woocommerce.php:127
+msgid "Max no of blocks available to book is"
+msgstr "Varattavissa olevien jaksojen enimmäismäärä on"
+
+#: ph-bookings-appointments-woocommerce.php:99
+#: ph-bookings-appointments-woocommerce.php:113
+msgid "May"
+msgstr "Toukokuu"
+
+#: includes/html-ph-booking-product-admin-options.php:24
+msgid "Minutes(s)"
+msgstr "Minuutit"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:244
+#: includes/booking-callender/class-ph-booking-callender.php:366
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:276
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:329
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:382
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:435
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:488
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:542
+msgid "Mo"
+msgstr "Ma"
+
+#: includes/html-ph-booking-product-admin-options.php:28
+msgid "Month(s)"
+msgstr "Kuukaudet"
+
+#: includes/html-ph-booking-product-admin-availability.php:64
+msgid "Non-working days (Weekend)"
+msgstr "Ei avoinna (Viikonloppu)"
+
+#: includes/html-ph-booking-product-admin-availability.php:53
+msgid "Non-working hours (All days)"
+msgstr "Ei-avoinna (Kaikki päivät)"
+
+#: ph-bookings-appointments-woocommerce.php:119
+msgid "Nov"
+msgstr "Marras"
+
+#: ph-bookings-appointments-woocommerce.php:105
+msgid "November"
+msgstr "Marraskuu"
+
+#: ph-bookings-appointments-woocommerce.php:118
+msgid "Oct"
+msgstr "Loka"
+
+#: ph-bookings-appointments-woocommerce.php:104
+msgid "October"
+msgstr "Lokakuu"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:26
+msgid "Order"
+msgstr "Tilaus"
+
+#: ph-bookings-appointments-woocommerce.php:126
+msgid "Pick a later end date"
+msgstr "Valitse myöhempi lopetuspäivä"
+
+#: includes/booking-callender/html-ph-booking-monthpicker.php:230
+msgid "Pick Month(s)"
+msgstr "Valitse kuukausi"
+
+#: ph-bookings-appointments-woocommerce.php:128
+#: includes/booking-callender/html-ph-booking-datepicker.php:268
+#: includes/booking-callender/html-ph-booking-monthpicker.php:243
+msgid "Please pick a booking period"
+msgstr "Valitse vuokrausajankohta"
+
+#: ph-bookings-appointments-woocommerce.php:129
+#: includes/booking-callender/html-ph-booking-timepicker.php:255
+msgid "Please Pick a Date"
+msgstr "Valitse päivä"
+
+#. Author of the plugin/theme
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#: includes/html-ph-booking-product-admin-options.php:43
+msgid "Price"
+msgstr "Hinta"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:27
+msgid "Product"
+msgstr "Tuote"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:559
+msgid "Reset to Default"
+msgstr "Palauta oletukseen"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:249
+#: includes/booking-callender/class-ph-booking-callender.php:371
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:281
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:334
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:387
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:440
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:493
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:547
+msgid "Sa"
+msgstr "La"
+
+#: includes/html-ph-booking-product-admin-availability.php:65
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:572
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: ph-bookings-appointments-woocommerce.php:117
+msgid "Sep"
+msgstr "Syys"
+
+#: ph-bookings-appointments-woocommerce.php:103
+msgid "September"
+msgstr "Syyskuu"
+
+#: includes/admin/market.php:73
+msgid "Set special prices or discounts"
+msgstr "Aseta erikoishinnoittelu tai alennus"
+
+#: includes/admin/class-ph-booking-admin-pages.php:24
+msgid "Settings"
+msgstr "Asetukset"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:250
+#: includes/booking-callender/class-ph-booking-callender.php:372
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:282
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:335
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:388
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:441
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:494
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:548
+msgid "Su"
+msgstr "Su"
+
+#: includes/html-ph-booking-product-admin-availability.php:66
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: ph-bookings-appointments-woocommerce.php:137
+msgid "Support"
+msgstr "Tuki"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:247
+#: includes/booking-callender/class-ph-booking-callender.php:369
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:279
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:332
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:385
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:438
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:491
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:545
+msgid "Th"
+msgstr "To"
+
+#: includes/html-ph-booking-product-admin-options.php:46
+msgid ""
+"This price applies to one block of time. Gets multiplied if user chooses "
+"multiple days."
+msgstr ""
+"Tämä hinta koskee yhtä jaksoa. Kerrotaan, jos käyttäjä valitsee useita "
+"päiviä."
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:127
+#: includes/html-ph-booking-product-admin-availability.php:55
+#: includes/admin/class-ph-booking-admin-reports-list.php:29
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:32
+msgid "To"
+msgstr "Päättyen"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:245
+#: includes/booking-callender/class-ph-booking-callender.php:367
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:277
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:330
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:383
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:436
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:489
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:543
+msgid "Tu"
+msgstr "Ti"
+
+#: includes/admin/market.php:81
+msgid "Upgrade to Premium"
+msgstr "Päivitä Premium versioon"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:43
+msgid "View cart"
+msgstr "Näytä ostoskori"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:246
+#: includes/booking-callender/class-ph-booking-callender.php:368
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:278
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:331
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:384
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:437
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:490
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:544
+msgid "We"
+msgstr "Ke"
+
+#: includes/admin/market.php:66
+msgid "Woocommerce Bookings And Appointments"
+msgstr "Woocommerce varaukset ja nimitykset"

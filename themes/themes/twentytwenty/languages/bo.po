@@ -1,0 +1,545 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Twentytwenty\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-01-16T01:58:14+00:00\n"
+"PO-Revision-Date: 2020-07-28 03:00:39+0000\n"
+"Language: bo\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: index.php:51
+msgid "Nothing Found"
+msgstr "རྙེད་མ་སོང་།"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/twentytwenty/templates/template-full-width.php
+msgid "Full Width Template"
+msgstr "ཞེང་ཚད་ཡོངས་སུ་བཟུང་བའི་དཔེ་པང་།"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/twentytwenty/style.css
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr "ང་ཚོས་ཉིས་སྟོང་ཉི་ཤུ (Twenty Twenty) ནི་ཇུས་འགོད་སྟབས་བསྟུན་རང་བཞིན་གྱིས་སྲོག་ཤིང་བྱས་པར་དགའ་སྤོབས་སྐྱེ་བཞིན་ཡོད། སྟར་དང་ཚན་པ། ད་དུང་སྨྱན་གཟུགས་རྡོག་པོའི་མཉམ་སྡེབ་བརྒྱུད་ནས་ཁྱོད་ཀྱི་ཞབས་ཞུ་དང་ཐོན་རྫས་འགྲེམ་སྟོན་བྱེད་པ་དང་། ཁྱོད་ཀྱི་ནང་དོན་དེ་ཁྱབ་ཁོངས་ཆེ་བ་དང་ཡང་ན་ཡོངས་སུ་སྙོམས་པ། འགུལ་རྣམ་དང་མི་རྣམས་ཀྱི་ཡིད་དབང་འགུག་པའི་བཀོད་པ། ཡང་ན་ཁྱོད་ཀྱི་བསམ་ཚུལ་དེ་མངོན་གསལ་དོད་པོ་བཟོ་བ་ཡིན།"
+
+#: template-parts/pagination.php:25
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "ཅུང་རྙིང་བའི་ <span class=\"nav-short\">རྩོམ་ཡིག</span>"
+
+#: template-parts/pagination.php:21
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "ཅུང་གསར་བའི་ <span class=\"nav-short\">རྩོམ་ཡིག</span>"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "རྩོམ་ཡིག"
+
+#: template-parts/modal-search.php:26
+msgid "Close search"
+msgstr "བཤེར་འཚོལ་ཁ་རྒྱག"
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr "རྒྱ་སྐྱེད་པའི་འདུ་འཛོམས་སྦྲེལ་མཐུད།"
+
+#: template-parts/modal-menu.php:73
+msgid "Mobile"
+msgstr "སྤོ་རུང་།"
+
+#: template-parts/modal-menu.php:48
+msgid "Expanded"
+msgstr "རྒྱ་སྐྱེད་པ།"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "གདམ་ཐོའི་ཁ་རྒྱག"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "འདུ་འཛོམས་སྦྲེལ་མཐུད།"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "ངོས་ཞབས།"
+
+#: template-parts/entry-author-bio.php:29
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "ཡིག་མཛོད་ལ་ལྟ་ཞིབ། <span aria-hidden=\"true\">&rarr;</span>"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "མུ་མཐུད་དུ་ཀློག"
+
+#: template-parts/content-cover.php:138
+#: template-parts/content.php:48
+msgid "Pages:"
+msgstr "ཤོག་ངོས:"
+
+#: template-parts/content-cover.php:138
+#: template-parts/content.php:48
+msgid "Page"
+msgstr "ཤོག་ངོས།"
+
+#: template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr "མར་འགྲིལ་བ།"
+
+#: searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr "འཚོལ་ཞིབ་བྱེད།"
+
+#: searchform.php:25
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "འཚོལ་ཞིབ། &hellip;"
+
+#: searchform.php:24
+#: template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr "བཤེར་འཚོལ:"
+
+#: index.php:101
+msgid "search again"
+msgstr "ཡང་བསྐྱར་བཤེར་འཚོལ།"
+
+#: index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "ང་ཚོས་ཁྱེད་ཀྱི་རེ་འདུན་དང་འཚམ་པའི་མཐའ་འབྲས་གང་ཡང་རྙེད་མ་སོང་། གཤམ་དུ་གནད་ཚིག་གཞན་ཞིག་ལ་བརྗེས་ནས་བཤེར་འཚོལ་གནང་རོགས།"
+
+#. translators: %s: Number of search results.
+#: index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "ང་ཚོས་བཤེར་འཚོལ་མཐའ་འབྲས་དང་འཚམ་པ %s རྙེད་སོང་།"
+
+#: index.php:32
+msgid "Search:"
+msgstr "བཤེར་འཚོལ:"
+
+#: inc/template-tags.php:448
+msgid "Sticky post"
+msgstr "རྩེར་འཇོག་རྩོམ་ཡིག"
+
+#: inc/template-tags.php:410
+msgid "Tags"
+msgstr "འགྲེལ་བྱང་།"
+
+#: inc/template-tags.php:396
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "དཀར་ཆག:"
+
+#: inc/template-tags.php:392
+#: template-parts/content-cover.php:70
+#: template-parts/entry-header.php:36
+msgid "Categories"
+msgstr "རིགས་དབྱེ།"
+
+#: inc/template-tags.php:374
+msgid "Post date"
+msgstr "རྩོམ་གྱི་ཟླ་ཚེས།"
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:357
+#: template-parts/entry-author-bio.php:20
+msgid "By %s"
+msgstr "རྩོམ་པ་པོ། %s"
+
+#: inc/template-tags.php:350
+msgid "Post author"
+msgstr "རྩོམ་པ་པོ།"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:207
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "རྩོམ་སྒྲིག <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "སྤྱི་ཚོགས་མཐུད་སྤྲེལ་དཀར་ཆག"
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr "ཚོགས་མིར་ཞུགས།"
+
+#: inc/starter-content.php:148
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr "ཚོགས་མི་རྣམས་ཁེར་རྐྱང་འགྲེམས་སྟོན་ལ་ཞུགས་ཐུབ་པ་དང་དམིགས་བསལ་གྱི་གཟིགས་སྐྱོང་ཐོབ་ཐུབ། ཚོགས་མིའི་གྲོན་དངུལ་ནི་ལོ་རེར་ཨ་སྒོར $99.99 ཡིན་པ་རེད།"
+
+#: inc/starter-content.php:145
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr "ཚོགས་མིར་གྱུར་ནས་དམིགས་བསལ་གྱི་གཟིགས་སྐྱོང་ཐོབ་པ།"
+
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "འགྲེམས་སྟོན་འདི་དག་ནི UMoMA དང་འཛམ་གླིང་གི་ཡུལ་གྲུ་སོ་སོའི་སྒྱུ་རྩལ་པ་དང་དངོས་མང་བཤམས་སྟོན་ཁང་མཉམ་འབྲེལ་གྱིས་བསྒྲུབ་པ་དང་རྟག་ཏུ་འཛམ་གླིང་གིས་དོ་སྣང་བྱེད་བཞིན་ཡོད། UMoMA ལ་ཡོ་རོབ་གླིང་དངོས་མང་བཤམས་སྟོན་ཁང་གི་ལོ་འཁོར་གྱི་དམིགས་བསལ་བྱ་དགའ་ཐོབ་ཟིན་ལ། སྭི་ཌེན་གྱི་དངོས་མང་བཤམས་སྟོན་ཁང་གི་ལོ་འཁོར་བྱ་དགའ་དང་ཡོ་རོབ་ལས་འཛིན་ལྷན་ཚོགས་ཀྱི་དངོས་མང་བཤམས་སྟོན་བྱ་དགའི་ནང་ཚུད་ལེགས་ཤོས་ཁྲོད་ཀྱི་གཅིག་ཡིན།"
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "UMoMA ལ་སོ་སོའི་ཁྱད་ཆོས་ཀྱིས་ཕྱུག་པའི་ཐོག་སོ་བདུན་ཡོད་ཅིང་། རྒྱལ་སྤྱིའི་དེང་རབས་སྒྱུ་རྩལ་འགྲེམས་སྟོན་གཉེར་ཆོག་ལ། སྒྱུ་རྩལ་ལོ་རྒྱུས་འགྲེམས་སྟོན་གཉེར་ཆོག་གི་ཡོད། ཉར་ཚགས་རིང་ལུགས་དང་། ཆབ་སྲིད་རིག་པ། མཚན་ཉིད་རིག་པ་བཅས་ཀྱི་འབྲེལ་ཡོད་གྲོས་དོན་ནི་ཁང་དེའི་འཆར་གཞིའི་གཏན་འཇགས་ནང་དོན་ཡིན། མགྲོན་པོ་ཞིག་ཡིན་པའི་ཆ་ནས། ཁྱོད་ཀྱིས་རིན་མེད་ངང་ཡུལ་སྐོར་སྣེ་ཤན་པའི་ལམ་ཐིག་སྣ་ཚོགས་ལ་ཞུགས་ཆོག་པ་ནི་དཔེར་ན། སྒྱུ་རྩལ་པའི་གཏམ་བཤད་དང་། འཆད་ཁྲིད། གློག་བརྙན་སྟོན་ཚོགས་དང་དེ་བཞིན་བྱེད་སྒོ་གཞན་དག་ལྟ་བུ།"
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "Signac ནས Matisse ལ།"
+
+#: inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "ཐོབ་འོས་པའི་འཚོ་བ།"
+
+#: inc/starter-content.php:85
+#: inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr "ཟླ་བཅུའི་བའི་ཚེས 1 -- ཟླ་བཅུ་གཉིས་པའི་ཚེས 1"
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "གཡུལ་ས།"
+
+#: inc/starter-content.php:73
+#: inc/starter-content.php:88
+#: inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr "མང་དུ་ཀློག"
+
+#: inc/starter-content.php:70
+#: inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr "ཟླ་བརྒྱད་པའི་ཚེས 1 -- ཟླ་བཅུ་གཉིས་པའི་ཚེས 1"
+
+#: inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "བྱ་བ་དང་འཚོ་བ།"
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "སུའེ་ཏེན་བྱང་རྒྱུད་ཀྱི་དེང་རབས་སྒྱུ་རྩལ་གྱིས་ཡུལ་སྐོར་བྱ་ཡུལ་ཐོག་མར་བདམས་པ་རེད། དབྱར་ཁར་ཉིན་རེར་སྒོ་འབྱེད་པའི་དུས་ཚོད་ནི་སྔ་དྲོའི་ཆུ་ཚོད 10 པ་ནས་ཕྱི་དྲོའི་ཆུ་ཚོད 6 པའི་བར་ཡིན།"
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr "UMoMA གསར་རྐྱང་གི་འགོ་ཚུགས་པ།"
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "UMoMA གསར་རྐྱང་གི་འགོ་ཚུགས་པ།"
+
+#: header.php:88
+msgid "Horizontal"
+msgstr "ཆུ་སྙོམས།"
+
+#: header.php:76
+#: header.php:137
+msgid "Menu"
+msgstr "དཀར་ཆག"
+
+#: header.php:53
+#: header.php:157
+msgid "Search"
+msgstr "བཤེར་འཚོལ།"
+
+#: functions.php:546
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:545
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "ཆེན་པོ།"
+
+#: functions.php:540
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:539
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "ཆེ་བ།"
+
+#: functions.php:534
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:533
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "སྤྱིར་བཏང་།"
+
+#: functions.php:528
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:527
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "ཆུང་བ།"
+
+#: functions.php:512
+msgid "Background Color"
+msgstr "རྒྱབ་ལྗོངས་ཁ་དོག"
+
+#: functions.php:499
+msgid "Subtle Background"
+msgstr "ཤིན་ཏུ་ཕྲ་བའི་རྒྱབ་ལྗོངས།"
+
+#: functions.php:494
+msgid "Secondary"
+msgstr "ཕལ་བ།"
+
+#: functions.php:489
+#: inc/starter-content.php:177
+#: inc/starter-content.php:187
+msgid "Primary"
+msgstr "གཙོ་བོ།"
+
+#: functions.php:484
+msgid "Accent Color"
+msgstr "ཤུགས་དྲག་ཁ་དོག"
+
+#: functions.php:379
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "ས་ཁུལ་འདིའི་ལྷུ་ཆུང་ནི་ངོས་ཞབས་ཀྱི་སྟར་གཉིས་པའི་ཁྲོད་དུ་ངོམས་སྟོན་བྱེད་པ་ཡིན།"
+
+#: functions.php:377
+msgid "Footer #2"
+msgstr "ངོས་ཞབས #2"
+
+#: functions.php:367
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "ས་ཁུལ་འདིའི་ལྷུ་ཆུང་ནི་ངོས་ཞབས་ཀྱི་སྟར་དང་པོའི་ཁྲོད་དུ་ངོམས་སྟོན་བྱེད་པ་ཡིན།"
+
+#: functions.php:365
+msgid "Footer #1"
+msgstr "ངོས་ཞབས #1"
+
+#: functions.php:340
+msgid "Skip to the content"
+msgstr "གཞུང་དངོས་ལ་མཆོང་།"
+
+#: functions.php:262
+msgid "Social Menu"
+msgstr "འདུ་འཛོམས་གདམ་ཐོ།"
+
+#: functions.php:261
+msgid "Footer Menu"
+msgstr "ངོས་ཞབས་ཀྱི་གདམ་ཐོ།"
+
+#: functions.php:260
+msgid "Mobile Menu"
+msgstr "སྤོ་རུང་གི་གདམ་ཐོ།"
+
+#: functions.php:259
+msgid "Desktop Expanded Menu"
+msgstr "ཅོག་ངོས་ཀྱི་རྒྱ་སྐྱེད་པའི་གདམ་ཐོ།"
+
+#: functions.php:258
+msgid "Desktop Horizontal Menu"
+msgstr "ཅོག་ངོས་ཀྱི་ཆུ་སྙོམས་གདམ་ཐོ།"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr "རྩེ་རུ་ལོག %s"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr "རྩེ་རུ་ལོག %s"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "WordPress སྤྱད་ནས་བཟོས།"
+
+#. #-#-#-#-#  twentytwenty.pot (Twenty Twenty 1.4-wpcom)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:32
+#: wp-content/themes/pub/twentytwenty/style.css
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: Copyright date format, see https://www.php.net/date
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "དཔྱད་མཆན་སྒོ་བརྒྱབ་འདུག"
+
+#: comments.php:88
+msgid "Comments"
+msgstr "དཔྱད་མཆན།"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "ཅུང་རྙིང་བའི་དཔྱད་མཆན།"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "ཅུང་གསར་བའི་དཔྱད་མཆན།"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; ལ་ལན %1$s སློག་འདུག"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "&ldquo;%s&rdquo; ལ་ལན་གཅིག་སློག་འདུག"
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "མཆན་འདེབས།"
+
+#: classes/class-twentytwenty-walker-page.php:107
+#: inc/template-tags.php:558
+msgid "Show sub menu"
+msgstr "བུ་རྒྱུད་གདམ་ཐོ་ངོམ་སྟོན།"
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:70
+msgid "#%d (no title)"
+msgstr "#%d (ཁ་བྱང་མེད)"
+
+#: classes/class-twentytwenty-walker-comment.php:127
+msgid "By Post Author"
+msgstr "རྩོམ་གྱི་རྩོམ་པ་པོར་བསྟུན།"
+
+#: classes/class-twentytwenty-walker-comment.php:92
+msgid "Your comment is awaiting moderation."
+msgstr "ཁྱེད་ཀྱི་དཔྱད་མཆན་ཞིབ་བཤེར་བྱེད་བཞིན་པའི་སྒང་ཡིན།"
+
+#: classes/class-twentytwenty-walker-comment.php:77
+msgid "Edit"
+msgstr "རྩོམ་སྒྲིག"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:69
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: classes/class-twentytwenty-walker-comment.php:56
+msgid "says:"
+msgstr "ན་རེ:"
+
+#: classes/class-twentytwenty-customize.php:396
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "བསྡུར་ཚད་མཐོན་པོ་ཞིག་ལ་གཏན་འཁེལ་བྱས་ན་ད་གཟོད་ཡི་གེ་ཀློག་བདེ་པོ་ཡོང་གི་རེད།"
+
+#: classes/class-twentytwenty-customize.php:395
+msgid "Overlay Opacity"
+msgstr "སྣོན་བརྩེགས་ཀྱི་ནང་གསལ་མིན་ཚད།"
+
+#: classes/class-twentytwenty-customize.php:375
+msgid "The color used for the text in the overlay."
+msgstr "སྣོན་བརྩེགས་ཡིག་རྐྱང་གི་ཁ་དོག་ལ་སྤྱོད་པ་ཡིན།"
+
+#: classes/class-twentytwenty-customize.php:374
+msgid "Overlay Text Color"
+msgstr "སྣོན་བརྩེགས་ཡིག་རྐྱང་གི་ཁ་དོག"
+
+#: classes/class-twentytwenty-customize.php:353
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr "སྣོན་བརྩེགས་ཀྱི་ཁ་དོག་ལ་སྤྱོད་པ་ཡིན། སོར་བཞག་ནི་ཤུགས་སྣོན་ཁ་དོག་ཡིན།"
+
+#: classes/class-twentytwenty-customize.php:352
+msgid "Overlay Background Color"
+msgstr "སྣོན་བརྩེགས་རྒྱབ་ལྗོངས་ཀྱི་ཁ་དོག"
+
+#: classes/class-twentytwenty-customize.php:306
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "བཀོལ་སྤྱོད་བྱེད་མཁན་གྱིས་དྲ་ངོས་འགུལ་སྐབས་སུ་རྒྱབ་ལྗོངས་ཀྱི་པར་རིས་འགྲིལ་བའི་མཐོང་ཁྱད་འབྲས་བུ་བཀོལ་སྤྱོད་བྱེད་པ།"
+
+#: classes/class-twentytwenty-customize.php:305
+msgid "Fixed Background Image"
+msgstr "གཏན་འཇགས་ཀྱི་རྒྱབ་ལྗོངས་བརྙན་རིས།"
+
+#: classes/class-twentytwenty-customize.php:283
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr "\"ཕྱི་སྐོགས་དཔེ་པང་\" ཤོག་ངོས་དཔེ་པང་སྒྲིག་འགོད། རྒྱབ་ལྗོངས་སུ་ཁྱད་ལྡན་བརྙན་རིས་ཤིག་སྤྱོད་པ་ཡིན།"
+
+#. #-#-#-#-#  twentytwenty.pot (Twenty Twenty 1.4-wpcom)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: classes/class-twentytwenty-customize.php:281
+#: wp-content/themes/pub/twentytwenty/templates/template-cover.php
+msgid "Cover Template"
+msgstr "ཕྱི་སྐོགས་དཔེ་པང་།"
+
+#: classes/class-twentytwenty-customize.php:270
+msgid "Summary"
+msgstr "གནད་བསྡུས།"
+
+#: classes/class-twentytwenty-customize.php:269
+msgid "Full text"
+msgstr "རྩོམ་ཡོངས།"
+
+#: classes/class-twentytwenty-customize.php:267
+msgid "On archive pages, posts show:"
+msgstr "ཡིག་མཛོད་ཤོག་ངོས་སྟེང་གི་རྩོམ་ཡིག་ངོམ་སྟོན:"
+
+#: classes/class-twentytwenty-customize.php:246
+msgid "Show author bio"
+msgstr "རྩོམ་པ་པོའི་ bio ངོམ་སྟོན།"
+
+#: classes/class-twentytwenty-customize.php:225
+msgid "Show search in header"
+msgstr "འགོ་བརྗོད་ཁྲོད་དུ་བཤེར་འཚོལ་འཆར།"
+
+#: classes/class-twentytwenty-customize.php:202
+msgid "Theme Options"
+msgstr "དཔེ་སྒྲོམ་གྱི་འདེམས་བྱང་།"
+
+#: classes/class-twentytwenty-customize.php:183
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "རང་བཟོས་ཁ་དོག་དེ་སྦྲེལ་མཐུད་དང་མཐེབ་གཅུས། ཁྱད་ལྡན་བརྙན་རིས་སོགས་སུ་བཀོལ་སྤྱོད།"
+
+#: classes/class-twentytwenty-customize.php:126
+msgid "Custom"
+msgstr "རང་བཟོ།"
+
+#: classes/class-twentytwenty-customize.php:125
+msgid "Default"
+msgstr "སོར་བཞག"
+
+#: classes/class-twentytwenty-customize.php:123
+msgid "Primary Color"
+msgstr "ཁ་དོག་གཙོ་བོ།"
+
+#: classes/class-twentytwenty-customize.php:101
+msgid "Header &amp; Footer Background Color"
+msgstr "འགོ་བརྗོད་དང་ངོས་ཞབས་ཀྱི་རྒྱབ་ལྗོངས་ཁ་དོག"
+
+#: classes/class-twentytwenty-customize.php:82
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "ལས་རྟགས་ནི་སྐྱེལ་འཇོག་བྱས་པའི་ཆེ་ཆུང་གི་ཕྱེད་ཀ་ཡིན་པར་བྱས་ནས་སྤུས་ཚད་མཐོ་བའི་བརྙན་ཤེལ་ཐོག་གསལ་པོར་མངོན་པར་བྱེད་པ།"
+
+#: classes/class-twentytwenty-customize.php:81
+msgid "Retina logo"
+msgstr "Retina ལས་རྟགས།"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 རྙེད་མ་སོང་།"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "རེ་འདུན་དང་འཚམ་པའི་ཤོག་ངོས་རྙེད་མ་སོང་། ཤོག་ངོས་དེ་སྤོ་འབུད་བྱས་ཟིན་པའམ་ཡང་ན་མིང་བསྐྱར་ཏུ་བཏགས་པ། དེ་བཞིན་ཐོག་དང་པོའི་དྲ་གནས་དེ་མིན་པ་སོགས་ཡིན་ཀྱང་སྲིད།"
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "ཤོག་ངོས་རྙེད་མ་བྱུང་།"

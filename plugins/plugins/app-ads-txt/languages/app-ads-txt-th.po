@@ -1,0 +1,837 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ads.txt & App-ads.txt Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-26 20:31+0000\n"
+"PO-Revision-Date: 2021-05-27 20:52+0000\n"
+"Last-Translator: Gautier Dorval\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#: admin-ui-inc/ads-txt-inc.php:44 admin-ui-inc/ads-txt-inc.php:109 
+#: admin-ui-inc/app-ads-txt-inc.php:44 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:45 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:109
+msgid ""
+" This must contain the same value used in transactions (i.e. OpenRTB bid "
+"requests) in the field specified by the SSP/exchange (For OpenRTB = "
+"publisher ID | For OpenDirect = publisher’s organization ID)."
+msgstr ""
+" ค่านี้ต้องมีค่าเดียวกับที่ใช้ในธุรกรรม (เช่นคำขอราคาเสนอ OpenRTB) "
+"ในฟิลด์ที่ระบุโดย SSP / exchange (สำหรับ OpenRTB = รหัสผู้เผยแพร่โฆษณา | "
+"สำหรับ OpenDirect = รหัสองค์กรของผู้เผยแพร่โฆษณา)"
+
+#: inc/recommendations.php:28
+msgid "404 to 301 By Joel James"
+msgstr "404 ถึง 301 โดย Joel James"
+
+#: app-ads-txt-admin.php:80
+#, php-format
+msgid "<a href=\"%s\">Get Pro version</a> to enable"
+msgstr "<a href=\"%s\">รับเวอร์ชัน Pro</a> เพื่อเปิดใช้งาน"
+
+#: inc/recommendations.php:148
+msgid ""
+"A new way to boost your marketing content. Writing Web Content that is "
+"ranking like those of SEO Experts."
+msgstr ""
+"วิธีใหม่ในการเพิ่มเนื้อหาทางการตลาดของคุณ "
+"การเขียนเนื้อหาเว็บที่มีการจัดอันดับเช่นเดียวกับผู้เชี่ยวชาญด้าน SEO"
+
+#: inc/faq.php:92
+msgid ""
+"Ad fraud prevention. App-ads.txt blocks unauthorized developers who "
+"impersonate legitimate apps and mislead DSPs into spending brand budgets on "
+"fake inventory. With fraud instances minimized, authentic developers can "
+"retain more of the ad revenue from inventory genuinely targeted to their app."
+msgstr ""
+"การป้องกันการฉ้อโกงโฆษณา App-ads.txt "
+"บล็อกนักพัฒนาที่ไม่ได้รับอนุญาตซึ่งแอบอ้างเป็นแอปที่ถูกกฎหมายและทำให้ DSP "
+"เข้าใจผิดในการใช้จ่ายงบประมาณของแบรนด์ในพื้นที่โฆษณาปลอม "
+"ด้วยการลดอินสแตนซ์การฉ้อโกงนักพัฒนาที่แท้จริงสามารถรักษารายได้โฆษณาจากพื้นที่โฆษณาที่กำหนดเป้าหมายไปยังแอปของตนอย่างแท้จริง"
+
+#: admin-ui-inc/ads-txt-inc.php:162 admin-ui-inc/app-ads-txt-inc.php:95 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:162
+msgid "Add more custom rules if you need them, otherwise, leave it blank."
+msgstr "เพิ่มกฎที่กำหนดเองเพิ่มเติมหากคุณต้องการมิฉะนั้นปล่อยว่างไว้"
+
+#: admin-ui-inc/ads-txt-inc.php:15
+msgid "Add rules for Ads.txt, one line at a time. Then save"
+msgstr "เพิ่มกฎสำหรับ Ads.txt ทีละบรรทัด จากนั้นบันทึก"
+
+#: admin-ui-inc/app-ads-txt-inc.php:15 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:15
+msgid "Add rules for App-Ads.txt, one line at a time. Then save"
+msgstr "เพิ่มกฎสำหรับ App-Ads.txt ทีละบรรทัด จากนั้นบันทึก"
+
+#. Name of the plugin
+msgid "Ads.txt & App-ads.txt Manager"
+msgstr "Ads.txt & App-ads.txt Manager"
+
+#: inc/recommendations.php:16
+msgid "Akismet Anti-Spam by Automattic"
+msgstr "Akismet Anti-Spam โดย Automattic"
+
+#: inc/recommendations.php:17
+msgid ""
+"Akismet checks your comments and contact form submissions against our global "
+"database of spam to protect you and your site from malicious content."
+msgstr ""
+"Akismet "
+"ตรวจสอบความคิดเห็นและการส่งแบบฟอร์มการติดต่อของคุณกับฐานข้อมูลสแปมทั่วโลกของเราเพื่อปกป้องคุณและไซต์ของคุณจากเนื้อหาที่เป็นอันตราย"
+
+#: admin-ui-inc/ads-txt-inc.php:68 admin-ui-inc/ads-txt-inc.php:133 
+#: admin-ui-inc/app-ads-txt-inc.php:68 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:69 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:133
+msgid ""
+"An ID that uniquely identifies the advertising system within a certification "
+"authority."
+msgstr "รหัสที่ระบุระบบการโฆษณาโดยไม่ซ้ำกันภายในหน่วยงานออกใบรับรอง"
+
+#: inc/seo-recommendations.php:16 inc/seo-recommendations.php:18
+msgid "Analyse my site"
+msgstr "วิเคราะห์ไซต์ของฉัน"
+
+#: inc/seo-recommendations.php:27
+msgid ""
+"Analyse your Google ranking with keywords, traffic and more (REGISTER TO GET "
+"10 FREE REQUESTS)"
+msgstr ""
+"วิเคราะห์การจัดอันดับ Google ของคุณด้วยคำหลักการเข้าชมและอื่น ๆ "
+"(ลงทะเบียนเพื่อรับ 10 คำขอฟรี)"
+
+#: admin-ui-inc/app-ads-txt-inc.php:19
+msgid "App-Ads.txt"
+msgstr "App-Ads.txt"
+
+#. Description of the plugin
+msgid ""
+"App-ads.txt & Ads.txt manager allows you to create, manage & publish your "
+"app-ads.txt & ads.txt files from your WordPress dashboard."
+msgstr ""
+"App-ads.txt & Ads.txt manager ช่วยให้คุณสร้างจัดการและเผยแพร่ไฟล์ app-ads."
+"txt & ads.txt จากแดชบอร์ด WordPress ของคุณ"
+
+#: inc/recommendations.php:49
+msgid ""
+"App-Ads.txt & Ads.txt Manager by Pagup provides a selection of plugins "
+"allowing to keep your website healthy, get better results on Search engines "
+"and increase your sales for ecommerce solutions."
+msgstr ""
+"App-Ads.txt & Ads.txt Manager โดย Pagup "
+"มีปลั๊กอินให้เลือกมากมายที่ช่วยให้เว็บไซต์ของคุณมีประสิทธิภาพดีขึ้นรับผลลัพธ์ที่ดีขึ้นบนเครื่องมือค้นหาและเพิ่มยอดขายสำหรับโซลูชันอีคอมเมิร์ซ"
+
+#: inc/faq.php:88
+msgid ""
+"Authorized in-app inventory. An ever-increasing amount of brands are looking "
+"to advertise in-app today. Brand buyers now rely on an adherence to app-ads."
+"txt to make sure they don’t buy unauthorized inventory from app developers "
+"and negatively impact campaign performance. Developers who don’t implement "
+"app-ads.txt can be removed from any brand buyer’s target media list. That’s "
+"why joining the app-ads.txt movement is crucial for publishers to maintain "
+"their revenue."
+msgstr ""
+"พื้นที่โฆษณาในแอปที่ได้รับอนุญาต ทุกวันนี้มีแบรนด์จำนวนมากขึ้นเรื่อย ๆ "
+"ที่ต้องการโฆษณาในแอป ตอนนี้ผู้ซื้อแบรนด์พึ่งพาการปฏิบัติตาม app-ads.txt "
+"เพื่อให้แน่ใจว่าพวกเขาจะไม่ซื้อพื้นที่โฆษณาที่ไม่ได้รับอนุญาตจากนักพัฒนาแอปและส่งผลเสียต่อประสิทธิภาพของแคมเปญ"
+" นักพัฒนาซอฟต์แวร์ที่ไม่ติดตั้ง app-ads.txt "
+"สามารถลบออกจากรายการสื่อเป้าหมายของผู้ซื้อแบรนด์ใดก็ได้ "
+"นั่นคือเหตุผลที่การเข้าร่วมการเคลื่อนไหว app-ads.txt "
+"เป็นสิ่งสำคัญสำหรับผู้เผยแพร่โฆษณาในการรักษารายได้"
+
+#: inc/sidebar.php:13
+msgid ""
+"Auto optimize all image alt texts (including Woocommerce online store), of "
+"your pages, posts & product, from Yoast SEO optimization settings (keywords) "
+"and/or Post title."
+msgstr ""
+"ปรับแต่งข้อความแสดงภาพแทนทั้งหมดโดยอัตโนมัติ (รวมถึงร้านค้าออนไลน์ของ "
+"Woocommerce) ของเพจโพสต์และผลิตภัณฑ์ของคุณจากการตั้งค่าการเพิ่มประสิทธิภาพ "
+"Yoast SEO (คำหลัก) และ / หรือชื่อโพสต์"
+
+#: inc/recommendations.php:124
+msgid ""
+"Automatically insert rel=nofollow and target=_blank to all the external "
+"links into your website posts, pages or menus. Support exclude domain."
+msgstr ""
+"แทรก rel = nofollow และ target = _blank "
+"ไปยังลิงก์ภายนอกทั้งหมดในโพสต์หน้าเว็บหรือเมนูของเว็บไซต์ของคุณโดยอัตโนมัติ "
+"รองรับการยกเว้นโดเมน"
+
+#: inc/recommendations.php:29
+msgid ""
+"Automatically redirect, log and notify all 404 page errors to any page using "
+"301 redirection."
+msgstr ""
+"เปลี่ยนเส้นทางโดยอัตโนมัติบันทึกและแจ้งข้อผิดพลาดหน้า 404 ทั้งหมดไปยังหน้าใด "
+"ๆ โดยใช้การเปลี่ยนเส้นทาง 301"
+
+#: inc/recommendations.php:156
+msgid "Awesome plugins for SEO & Conversion performance:"
+msgstr "ปลั๊กอินที่ยอดเยี่ยมสำหรับ SEO และประสิทธิภาพการแปลง:"
+
+#: inc/seo-recommendations.php:90
+msgid "Bing Webmaster tool"
+msgstr "เครื่องมือ Bing Webmaster"
+
+#: inc/recommendations.php:11
+msgid ""
+"Boost the way people interact with your website, e-commerce or blog with an "
+"easy and intuitive WordPress rating system!"
+msgstr ""
+"เพิ่มวิธีที่ผู้คนโต้ตอบกับเว็บไซต์อีคอมเมิร์ซหรือบล็อกของคุณด้วยระบบการให้คะแนน"
+" WordPress ที่ใช้งานง่าย!"
+
+#: inc/sidebar.php:6
+msgid "Boost your ranking on Google"
+msgstr "เพิ่มอันดับของคุณบน Google"
+
+#: inc/faq.php:67
+msgid ""
+"Capturing revenue from brand spend. Brands today represent a growing and "
+"potentially significant revenue opportunity for developers. We can expect "
+"that many DSPs that adhere to app-ads.txt won’t purchase inventory missing "
+"the app-ads.txt file, just as they won’t buy unauthorized inventory on web. "
+"Developers who don’t implement app-ads.txt are likely to be removed from "
+"DSPs’ pool of targeted media."
+msgstr ""
+"การสร้างรายได้จากการใช้จ่ายของแบรนด์ "
+"ปัจจุบันแบรนด์เป็นตัวแทนของโอกาสในการสร้างรายได้ที่เพิ่มขึ้นและอาจมีนัยสำคัญสำหรับนักพัฒนาซอฟต์แวร์"
+" เราคาดได้ว่า DSP จำนวนมากที่เป็นไปตาม app-ads.txt "
+"จะไม่ซื้อพื้นที่โฆษณาที่ไม่มีไฟล์ app-ads.txt "
+"เช่นเดียวกับที่พวกเขาจะไม่ซื้อพื้นที่โฆษณาที่ไม่ได้รับอนุญาตบนเว็บ "
+"นักพัฒนาซอฟต์แวร์ที่ไม่ติดตั้ง app-ads.txt "
+"มีแนวโน้มที่จะถูกลบออกจากกลุ่มสื่อเป้าหมายของ DSP"
+
+#: inc/seo-recommendations.php:48 inc/seo-recommendations.php:50
+msgid "Check my links"
+msgstr "ตรวจสอบลิงก์ของฉัน"
+
+#: app-ads-txt-admin.php:239
+msgid ""
+"Checking this box will remove ALL settings (app-ads.txt & ads.txt) when you "
+"deactivate plugin."
+msgstr ""
+"การเลือกช่องนี้จะลบการตั้งค่าทั้งหมด (app-ads.txt & ads.txt) "
+"เมื่อคุณปิดใช้งานปลั๊กอิน"
+
+#: inc/recommendations.php:23
+msgid ""
+"Compress and optimize (or optimise) image files, improve performance and "
+"boost your SEO rank using Smush WordPress image compression and optimization."
+msgstr ""
+"บีบอัดและเพิ่มประสิทธิภาพ (หรือปรับให้เหมาะสม) "
+"ไฟล์รูปภาพปรับปรุงประสิทธิภาพและเพิ่มอันดับ SEO "
+"ของคุณโดยใช้การบีบอัดและการปรับแต่งรูปภาพ Smush WordPress"
+
+#: inc/faq.php:37
+msgid ""
+"Concretely, publishers drop a text file on their web servers that lists all "
+"of the companies that are authorized to sell the publishers’ inventory. "
+"Similarly, programmatic platforms also integrate ads.txt files to confirm "
+"which publishers’ inventory they are authorized to sell. This allows buyers "
+"to check the validity of the inventory they purchase."
+msgstr ""
+"ผู้เผยแพร่โฆษณาวางไฟล์ข้อความบนเว็บเซิร์ฟเวอร์ของตนซึ่งแสดงรายชื่อ บริษัท "
+"ทั้งหมดที่ได้รับอนุญาตให้ขายพื้นที่โฆษณาของผู้เผยแพร่โฆษณา "
+"ในทำนองเดียวกันแพลตฟอร์มแบบเป็นโปรแกรมยังรวมไฟล์ ads.txt "
+"เพื่อยืนยันว่าผู้เผยแพร่โฆษณารายใดได้รับอนุญาตให้ขาย "
+"วิธีนี้ช่วยให้ผู้ซื้อสามารถตรวจสอบความถูกต้องของสินค้าคงคลังที่ซื้อได้"
+
+#: inc/seo-recommendations.php:44
+msgid "Dead links"
+msgstr "ลิงก์ที่ตายแล้ว"
+
+#: inc/seo-recommendations.php:45
+msgid ""
+"Dead links, 404 errors, 503 errors, ... all bad links that could hurt your "
+"website ranking."
+msgstr ""
+"ลิงก์เสียข้อผิดพลาด 404 ข้อผิดพลาด 503 ... "
+"ลิงก์เสียทั้งหมดที่อาจส่งผลกระทบต่อการจัดอันดับเว็บไซต์ของคุณ"
+
+#: app-ads-txt-admin.php:226
+msgid "Delete Settings"
+msgstr "ลบการตั้งค่า"
+
+#: inc/recommendations.php:69 inc/recommendations.php:175
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+#: inc/faq.php:71
+msgid ""
+"Fighting ad fraud. Bad actors may forge apps that impersonate legitimate "
+"apps, and mislead DSPs to spend brand budgets on their forged inventory. "
+"Legitimate developers end up losing out on ad revenue that was originally "
+"intended for them. App-ads.txt blocks unauthorized developer impersonations "
+"and minimizes instances of fraud that ultimately hurt developers’ bottom "
+"line."
+msgstr ""
+"การต่อสู้กับการฉ้อโกงโฆษณา "
+"ผู้ไม่หวังดีอาจปลอมแปลงแอปที่แอบอ้างเป็นแอปที่ถูกต้องตามกฎหมายและทำให้ DSP "
+"ใช้งบประมาณของแบรนด์ไปในพื้นที่โฆษณาที่ปลอมแปลง "
+"นักพัฒนาที่ถูกต้องตามกฎหมายต้องสูญเสียรายได้จากโฆษณาที่ตั้งใจไว้สำหรับพวกเขาในตอนแรก"
+" App-ads.txt "
+"บล็อกการแอบอ้างเป็นนักพัฒนาซอฟต์แวร์ที่ไม่ได้รับอนุญาตและลดอินสแตนซ์ของการฉ้อโกงที่ส่งผลกระทบต่อผลกำไรของนักพัฒนาในที่สุด"
+
+#: inc/seo-recommendations.php:59
+msgid ""
+"Get a simple and professional-quality SEO audit of your website for FREE"
+msgstr ""
+"รับการตรวจสอบ SEO ที่เรียบง่ายและมีคุณภาพระดับมืออาชีพสำหรับเว็บไซต์ของคุณฟรี"
+
+#: inc/sidebar.php:14
+msgid "Get BIALTY by Pagup &raquo;"
+msgstr "รับ BIALTY โดย Pagup »"
+
+#: inc/seo-recommendations.php:13
+msgid ""
+"Get insight on how well your site loads with actionable recommendations on "
+"how to optimize it."
+msgstr ""
+"รับข้อมูลเชิงลึกว่าไซต์ของคุณโหลดได้ดีเพียงใดพร้อมคำแนะนำที่นำไปใช้ได้จริงเกี่ยวกับวิธีเพิ่มประสิทธิภาพ"
+
+#: inc/sidebar.php:20
+msgid "Get Mobilook by Pagup &raquo;"
+msgstr "รับ Mobilook โดย Pagup »"
+
+#: inc/recommendations.php:5
+msgid ""
+"Get Schema.org structured data for all pages, posts, categories and profile "
+"pages on activation."
+msgstr ""
+"รับข้อมูลที่มีโครงสร้างของ Schema.org "
+"สำหรับทุกหน้าโพสต์หมวดหมู่และหน้าโปรไฟล์เมื่อเปิดใช้งาน"
+
+#: inc/seo-recommendations.php:26
+msgid "Google Ranking"
+msgstr "การจัดอันดับของ Google"
+
+#: inc/recommendations.php:129
+msgid "Google Reviews Widget By RichPlugins"
+msgstr "วิดเจ็ตรีวิวของ Google โดย RichPlugins"
+
+#: inc/recommendations.php:130
+msgid ""
+"Google Reviews Widget show Google Places Reviews on your WordPress website "
+"to increase user confidence and SEO."
+msgstr ""
+"วิดเจ็ตรีวิวของ Google แสดงรีวิว Google สถานที่บนเว็บไซต์ WordPress "
+"ของคุณเพื่อเพิ่มความมั่นใจให้กับผู้ใช้และ SEO"
+
+#: inc/seo-recommendations.php:82
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+#: app-ads-txt.php:86
+#, php-format
+msgid ""
+"Hey %1$s, %2$s Click on Allow & Continue to start optimizing your app-ads."
+"txt and ads-txt files. %2$s Never miss an important update -- opt-in to our "
+"security and feature updates notifications. %2$s See you on the other side."
+msgstr ""
+"สวัสดี% 1 $ s,% 2 $ s "
+"คลิกที่อนุญาตและดำเนินการต่อเพื่อเริ่มการเพิ่มประสิทธิภาพไฟล์ app-ads.txt "
+"และ ads-txt ของคุณ % 2 $ s ไม่พลาดการอัปเดตที่สำคัญ - "
+"เลือกรับการแจ้งเตือนการอัปเดตความปลอดภัยและคุณลักษณะของเรา % 2 $ s "
+"แล้วพบกันใหม่"
+
+#: inc/faq.php:60
+msgid "How app-ads.txt can benefit your mobile app?"
+msgstr "app-ads.txt มีประโยชน์ต่อแอปบนอุปกรณ์เคลื่อนที่ของคุณอย่างไร"
+
+#: inc/faq.php:84
+msgid ""
+"How does app-ads.txt help mobile app developers capture more ad revenue?"
+msgstr ""
+"app-ads.txt "
+"ช่วยให้นักพัฒนาแอปบนอุปกรณ์เคลื่อนที่ได้รับรายได้จากโฆษณาเพิ่มขึ้นได้อย่างไร"
+
+#. Author URI of the plugin
+msgid "https://pagup.com/"
+msgstr "https://pagup.com/"
+
+#: app-ads-txt-admin.php:260
+msgid "If app-ads.txt is still not working. Please try to save Settings >"
+msgstr "หาก app-ads.txt ยังไม่ทำงาน โปรดพยายามบันทึกการตั้งค่า>"
+
+#: inc/recommendations.php:35
+msgid ""
+"Improve your WordPress SEO: Write better content and have a fully optimized "
+"WordPress site using the Yoast SEO plugin."
+msgstr ""
+"ปรับปรุง WordPress SEO ของคุณ: เขียนเนื้อหาที่ดีขึ้นและมีไซต์ WordPress "
+"ที่ได้รับการปรับแต่งอย่างเต็มที่โดยใช้ปลั๊กอิน Yoast SEO"
+
+#: inc/faq.php:9
+msgid ""
+"In June 2017, the IAB (The Interactive Advertising Bureau Tech Lab) launched "
+"ads.txt, a file enabling web publishers to designate authorized digital "
+"sellers of their ad inventory. Ads.txt helped the industry distinguish real "
+"supply sources from fake ones, and after its immediate success and adoption, "
+"the next logical step was to extend the reach of ads.txt into the mobile app "
+"ecosystem. App-ads.txt is the mobile in-app equivalent of this specification,"
+" which mobile publishers can implement."
+msgstr ""
+"ในเดือนมิถุนายน 2017 IAB (The Interactive Advertising Bureau Tech Lab) "
+"ได้เปิดตัว ads.txt "
+"ซึ่งเป็นไฟล์ที่ช่วยให้ผู้เผยแพร่เว็บสามารถกำหนดผู้ขายดิจิทัลที่ได้รับอนุญาตสำหรับพื้นที่โฆษณา"
+" Ads.txt "
+"ช่วยให้อุตสาหกรรมแยกความแตกต่างของแหล่งจัดหาจริงจากแหล่งปลอมและหลังจากประสบความสำเร็จในทันทีและการนำไปใช้ขั้นตอนต่อไปคือการขยายการเข้าถึงของ"
+" ads.txt ไปยังระบบนิเวศของแอปบนอุปกรณ์เคลื่อนที่ App-ads.txt "
+"เทียบเท่าในแอปบนอุปกรณ์เคลื่อนที่ของข้อกำหนดนี้ซึ่งผู้เผยแพร่โฆษณาบนอุปกรณ์เคลื่อนที่สามารถนำไปใช้ได้"
+
+#: inc/recommendations.php:100
+msgid ""
+"Increase engagement and drive more repeat traffic to your WordPress site "
+"with desktop push notifications. Now supporting Chrome, Firefox, and Safari."
+msgstr ""
+"เพิ่มการมีส่วนร่วมและเพิ่มปริมาณการเข้าชมไซต์ WordPress "
+"ของคุณด้วยการแจ้งเตือนบนเดสก์ท็อป ตอนนี้รองรับ Chrome, Firefox และ Safari"
+
+#: inc/seo-recommendations.php:88
+msgid "Index your Website (Bing)"
+msgstr "จัดทำดัชนีเว็บไซต์ของคุณ (Bing)"
+
+#: inc/seo-recommendations.php:80
+msgid "Index Your Website (Google)"
+msgstr "จัดทำดัชนีเว็บไซต์ของคุณ (Google)"
+
+#: inc/sidebar.php:19
+msgid ""
+"Instant mobile view of website (pages, posts, products) for responsive web "
+"design on phone (+ dualscreen). This plugin also offers helpful tools on "
+"each page, such as Facebook Debugger, LinkedIn Post Inspector, and Google "
+"Mobile-Friendly Test Tool."
+msgstr ""
+"มุมมองเว็บไซต์บนมือถือทันที (หน้าโพสต์ผลิตภัณฑ์) "
+"สำหรับการออกแบบเว็บที่ตอบสนองบนโทรศัพท์ (+ หน้าจอคู่) "
+"ปลั๊กอินนี้ยังมีเครื่องมือที่เป็นประโยชน์ในแต่ละเพจเช่น Facebook Debugger, "
+"LinkedIn Post Inspector และ Google Mobile-Friendly Test Tool"
+
+#: inc/sidebar.php:18
+msgid "Instant Mobile Viewer"
+msgstr "โปรแกรมดูมือถือทันที"
+
+#: inc/faq.php:33
+msgid ""
+"It is an IAB-approved text file that aims to prevent unauthorized inventory "
+"sales. In a fragmented advertising ecosystem, ads.txt serves as a method of "
+"improving transparency for demand side platforms. In fact, DSPs aren’t "
+"buying web supply that isn’t authorized via ads.txt."
+msgstr ""
+"เป็นไฟล์ข้อความที่ได้รับการรับรองจาก IAB "
+"ซึ่งมีวัตถุประสงค์เพื่อป้องกันการขายสินค้าคงคลังโดยไม่ได้รับอนุญาต "
+"ในระบบนิเวศการโฆษณาที่กระจัดกระจาย ads.txt "
+"ทำหน้าที่เป็นวิธีการปรับปรุงความโปร่งใสสำหรับแพลตฟอร์มฝั่งดีมานด์ "
+"ในความเป็นจริง DSP ไม่ได้ซื้อเว็บซัพพลายที่ไม่ได้รับอนุญาตผ่าน ads.txt"
+
+#: app-ads-txt-admin.php:278
+msgid ""
+"Just a sample for copy-paste purpose. Make sure to change itaccordingaly "
+"inside custom rules box."
+msgstr ""
+"เป็นเพียงตัวอย่างสำหรับวัตถุประสงค์ในการคัดลอกวาง "
+"ตรวจสอบให้แน่ใจว่าได้เปลี่ยนตามการอ้างอิงภายในกล่องกฎที่กำหนดเอง"
+
+#: inc/seo-recommendations.php:12
+msgid "Loading performance"
+msgstr "กำลังโหลดประสิทธิภาพ"
+
+#: app-ads-txt-admin.php:268
+msgid ""
+"Make sure search engines can crawl your .txt files. Optimize your robots.txt "
+"with"
+msgstr ""
+"ตรวจสอบให้แน่ใจว่าเครื่องมือค้นหาสามารถรวบรวมข้อมูลไฟล์. txt ของคุณได้ "
+"เพิ่มประสิทธิภาพ robots.txt ของคุณด้วย"
+
+#: inc/seo-recommendations.php:100
+msgid "MASS PING"
+msgstr "MASS PING"
+
+#: inc/seo-recommendations.php:101
+msgid ""
+"Mass ping is a free online tool that easily promotes your blog or website on "
+"70 different search engines."
+msgstr ""
+"Mass ping "
+"เป็นเครื่องมือออนไลน์ฟรีที่โปรโมตบล็อกหรือเว็บไซต์ของคุณบนเครื่องมือค้นหาต่างๆ"
+" 70 รายการได้อย่างง่ายดาย"
+
+#: inc/faq.php:41
+msgid "More details here : https://youtu.be/T_4uK2HnOy0"
+msgstr "รายละเอียดเพิ่มเติมที่นี่: https://youtu.be/T_4uK2HnOy0"
+
+#: inc/faq.php:49
+msgid "My .txt file doesn’t show up at all."
+msgstr "ไฟล์. txt ของฉันไม่ปรากฏขึ้นเลย"
+
+#: inc/seo-recommendations.php:30 inc/seo-recommendations.php:32
+msgid "My Google Ranking"
+msgstr "การจัดอันดับ Google ของฉัน"
+
+#: inc/seo-recommendations.php:62 inc/seo-recommendations.php:64
+msgid "My SEO profile"
+msgstr "โปรไฟล์ SEO ของฉัน"
+
+#: inc/recommendations.php:123
+msgid "Nofollow for external link By CyberNetikz"
+msgstr "Nofollow สำหรับลิงค์ภายนอกโดย CyberNetikz"
+
+#: app-ads-txt-admin.php:257
+msgid ""
+"Note: app-ads.txt & ads.txt Manager creates virtual app-ads.txt & ads.txt "
+"files. Please make sure that your permalinks are enabled and there is no "
+"physical app-ads.txt & ads.txt file on your server. If you're using any kind "
+"of cache then make sure to clear it after Saving Changes. Please read FAQ "
+"for more details."
+msgstr ""
+"หมายเหตุ: app-ads.txt & ads.txt Manager จะสร้างไฟล์ app-ads.txt & ads.txt "
+"เสมือน โปรดตรวจสอบให้แน่ใจว่าได้เปิดใช้ลิงก์ถาวรของคุณแล้วและไม่มีไฟล์ app-"
+"ads.txt & ads.txt บนเซิร์ฟเวอร์ของคุณ "
+"หากคุณใช้แคชประเภทใดก็อย่าลืมล้างหลังจากบันทึกการเปลี่ยนแปลง "
+"โปรดอ่านคำถามที่พบบ่อยสำหรับรายละเอียดเพิ่มเติม"
+
+#: admin-ui-inc/ads-txt-inc.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your ads.txt</a>"
+msgstr ""
+"เมื่อใช้การตั้งค่าของคุณแล้วโปรดตรวจสอบไฟล์ ads.txt ของคุณที่นี่ <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">ads.txt ของคุณ</a>"
+
+#: admin-ui-inc/app-ads-txt-inc.php:5 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your app-ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your app-ads.txt</a>"
+msgstr ""
+"เมื่อใช้การตั้งค่าของคุณแล้วโปรดตรวจสอบไฟล์ app-ads.txt ที่นี่ <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">app-ads.txt ของคุณ</a>"
+
+#: inc/recommendations.php:99
+msgid "OneSignal – Free Web Push Notifications By OneSignal"
+msgstr "OneSignal - การแจ้งเตือนแบบพุชเว็บฟรีโดย OneSignal"
+
+#: inc/sidebar.php:12
+msgid "Optimize your ALT TEXT"
+msgstr "เพิ่มประสิทธิภาพข้อความ ALT ของคุณ"
+
+#: inc/sidebar.php:7
+msgid ""
+"Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
+"ranking on search engines."
+msgstr ""
+"เพิ่มประสิทธิภาพ Robots.txt ของคุณด้วย Better Robots.txt (สร้างโดย PAGUP) "
+"และเพิ่มอันดับของคุณในเครื่องมือค้นหา"
+
+#. Author of the plugin
+msgid "Pagup"
+msgstr "Pagup"
+
+#: app-ads-txt-admin.php:261
+msgid "Permalinks"
+msgstr "ลิงก์ถาวร"
+
+#: inc/seo-recommendations.php:102
+msgid "Ping my links"
+msgstr "ปิงลิงก์ของฉัน"
+
+#: inc/faq.php:53
+msgid ""
+"Please clear your browser cache and reload the ads.txt OR app-ads.txt link."
+msgstr ""
+"โปรดล้างแคชของเบราว์เซอร์และโหลดลิงก์ ads.txt หรือ app-ads.txt อีกครั้ง"
+
+#: inc/seo-recommendations.php:5
+msgid "Premium Feature"
+msgstr "คุณสมบัติพิเศษ"
+
+#: inc/recommendations.php:111
+msgid "Recart - Abandoned Cart Toolbox"
+msgstr "เริ่มใหม่ - กล่องเครื่องมือรถเข็นที่ถูกละทิ้ง"
+
+#: inc/recommendations.php:112
+msgid ""
+"Recart Messenger Marketing and Abandoned Cart Toolbox is a All in one cart "
+"recovery marketing tools for ecommerce solution"
+msgstr ""
+"Recart Messenger Marketing "
+"และกล่องเครื่องมือรถเข็นที่ถูกละทิ้งเป็นเครื่องมือการตลาดการกู้คืนรถเข็นแบบ "
+"All in one สำหรับโซลูชันอีคอมเมิร์ซ"
+
+#: app-ads-txt-admin.php:248
+msgid "Save Changes"
+msgstr "บันทึกการเปลี่ยนแปลง"
+
+#: inc/recommendations.php:4
+msgid "Schema App Structured Data by Hunch Manifest"
+msgstr "Schema App Structured Data by Hunch Manifest"
+
+#: inc/seo-recommendations.php:58
+msgid "SEO Score"
+msgstr "คะแนน SEO"
+
+#: inc/seo-recommendations.php:1
+msgid "SEO tools recommended by App-Ads.txt & Ads.txt Manager:"
+msgstr "เครื่องมือ SEO ที่แนะนำโดย App-Ads.txt & Ads.txt Manager:"
+
+#: app-ads-txt-admin.php:139
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: app-ads-txt-admin.php:126
+msgid "Settings saved."
+msgstr "การตั้งค่าที่บันทึกไว้."
+
+#: inc/recommendations.php:88
+msgid ""
+"Share buttons from AddThis help you get more traffic from sharing through "
+"social networks."
+msgstr ""
+"ปุ่มแชร์จาก AddThis "
+"ช่วยให้คุณได้รับการเข้าชมมากขึ้นจากการแบ่งปันผ่านเครือข่ายสังคม"
+
+#: inc/notices.php:13
+#, php-format
+msgid ""
+"Show support for App-ads.txt & Ads.txt Manager with a 5-star rating » <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr ""
+"แสดงการสนับสนุน App-ads.txt &amp; Ads.txt Manager ด้วยคะแนนระดับ 5 ดาว» <a "
+"href=\"%s\" target=\"_blank\">คลิกที่นี่</a>"
+
+#: inc/recommendations.php:22
+msgid "Smush Image Compression and Optimization By WPMU DEV"
+msgstr "Smush Image Compression and Optimization By WPMU DEV"
+
+#: inc/faq.php:96
+msgid ""
+"Source : https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+msgstr ""
+"ที่มา: https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+
+#: inc/faq.php:75
+msgid "Source : https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+msgstr "ที่มา: https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+
+#: inc/recommendations.php:118 inc/recommendations.php:136
+msgid ""
+"Speed up your WordPress website, more traffic, conversions and money with WP "
+"Rocket caching plugin."
+msgstr ""
+"เพิ่มความเร็วเว็บไซต์ WordPress "
+"ของคุณปริมาณการใช้งานการแปลงและเงินมากขึ้นด้วยปลั๊กอินการแคช WP Rocket"
+
+#: inc/seo-recommendations.php:89
+msgid ""
+"Submit your website to Bing Webmaster tool and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"ส่งเว็บไซต์ของคุณไปยัง Bing Webmaster tool "
+"และเพลิดเพลินกับประโยชน์ที่แท้จริงของ Better Robots.txt"
+
+#: inc/seo-recommendations.php:81
+msgid ""
+"Submit your website to Google Search Console and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"ส่งเว็บไซต์ของคุณไปยัง Google Search Console "
+"และเพลิดเพลินกับประโยชน์ที่แท้จริงของ Better Robots.txt"
+
+#: inc/faq.php:17
+msgid ""
+"Thanks to app-ads.txt file, Mobile and OTT app publishers can list the ad "
+"tech vendors that are authorized to sell or resell their ad inventory, and "
+"programmatic ad buyers can check these lists to make sure that a company "
+"claiming to offer an app’s inventory is actually able to sell the app’s "
+"inventory."
+msgstr ""
+"ต้องขอบคุณไฟล์ app-ads.txt ผู้เผยแพร่แอปบนอุปกรณ์เคลื่อนที่และ OTT "
+"สามารถแสดงรายชื่อผู้ให้บริการเทคโนโลยีโฆษณาที่ได้รับอนุญาตให้ขายหรือขายต่อพื้นที่โฆษณาของตนและผู้ซื้อโฆษณาแบบเป็นโปรแกรมสามารถตรวจสอบรายการเหล่านี้เพื่อให้แน่ใจว่า"
+" บริษัท ที่อ้างว่านำเสนอแอป พื้นที่โฆษณาสามารถขายพื้นที่โฆษณาของแอปได้จริง"
+
+#: inc/faq.php:13
+msgid ""
+"The app-ads.txt file is the version of ads.txt for mobile in-app and OTT "
+"advertising, to combat bad actors that disguise themselves as another "
+"company’s app in order to siphon the money that advertisers are spending on "
+"mobile and OTT advertising. App-ads.txt files are formatted the same as ads."
+"txt files (view IAB FAQ for ads.txt and app-ads.txt)."
+msgstr ""
+"ไฟล์ app-ads.txt เป็นเวอร์ชันของ ads.txt "
+"สำหรับการโฆษณาในแอปบนอุปกรณ์เคลื่อนที่และ OTT "
+"เพื่อต่อสู้กับผู้ไม่หวังดีที่ปลอมตัวเป็นแอปของ บริษัท "
+"อื่นเพื่อลดทอนเงินที่ผู้ลงโฆษณาใช้จ่ายไปกับการโฆษณาบนอุปกรณ์เคลื่อนที่และ "
+"OTT ไฟล์ App-ads.txt มีรูปแบบเหมือนกับไฟล์ ads.txt (ดูคำถามที่พบบ่อยของ IAB "
+"สำหรับ ads.txt และ app-ads.txt)"
+
+#: admin-ui-inc/ads-txt-inc.php:34 admin-ui-inc/ads-txt-inc.php:99 
+#: admin-ui-inc/app-ads-txt-inc.php:34 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:35 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:99
+msgid ""
+"The canonical domain name of the SSP, Exchange, system that bidders connect "
+"to (they publishes a document detailing what domain name to use)."
+msgstr ""
+"ชื่อโดเมนมาตรฐานของ SSP, Exchange, ระบบที่ผู้ประมูลเชื่อมต่อ "
+"(พวกเขาเผยแพร่เอกสารที่ระบุรายละเอียดว่าจะใช้ชื่อโดเมนใด)"
+
+#: inc/faq.php:64
+msgid "There are two main benefits for app developers."
+msgstr "มีประโยชน์หลักสองประการสำหรับนักพัฒนาแอป"
+
+#: inc/faq.php:21
+msgid "This file opens the door for a new level of transparency."
+msgstr "ไฟล์นี้เปิดประตูสู่ระดับใหม่ของความโปร่งใส"
+
+#: inc/recommendations.php:43
+msgid "Top plugins for SEO performance:"
+msgstr "ปลั๊กอินยอดนิยมสำหรับประสิทธิภาพ SEO:"
+
+#: inc/sidebar.php:8
+msgid "Try Better Robots.txt &raquo;"
+msgstr "ลองใช้ Robots.txt ที่ดีกว่า»"
+
+#: inc/recommendations.php:186
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\">PRO version</a> to UNLOCK 12 additional awesome "
+"plugins recommendations for SEO & Conversion performance"
+msgstr ""
+"อัปเกรดเป็น <a href=\"%s\">เวอร์ชัน PRO</a> "
+"เพื่อปลดล็อกคำแนะนำปลั๊กอินที่ยอดเยี่ยมอีก 12 รายการสำหรับ SEO "
+"และประสิทธิภาพการแปลง"
+
+#: inc/recommendations.php:192
+msgid ""
+"Want to suggest another plugin ? ... Send us a message at support@better-"
+"robots.com"
+msgstr ""
+"ต้องการแนะนำปลั๊กอินอื่นหรือไม่? ... ส่งข้อความถึงเราที่ support@better-"
+"robots.com"
+
+#: app-ads-txt-admin.php:216
+msgid "Warning: make sure to clear your cache after saving changes."
+msgstr "คำเตือน: อย่าลืมล้างแคชของคุณหลังจากบันทึกการเปลี่ยนแปลง"
+
+#: inc/faq.php:29
+msgid "What’s ads.txt ?"
+msgstr "ads.txt คืออะไร"
+
+#: inc/faq.php:5
+msgid "What’s app-ads.txt?"
+msgstr "app-ads.txt คืออะไร"
+
+#: inc/recommendations.php:87
+msgid "WordPress Share Buttons Plugin – AddThis By The AddThis Team"
+msgstr "ปลั๊กอิน WordPress Share Buttons - AddThis By The AddThis Team"
+
+#: inc/recommendations.php:135
+msgid "WP Chatbot for facebook Messenger customer chat By HoliThemes"
+msgstr "WP Chatbot สำหรับการแชทของลูกค้าบน Facebook Messenger โดย HoliThemes"
+
+#: inc/recommendations.php:141
+msgid "WP Google My Business Auto Publish By Martin Gibson"
+msgstr "WP Google My Business เผยแพร่อัตโนมัติโดย Martin Gibson"
+
+#: inc/recommendations.php:142
+msgid ""
+"WP Google My Business Auto Publish lets you publish posts, custom posts and "
+"pages automatically from WordPress to your Google My Business page."
+msgstr ""
+"WP Google My Business Auto Publish "
+"ช่วยให้คุณสามารถเผยแพร่โพสต์โพสต์ที่กำหนดเองและเพจโดยอัตโนมัติจาก WordPress "
+"ไปยังเพจ Google My Business ของคุณ"
+
+#: inc/recommendations.php:147
+msgid "WP Search Console"
+msgstr "WP Search Console"
+
+#: inc/recommendations.php:81
+msgid "WP-Optimize by David Anderson, Ruhani Rabin, Team Updraft"
+msgstr "WP-Optimize โดย David Anderson, Ruhani Rabin, Team Updraft"
+
+#: inc/recommendations.php:82
+msgid ""
+"WP-Optimize is WordPress's most-installed optimization plugin. With it, you "
+"can clean up your database easily and safely, without manual queries."
+msgstr ""
+"WP-Optimize เป็นปลั๊กอินเพิ่มประสิทธิภาพที่ติดตั้งมากที่สุดของ WordPress "
+"ด้วยวิธีนี้คุณสามารถล้างฐานข้อมูลของคุณได้อย่างง่ายดายและปลอดภัยโดยไม่ต้องมีการสอบถามด้วยตนเอง"
+
+#: inc/recommendations.php:117
+msgid "Wp-Roket - Probably the best caching Plugin for WordPress"
+msgstr "WP-Roket - น่าจะเป็นปลั๊กอินแคชที่ดีที่สุดสำหรับ WordPress"
+
+#: inc/recommendations.php:94
+msgid ""
+"WP-SpamShield is a leading WordPress anti-spam plugin that stops spam "
+"instantly and improves your site's security. "
+msgstr ""
+"WP-SpamShield เป็นปลั๊กอินป้องกันสแปม WordPress "
+"ชั้นนำที่หยุดสแปมทันทีและปรับปรุงความปลอดภัยของไซต์ของคุณ"
+
+#: inc/recommendations.php:93
+msgid "WP-SpamShield WordPress Anti-Spam Plugin by Red Sand Media Group"
+msgstr "WP-SpamShield ปลั๊กอินป้องกันสแปม WordPress โดย Red Sand Media Group"
+
+#: inc/recommendations.php:105
+msgid "WPfomify - Social Proof & FOMO Marketing Plugin"
+msgstr "WPfomify - Social Proof & FOMO Marketing Plugin"
+
+#: inc/recommendations.php:106
+msgid ""
+"WPfomify increases conversion rates on your websites by displaying recent "
+"interaction, sales and sign-ups"
+msgstr ""
+"WPfomify "
+"เพิ่มอัตราการแปลงบนเว็บไซต์ของคุณโดยการแสดงการโต้ตอบการขายและการสมัครใช้งานล่าสุด"
+
+#: inc/recommendations.php:10
+msgid "Yasr – Yet Another Stars Rating by Dario Curvino"
+msgstr "Yasr - การให้คะแนนอีกดาวหนึ่งโดย Dario Curvino"
+
+#: inc/recommendations.php:34
+msgid "Yoast SEO By Team Yoast"
+msgstr "Yoast SEO โดยทีม Yoast"
+
+#: admin-ui-inc/ads-txt-inc.php:54 admin-ui-inc/ads-txt-inc.php:119 
+#: admin-ui-inc/app-ads-txt-inc.php:54
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your ads-txt.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"พันธมิตรความต้องการโดยตรงของคุณควรระบุว่าเป็น \"โดยตรง\" "
+"หากพันธมิตรของคุณใช้ผู้ค้าปลีกบุคคลที่สามเพื่อขายพื้นที่โฆษณาของคุณผู้ให้บริการดังกล่าวควรระบุว่าเป็น"
+" \"ผู้ค้าปลีก\" ไม่ว่าในกรณีใดคุณไม่ควรเพิ่มผู้ให้บริการใด ๆ ลงในไฟล์ ads-"
+"txt.txt เว้นแต่คุณหรือคู่ของคุณจะมีความสัมพันธ์โดยตรงกับพวกเขา"
+
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:55 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:119
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your app-ads.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"พันธมิตรความต้องการโดยตรงของคุณควรระบุว่าเป็น \"โดยตรง\" "
+"หากพันธมิตรของคุณใช้ผู้ค้าปลีกบุคคลที่สามเพื่อขายพื้นที่โฆษณาของคุณผู้ให้บริการดังกล่าวควรระบุว่าเป็น"
+" \"ผู้ค้าปลีก\" ไม่ว่าในกรณีใดคุณไม่ควรเพิ่มผู้ให้บริการใด ๆ ลงในไฟล์ app-"
+"ads.txt เว้นแต่คุณหรือคู่ของคุณจะมีความสัมพันธ์โดยตรงกับพวกเขา"

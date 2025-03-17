@@ -1,0 +1,251 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "menu-1": "primary-menu",
+                "social": "social-menu",
+                "menu-2": "primary-menu"
+            },
+            "custom_css_post_id": -1,
+            "hide_front_page_title": true
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [],
+    "content": [
+        {
+            "post_type": "page",
+            "post_title": "Receitas",
+            "post_content": "",
+            "post_name": "recipes",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 76,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_blog_page"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Macarrão ao molho parmesão com alho",
+            "post_content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":71,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/brooke-lark-f_5g8eehye-unsplash-1.jpg?w=689\" alt=\"\" class=\"wp-image-71\"  /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"level\":4} -->\n<h4>Ingredientes</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>120 ml (1/2 xícara) de manteiga</li><li> 2 colheres de chá de manjericão seco, triturado</li><li> 2 colheres de chá de suco de limão</li><li> 1 1/4 colheres de chá de alho em pó</li><li> 3/4 de colher de chá de sal temperado</li><li> 220 g de massa de fettuccine ou cabelo de anjo (cozida e escorrida)</li><li> 360 ml (1 1/2 xícaras) de brócolis (cozido, macio e crocante)</li><li> 3 colheres de sopa de nozes (picadas)</li><li> queijo parmesão ralado fresco</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4>Modo de preparo</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>Derreta a manteiga em uma frigideira grande.</li><li>Adicione o manjericão, o suco de limão, o alho em pó e o sal temperado, misturando bem.</li><li>Adicione o fettuccine, o brócolis e as nozes.</li><li>Misture bem e espalhe para cobrir o fettuccine.</li><li>Depois, adicione o queijo parmesão ralado fresco para finalizar o prato.</li></ol>\n<!-- /wp:list -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><em>Esse artigo usa material do artigo do Wikilivros \"<a href=\"https://en.wikibooks.org/wiki/Cookbook:Garlic_Parmesan_Pasta\">Cookbook: Garlic Parmesan Pasta</a>\" (Livro de receitas: macarrão ao molho parmesão com alho), lançado sob <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Atribuição-CompartilhaIgual 3.0 da Creative Commons</a>.</em></p>\n<!-- /wp:paragraph -->",
+            "post_name": "garlic-parmesan-pasta",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 69,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Recipes"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Contato",
+            "post_content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p style=\"text-align:left;\">Vamos conversar &amp;#128075; Não hesite em falar conosco por meio das informações de contato abaixo ou envie uma mensagem usando o formulário.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:columns {\"className\":\"has-2-columns\"} -->\n<div class=\"wp-block-columns has-2-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/contact-info -->\n<div class=\"wp-block-jetpack-contact-info\"><!-- wp:heading {\"level\":3} -->\n<h3>Fale conosco</h3>\n<!-- /wp:heading -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:jetpack/address {\"address\":\"10 Street Road\",\"city\":\"City\",\"postal\":\"10100\",\"country\":\"USA\"} -->\n<div class=\"wp-block-jetpack-address\"><div class=\"jetpack-address__address jetpack-address__address1\">Rua 10</div><div><span class=\"jetpack-address__city\">Cidade</span>, <span class=\"jetpack-address__region\"></span> <span class=\"jetpack-address__postal\">10100-000</span></div><div class=\"jetpack-address__country\">Brasil</div></div>\n<!-- /wp:jetpack/address -->\n\n<!-- wp:jetpack/email {\"email\":\"mail@example.com\"} -->\n<div class=\"wp-block-jetpack-email\"><a href=\"mailto:mail@example.com\">email@exemplo.com</a></div>\n<!-- /wp:jetpack/email -->\n\n<!-- wp:jetpack/phone {\"phone\":\"(555) 555 1234\"} -->\n<div class=\"wp-block-jetpack-phone\"><a href=\"tel:5555551234\">(55) 5555 1234</a></div>\n<!-- /wp:jetpack/phone --></div>\n<!-- /wp:jetpack/contact-info -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3>Horário de funcionamento</h3>\n<!-- /wp:heading -->\n\n<!-- wp:jetpack/business-hours /--></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/contact-form -->\n<!-- wp:jetpack/field-name {\"required\":true} /-->\n\n<!-- wp:jetpack/field-email {\"label\":\"Email\",\"required\":true} /-->\n\n<!-- wp:jetpack/field-url /-->\n\n<!-- wp:jetpack/field-textarea {\"required\":true} /-->\n<!-- /wp:jetpack/contact-form --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+            "post_name": "contact",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 43,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Página inicial",
+            "post_content": "<!-- wp:media-text {\"align\":\"full\",\"backgroundColor\":\"primary\",\"mediaPosition\":\"right\",\"mediaId\":11,\"mediaType\":\"image\",\"isStackedOnMobile\":true,\"imageFill\":true} -->\n<div class=\"wp-block-media-text alignfull has-media-on-the-right has-primary-background-color is-stacked-on-mobile is-image-fill\"><figure class=\"wp-block-media-text__media\" style=\"background-image:url('https://barnsburydemo.files.wordpress.com/2019/09/sri-lanka-ksa66ayiqnk-unsplash.jpg?w=750');background-position:50% 50%;\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/sri-lanka-ksa66ayiqnk-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-11\"  /></figure><div class=\"wp-block-media-text__content\"><!-- wp:spacer {\"height\":64} -->\n<div style=\"height:64px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"level\":1} -->\n<h1>Entrega de vegetais orgânicos cultivados localmente</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>20 anos de cultivo de vegetais orgânicos e entrega de caixas de vegetais da nossa fazenda de 12 acres em Sussex.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:button {\"textColor\":\"background\",\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link has-text-color has-background-color\" href=\"/contact\">Fale conosco</a></div>\n<!-- /wp:button -->\n\n<!-- wp:spacer {\"height\":64} -->\n<div style=\"height:64px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:media-text -->\n\n<!-- wp:group {\"backgroundColor\":\"background\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-background-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-half\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-half\"><strong>Serviços</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<h2 class=\"has-text-align-center margin-top-half\">O que fazemos</h2>\n<!-- /wp:heading -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:columns {\"align\":\"wide\"} -->\n<div class=\"wp-block-columns alignwide\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":12,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/jeshoots-com-l8nlxbhwbw0-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-12\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Produzimos caixas de vegetais orgânicos acessíveis, sazonais e, na medida do possível, frescos e locais.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":13,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/martin-adams-5xxfymman84-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-13\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Temos diferentes tamanhos de caixas disponíveis para vários tipos de apetite, de individual a familiar.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":10,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/agence-producteurs-locaux-damien-kuhn-dtbfrwd6qto-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-10\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Somos flexíveis com os itens das caixas. Você pode alterar os itens do seu pedido por alguma preferência sua.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:cover {\"url\":\"https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg\",\"id\":153,\"dimRatio\":30,\"align\":\"full\"} -->\n<div class=\"wp-block-cover alignfull has-background-dim-30 has-background-dim\" style=\"background-image:url('https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg');\"><div class=\"wp-block-cover__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-half\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-half\"><strong>Conheça-nos melhor</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<h2 class=\"has-text-align-center margin-top-half\">Nossa fazenda orgânica em números</h2>\n<!-- /wp:heading -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:columns {\"align\":\"wide\"} -->\n<div class=\"wp-block-columns alignwide\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>370</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">famílias por mês</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>23</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">especialistas</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>5</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">prêmios conquistados</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>100%</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">de clientes satisfeitos</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:cover -->\n\n<!-- wp:group {\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:media-text {\"mediaId\":15,\"mediaType\":\"image\",\"isStackedOnMobile\":true,\"imageFill\":true} -->\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile is-image-fill\"><figure class=\"wp-block-media-text__media\" style=\"background-image:url('https://barnsburydemo.files.wordpress.com/2019/09/phil-hearing-nfs0n3_d2xy-unsplash.jpg?w=750');background-position:50% 50%;\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/phil-hearing-nfs0n3_d2xy-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-15\"  /></figure><div class=\"wp-block-media-text__content\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3>Por que você vai nos amar</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>Esse é o momento ideal para comer orgânicos. Orgânico significa trabalhar com a natureza. Esse é um período fantástico para a comida europeia.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul><li><strong>Deliciosa</strong></li><li><strong>Ética</strong> </li><li><strong>Sustentável</strong></li><li><strong>Sazonal</strong></li><li><strong>Entrega grátis</strong></li></ul>\n<!-- /wp:list -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:media-text -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"margin-top-none\"} -->\n<div class=\"wp-block-columns alignwide margin-top-none\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/rating-star {\"rating\":5,\"align\":\"center\",\"className\":\"margin-bottom-half\"} -->\n<figure class=\"wp-block-jetpack-rating-star margin-bottom-half\" style=\"text-align:center;\"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></figure>\n<!-- /wp:jetpack/rating-star -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>\"Serviço excelente\"</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">O serviço é incrível! Eu realmente espero que alguns deles estejam usando seu serviço.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Fiona</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/rating-star {\"rating\":5,\"align\":\"center\",\"className\":\"margin-bottom-half\"} -->\n<figure class=\"wp-block-jetpack-rating-star margin-bottom-half\" style=\"text-align:center;\"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></figure>\n<!-- /wp:jetpack/rating-star -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>\"Amei a flexibilidade\"</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">Estamos muito contentes com a caixa e apreciamos a opção de ter a caixa padrão ou montar a nossa.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Joseph</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/rating-star {\"rating\":4,\"align\":\"center\",\"className\":\"margin-bottom-half\"} -->\n<figure class=\"wp-block-jetpack-rating-star margin-bottom-half\" style=\"text-align:center;\"><span>★</span><span>★</span><span>★</span><span>★</span></figure>\n<!-- /wp:jetpack/rating-star -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>\"Qualidade fantástica\"</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">Aprecio muito a qualidade e a apresentação. O sabor dos vegetais é extraordinário.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Michelle</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"backgroundColor\":\"secondary\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-secondary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-half\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-half\"><strong>Teste com nossos vegetais</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"align\":\"center\",\"level\":3,\"className\":\"margin-top-half\"} -->\n<h3 class=\"has-text-align-center margin-top-half\">Nossas receitas favoritas</h3>\n<!-- /wp:heading -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:latest-posts {\"align\":\"wide\",\"postsToShow\":3,\"displayPostContent\":true,\"excerptLength\":40,\"displayPostDate\":true,\"postLayout\":\"grid\"} /-->\n\n<!-- wp:button {\"textColor\":\"background\",\"align\":\"center\",\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button aligncenter is-style-outline\"><a class=\"wp-block-button__link has-text-color has-background-color\" href=\"/recipes\">Mais receitas</a></div>\n<!-- /wp:button -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->",
+            "post_name": "home",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 7,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_front_page"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Sobre",
+            "post_content": "<!-- wp:paragraph -->\n<p>Produzimos vegetais orgânicos cultivados localmente acessíveis, sazonais e frescos à medida do possível.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":153,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg?w=1024\" alt=\"\" class=\"wp-image-153\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:group {\"backgroundColor\":\"background-light\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-background-light-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\",\"level\":4} -->\n<h4 class=\"has-text-align-center\">O que dizem nossos clientes</h4>\n<!-- /wp:heading -->\n\n<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>\"Serviço excelente\"</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">O serviço é incrível! Eu realmente espero que alguns deles estejam usando seu serviço.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Fiona</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>\"Amei a flexibilidade\"</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">Estamos muito contentes com a caixa e apreciamos a opção de ter a caixa padrão ou montar a nossa.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Joseph</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>\"Qualidade fantástica\"</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">Aprecio muito a qualidade e a apresentação. O sabor dos vegetais é extraordinário.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Michelle</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:spacer {\"height\":64,\"className\":\"desktop-only\"} -->\n<div style=\"height:64px;\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\"} -->\n<h2 class=\"has-text-align-center\">Vamos cultivar algo juntos.</h2>\n<!-- /wp:heading -->\n\n<!-- wp:button {\"align\":\"center\"} -->\n<div class=\"wp-block-button aligncenter\"><a class=\"wp-block-button__link\" href=\"https://mordendemo.wordpress.com/contact/\">Fale conosco!</a></div>\n<!-- /wp:button -->",
+            "post_name": "about",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "open",
+            "hs_old_id": 1,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Guacamole",
+            "post_content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":64,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/mariana-medvedeva-nm1fz-scxne-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-64\"  /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"level\":4} -->\n<h4>Ingredientes</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>4 abacates</li><li> 2 colheres de sopa de pico de gallo</li><li> Suco de 1/2 limão</li><li> 2 jalapeños picadas OU 2 colheres de sopa de pimenta vermelha picada OU 1 colher de sopa de pimenta caiena</li><li> 1 colher de chá de sal</li><li> 4 colheres de chá de azeite</li><li> 1 1/2 colheres de chá de alho picado</li><li> 1/2 colher de chá de pimenta do reino moída</li><li> 1 jalapeño picada OU 2 pimentas serrano picadas OU 2 colheres de sopa de qualquer pimenta parecida com a serrano picada (ajuste para tempero)</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4>Modo de preparo</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>Corte os abacates ao meio.</li><li> Retire as sementes sem estragar a casca.</li><li> Com a ajuda de uma colher, tire a polpa do abacate e coloque em uma tigela.</li><li> Adicione o suco de limão e espalhe-o para cobrir uniformemente os abacates.</li><li> Misture o pico de gallo, o alho, o azeite, a jalapeño, o sal, a pimenta vermelha e a pimenta do reino. Vá jogando e triturando os pedaços de abacate até ficar bem misturado.</li><li> Em seguida, retire os outros abacates e misture com cuidado, juntando os pedaços maiores.</li><li> O guacamole possui a consistência certa quando restam mais pedaços grandes do que partes amassadas.</li><li> Decore com um raminho de coentro. </li></ol>\n<!-- /wp:list -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><em>Esse artigo usa material do artigo do Wikilivros \"<a href=\"https://en.wikibooks.org/wiki/Cookbook:Guacamole\">Cookbook: Guacamole</a>\" (Livro de receitas: guacamole), lançado sob a <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Atribuição-CompartilhaIgual 3.0 da Creative Commons</a>.</em></p>\n<!-- /wp:paragraph -->",
+            "post_name": "guacamole",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 57,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Recipes"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Sopa de abóbora temperada",
+            "post_content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":50,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/cayla1-w6ftfbpcs9i-unsplash.jpg?w=683\" alt=\"\" class=\"wp-image-50\"  /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"level\":4} -->\n<h4>Ingredientes</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>1 colher de sopa de manteiga</li><li> 1 xícara de cebola picada</li><li> 3 colheres de sopa de farinha de trigo</li><li> 1/2 colher de chá de curry em pó</li><li> 1/4 colher de chá de cominho</li><li> 1/4 de colher de chá de noz-moscada moída</li><li> 2 dentes de alho amassados</li><li> 1 xícara de batata-doce descascada e em cubos</li><li> 1/4 colher de chá de sal</li><li> 2 latas de 400 ml de caldo de galinha desnatado e com baixo teor de sódio ou caldo de legumes</li><li> 1 lata de 450 ml de abóbora</li><li> 1 xícara de leite com 1% de gordura</li><li> 1 colher de sopa de suco de limão</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4>Modo de preparo</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>Derreta a manteiga em uma panela de ferro ou em uma panela grande em fogo médio-alto. Refogue a cebola por 3 a 4 minutos. Em seguida, adicione a farinha, o curry, o cominho e a noz-moscada e refogue por 1 minuto.</li><li> Adicione a batata-doce, o sal, o caldo de galinha e a abóbora, e deixe ferver. Reduza o fogo para médio-baixo e cozinhe com a tampa entreaberta por cerca de 20 a 25 minutos ou até que a batata-doce esteja cozida. Retire do fogo e deixe esfriar por 10 minutos.</li><li> Coloque metade da mistura de abóbora no liquidificador e processe até ficar homogêneo. Usando uma peneira, despeje a sopa de volta na panela. Faça isso com o restante da sopa.</li><li> Aumente o fogo para médio e misture o leite. Cozinhe por 5 minutos ou até que a sopa esteja aquecida.</li><li> Retire do fogo e adicione o suco de limão.</li></ol>\n<!-- /wp:list -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><em>Esse artigo usa material do artigo do Wikilivros \"<a href=\"https://en.wikibooks.org/wiki/Cookbook:Spiced_Pumpkin_Soup\">Cookbook: Spiced Pumpkin Soup</a>\" (Livro de receitas: sopa de abóbora com especiarias), lançado sob sa <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">Atribuição-CompartilhaIgual 3.0 da Creative Commons</a>.</em></p>\n<!-- /wp:paragraph -->",
+            "post_name": "spiced-pumpkin-soup",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 47,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Recipes"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        }
+    ],
+    "menus": {
+        "primary-menu": {
+            "name": "Menu principal",
+            "items": [
+                {
+                    "menu-item-title": "Página inicial",
+                    "menu-item-db-id": 81,
+                    "menu-item-object-id": "7",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "Sobre",
+                    "menu-item-db-id": 82,
+                    "menu-item-object-id": "1",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "Receitas",
+                    "menu-item-db-id": 79,
+                    "menu-item-object-id": "76",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "Contato",
+                    "menu-item-db-id": 80,
+                    "menu-item-object-id": "43",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                }
+            ]
+        },
+        "social-menu": {
+            "name": "Menu de redes sociais",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 83,
+                    "menu-item-object-id": "83",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.facebook.com/WordPresscom/"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 84,
+                    "menu-item-object-id": "84",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://twitter.com/wordpressdotcom"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 85,
+                    "menu-item-object-id": "85",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.instagram.com/wordpressdotcom/"
+                }
+            ]
+        }
+    },
+    "images": [
+        "https://barnsburydemo.files.wordpress.com/2019/09/healthy.png",
+        "https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/brooke-lark-f_5g8eehye-unsplash-1.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/brooke-lark-f_5g8eehye-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/mariana-medvedeva-nm1fz-scxne-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/cayla1-w6ftfbpcs9i-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/phil-hearing-nfs0n3_d2xy-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/martin-adams-5xxfymman84-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/jeshoots-com-l8nlxbhwbw0-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/sri-lanka-ksa66ayiqnk-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/agence-producteurs-locaux-damien-kuhn-dtbfrwd6qto-unsplash.jpg"
+    ]
+}

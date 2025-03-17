@@ -1,0 +1,722 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ads.txt & App-ads.txt Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-26 20:31+0000\n"
+"PO-Revision-Date: 2021-05-27 20:39+0000\n"
+"Last-Translator: Gautier Dorval\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh-CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#: admin-ui-inc/ads-txt-inc.php:44 admin-ui-inc/ads-txt-inc.php:109 
+#: admin-ui-inc/app-ads-txt-inc.php:44 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:45 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:109
+msgid ""
+" This must contain the same value used in transactions (i.e. OpenRTB bid "
+"requests) in the field specified by the SSP/exchange (For OpenRTB = "
+"publisher ID | For OpenDirect = publisher’s organization ID)."
+msgstr ""
+" 该值必须包含与SSP /交换指定的字段（用于OpenRTB =发布者ID |对于OpenDirect "
+"=发布者的组织ID）在交易（即OpenRTB出价请求）中使用的值相同。"
+
+#: inc/recommendations.php:28
+msgid "404 to 301 By Joel James"
+msgstr "404至301乔尔·詹姆斯（Joel James）"
+
+#: app-ads-txt-admin.php:80
+#, php-format
+msgid "<a href=\"%s\">Get Pro version</a> to enable"
+msgstr "<a href=\"%s\">获取Pro版本</a>以启用"
+
+#: inc/recommendations.php:148
+msgid ""
+"A new way to boost your marketing content. Writing Web Content that is "
+"ranking like those of SEO Experts."
+msgstr "一种增加营销内容的新方法。编写排名与SEO专家相似的Web内容。"
+
+#: inc/faq.php:92
+msgid ""
+"Ad fraud prevention. App-ads.txt blocks unauthorized developers who "
+"impersonate legitimate apps and mislead DSPs into spending brand budgets on "
+"fake inventory. With fraud instances minimized, authentic developers can "
+"retain more of the ad revenue from inventory genuinely targeted to their app."
+msgstr ""
+"防止广告欺诈。 App-ads."
+"txt阻止未经授权的开发人员，他们冒充合法应用程序并误导DSP将品牌预算用于假库存。通过最大程度地减少欺诈实例，真实的开发人员可以从真正针对他们的应用的广告资源中保留更多的广告收入。"
+
+#: admin-ui-inc/ads-txt-inc.php:162 admin-ui-inc/app-ads-txt-inc.php:95 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:162
+msgid "Add more custom rules if you need them, otherwise, leave it blank."
+msgstr "如果需要，添加更多自定义规则，否则，将其留空。"
+
+#: admin-ui-inc/ads-txt-inc.php:15
+msgid "Add rules for Ads.txt, one line at a time. Then save"
+msgstr "一次添加一行Ads.txt的规则。然后保存"
+
+#: admin-ui-inc/app-ads-txt-inc.php:15 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:15
+msgid "Add rules for App-Ads.txt, one line at a time. Then save"
+msgstr "一次添加一行App-Ads.txt的规则。然后保存"
+
+#. Name of the plugin
+msgid "Ads.txt & App-ads.txt Manager"
+msgstr "Ads.txt和App-ads.txt管理器"
+
+#: inc/recommendations.php:16
+msgid "Akismet Anti-Spam by Automattic"
+msgstr "Akismet自动垃圾邮件反垃圾邮件"
+
+#: inc/recommendations.php:17
+msgid ""
+"Akismet checks your comments and contact form submissions against our global "
+"database of spam to protect you and your site from malicious content."
+msgstr "Akismet会根据我们的全球垃圾邮件数据库检查您的评论和联系表提交的内容，以保护您和您的网站免受恶意内容的侵害。"
+
+#: admin-ui-inc/ads-txt-inc.php:68 admin-ui-inc/ads-txt-inc.php:133 
+#: admin-ui-inc/app-ads-txt-inc.php:68 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:69 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:133
+msgid ""
+"An ID that uniquely identifies the advertising system within a certification "
+"authority."
+msgstr "在证书颁发机构内唯一标识广告系统的ID。"
+
+#: inc/seo-recommendations.php:16 inc/seo-recommendations.php:18
+msgid "Analyse my site"
+msgstr "分析我的网站"
+
+#: inc/seo-recommendations.php:27
+msgid ""
+"Analyse your Google ranking with keywords, traffic and more (REGISTER TO GET "
+"10 FREE REQUESTS)"
+msgstr "使用关键字，点击量和更多信息分析您的Google排名（注册即可获得10个免费请求）"
+
+#: admin-ui-inc/app-ads-txt-inc.php:19
+msgid "App-Ads.txt"
+msgstr "App-Ads.txt"
+
+#. Description of the plugin
+msgid ""
+"App-ads.txt & Ads.txt manager allows you to create, manage & publish your "
+"app-ads.txt & ads.txt files from your WordPress dashboard."
+msgstr "App-ads.txt和Ads.txt管理器允许您从WordPress仪表板创建，管理和发布app-ads.txt和ads.txt文件。"
+
+#: inc/recommendations.php:49
+msgid ""
+"App-Ads.txt & Ads.txt Manager by Pagup provides a selection of plugins "
+"allowing to keep your website healthy, get better results on Search engines "
+"and increase your sales for ecommerce solutions."
+msgstr ""
+"Pagup的App-Ads.txt和Ads.txt管理器提供了一系列插件，可让您的网站保持健康，在搜索引擎上获得更好的结果并提高电子商务解决方案的销售量。"
+
+#: inc/faq.php:88
+msgid ""
+"Authorized in-app inventory. An ever-increasing amount of brands are looking "
+"to advertise in-app today. Brand buyers now rely on an adherence to app-ads."
+"txt to make sure they don’t buy unauthorized inventory from app developers "
+"and negatively impact campaign performance. Developers who don’t implement "
+"app-ads.txt can be removed from any brand buyer’s target media list. That’s "
+"why joining the app-ads.txt movement is crucial for publishers to maintain "
+"their revenue."
+msgstr ""
+"授权的应用内广告资源。如今，越来越多的品牌希望在应用内进行广告宣传。品牌购买者现在依靠遵守app-ads."
+"txt来确保他们不会从应用开发者那里购买未经授权的广告资源，并会对广告系列的效果产生负面影响。未实施app-ads."
+"txt的开发人员可以从任何品牌购买者的目标媒体列表中删除。这就是为什么加入app-ads.txt运动对发布商保持收入至关重要的原因。"
+
+#: inc/sidebar.php:13
+msgid ""
+"Auto optimize all image alt texts (including Woocommerce online store), of "
+"your pages, posts & product, from Yoast SEO optimization settings (keywords) "
+"and/or Post title."
+msgstr "通过Yoast SEO优化设置（关键字）和/或帖子标题，自动优化页面，帖子和产品的所有图像替代文本（包括Woocommerce在线商店）。"
+
+#: inc/recommendations.php:124
+msgid ""
+"Automatically insert rel=nofollow and target=_blank to all the external "
+"links into your website posts, pages or menus. Support exclude domain."
+msgstr "自动将rel = nofollow和target = _blank插入所有外部链接到您的网站帖子，页面或菜单中。支持排除域。"
+
+#: inc/recommendations.php:29
+msgid ""
+"Automatically redirect, log and notify all 404 page errors to any page using "
+"301 redirection."
+msgstr "使用301重定向自动将所有404页面错误重定向，记录并通知到任何页面。"
+
+#: inc/recommendations.php:156
+msgid "Awesome plugins for SEO & Conversion performance:"
+msgstr "出色的SEO和转换性能插件："
+
+#: inc/seo-recommendations.php:90
+msgid "Bing Webmaster tool"
+msgstr "Bing网站管理员工具"
+
+#: inc/recommendations.php:11
+msgid ""
+"Boost the way people interact with your website, e-commerce or blog with an "
+"easy and intuitive WordPress rating system!"
+msgstr "通过简单直观的WordPress评分系统，提高人们与您的网站，电子商务或博客互动的方式！"
+
+#: inc/sidebar.php:6
+msgid "Boost your ranking on Google"
+msgstr "提升您在Google上的排名"
+
+#: inc/faq.php:67
+msgid ""
+"Capturing revenue from brand spend. Brands today represent a growing and "
+"potentially significant revenue opportunity for developers. We can expect "
+"that many DSPs that adhere to app-ads.txt won’t purchase inventory missing "
+"the app-ads.txt file, just as they won’t buy unauthorized inventory on web. "
+"Developers who don’t implement app-ads.txt are likely to be removed from "
+"DSPs’ pool of targeted media."
+msgstr ""
+"从品牌支出中获取收入。对于发展商而言，如今的品牌代表着不断增长且潜在的巨大收益机会。我们可以预期，许多遵循app-ads."
+"txt的DSP不会购买缺少app-ads.txt文件的广告资源，就像它们不会在网络上购买未经授权的广告资源一样。未实施app-ads."
+"txt的开发人员很可能会从DSP的目标媒体池中删除。"
+
+#: inc/seo-recommendations.php:48 inc/seo-recommendations.php:50
+msgid "Check my links"
+msgstr "检查我的链接"
+
+#: app-ads-txt-admin.php:239
+msgid ""
+"Checking this box will remove ALL settings (app-ads.txt & ads.txt) when you "
+"deactivate plugin."
+msgstr "停用插件后，选中此框将删除所有设置（app-ads.txt和ads.txt）。"
+
+#: inc/recommendations.php:23
+msgid ""
+"Compress and optimize (or optimise) image files, improve performance and "
+"boost your SEO rank using Smush WordPress image compression and optimization."
+msgstr "使用Smush WordPress图像压缩和优化来压缩和优化（或优化）图像文件，提高性能并提高您的SEO排名。"
+
+#: inc/faq.php:37
+msgid ""
+"Concretely, publishers drop a text file on their web servers that lists all "
+"of the companies that are authorized to sell the publishers’ inventory. "
+"Similarly, programmatic platforms also integrate ads.txt files to confirm "
+"which publishers’ inventory they are authorized to sell. This allows buyers "
+"to check the validity of the inventory they purchase."
+msgstr ""
+"具体来说，发布商会在其网络服务器上放置一个文本文件，其中列出了所有有权出售发布者的广告资源的公司。同样，程序化平台还集成了ads."
+"txt文件，以确认他们有权出售哪些发布者的库存。这使购买者可以检查他们购买的库存的有效性。"
+
+#: inc/seo-recommendations.php:44
+msgid "Dead links"
+msgstr "无效链接"
+
+#: inc/seo-recommendations.php:45
+msgid ""
+"Dead links, 404 errors, 503 errors, ... all bad links that could hurt your "
+"website ranking."
+msgstr "无效链接，404错误，503错误……所有可能损害您网站排名的不良链接。"
+
+#: app-ads-txt-admin.php:226
+msgid "Delete Settings"
+msgstr "删除设定"
+
+#: inc/recommendations.php:69 inc/recommendations.php:175
+msgid "Download"
+msgstr "下载"
+
+#: inc/faq.php:71
+msgid ""
+"Fighting ad fraud. Bad actors may forge apps that impersonate legitimate "
+"apps, and mislead DSPs to spend brand budgets on their forged inventory. "
+"Legitimate developers end up losing out on ad revenue that was originally "
+"intended for them. App-ads.txt blocks unauthorized developer impersonations "
+"and minimizes instances of fraud that ultimately hurt developers’ bottom "
+"line."
+msgstr ""
+"打击广告欺诈。不良行为者可能伪造冒充合法应用程序的应用程序，并误导DSP将品牌预算用于伪造的广告资源。合法的开发人员最终会失去原本打算为他们提供的广告收入。"
+" App-ads.txt会阻止未经授权的开发人员假冒行为，并最大限度地减少欺诈行为，这些欺诈行为最终会损害开发人员的底线。"
+
+#: inc/seo-recommendations.php:59
+msgid ""
+"Get a simple and professional-quality SEO audit of your website for FREE"
+msgstr "免费获得对您的网站的简单且专业质量的SEO审核"
+
+#: inc/sidebar.php:14
+msgid "Get BIALTY by Pagup &raquo;"
+msgstr "通过Pagup获取BIALTY»"
+
+#: inc/seo-recommendations.php:13
+msgid ""
+"Get insight on how well your site loads with actionable recommendations on "
+"how to optimize it."
+msgstr "深入了解您的网站的负载情况，并提供有关如何优化网站的可行建议。"
+
+#: inc/sidebar.php:20
+msgid "Get Mobilook by Pagup &raquo;"
+msgstr "通过Pagup获取Mobilook»"
+
+#: inc/recommendations.php:5
+msgid ""
+"Get Schema.org structured data for all pages, posts, categories and profile "
+"pages on activation."
+msgstr "获取激活时所有页面，帖子，类别和个人资料页面的Schema.org结构化数据。"
+
+#: inc/seo-recommendations.php:26
+msgid "Google Ranking"
+msgstr "Google排名"
+
+#: inc/recommendations.php:129
+msgid "Google Reviews Widget By RichPlugins"
+msgstr "Google Reviews Widget由RichPlugins"
+
+#: inc/recommendations.php:130
+msgid ""
+"Google Reviews Widget show Google Places Reviews on your WordPress website "
+"to increase user confidence and SEO."
+msgstr "Google评论小工具在WordPress网站上显示Google地方评论，以提高用户的信心和SEO。"
+
+#: inc/seo-recommendations.php:82
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+#: app-ads-txt.php:86
+#, php-format
+msgid ""
+"Hey %1$s, %2$s Click on Allow & Continue to start optimizing your app-ads."
+"txt and ads-txt files. %2$s Never miss an important update -- opt-in to our "
+"security and feature updates notifications. %2$s See you on the other side."
+msgstr ""
+"嗨％1 $ s，％2 $ s单击“允许并继续”以开始优化您的app-ads.txt和ads-txt文件。 ％2 $ s绝不要错过重要更新-"
+"选择加入我们的安全和功能更新通知。 ％2 $ s在另一边见。"
+
+#: inc/faq.php:60
+msgid "How app-ads.txt can benefit your mobile app?"
+msgstr "app-ads.txt如何使您的移动应用受益？"
+
+#: inc/faq.php:84
+msgid ""
+"How does app-ads.txt help mobile app developers capture more ad revenue?"
+msgstr "app-ads.txt如何帮助移动应用程序开发人员获取更多广告收入？"
+
+#. Author URI of the plugin
+msgid "https://pagup.com/"
+msgstr "https://pagup.com/"
+
+#: app-ads-txt-admin.php:260
+msgid "If app-ads.txt is still not working. Please try to save Settings >"
+msgstr "如果app-ads.txt仍然无法正常工作。请尝试保存设置>"
+
+#: inc/recommendations.php:35
+msgid ""
+"Improve your WordPress SEO: Write better content and have a fully optimized "
+"WordPress site using the Yoast SEO plugin."
+msgstr "改善您的WordPress SEO：使用Yoast SEO插件编写更好的内容，并拥有一个完全优化的WordPress网站。"
+
+#: inc/faq.php:9
+msgid ""
+"In June 2017, the IAB (The Interactive Advertising Bureau Tech Lab) launched "
+"ads.txt, a file enabling web publishers to designate authorized digital "
+"sellers of their ad inventory. Ads.txt helped the industry distinguish real "
+"supply sources from fake ones, and after its immediate success and adoption, "
+"the next logical step was to extend the reach of ads.txt into the mobile app "
+"ecosystem. App-ads.txt is the mobile in-app equivalent of this specification,"
+" which mobile publishers can implement."
+msgstr ""
+"2017年6月，IAB（互动广告局技术实验室）启动了ads.txt，该文件使网络发布者可以指定其广告资源的授权数字销售商。 Ads."
+"txt帮助行业区分了真实的供应来源和虚假的供应来源，在其迅速成功并被采用之后，下一步的逻辑就是将ads.txt的覆盖范围扩展到移动应用生态系统中。 "
+"App-ads.txt是与此规范相对应的移动应用程序内代码，移动发布者可以实施此规范。"
+
+#: inc/recommendations.php:100
+msgid ""
+"Increase engagement and drive more repeat traffic to your WordPress site "
+"with desktop push notifications. Now supporting Chrome, Firefox, and Safari."
+msgstr "借助桌面推送通知，提高参与度并为您的WordPress网站吸引更多重复流量。现在支持Chrome，Firefox和Safari。"
+
+#: inc/seo-recommendations.php:88
+msgid "Index your Website (Bing)"
+msgstr "索引您的网站（必应）"
+
+#: inc/seo-recommendations.php:80
+msgid "Index Your Website (Google)"
+msgstr "索引您的网站（Google）"
+
+#: inc/sidebar.php:19
+msgid ""
+"Instant mobile view of website (pages, posts, products) for responsive web "
+"design on phone (+ dualscreen). This plugin also offers helpful tools on "
+"each page, such as Facebook Debugger, LinkedIn Post Inspector, and Google "
+"Mobile-Friendly Test Tool."
+msgstr ""
+"即时的网站（页面，帖子，产品）移动视图，可在手机（+双屏）上进行响应式网页设计。该插件还在每个页面上提供有用的工具，例如Facebook "
+"Debugger，LinkedIn Post Inspector和Google Mobile-Friendly Test Tool。"
+
+#: inc/sidebar.php:18
+msgid "Instant Mobile Viewer"
+msgstr "即时移动查看器"
+
+#: inc/faq.php:33
+msgid ""
+"It is an IAB-approved text file that aims to prevent unauthorized inventory "
+"sales. In a fragmented advertising ecosystem, ads.txt serves as a method of "
+"improving transparency for demand side platforms. In fact, DSPs aren’t "
+"buying web supply that isn’t authorized via ads.txt."
+msgstr ""
+"这是IAB批准的文本文件，旨在防止未经授权的库存销售。在零散的广告生态系统中，ads."
+"txt是提高需求方平台透明度的一种方法。实际上，DSP并不是在购买未经ads.txt授权的网络供应。"
+
+#: app-ads-txt-admin.php:278
+msgid ""
+"Just a sample for copy-paste purpose. Make sure to change itaccordingaly "
+"inside custom rules box."
+msgstr "只是用于复制粘贴目的的样本。确保在自定义规则框中更改它。"
+
+#: inc/seo-recommendations.php:12
+msgid "Loading performance"
+msgstr "装载性能"
+
+#: app-ads-txt-admin.php:268
+msgid ""
+"Make sure search engines can crawl your .txt files. Optimize your robots.txt "
+"with"
+msgstr "确保搜索引擎可以抓取您的.txt文件。使用优化您的robots.txt"
+
+#: inc/seo-recommendations.php:100
+msgid "MASS PING"
+msgstr "大众乒乓球"
+
+#: inc/seo-recommendations.php:101
+msgid ""
+"Mass ping is a free online tool that easily promotes your blog or website on "
+"70 different search engines."
+msgstr "Mass ping是一个免费的在线工具，可以在70个不同的搜索引擎上轻松推广您的博客或网站。"
+
+#: inc/faq.php:41
+msgid "More details here : https://youtu.be/T_4uK2HnOy0"
+msgstr "此处有更多详细信息：https://youtu.be/T_4uK2HnOy0"
+
+#: inc/faq.php:49
+msgid "My .txt file doesn’t show up at all."
+msgstr "我的.txt文件完全没有显示。"
+
+#: inc/seo-recommendations.php:30 inc/seo-recommendations.php:32
+msgid "My Google Ranking"
+msgstr "我的Google排名"
+
+#: inc/seo-recommendations.php:62 inc/seo-recommendations.php:64
+msgid "My SEO profile"
+msgstr "我的SEO个人资料"
+
+#: inc/recommendations.php:123
+msgid "Nofollow for external link By CyberNetikz"
+msgstr "Nofollow进行外部链接通过CyberNetikz"
+
+#: app-ads-txt-admin.php:257
+msgid ""
+"Note: app-ads.txt & ads.txt Manager creates virtual app-ads.txt & ads.txt "
+"files. Please make sure that your permalinks are enabled and there is no "
+"physical app-ads.txt & ads.txt file on your server. If you're using any kind "
+"of cache then make sure to clear it after Saving Changes. Please read FAQ "
+"for more details."
+msgstr ""
+"注意：app-ads.txt和ads.txt管理器会创建虚拟app-ads.txt和ads."
+"txt文件。请确保您的永久链接已启用，并且服务器上没有物理app-ads.txt和ads."
+"txt文件。如果您使用任何类型的缓存，请确保在保存更改后将其清除。请阅读常见问题以获取更多详细信息。"
+
+#: admin-ui-inc/ads-txt-inc.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your ads.txt</a>"
+msgstr ""
+"应用设置后，请在此处检查您的ads.txt文件。<a href=\"%s\" target=\"_blank\" class=\"note-btn\">"
+"您的ads.txt</a>"
+
+#: admin-ui-inc/app-ads-txt-inc.php:5 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your app-ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your app-ads.txt</a>"
+msgstr ""
+"应用设置后，请在此处检查您的app-ads.txt文件。<a href=\"%s\" target=\"_blank\" class=\"note-"
+"btn\">您的app-ads.txt</a>"
+
+#: inc/recommendations.php:99
+msgid "OneSignal – Free Web Push Notifications By OneSignal"
+msgstr "OneSignal – OneSignal的免费Web推送通知"
+
+#: inc/sidebar.php:12
+msgid "Optimize your ALT TEXT"
+msgstr "优化您的ALT TEXT"
+
+#: inc/sidebar.php:7
+msgid ""
+"Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
+"ranking on search engines."
+msgstr "使用Better Robots.txt（由PAGUP制造）优化您的Robots.txt，并提高您在搜索引擎上的排名。"
+
+#. Author of the plugin
+msgid "Pagup"
+msgstr "帕古普"
+
+#: app-ads-txt-admin.php:261
+msgid "Permalinks"
+msgstr "固定链接"
+
+#: inc/seo-recommendations.php:102
+msgid "Ping my links"
+msgstr "链接我的链接"
+
+#: inc/faq.php:53
+msgid ""
+"Please clear your browser cache and reload the ads.txt OR app-ads.txt link."
+msgstr "请清除浏览器缓存，然后重新加载ads.txt或app-ads.txt链接。"
+
+#: inc/seo-recommendations.php:5
+msgid "Premium Feature"
+msgstr "高级功能"
+
+#: inc/recommendations.php:111
+msgid "Recart - Abandoned Cart Toolbox"
+msgstr "Recart-被遗弃的购物车工具箱"
+
+#: inc/recommendations.php:112
+msgid ""
+"Recart Messenger Marketing and Abandoned Cart Toolbox is a All in one cart "
+"recovery marketing tools for ecommerce solution"
+msgstr "Recart Messenger营销和废弃购物车工具箱是适用于电子商务解决方案的多合一购物车恢复营销工具"
+
+#: app-ads-txt-admin.php:248
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: inc/recommendations.php:4
+msgid "Schema App Structured Data by Hunch Manifest"
+msgstr "Hunch Manifest的Schema App结构化数据"
+
+#: inc/seo-recommendations.php:58
+msgid "SEO Score"
+msgstr "SEO分数"
+
+#: inc/seo-recommendations.php:1
+msgid "SEO tools recommended by App-Ads.txt & Ads.txt Manager:"
+msgstr "App-Ads.txt和Ads.txt管理器推荐的SEO工具："
+
+#: app-ads-txt-admin.php:139
+msgid "Settings"
+msgstr "设定值"
+
+#: app-ads-txt-admin.php:126
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+#: inc/recommendations.php:88
+msgid ""
+"Share buttons from AddThis help you get more traffic from sharing through "
+"social networks."
+msgstr "AddThis中的共享按钮可帮助您通过社交网络共享获得更多流量。"
+
+#: inc/notices.php:13
+#, php-format
+msgid ""
+"Show support for App-ads.txt & Ads.txt Manager with a 5-star rating » <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr ""
+"显示对App-ads.txt和Ads.txt管理器的支持，并获得五星级的评价»<a href=\"%s\" target=\"_blank\">"
+"单击此处</a>"
+
+#: inc/recommendations.php:22
+msgid "Smush Image Compression and Optimization By WPMU DEV"
+msgstr "WPMU DEV的模糊图像压缩和优化"
+
+#: inc/faq.php:96
+msgid ""
+"Source : https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+msgstr ""
+"来源：https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-text-"
+"Overview"
+
+#: inc/faq.php:75
+msgid "Source : https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+msgstr "资料来源：https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+
+#: inc/recommendations.php:118 inc/recommendations.php:136
+msgid ""
+"Speed up your WordPress website, more traffic, conversions and money with WP "
+"Rocket caching plugin."
+msgstr "WP Rocket缓存插件可加快您的WordPress网站，更多流量，转换和金钱。"
+
+#: inc/seo-recommendations.php:89
+msgid ""
+"Submit your website to Bing Webmaster tool and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr "将您的网站提交到Bing网站管理员工具，并享受Better Robots.txt的真正好处"
+
+#: inc/seo-recommendations.php:81
+msgid ""
+"Submit your website to Google Search Console and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr "将您的网站提交到Google Search Console，享受Better Robots.txt的真正好处"
+
+#: inc/faq.php:17
+msgid ""
+"Thanks to app-ads.txt file, Mobile and OTT app publishers can list the ad "
+"tech vendors that are authorized to sell or resell their ad inventory, and "
+"programmatic ad buyers can check these lists to make sure that a company "
+"claiming to offer an app’s inventory is actually able to sell the app’s "
+"inventory."
+msgstr ""
+"借助app-ads."
+"txt文件，移动和OTT应用发布者可以列出有权出售或转售其广告资源的广告技术供应商，而程序化广告购买者可以检查这些列表，以确保声称提供该应用的公司广告资源实际上可以出售应用的广告资源。"
+
+#: inc/faq.php:13
+msgid ""
+"The app-ads.txt file is the version of ads.txt for mobile in-app and OTT "
+"advertising, to combat bad actors that disguise themselves as another "
+"company’s app in order to siphon the money that advertisers are spending on "
+"mobile and OTT advertising. App-ads.txt files are formatted the same as ads."
+"txt files (view IAB FAQ for ads.txt and app-ads.txt)."
+msgstr ""
+"app-ads.txt文件是用于移动应用内广告和OTT广告的ads."
+"txt版本，用于打击伪装成另一家公司应用的不良行为者，以窃取广告客户在移动和OTT广告上的支出。 App-ads.txt文件的格式与ads."
+"txt文件相同（请查看IAB常见问题解答以了解ads.txt和app-ads.txt）。"
+
+#: admin-ui-inc/ads-txt-inc.php:34 admin-ui-inc/ads-txt-inc.php:99 
+#: admin-ui-inc/app-ads-txt-inc.php:34 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:35 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:99
+msgid ""
+"The canonical domain name of the SSP, Exchange, system that bidders connect "
+"to (they publishes a document detailing what domain name to use)."
+msgstr "投标人连接到的SSP Exchange系统的规范域名（它们发布详细说明要使用的域名的文档）。"
+
+#: inc/faq.php:64
+msgid "There are two main benefits for app developers."
+msgstr "对于应用程序开发人员来说，有两个主要好处。"
+
+#: inc/faq.php:21
+msgid "This file opens the door for a new level of transparency."
+msgstr "该文件为透明性的新水平打开了大门。"
+
+#: inc/recommendations.php:43
+msgid "Top plugins for SEO performance:"
+msgstr "SEO性能的顶级插件："
+
+#: inc/sidebar.php:8
+msgid "Try Better Robots.txt &raquo;"
+msgstr "尝试Better Robots.txt»"
+
+#: inc/recommendations.php:186
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\">PRO version</a> to UNLOCK 12 additional awesome "
+"plugins recommendations for SEO & Conversion performance"
+msgstr "升级到<a href=\"%s\">PRO版本</a>以解锁12个关于SEO和转换性能的出色插件建议"
+
+#: inc/recommendations.php:192
+msgid ""
+"Want to suggest another plugin ? ... Send us a message at support@better-"
+"robots.com"
+msgstr "想建议另一个插件？ ...通过support@better-robots.com向我们发送消息"
+
+#: app-ads-txt-admin.php:216
+msgid "Warning: make sure to clear your cache after saving changes."
+msgstr "警告：请确保在保存更改后清除缓存。"
+
+#: inc/faq.php:29
+msgid "What’s ads.txt ?"
+msgstr "什么是ads.txt？"
+
+#: inc/faq.php:5
+msgid "What’s app-ads.txt?"
+msgstr "什么是app-ads.txt？"
+
+#: inc/recommendations.php:87
+msgid "WordPress Share Buttons Plugin – AddThis By The AddThis Team"
+msgstr "WordPress共享按钮插件– AddThis Team的AddThis"
+
+#: inc/recommendations.php:135
+msgid "WP Chatbot for facebook Messenger customer chat By HoliThemes"
+msgstr "用于Facebook Messenger聊天的WP Chatbot通过HoliThemes"
+
+#: inc/recommendations.php:141
+msgid "WP Google My Business Auto Publish By Martin Gibson"
+msgstr "WP Google我的业务自动发布者：马丁·吉布森（Martin Gibson）"
+
+#: inc/recommendations.php:142
+msgid ""
+"WP Google My Business Auto Publish lets you publish posts, custom posts and "
+"pages automatically from WordPress to your Google My Business page."
+msgstr "WP Google我的商家自动发布功能可让您自动将WordPress中的帖子，自定义帖子和页面发布到您的Google我的商家页面。"
+
+#: inc/recommendations.php:147
+msgid "WP Search Console"
+msgstr "WP搜索控制台"
+
+#: inc/recommendations.php:81
+msgid "WP-Optimize by David Anderson, Ruhani Rabin, Team Updraft"
+msgstr "WP-Optimize，由大卫·安德森（David Anderson），鲁哈尼·拉宾（Ruhani Rabin），Updraft团队"
+
+#: inc/recommendations.php:82
+msgid ""
+"WP-Optimize is WordPress's most-installed optimization plugin. With it, you "
+"can clean up your database easily and safely, without manual queries."
+msgstr "WP-Optimize是WordPress安装最多的优化插件。有了它，您可以轻松，安全地清理数据库，而无需手动查询。"
+
+#: inc/recommendations.php:117
+msgid "Wp-Roket - Probably the best caching Plugin for WordPress"
+msgstr "Wp-Roket-可能是WordPress的最佳缓存插件"
+
+#: inc/recommendations.php:94
+msgid ""
+"WP-SpamShield is a leading WordPress anti-spam plugin that stops spam "
+"instantly and improves your site's security. "
+msgstr "WP-SpamShield是一个领先的WordPress反垃圾邮件插件，可立即停止垃圾邮件并提高您网站的安全性。"
+
+#: inc/recommendations.php:93
+msgid "WP-SpamShield WordPress Anti-Spam Plugin by Red Sand Media Group"
+msgstr "Red Sand Media Group的WP-SpamShield WordPress反垃圾邮件插件"
+
+#: inc/recommendations.php:105
+msgid "WPfomify - Social Proof & FOMO Marketing Plugin"
+msgstr "WPfomify-社交证明和FOMO营销插件"
+
+#: inc/recommendations.php:106
+msgid ""
+"WPfomify increases conversion rates on your websites by displaying recent "
+"interaction, sales and sign-ups"
+msgstr "WPfomify通过显示最近的互动，销售和注册来提高您网站上的转化率"
+
+#: inc/recommendations.php:10
+msgid "Yasr – Yet Another Stars Rating by Dario Curvino"
+msgstr "Yasr –达里奥·库维诺（Dario Curvino）的另一颗星评级"
+
+#: inc/recommendations.php:34
+msgid "Yoast SEO By Team Yoast"
+msgstr "Yoast SEO，作者：Yoast团队"
+
+#: admin-ui-inc/ads-txt-inc.php:54 admin-ui-inc/ads-txt-inc.php:119 
+#: admin-ui-inc/app-ads-txt-inc.php:54
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your ads-txt.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"您的直接需求合作伙伴应列为“直接”。如果您的合作伙伴正在使用第三方经销商来出售您的库存，则这些提供商应列为“经销商”。无论如何，除非您或您的合作伙伴与他们有直接关系，否则您不应将任何提供程序添加到ads"
+"-txt.txt文件中。"
+
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:55 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:119
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your app-ads.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"您的直接需求合作伙伴应列为“直接”。如果您的合作伙伴正在使用第三方经销商来出售您的库存，则这些提供商应列为“经销商”。无论如何，除非您或您的合作伙伴与他们有直接关系，否则您不应将任何提供程序添加到您的app"
+"-ads.txt文件中。"

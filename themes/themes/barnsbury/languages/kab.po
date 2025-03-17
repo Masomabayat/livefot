@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Barnsbury\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T01:59:36+00:00\n"
+"PO-Revision-Date: 2020-07-24 01:20:51+0000\n"
+"Language: kab_DZ\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: functions.php:88
+msgid "Foreground"
+msgstr "Tazwart"
+
+#: functions.php:83
+msgid "Background"
+msgstr "Aɣawas n deffir"
+
+#: functions.php:78
+msgid "Secondary"
+msgstr "Arnaw"
+
+#: functions.php:73
+msgid "Primary"
+msgstr "Agejdan"
+
+#: functions.php:48
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:47
+msgid "Huge"
+msgstr "Meqqer aṭas"
+
+#: functions.php:42
+msgid "L"
+msgstr "L"
+
+#: functions.php:41
+msgid "Large"
+msgstr "Tahrawant"
+
+#: functions.php:36
+msgid "M"
+msgstr "M"
+
+#: functions.php:35
+msgid "Normal"
+msgstr "Amagnu"
+
+#: functions.php:30
+msgid "S"
+msgstr "S"
+
+#: functions.php:29
+msgid "Small"
+msgstr "Amecṭuḥ"

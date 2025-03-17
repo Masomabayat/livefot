@@ -1,0 +1,627 @@
+# Translation of Plugins - AMP - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - AMP - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-27 10:42:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - AMP - Stable (latest release)\n"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:259
+msgid "All AMP Validation Errors"
+msgstr "Alle valideringsfeil for AMP"
+
+#: includes/class-amp-theme-support.php:700
+msgid "Singular"
+msgstr "Entall"
+
+#: includes/amp-helper-functions.php:1981
+#: includes/validation/class-amp-validation-manager.php:442
+#: includes/validation/class-amp-validation-manager.php:464
+msgid "View AMP version"
+msgstr "Vis AMP-versjon"
+
+#: includes/amp-helper-functions.php:1980
+#: includes/validation/class-amp-validation-manager.php:464
+msgid "View non-AMP version"
+msgstr "Vis ikke-AMP-versjon"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1792
+#: includes/validation/class-amp-validation-error-taxonomy.php:2810
+msgid "CSS"
+msgstr "CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1783
+msgid "JS"
+msgstr "JS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1697
+#: includes/validation/class-amp-validation-error-taxonomy.php:1845
+msgid "Toggle error details"
+msgstr "Veksle detaljer om feil"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1481
+msgid "Filter by error type"
+msgstr "Filtrer etter feiltype"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1406
+msgid "All statuses"
+msgstr "Alle statuser"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1305
+msgid "View Validated URLs"
+msgstr "Vis validerte URL-er"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1260
+msgid "Apply Filter"
+msgstr "Bruk filter"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:900
+msgid "Last Seen"
+msgstr "Sist sette"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:265
+msgid "View Validation Error"
+msgstr "Vis valideringsfeil"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:264
+msgid "Frequent Validation Errors"
+msgstr "Hyppige valideringsfeil"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:263
+msgid "Back to AMP Validation Errors"
+msgstr "Tilbake til valideringsfeil for AMP"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:262
+#: includes/validation/class-amp-validation-error-taxonomy.php:1744
+#: assets/js/amp-settings.js:32
+msgid "Error Index"
+msgstr "Oversikt over feil"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:258
+msgid "Search AMP Validation Errors"
+msgstr "Søk etter valideringsfeil for AMP"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:257
+msgctxt "taxonomy singular name"
+msgid "AMP Validation Error"
+msgstr "Valideringsfeil for AMP"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:256
+msgctxt "taxonomy general name"
+msgid "AMP Validation Error Index"
+msgstr "Oversikt over valideringsfeil for AMP"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3229
+msgid "Forgotten"
+msgstr "Glemt"
+
+#. translators: %s: post title
+#: includes/validation/class-amp-validated-url-post-type.php:3205
+msgid "Forget &#8220;%s&#8221;"
+msgstr "Glem &#8220;%s&#8221;"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3183
+msgid "View"
+msgstr "Vis"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2946
+msgid "Search Errors"
+msgstr "Søk feil"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2911
+msgid "Invalid taxonomy."
+msgstr "Ugyldig taksonomi."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2391
+msgid "Update"
+msgstr "Oppdater"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2357
+msgid "View User"
+msgstr "Vis bruker"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2355
+msgid "Edit User"
+msgstr "Rediger bruker"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2341
+msgid "View URL"
+msgstr "Vis URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2293
+msgid "Please recheck."
+msgstr "Vennligst sjekk på nytt."
+
+#: includes/validation/class-amp-validated-url-post-type.php:2268
+msgid "Preview Changes"
+msgstr "Forhåndsvis endringer"
+
+#. translators: %s: The date this was published
+#: includes/validation/class-amp-validated-url-post-type.php:2254
+msgid "Last checked: <b>%s</b>"
+msgstr "Sist sjekket: <b>%s</b>"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1324
+#: includes/validation/class-amp-validated-url-post-type.php:1341
+#: includes/validation/class-amp-validated-url-post-type.php:1370
+#: includes/validation/class-amp-validated-url-post-type.php:2616
+#: includes/validation/class-amp-validated-url-post-type.php:2763
+#: includes/validation/class-amp-validation-error-taxonomy.php:2625
+#: includes/validation/class-amp-validation-error-taxonomy.php:3422
+msgid "Sources"
+msgstr "Kilder"
+
+#: includes/validation/class-amp-validated-url-post-type.php:435
+msgid "View Error Index"
+msgstr "Vis feiloversikt"
+
+#: includes/validation/class-amp-validated-url-post-type.php:169
+msgid "Search validated URLs"
+msgstr "Søk validerte URL-er"
+
+#: includes/validation/class-amp-validated-url-post-type.php:168
+msgid "No forgotten validated URLs"
+msgstr "Ingen glemte URL-er"
+
+#: includes/validation/class-amp-validated-url-post-type.php:167
+msgid "No validated URLs found"
+msgstr "Ingen validerte URL-er funnet"
+
+#: includes/validation/class-amp-validated-url-post-type.php:166
+msgid "Validated URL"
+msgstr "Validert URL"
+
+#: includes/validation/class-amp-validated-url-post-type.php:165
+#: assets/js/amp-settings.js:32
+msgid "Validated URLs"
+msgstr "Validerte URL-er"
+
+#: includes/validation/class-amp-validated-url-post-type.php:164
+msgctxt "post type general name"
+msgid "AMP Validated URLs"
+msgstr "Validerte URL-er for AMP"
+
+#: includes/sanitizers/class-amp-form-sanitizer.php:366
+msgid "Learn More"
+msgstr "Lær mer"
+
+#: src/Admin/PluginActivationNotice.php:78
+msgid "Welcome to AMP for WordPress"
+msgstr "Velkommen til AMP for WordPress"
+
+#: includes/validation/class-amp-validation-manager.php:484
+#: src/Admin/OptionsMenu.php:131 src/Admin/OptionsMenu.php:169
+msgid "Settings"
+msgstr "Innstillinger"
+
+#. translators: %s: the human-readable time difference.
+#: back-compat/templates-v0-3/meta-time.php:21
+#: includes/validation/class-amp-validation-error-taxonomy.php:1972
+#: templates/meta-time.php:28
+msgid "%s ago"
+msgstr "%s siden"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1578
+#: assets/js/amp-block-editor.js:1 assets/js/amp-block-validation.js:12
+msgid "Embed"
+msgstr "Bygg inn"
+
+#. Plugin URI of the plugin
+#: amp.php
+msgid "https://amp-wp.org"
+msgstr "https://amp-wp.org"
+
+#: includes/class-amp-theme-support.php:742
+msgid "Search"
+msgstr "Søk"
+
+#: includes/class-amp-theme-support.php:738 assets/js/amp-block-editor.js:1
+msgid "Date"
+msgstr "Dato"
+
+#: includes/class-amp-theme-support.php:734
+msgid "Author"
+msgstr "Forfatter"
+
+#: includes/class-amp-theme-support.php:715
+#: src/Validation/ScannableURLProvider.php:151
+msgid "Blog"
+msgstr "Blogg"
+
+#: includes/class-amp-theme-support.php:705
+#: includes/class-amp-theme-support.php:723
+#: src/Validation/ScannableURLProvider.php:124
+#: src/Validation/ScannableURLProvider.php:138
+msgid "Homepage"
+msgstr "Hjemmeside"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3054
+msgid "Excessive CSS"
+msgstr "Overflødig CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3042
+#: includes/validation/class-amp-validation-error-taxonomy.php:3461
+msgid "Invalid attribute"
+msgstr "Ugyldig attributt"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3035
+msgid "Invalid element"
+msgstr "Ugyldig element"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2809
+msgid "JavaScript"
+msgstr "JavaScript"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2808
+msgid "HTML Attribute"
+msgstr "HTML-attributt"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2807
+msgid "HTML Element"
+msgstr "HTML-element"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1529
+msgid "Clear Empty"
+msgstr "Fjern tomme"
+
+#. translators: Tab heading when selecting from the most used terms
+#: includes/validation/class-amp-validation-error-taxonomy.php:273
+msgid "Most Used Validation Errors"
+msgstr "Mest brukte valideringsfeil"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:271
+msgid "Validation errors list"
+msgstr "Oversikt over valideringsfeil"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:270
+msgid "Validation errors navigation"
+msgstr "Navigering i valideringsfeil"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:266
+msgid "Add New Validation Error"
+msgstr "Legg til ny valideringsfeil"
+
+#. translators: %s is the number of posts restored from trash.
+#: includes/validation/class-amp-validated-url-post-type.php:3264
+msgid "%s validated URL unforgotten."
+msgid_plural "%s validated URLs unforgotten."
+msgstr[0] "%s validert URL ikke lenger glemt."
+msgstr[1] "%s validerte URL-er ikke lenger glemt."
+
+#. translators: %s is the number of posts forgotten
+#: includes/validation/class-amp-validated-url-post-type.php:3250
+#: includes/validation/class-amp-validated-url-post-type.php:3257
+msgid "%s validated URL forgotten."
+msgid_plural "%s validated URLs forgotten."
+msgstr[0] "%s validert URL glemt."
+msgstr[1] "%s validerte URL-er glemt."
+
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:388
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:414
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:430
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:446
+#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:155
+msgid "collapse child menu"
+msgstr "trekk sammen undermeny"
+
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:387
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:413
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:429
+#: includes/sanitizers/class-amp-core-theme-sanitizer.php:445
+#: includes/sanitizers/class-amp-nav-menu-dropdown-sanitizer.php:152
+msgid "expand child menu"
+msgstr "utvid undermeny"
+
+#: includes/class-amp-theme-support.php:745
+msgid "Not Found (404)"
+msgstr "Ikke funnet (404)"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1789
+msgid "HTML attribute"
+msgstr "HTML-attributt"
+
+#: includes/validation/class-amp-validated-url-post-type.php:2325
+msgid "AMP disabled"
+msgstr "AMP slått av"
+
+#: includes/admin/class-amp-post-meta-box.php:510
+#: includes/validation/class-amp-validated-url-post-type.php:2323
+msgid "AMP enabled"
+msgstr "AMP slått på"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3058
+msgid "Illegal CSS at-rule"
+msgstr "Ugyldig at-regel i CSS"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:2183
+#: includes/validation/class-amp-validation-error-taxonomy.php:2198
+msgid "Invalid markup"
+msgstr "Ugyldig markup"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:3398
+msgid "Element attributes"
+msgstr "Attributter for elementer"
+
+#: includes/widgets/class-amp-widget-categories.php:65
+msgid "Select Category"
+msgstr "Velg kategori"
+
+#: includes/widgets/class-amp-widget-categories.php:44
+msgid "Categories"
+msgstr "Kategorier"
+
+#: includes/widgets/class-amp-widget-archives.php:87
+msgid "Select Post"
+msgstr "Velg innlegg"
+
+#: includes/widgets/class-amp-widget-archives.php:84
+msgid "Select Week"
+msgstr "Velg uke"
+
+#: includes/widgets/class-amp-widget-archives.php:81
+msgid "Select Day"
+msgstr "Velg dag"
+
+#: includes/widgets/class-amp-widget-archives.php:78
+msgid "Select Month"
+msgstr "Velg måned"
+
+#: includes/widgets/class-amp-widget-archives.php:75
+msgid "Select Year"
+msgstr "Velg år"
+
+#: includes/class-amp-theme-support.php:731
+#: includes/widgets/class-amp-widget-archives.php:49
+msgid "Archives"
+msgstr "Arkiv"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:901
+msgid "URLs"
+msgstr "URL-er"
+
+#. translators: Meta box date format
+#: includes/validation/class-amp-validated-url-post-type.php:2256
+msgid "M j, Y @ H:i"
+msgstr "j. M Y \\k\\l H:i"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1851
+#: includes/validation/class-amp-validated-url-post-type.php:2195
+#: assets/js/amp-settings.js:16
+msgid "Status"
+msgstr "Status"
+
+#: includes/validation/class-amp-validated-url-post-type.php:3173
+#: includes/validation/class-amp-validation-error-taxonomy.php:1698
+#: includes/validation/class-amp-validation-error-taxonomy.php:1718
+#: assets/js/amp-onboarding-wizard.js:1 assets/js/amp-settings.js:8
+#: assets/js/amp-settings.js:16 assets/js/amp-site-scan-notice.js:1
+msgid "Details"
+msgstr "Detaljer"
+
+#: includes/class-amp-theme-support.php:1209
+msgid "Click here to cancel reply."
+msgstr "Klikk her for å avbryte svar."
+
+#: includes/class-amp-http.php:494
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar venter på godkjenning."
+
+#: includes/class-amp-http.php:492
+msgid "Your comment has been posted."
+msgstr "Din kommentar er publisert."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1453
+#: includes/validation/class-amp-validated-url-post-type.php:1492
+#: includes/validation/class-amp-validated-url-post-type.php:2737
+#: includes/validation/class-amp-validation-error-taxonomy.php:2048
+msgid "--"
+msgstr "--"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:269
+msgid "Validation Error"
+msgstr "Valideringsfeil"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1653
+#: includes/validation/class-amp-validated-url-post-type.php:2264
+#: includes/validation/class-amp-validated-url-post-type.php:3190
+msgid "Recheck"
+msgstr "Kontrollér på nytt"
+
+#. Author URI of the plugin
+#: amp.php
+msgid "https://github.com/ampproject/amp-wp/graphs/contributors"
+msgstr "https://github.com/ampproject/amp-wp/graphs/contributors"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:260
+msgid "Edit AMP Validation Error"
+msgstr "Rediger valideringsfeil for AMP"
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:268
+msgid "No validation errors found."
+msgstr "Ingen valideringsfeil funnet."
+
+#: includes/validation/class-amp-validation-error-taxonomy.php:1928
+#: includes/validation/class-amp-validation-error-taxonomy.php:3487
+#: assets/js/amp-block-validation.js:12
+msgid "Removed"
+msgstr "Fjernet"
+
+#. translators: %s: $post
+#: includes/amp-helper-functions.php:1312
+msgid "The %s argument is deprecated when theme supports AMP."
+msgstr "Argumentet %s er foreldet når temaet støtter AMP."
+
+#. translators: %s: required PHP version
+#: amp.php:38
+msgid "The AMP plugin requires PHP %s. Please contact your host to update your PHP version."
+msgstr "AMP-utvidelsen krever PHP %s. Vennligst oppdater din PHP-versjon."
+
+#: includes/embeds/class-amp-crowdsignal-embed-handler.php:61
+msgid "View Poll"
+msgstr "Vis avstemning"
+
+#: includes/embeds/class-amp-crowdsignal-embed-handler.php:59
+msgid "View Survey"
+msgstr "Vis undersøkelse"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:67
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:65
+msgid "OK"
+msgstr "OK"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:38
+msgid "Edit Status"
+msgstr "Rediger status"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:37
+msgid "Edit"
+msgstr "Rediger"
+
+#: includes/templates/amp-enabled-classic-editor-toggle.php:26
+msgid "AMP:"
+msgstr "AMP:"
+
+#: includes/admin/class-amp-post-meta-box.php:364
+msgid "Disabled"
+msgstr "Deaktivert"
+
+#: includes/admin/class-amp-post-meta-box.php:363
+msgid "Enabled"
+msgstr "Aktivert"
+
+#: includes/admin/class-amp-post-meta-box.php:104
+msgid "AMP status."
+msgstr "AMP-status."
+
+#: src/Admin/OptionsMenu.php:158 src/Admin/OptionsMenu.php:168
+#: src/ReaderThemeLoader.php:243 assets/js/amp-block-editor.js:3
+msgid "AMP Settings"
+msgstr "Innstillinger for AMP"
+
+#: includes/admin/class-amp-post-meta-box.php:204
+msgid "Preview changes in AMP (opens in new window)"
+msgstr "Forhåndsvis endringer i AMP (åpnes i nytt vindu)"
+
+#: includes/admin/class-amp-template-customizer.php:734
+msgid "AMP preview enabled"
+msgstr "Forhåndsvisning av AMP aktivert"
+
+#: includes/admin/class-amp-template-customizer.php:595
+msgid "AMP is not available for the page currently being previewed."
+msgstr "AMP er ikke tilgjengelig for siden som nå forhåndsvises."
+
+#: includes/admin/class-amp-post-meta-box.php:437
+msgid "Unavailable for an unknown reason."
+msgstr "Utilgjengelig av ukjent grunn."
+
+#: includes/admin/class-amp-post-meta-box.php:431
+msgid "A plugin or theme has disabled AMP support."
+msgstr "En utvidelse eller tema har deaktivert støtte for AMP."
+
+#: includes/admin/class-amp-template-customizer.php:596
+msgid "Navigate to an AMP compatible page"
+msgstr "Gå til en side som er kompatibel med AMP."
+
+#: includes/validation/class-amp-validated-url-post-type.php:1844
+#: includes/validation/class-amp-validation-error-taxonomy.php:1728
+msgid "Delete"
+msgstr "Slett"
+
+#: src/Admin/AnalyticsOptionsSubmenu.php:59
+#: src/Admin/AnalyticsOptionsSubmenu.php:60 assets/js/amp-settings.js:32
+msgid "Analytics"
+msgstr "Analyse"
+
+#: includes/validation/class-amp-validated-url-post-type.php:1742
+#: includes/validation/class-amp-validated-url-post-type.php:1773
+#: includes/validation/class-amp-validated-url-post-type.php:1795
+msgid "Dismiss this notice."
+msgstr "Avvis dette varselet."
+
+#. translators: %s is sanitizer class
+#: includes/templates/class-amp-content-sanitizer.php:83
+msgid "Sanitizer (%s) class does not exist"
+msgstr "Renseklassen (%s) finnes ikke"
+
+#: includes/settings/class-amp-customizer-design-settings.php:296
+msgid "Dark"
+msgstr "Mørk"
+
+#: includes/settings/class-amp-customizer-design-settings.php:295
+msgid "Light"
+msgstr "Lys"
+
+#: includes/templates/class-amp-post-template.php:343
+msgid "View Comments"
+msgstr "Vis kommentarer"
+
+#: includes/templates/class-amp-post-template.php:342
+msgid "Leave a Comment"
+msgstr "Legg igjen en kommentar"
+
+#: templates/footer.php:24
+msgid "Back to top"
+msgstr "Tilbake til toppen"
+
+#. translators: %s: list of tags.
+#: templates/meta-taxonomy.php:44
+msgid "Tags: %s"
+msgstr "Stikkord: %s"
+
+#. translators: %s: list of categories.
+#: templates/meta-taxonomy.php:27
+msgid "Categories: %s"
+msgstr "Kategorier: %s"
+
+#: includes/settings/class-amp-customizer-design-settings.php:172
+msgid "Color Scheme"
+msgstr "Fargeplan"
+
+#: includes/settings/class-amp-customizer-design-settings.php:160
+msgid "Header Background & Link Color"
+msgstr "Sidehode-bakgrunn og lenkefarge"
+
+#: includes/settings/class-amp-customizer-design-settings.php:146
+msgid "Header Text Color"
+msgstr "Tekstfarge i sidehode"
+
+#: includes/settings/class-amp-customizer-design-settings.php:134
+msgid "Design"
+msgstr "Utforming"
+
+#. Plugin Name of the plugin
+#: amp.php includes/admin/class-amp-admin-pointers.php:66
+#: includes/admin/class-amp-template-customizer.php:261
+#: includes/admin/functions.php:136 includes/admin/functions.php:137
+#: includes/amp-helper-functions.php:1986
+#: includes/templates/amp-paired-browsing.php:31
+#: includes/validation/class-amp-validation-manager.php:438
+#: src/Admin/OptionsMenu.php:159 src/Admin/SiteHealth.php:83
+#: assets/js/amp-block-validation.js:12 assets/js/amp-onboarding-wizard.js:14
+msgid "AMP"
+msgstr "AMP"
+
+#: back-compat/templates-v0-3/meta-taxonomy.php:8
+#: back-compat/templates-v0-3/meta-taxonomy.php:17
+#: templates/meta-taxonomy.php:21 templates/meta-taxonomy.php:35
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#. translators: %s is key name
+#: includes/templates/class-amp-post-template.php:200
+msgid "Called for non-existent key (\"%s\")."
+msgstr "Kalte på ikke-eksisterende nøkkel (\"%s\")."
+
+#. translators: 1: the template file, 2: WP_CONTENT_DIR.
+#: includes/templates/class-amp-post-template.php:473
+msgid "Path validation for template (%1$s) failed. Path cannot traverse and must be located in `%2$s`."
+msgstr "Validering av stil for mal (%1$s) mislyktes. Sti kan ikke traversere og må være plassert i `%2$s`."

@@ -1,0 +1,682 @@
+# Copyright (C) 2024 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Twenty Twenty 2.2-wpcom\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentytwenty\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-23T06:22:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/block-patterns.php:20
+msgid "Twenty Twenty"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://wordpress.org/themes/twentytwenty/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "the WordPress team"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+#: footer.php:32
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr ""
+
+#: 404.php:24
+msgid "404 not found"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:85
+msgid "Retina logo"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:86
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:105
+msgid "Header &amp; Footer Background Color"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:127
+msgid "Primary Color"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:129
+msgctxt "color"
+msgid "Default"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:130
+msgctxt "color"
+msgid "Custom"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:187
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:206
+msgid "Theme Options"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:229
+msgid "Show search in header"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:250
+msgid "Show author bio"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:271
+msgid "On archive pages, posts show:"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:273
+msgid "Full text"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:274
+msgid "Summary"
+msgstr ""
+
+#. Template Name of the theme
+#: classes/class-twentytwenty-customize.php:285
+msgid "Cover Template"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:287
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:309
+msgid "Fixed Background Image"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:310
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:356
+msgid "Overlay Background Color"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:357
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:378
+msgid "Overlay Text Color"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:379
+msgid "The color used for the text in the overlay."
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:399
+msgid "Overlay Opacity"
+msgstr ""
+
+#: classes/class-twentytwenty-customize.php:400
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: classes/class-twentytwenty-walker-comment.php:61
+msgid "says:"
+msgstr ""
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:73
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: classes/class-twentytwenty-walker-comment.php:86
+msgid "Edit"
+msgstr ""
+
+#: classes/class-twentytwenty-walker-comment.php:102
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: classes/class-twentytwenty-walker-comment.php:137
+msgid "By Post Author"
+msgstr ""
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:78
+msgid "#%d (no title)"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: classes/class-twentytwenty-walker-page.php:117
+#: inc/template-tags.php:604
+msgid "Show sub menu"
+msgstr ""
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr ""
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:88
+msgid "Comments"
+msgstr ""
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: Copyright date format, see https://www.php.net/manual/datetime.format.php
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr ""
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr ""
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr ""
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr ""
+
+#: functions.php:276
+msgid "Desktop Horizontal Menu"
+msgstr ""
+
+#: functions.php:277
+msgid "Desktop Expanded Menu"
+msgstr ""
+
+#: functions.php:278
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:279
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:280
+msgid "Social Menu"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: functions.php:367
+msgid "Skip to the content"
+msgstr ""
+
+#: functions.php:395
+msgid "Footer #1"
+msgstr ""
+
+#: functions.php:397
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr ""
+
+#: functions.php:407
+msgid "Footer #2"
+msgstr ""
+
+#: functions.php:409
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr ""
+
+#: functions.php:532
+msgid "Accent Color"
+msgstr ""
+
+#: functions.php:537
+msgctxt "color"
+msgid "Primary"
+msgstr ""
+
+#: functions.php:542
+msgctxt "color"
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:547
+msgid "Subtle Background"
+msgstr ""
+
+#: functions.php:560
+msgid "Background Color"
+msgstr ""
+
+#: functions.php:575
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr ""
+
+#: functions.php:576
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr ""
+
+#: functions.php:581
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr ""
+
+#: functions.php:582
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr ""
+
+#: functions.php:587
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr ""
+
+#: functions.php:588
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr ""
+
+#: functions.php:593
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr ""
+
+#: functions.php:594
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr ""
+
+#: header.php:53
+#: header.php:157
+msgctxt "toggle text"
+msgid "Search"
+msgstr ""
+
+#: header.php:76
+#: header.php:137
+msgid "Menu"
+msgstr ""
+
+#: header.php:88
+msgctxt "menu"
+msgid "Horizontal"
+msgstr ""
+
+#: inc/block-patterns.php:33
+msgid "Call to Action"
+msgstr ""
+
+#: inc/block-patterns.php:42
+msgid "Support the Museum and Get Exclusive Offers"
+msgstr ""
+
+#: inc/block-patterns.php:45
+#: inc/starter-content.php:148
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr ""
+
+#: inc/block-patterns.php:48
+msgid "Become a Member"
+msgstr ""
+
+#: inc/block-patterns.php:61
+msgid "Double Call to Action"
+msgstr ""
+
+#: inc/block-patterns.php:71
+msgid "The Museum"
+msgstr ""
+
+#: inc/block-patterns.php:74
+msgid "Award-winning exhibitions featuring internationally-renowned artists."
+msgstr ""
+
+#: inc/block-patterns.php:78
+#: inc/block-patterns.php:160
+#: inc/block-patterns.php:174
+#: inc/starter-content.php:73
+#: inc/starter-content.php:88
+#: inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr ""
+
+#: inc/block-patterns.php:86
+msgid "The Store"
+msgstr ""
+
+#: inc/block-patterns.php:89
+msgid "An awe-inspiring collection of books, prints, and gifts from our exhibitions."
+msgstr ""
+
+#: inc/block-patterns.php:93
+msgid "Shop Now"
+msgstr ""
+
+#: inc/block-patterns.php:108
+msgid "Event Details"
+msgstr ""
+
+#: inc/block-patterns.php:118
+msgid "<em>Dates</em><br>Aug 1 — Dec 1"
+msgstr ""
+
+#: inc/block-patterns.php:123
+msgid "<em>Location</em><br>Exhibit Hall B"
+msgstr ""
+
+#: inc/block-patterns.php:128
+msgid "<em>Price</em><br>Included"
+msgstr ""
+
+#: inc/block-patterns.php:142
+msgid "Featured Content"
+msgstr ""
+
+#: inc/block-patterns.php:151
+#: inc/block-patterns.php:165
+msgid "Abstract Rectangles"
+msgstr ""
+
+#: inc/block-patterns.php:154
+#: inc/starter-content.php:67
+msgid "Works and Days"
+msgstr ""
+
+#: inc/block-patterns.php:157
+#: inc/block-patterns.php:171
+msgid "August 1 — December 1"
+msgstr ""
+
+#: inc/block-patterns.php:168
+#: inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr ""
+
+#: inc/block-patterns.php:187
+msgid "Introduction"
+msgstr ""
+
+#: inc/block-patterns.php:194
+msgid "The Premier Destination for Modern Art in Sweden"
+msgstr ""
+
+#: inc/block-patterns.php:197
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political, and philosophical issues are intrinsic to our program. As visitor, you are invited to guided tours artist talks, lectures, film screenings, and other events with free admission."
+msgstr ""
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr ""
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr ""
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr ""
+
+#: inc/starter-content.php:70
+#: inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr ""
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr ""
+
+#: inc/starter-content.php:85
+#: inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr ""
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr ""
+
+#: inc/starter-content.php:130
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr ""
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr ""
+
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr ""
+
+#: inc/starter-content.php:145
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr ""
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr ""
+
+#: inc/starter-content.php:177
+#: inc/starter-content.php:187
+msgid "Primary"
+msgstr ""
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr ""
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:223
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:373
+msgid "Post author"
+msgstr ""
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:382
+#: template-parts/entry-author-bio.php:21
+msgid "By %s"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:402
+msgid "Post date"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:425
+#: template-parts/content-cover.php:73
+#: template-parts/entry-header.php:39
+msgid "Categories"
+msgstr ""
+
+#: inc/template-tags.php:431
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:448
+msgid "Tags"
+msgstr ""
+
+#: inc/template-tags.php:488
+msgid "Sticky post"
+msgstr ""
+
+#: inc/wpcom.php:43
+msgid "Hide Homepage Title"
+msgstr ""
+
+#: inc/wpcom.php:44
+msgid "Check to hide the page title, if your homepage is set to display a static page."
+msgstr ""
+
+#: index.php:35
+msgid "Search:"
+msgstr ""
+
+#. translators: %s: Number of search results.
+#: index.php:42
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.php:51
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr ""
+
+#: index.php:54
+msgid "Nothing Found"
+msgstr ""
+
+#: index.php:104
+msgid "search again"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: searchform.php:31
+#: template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:34
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:36
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: template-parts/content-cover.php:96
+msgid "Scroll Down"
+msgstr ""
+
+#: template-parts/content-cover.php:148
+#: template-parts/content.php:48
+msgid "Page"
+msgstr ""
+
+#: template-parts/content-cover.php:148
+#: template-parts/content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr ""
+
+#: template-parts/entry-author-bio.php:30
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr ""
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr ""
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr ""
+
+#: template-parts/modal-menu.php:48
+msgctxt "menu"
+msgid "Expanded"
+msgstr ""
+
+#: template-parts/modal-menu.php:73
+msgctxt "menu"
+msgid "Mobile"
+msgstr ""
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr ""
+
+#: template-parts/modal-search.php:11
+msgid "Search"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: template-parts/modal-search.php:29
+msgid "Close search"
+msgstr ""
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr ""
+
+#. Translators: This text contains HTML to allow the text to be shorter on small screens. The text inside the span with the class nav-short will be hidden on small screens.
+#: template-parts/pagination.php:19
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr ""
+
+#. Translators: This text contains HTML to allow the text to be shorter on small screens. The text inside the span with the class nav-short will be hidden on small screens.
+#: template-parts/pagination.php:27
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr ""

@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Barnsbury\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-27T01:36:37+00:00\n"
+"PO-Revision-Date: 2024-11-26 09:54:02+0000\n"
+"Language: id\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://wordpress.com/theme/barnsbury"
+msgstr "https://id.wordpress.com/tema/barnsbury"
+
+#: inc/wpcom-colors.php:340
+#: inc/wpcom-editor-colors.php:197
+msgid "Secondary Color"
+msgstr "Warna Sekunder"
+
+#: inc/wpcom-colors.php:312
+#: inc/wpcom-editor-colors.php:179
+msgid "Text Color"
+msgstr "Warna Teks"
+
+#: inc/wpcom-colors.php:224
+#: inc/wpcom-editor-colors.php:116
+msgid "Link Color"
+msgstr "Warna tautan"
+
+#: inc/wpcom-colors.php:104
+#: inc/wpcom-editor-colors.php:68
+msgid "Background Color"
+msgstr "Warna Latar belakang"
+
+#: functions.php:99
+msgid "Foreground Dark"
+msgstr "Latar Depan Gelap"
+
+#: functions.php:94
+msgid "Foreground Light"
+msgstr "Latar Depan Terang"
+
+#: functions.php:89
+msgid "Foreground"
+msgstr "Latar Depan"
+
+#: functions.php:84
+msgid "Background"
+msgstr "Latar belakang"
+
+#. Description of the theme
+#: style.css
+msgid "Barnsbury is an earthy and friendly theme design with farming and agriculture businesses in mind."
+msgstr "Barnsbury adalah desain tema yang bersahaja dan ramah dengan mempertimbangkan bisnis pertanian dan bercocok tanam."
+
+#. Translators: If there are characters in your language that are not supported
+#. by Rubik, translate this to 'off'. Do not translate into your own language.
+#: functions.php:135
+msgctxt "Rubik font: on or off"
+msgid "on"
+msgstr "pada"
+
+#: functions.php:79
+msgid "Secondary"
+msgstr "Sekunder"
+
+#: functions.php:74
+msgid "Primary"
+msgstr "Utama"
+
+#: functions.php:49
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:48
+msgid "Huge"
+msgstr "Besar"
+
+#: functions.php:43
+msgid "L"
+msgstr "L"
+
+#: functions.php:42
+msgid "Large"
+msgstr "Besar"
+
+#: functions.php:37
+msgid "M"
+msgstr "M"
+
+#: functions.php:36
+msgid "Normal"
+msgstr "Normal"
+
+#: functions.php:31
+msgid "S"
+msgstr "S"
+
+#: functions.php:30
+msgid "Small"
+msgstr "Kecil"

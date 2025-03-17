@@ -1,0 +1,325 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "primary": "primary-menu",
+                "expanded": null,
+                "mobile": "primary-menu",
+                "footer": "primary-menu",
+                "jetpack-social-menu": "social-links-menu",
+                "social": "social-links-menu"
+            },
+            "custom_css_post_id": -1,
+            "hide_front_page_title": false
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [],
+    "content": [
+        {
+            "post_type": "page",
+            "post_title": "De Signac a Matisse",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">\"No sería un simple retrato, si no más bien una imagen compuesta de colores y líneas dispuestos cuidadosamente. Una pose rítmica y angular\".</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:group {\"backgroundColor\":\"primary\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-primary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:columns --> <div class=\"wp-block-columns\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>Fechas</em><br> 1 de agosto  — 1 de diciembre</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>Ubicación</em><br>salón de exposiciones B</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>Precio</em><br>incluido</p> <!-- /wp:paragraph --></div> <!-- /wp:column --></div> <!-- /wp:columns --></div></div> <!-- /wp:group --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- /wp:paragraph --> <!-- wp:gallery {\"ids\":[38,39],\"align\":\"wide\"} --> <figure class=\"wp-block-gallery alignwide columns-2 is-cropped\"><ul class=\"blocks-gallery-grid\"><li class=\"blocks-gallery-item\"><figure><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" data-id=\"38\" data-link=\"http://2020.wordpress.net/2020-square-1/\" class=\"wp-image-38\" /></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&h=1024\" alt=\"\" data-id=\"39\" data-link=\"http://2020.wordpress.net/2020-square-2/\" class=\"wp-image-39\" /></figure></li></ul></figure> <!-- /wp:gallery --> <!-- wp:pullquote {\"align\":\"left\"} --> <figure class=\"wp-block-pullquote alignleft\"><blockquote><p>La exposición mostrará unos 160 objetos, e incluye algunas de las grandes obras que Fénéon tanto admiraba.</p><cite>Catálogo de la exposición</cite></blockquote></figure> <!-- /wp:pullquote --> <!-- wp:paragraph --> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> <!-- /wp:paragraph --> <!-- wp:image {\"align\":\"full\",\"id\":37,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image alignfull size-large\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png?w=1024&h=498\" alt=\"\" class=\"wp-image-37\" /></figure> <!-- /wp:image --> <!-- wp:paragraph --> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p> <!-- /wp:paragraph --> <!-- wp:separator {\"className\":\"is-style-wide\"} --> <hr class=\"wp-block-separator is-style-wide\" /> <!-- /wp:separator --> <!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"accent\"} --> <h6 class=\"has-accent-color has-text-color has-text-align-center\">Otras exposiciones</h6> <!-- /wp:heading --> <!-- wp:block {\"ref\":53} /-->",
+            "post_name": "from-signac-to-matisse",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 60,
+            "hs_post_parent": 57,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/e9bd7-2020-landscape-3.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Exposiciones",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">Aquí podrás encontrar todas las exposiciones que hay actualmente en muestra en el UMoMA. Para ver nuestras anteriores exposiciones, <a href=\"https://twentytwentydemo.wordpress.com/exhibitions/\">haz clic aquí.</a></h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:block {\"ref\":53} /--> <!-- wp:block {\"ref\":54} /-->",
+            "post_name": "exhibitions",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 57,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "wp_block",
+            "post_title": "Hilera de exposiciones n.º 2",
+            "post_content": "<!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-3.png\" alt=\"\" class=\"wp-image-42\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Teatro de operaciones</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">1 de octubre -- 1 de diciembre</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">Leer Más</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":95,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png?w=1024\" alt=\"\" class=\"wp-image-95\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>De Signac a Matisse</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">1 de octubre  -- 1 de diciembre</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">Leer Más</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns -->",
+            "post_name": "untitled-reusable-block-2",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 54,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "wp_block",
+            "post_title": "Hilera de exposiciones n.º 1",
+            "post_content": "<!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":40,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-1.png\" alt=\"\" class=\"wp-image-40\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Obras y días</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">1 de agosto -- 1 de diciembre</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">Leer Más</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":94,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png?w=1024\" alt=\"\" class=\"wp-image-94\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>La vida que merezco</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">1 de agosto -- 1 de diciembre</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">Leer Más</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns -->",
+            "post_name": "untitled-reusable-block",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 53,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Bienvenido al Museo de Arte Moderno de Suecia",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\",\"className\":\"alignwide\"} --> <h2 class=\"has-text-align-center alignwide\">El principal destino de los amantes del arte moderno en Suecia. Abierto desde las 10 h hasta las 18 h todos los días durante el invierno.</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":40,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-1.png\" alt=\"\" class=\"wp-image-40\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Obras y días</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">1 de agosto -- 1 de diciembre</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">Leer Más</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":94,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png?w=1024\" alt=\"\" class=\"wp-image-94\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>La vida que merezco</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">1 de agosto -- 1 de diciembre</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">Leer Más</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns --> <!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-3.png\" alt=\"\" class=\"wp-image-42\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Teatro de operaciones</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">1 de octubre -- 1 de diciembre</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">Leer Más</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":95,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png?w=1024\" alt=\"\" class=\"wp-image-95\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>De Signac a Matisse</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">1 de octubre -- 1 de diciembre</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">Leer Más</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns --> <!-- wp:image {\"align\":\"full\",\"id\":37,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image alignfull size-full\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png\" alt=\"\" class=\"wp-image-37\" /></figure> <!-- /wp:image --> <!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"accent\",\"className\":\"alignwide\"} --> <h2 class=\"has-accent-color has-text-color has-text-align-center alignwide\">\"Los cyborgs, tal como afirma la autora Donna Haraway, no son reverentes. No recuerdan el cosmos\".</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:separator {\"className\":\"is-style-wide\"} --> <hr class=\"wp-block-separator is-style-wide\" /> <!-- /wp:separator --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">Con siete plantas de impresionante arquitectura, UMoMA muestra exposiciones de arte contemporáneo internacional, a veces acompañadas de retrospectivas históricas del arte. Los temas filosóficos, políticos y existenciales son componentes intrínsecos de nuestro programa. Ofrecemos a nuestros visitantes entrada gratuita a recorridos guiados, charlas de artistas, clases, proyecciones de películas y otros eventos </p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>UMoMA produce las exposiciones en colaboración con artistas y museos de todo el mundo, y a menudo llaman la atención de la comunidad internacional. UMoMA ha recibido la mención honorífica de Museo europeo del año, y fue uno de los principales candidatos al premio Museo sueco del año, así como al premio de los museos del Consejo europeo.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --> <!-- wp:group {\"customBackgroundColor\":\"#ffffff\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-background\" style=\"background-color:#ffffff;\"><div class=\"wp-block-group__inner-container\"><!-- wp:group --> <div class=\"wp-block-group\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">Hazte miembro y recibe ofertas exclusivas.</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\"} --> <p class=\"has-text-align-center\">Los miembros tienen acceso a exposiciones y ofertas exclusivas. La membresía cuesta 99,99 USD y se factura anualmente.</p> <!-- /wp:paragraph --> <!-- wp:button {\"align\":\"center\",\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button aligncenter is-style-outline\"><a class=\"wp-block-button__link\" href=\"#\">Únete al club</a></div> <!-- /wp:button --></div></div> <!-- /wp:group --></div></div> <!-- /wp:group --> <!-- wp:gallery {\"ids\":[39,38],\"align\":\"wide\"} --> <figure class=\"wp-block-gallery alignwide columns-2 is-cropped\"><ul class=\"blocks-gallery-grid\"><li class=\"blocks-gallery-item\"><figure><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&amp;h=1024\" alt=\"\" data-id=\"39\" data-link=\"http://2020.wordpress.net/2020-square-2/\" class=\"wp-image-39\" /></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" data-id=\"38\" data-link=\"http://2020.wordpress.net/2020-square-1/\" class=\"wp-image-38\" /></figure></li></ul></figure> <!-- /wp:gallery -->",
+            "post_name": "the-new-umoma-opens-its-doors",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 68,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_front_page",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Acerca de nosotros",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">El principal destino de los amantes del arte moderno en Suecia. Abierto desde las 10 h hasta las 18 h todos los días durante el invierno.</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> <!-- /wp:paragraph --> <!-- wp:media-text {\"customBackgroundColor\":\"#ffffff\",\"mediaId\":39,\"mediaType\":\"image\"} --> <div class=\"wp-block-media-text alignwide has-background is-stacked-on-mobile\" style=\"background-color:#ffffff;\"><figure class=\"wp-block-media-text__media\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&amp;h=1024\" alt=\"\" class=\"wp-image-39\" /></figure><div class=\"wp-block-media-text__content\"><!-- wp:heading --> <h2>Nuestra misión</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"large\"} --> <p class=\"has-large-font-size\">Aquí añadiremos un par de líneas con información sobre nuestra misión.</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/about/\">Leer Más</a></div> <!-- /wp:button --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --></div></div> <!-- /wp:media-text --> <!-- wp:media-text {\"customBackgroundColor\":\"#ffffff\",\"mediaId\":38,\"mediaType\":\"image\"} --> <div class=\"wp-block-media-text alignwide has-background is-stacked-on-mobile\" style=\"background-color:#ffffff;\"><figure class=\"wp-block-media-text__media\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" class=\"wp-image-38\" /></figure><div class=\"wp-block-media-text__content\"><!-- wp:heading --> <h2>Nuestra historia</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"large\"} --> <p class=\"has-large-font-size\">Tenemos una rica y larga historia. Conócela haciendo clic en el botón que aparece más abajo.</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/about/\">Leer Más</a></div> <!-- /wp:button --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --></div></div> <!-- /wp:media-text --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph -->",
+            "post_name": "about",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 69,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra",
+            "page_template": "templates/template-cover.php",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Contáctanos",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">¿Tienes alguna pregunta sobre el museo, nuestras exposiciones o la tienda? Ponte en contacto con nosotros a continuación.</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:group {\"backgroundColor\":\"primary\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-primary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:columns --> <div class=\"wp-block-columns\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"background\"} --> <h6 class=\"has-background-color has-text-color has-text-align-center\">Dirección</h6> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\">Calle principal, 123<br>Nueva York, 10001</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"background\"} --> <h6 class=\"has-background-color has-text-color has-text-align-center\">Nuestros horarios</h6> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\">Durante semana desde las 9 h hasta las 17 h<br>Fines de semana desde las 11 h hasta las 15 h</p> <!-- /wp:paragraph --></div> <!-- /wp:column --></div> <!-- /wp:columns --></div></div> <!-- /wp:group --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph -->",
+            "post_name": "contact",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 70,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Noticias",
+            "post_content": "",
+            "post_name": "blog",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 71,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_blog_page"
+        },
+        {
+            "post_type": "post",
+            "post_title": "¡Hola mundo!",
+            "post_content": "<!-- wp:paragraph --> <p>Bienvenido a WordPress. Esta es tu primera entrada. Edítala o elimínala y después empieza a escribir.</p> <!-- /wp:paragraph -->",
+            "post_name": "hello-world",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "open",
+            "_starter_page_template": "",
+            "hs_old_id": 66,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Uncategorized"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "Página de ejemplo",
+            "post_content": "<!-- wp:paragraph --> <p>Esta es una página de ejemplo. Es diferente de una entrada de blog porque permanecerá en un solo lugar y se mostrará en la navegación del sitio (en la mayoría de temas). La mayoría de gente empieza con una página \"Acerca de\", que les sirve como método de presentación ante los potenciales visitantes del sitio. Un ejemplo podría ser el siguiente:</p> <!-- /wp:paragraph --> <!-- wp:quote --> <blockquote class=\"wp-block-quote\"><p>Hola, De día me dedico a hacer de repartidor en moto y por la noche soy aspirante a actor. Este es mi sitio web. Vivo en Madrid, tengo un perro fantástico que se llama Cristiano y me gustan los bocadillos de calamares. (Y que me sorprenda la lluvia fuera de casa).</p></blockquote> <!-- /wp:quote --> <!-- wp:paragraph --> <p>…o algo así:</p> <!-- /wp:paragraph --> <!-- wp:quote --> <blockquote class=\"wp-block-quote\"><p>La compañía de pongos XYZ se fundó en 1971, y ha estado produciendo pongos de calidad para todos sus clientes desde entonces. Ubicada en Jauja, XYZ da empleo a más de 2.000 personas y colabora en todos los proyectos sociales y culturales de la comunidad de Jauja.</p></blockquote> <!-- /wp:quote --> <!-- wp:paragraph --> <p>Como nuevo usuario de WordPress, deberías navegar hasta <a href=\"http://2020.wordpress.net/wp-admin/\">tu escritorio</a> para eliminar esta página y crear otras en las que publicar tu contenido. ¡Pásalo bien!</p> <!-- /wp:paragraph -->",
+            "post_name": "sample-page",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "open",
+            "_starter_page_template": "",
+            "hs_old_id": 67,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        }
+    ],
+    "menus": {
+        "primary-menu": {
+            "name": "Menú Principal",
+            "items": [
+                {
+                    "menu-item-title": "Inicio",
+                    "menu-item-db-id": 90,
+                    "menu-item-object-id": "68",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "Exposiciones",
+                    "menu-item-db-id": 75,
+                    "menu-item-object-id": "57",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "Acerca de nosotros",
+                    "menu-item-db-id": 73,
+                    "menu-item-object-id": "69",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "Contáctanos",
+                    "menu-item-db-id": 76,
+                    "menu-item-object-id": "70",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "73",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "Noticias",
+                    "menu-item-db-id": 74,
+                    "menu-item-object-id": "71",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 5,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                }
+            ]
+        },
+        "social-links-menu": {
+            "name": "Menú de enlaces sociales",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 12,
+                    "menu-item-object-id": "12",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.facebook.com/wordpress"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 13,
+                    "menu-item-object-id": "13",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://twitter.com/wordpress"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 14,
+                    "menu-item-object-id": "14",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.instagram.com/explore/tags/wordcamp/"
+                },
+                {
+                    "menu-item-title": "Correo electrónico",
+                    "menu-item-db-id": 15,
+                    "menu-item-object-id": "15",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "mailto:wordpress@example.com"
+                }
+            ]
+        }
+    },
+    "images": [
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-square-1.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/e9bd7-2020-landscape-3.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/74b66-2020-three-quarters-3.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/48815-2020-three-quarters-1.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+    ]
+}

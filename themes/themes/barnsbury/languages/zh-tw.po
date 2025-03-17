@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Barnsbury\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-28T01:34:15+00:00\n"
+"PO-Revision-Date: 2024-11-27 09:54:03+0000\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://wordpress.com/theme/barnsbury"
+msgstr "https://wordpress.com/theme/barnsbury"
+
+#: inc/wpcom-colors.php:340
+#: inc/wpcom-editor-colors.php:197
+msgid "Secondary Color"
+msgstr "次要色彩"
+
+#: inc/wpcom-colors.php:312
+#: inc/wpcom-editor-colors.php:179
+msgid "Text Color"
+msgstr "文字顏色"
+
+#: inc/wpcom-colors.php:224
+#: inc/wpcom-editor-colors.php:116
+msgid "Link Color"
+msgstr "鏈結顏色"
+
+#: inc/wpcom-colors.php:104
+#: inc/wpcom-editor-colors.php:68
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: functions.php:99
+msgid "Foreground Dark"
+msgstr "前景深色"
+
+#: functions.php:94
+msgid "Foreground Light"
+msgstr "前景淺色"
+
+#: functions.php:89
+msgid "Foreground"
+msgstr "前景"
+
+#: functions.php:84
+msgid "Background"
+msgstr "背景"
+
+#. Description of the theme
+#: style.css
+msgid "Barnsbury is an earthy and friendly theme design with farming and agriculture businesses in mind."
+msgstr "Barnsbury 是個設計粗獷且友善的佈景主題 ，適合農耕或農業相關企業使用。"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Rubik, translate this to 'off'. Do not translate into your own language.
+#: functions.php:135
+msgctxt "Rubik font: on or off"
+msgid "on"
+msgstr "於"
+
+#: functions.php:79
+msgid "Secondary"
+msgstr "次要"
+
+#: functions.php:74
+msgid "Primary"
+msgstr "主要"
+
+#: functions.php:49
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:48
+msgid "Huge"
+msgstr "極大"
+
+#: functions.php:43
+msgid "L"
+msgstr "大"
+
+#: functions.php:42
+msgid "Large"
+msgstr "大"
+
+#: functions.php:37
+msgid "M"
+msgstr "中"
+
+#: functions.php:36
+msgid "Normal"
+msgstr "一般"
+
+#: functions.php:31
+msgid "S"
+msgstr "S"
+
+#: functions.php:30
+msgid "Small"
+msgstr "小"

@@ -1,0 +1,1 @@
+<?php return array('dependencies' => array('jetpack-connection', 'jetpack-script-data', 'lodash', 'wp-api-fetch', 'wp-block-editor', 'wp-components', 'wp-compose', 'wp-data', 'wp-element', 'wp-hooks', 'wp-i18n', 'wp-plugins', 'wp-polyfill', 'wp-url'), 'version' => '337146f9a1ab926b8027');

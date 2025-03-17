@@ -1,0 +1,482 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Bookings and Appointments For WooCommerce\n"
+"POT-Creation-Date: 2019-05-31 11:06+0530\n"
+"PO-Revision-Date: 2019-05-31 12:19+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ph-bookings-appointments-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: he\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-ph-booking-admin-pages.php:14
+#: includes/admin/class-ph-booking-admin-pages.php:35
+msgid "Bookings"
+msgstr "הזמנות"
+
+#: includes/admin/class-ph-booking-admin-pages.php:24
+msgid "Settings"
+msgstr "הגדרות"
+
+#: includes/admin/class-ph-booking-admin-pages.php:56
+msgid "Customize Calendar Color"
+msgstr "התאם אישית את צבע היומן"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:26
+msgid "Order"
+msgstr "סדר"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:27
+msgid "Product"
+msgstr "מוצר"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:28
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:28
+#: includes/html-ph-booking-product-admin-availability.php:54
+msgid "From"
+msgstr "מאת:"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:29
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:32
+#: includes/html-ph-booking-product-admin-availability.php:55
+msgid "To"
+msgstr "אל:"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:30
+msgid "Booked by"
+msgstr "הוזמן על ידי"
+
+#: includes/admin/market.php:66
+msgid "Woocommerce Bookings And Appointments"
+msgstr "Woocommerce הזמנות ומפגשים"
+
+#: includes/admin/market.php:70
+msgid "Allow multiple bookings for a time slot."
+msgstr "אפשר הזמנות מרובות לחריץ זמן."
+
+#: includes/admin/market.php:71
+msgid "Add Participants/Materials to the booking."
+msgstr "הוסף משתתפים / חומרים להזמנה."
+
+#: includes/admin/market.php:72
+msgid "Add Resources"
+msgstr "הוסף משאבים"
+
+#: includes/admin/market.php:73
+msgid "Set special prices or discounts"
+msgstr "קבע מחירים מיוחדים או הנחות"
+
+#: includes/admin/market.php:74
+msgid "Create booking availability rules as you wish."
+msgstr "יצירת חוקי זמינות ההזמנה כרצונך."
+
+#: includes/admin/market.php:75
+msgid "Allow booking cancellation"
+msgstr "אפשר ביטול הזמנה"
+
+#: includes/admin/market.php:76
+msgid "Configure the bookings to require confirmation from the Admin"
+msgstr "הגדר את ההזמנות כדי לדרוש אישור מהמנהל"
+
+#: includes/admin/market.php:81
+msgid "Upgrade to Premium"
+msgstr "לשדרג לפרימיום"
+
+#: includes/admin/market.php:82
+msgid "Live Demo"
+msgstr "הדגמה חיה"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:17
+msgid "Choose product"
+msgstr "בחר מוצר"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:102
+msgid "Click anywhere in the calendar to apply your desired colour."
+msgstr "לחץ במקום כלשהו ביומן כדי להחיל את הצבע הרצוי."
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:129
+#: includes/booking-callender/class-ph-booking-callender.php:356
+#: includes/booking-callender/html-ph-booking-datepicker.php:56
+msgid "Mo"
+msgstr "יום ב'"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:130
+#: includes/booking-callender/class-ph-booking-callender.php:357
+#: includes/booking-callender/html-ph-booking-datepicker.php:57
+msgid "Tu"
+msgstr "יום ג'"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:131
+#: includes/booking-callender/class-ph-booking-callender.php:358
+#: includes/booking-callender/html-ph-booking-datepicker.php:58
+msgid "We"
+msgstr "יום ד'"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:132
+#: includes/booking-callender/class-ph-booking-callender.php:359
+#: includes/booking-callender/html-ph-booking-datepicker.php:59
+msgid "Th"
+msgstr "יום ה'"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:133
+#: includes/booking-callender/class-ph-booking-callender.php:360
+#: includes/booking-callender/html-ph-booking-datepicker.php:60
+msgid "Fr"
+msgstr "יום ו'"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:134
+#: includes/booking-callender/class-ph-booking-callender.php:361
+#: includes/booking-callender/html-ph-booking-datepicker.php:61
+msgid "Sa"
+msgstr "יום שבת"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:135
+#: includes/booking-callender/class-ph-booking-callender.php:362
+#: includes/booking-callender/html-ph-booking-datepicker.php:62
+msgid "Su"
+msgstr "יום א'"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:38
+#: includes/booking-callender/html-ph-booking-monthpicker.php:38
+#: ph-bookings-appointments-woocommerce.php:121
+msgid "Please pick a booking period"
+msgstr "אנא בחרו תקופת הזמנה"
+
+#: includes/booking-callender/html-ph-booking-monthpicker.php:41
+msgid "Pick Month(s)"
+msgstr "חודשי"
+
+#: includes/booking-callender/html-ph-booking-timepicker.php:68
+#: ph-bookings-appointments-woocommerce.php:122
+msgid "Please Pick a Date"
+msgstr "בחר תאריך"
+
+#: includes/class-ph-booking-product-manager.php:39
+msgid "Booking availability"
+msgstr "זמינות זמינות"
+
+#: includes/class-ph-booking-product-manager.php:44
+#: ph-bookings-appointments-woocommerce.php:116
+msgid "Booking"
+msgstr "הזמנה"
+
+#: includes/class-ph-booking-product-manager.php:57
+msgid "Bookable product"
+msgstr "מוצר לפי זמן"
+
+#: includes/class-ph-booking-wc-product.php:132
+msgid "Book Now"
+msgstr "להזמין מקום עכשיו"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:43
+msgid "View cart"
+msgstr "הצג הזמנה"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:43
+msgid "Booking Done. Please check cart for payment."
+msgstr "ההזמנה בוצעה. בדוק את עגלת התשלום."
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:96
+msgid "Booked"
+msgstr "הוזמן"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:102
+msgid "Booked from"
+msgstr "הוזמן"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:108
+msgid "Booked to"
+msgstr "‫Invited by"
+
+#: includes/html-ph-booking-product-admin-availability.php:53
+msgid "Non-working hours (All days)"
+msgstr "שעות עבודה (כל הימים)"
+
+#: includes/html-ph-booking-product-admin-availability.php:58
+msgid "Appointments within this period will appear blocked on the calendar."
+msgstr "מינויים בתקופה זו יופיעו חסומים בלוח השנה."
+
+#: includes/html-ph-booking-product-admin-availability.php:64
+msgid "Non-working days (Weekend)"
+msgstr "ימי עבודה (סוף שבוע)"
+
+#: includes/html-ph-booking-product-admin-availability.php:65
+msgid "Saturday"
+msgstr "שישי"
+
+#: includes/html-ph-booking-product-admin-availability.php:66
+msgid "Sunday"
+msgstr "יום שבת"
+
+#: includes/html-ph-booking-product-admin-availability.php:69
+msgid "If checked, these days would appear blocked on the calendar."
+msgstr "אם מסומנת, הימים האלה ייראו חסומים ביומן."
+
+#: includes/html-ph-booking-product-admin-options.php:16
+msgid "Booking Period"
+msgstr "תקופת ההזמנה"
+
+#: includes/html-ph-booking-product-admin-options.php:18
+msgid "Fixed period of"
+msgstr "תקופה קבועה של"
+
+#: includes/html-ph-booking-product-admin-options.php:19
+msgid "Enable Calendar Range"
+msgstr "הפעל טווח יומן"
+
+#: includes/html-ph-booking-product-admin-options.php:24
+msgid "Minutes(s)"
+msgstr "דקות (דקות)"
+
+#: includes/html-ph-booking-product-admin-options.php:25
+msgid "Hour(s)"
+msgstr "שעה/ות"
+
+#: includes/html-ph-booking-product-admin-options.php:26
+msgid "Day(s)"
+msgstr "ימים"
+
+#: includes/html-ph-booking-product-admin-options.php:28
+msgid "Month(s)"
+msgstr "חודש/ים"
+
+#: includes/html-ph-booking-product-admin-options.php:33
+msgid ""
+"Fixed Period : Allows users to select a single appointment with the duration "
+"you define here."
+msgstr "תקופה קבועה: מאפשר למשתמשים לבחור פגישה אחת עם משך הזמן שהגדרתם כאן."
+
+#: includes/html-ph-booking-product-admin-options.php:38
+msgid ""
+"Enable Range : Allows users to choose multiple days by selecting a start "
+"date and an end date."
+msgstr ""
+"אפשר טווח: מאפשר למשתמשים לבחור מספר ימים על ידי בחירת תאריך התחלה ותאריך "
+"סיום."
+
+#: includes/html-ph-booking-product-admin-options.php:43
+msgid "Price"
+msgstr "מחיר"
+
+#: includes/html-ph-booking-product-admin-options.php:46
+msgid ""
+"This price applies to one block of time. Gets multiplied if user chooses "
+"multiple days."
+msgstr ""
+"מחיר זה חל על בלוק אחד של זמן. מכפיל את המספר אם המשתמש בוחר מספר ימים."
+
+#: includes/html-ph-booking-product-admin-options.php:55
+msgid "First booking of the day starts at"
+msgstr "ההזמנה הראשונה של היום מתחילה בשעה"
+
+#: includes/html-ph-booking-product-admin-options.php:62
+msgid "Last booking of the day starts at"
+msgstr "ההזמנה האחרונה של היום מתחילה בשעה"
+
+#: ph-bookings-appointments-woocommerce.php:25
+msgid ""
+"Is everything fine? You already have the Premium version installed in your "
+"website. For any issues, kindly raise a ticket via <a target='_blank' "
+"href='//pluginhive.com/support/'>pluginhive.com/support</a>"
+msgstr ""
+"הכל בסדר? כבר יש לך את הגירסה Premium מותקן באתר האינטרנט שלך. עבור כל בעיה, "
+"חביב להעלות כרטיס דרך <a target='_blank' href='//pluginhive.com/"
+"support/'>pluginhive.com/support</a>"
+
+#: ph-bookings-appointments-woocommerce.php:88
+msgid "January"
+msgstr "ינואר"
+
+#: ph-bookings-appointments-woocommerce.php:89
+msgid "February"
+msgstr "פברואר"
+
+#: ph-bookings-appointments-woocommerce.php:90
+msgid "March"
+msgstr "מרץ"
+
+#: ph-bookings-appointments-woocommerce.php:91
+msgid "April"
+msgstr "אפריל"
+
+#: ph-bookings-appointments-woocommerce.php:92
+#: ph-bookings-appointments-woocommerce.php:106
+msgid "May"
+msgstr "מאי"
+
+#: ph-bookings-appointments-woocommerce.php:93
+msgid "June"
+msgstr "יוני"
+
+#: ph-bookings-appointments-woocommerce.php:94
+msgid "July"
+msgstr "יולי"
+
+#: ph-bookings-appointments-woocommerce.php:95
+msgid "August"
+msgstr "אוגוסט"
+
+#: ph-bookings-appointments-woocommerce.php:96
+msgid "September"
+msgstr "ספטמבר"
+
+#: ph-bookings-appointments-woocommerce.php:97
+msgid "October"
+msgstr "אוקטובר"
+
+#: ph-bookings-appointments-woocommerce.php:98
+msgid "November"
+msgstr "נובמבר"
+
+#: ph-bookings-appointments-woocommerce.php:99
+msgid "December"
+msgstr "דצמבר"
+
+#: ph-bookings-appointments-woocommerce.php:102
+msgid "Jan"
+msgstr "ינו'"
+
+#: ph-bookings-appointments-woocommerce.php:103
+msgid "Feb"
+msgstr "פבר'"
+
+#: ph-bookings-appointments-woocommerce.php:104
+msgid "Mar"
+msgstr "מרץ"
+
+#: ph-bookings-appointments-woocommerce.php:105
+msgid "Apr"
+msgstr "אפר'"
+
+#: ph-bookings-appointments-woocommerce.php:107
+msgid "Jun"
+msgstr "יונ'"
+
+#: ph-bookings-appointments-woocommerce.php:108
+msgid "Jul"
+msgstr "יול'"
+
+#: ph-bookings-appointments-woocommerce.php:109
+msgid "Aug"
+msgstr "אוג'"
+
+#: ph-bookings-appointments-woocommerce.php:110
+msgid "Sep"
+msgstr "ספט'"
+
+#: ph-bookings-appointments-woocommerce.php:111
+msgid "Oct"
+msgstr "אוק'"
+
+#: ph-bookings-appointments-woocommerce.php:112
+msgid "Nov"
+msgstr "נוב'"
+
+#: ph-bookings-appointments-woocommerce.php:113
+msgid "Dec"
+msgstr "דצמ'"
+
+#: ph-bookings-appointments-woocommerce.php:115
+msgid "Booking cost"
+msgstr "עלות הזמנה"
+
+#: ph-bookings-appointments-woocommerce.php:117
+msgid "is not available."
+msgstr "החדר אינו זמין"
+
+#: ph-bookings-appointments-woocommerce.php:118
+msgid "are not available."
+msgstr "החדר אינו זמין"
+
+#: ph-bookings-appointments-woocommerce.php:119
+msgid "Pick a later end date"
+msgstr "בחר תאריך סיום מאוחר יותרבחר תאריך סיום מאוחר יותר"
+
+#: ph-bookings-appointments-woocommerce.php:120
+msgid "Max no of blocks available to book is"
+msgstr "מקס לא של בלוקים זמין הספר הוא"
+
+#: ph-bookings-appointments-woocommerce.php:129
+msgid "Support"
+msgstr "תמיכה"
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:395
+msgid "Check for updates"
+msgstr "לחץ כאן לבדוק האם קיים עדכון"
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:432
+msgid "View details"
+msgstr "צפה בפרטים נוספים"
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:455
+#, php-format
+msgid "More information about %s"
+msgstr "מידע נוסף על %s"
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:548
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "תוסף %s מעודכן."
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:550
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "קיימת גירסה חדשה לתוסף %s."
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:552
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "לא יכל לקבוע האם קיים עדכון עבור %s."
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:558
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "סטטוס עדכון לא ידוע עבור עדכון ל%s, פנה לתמיכה הטכנית של יוצר התוסף"
+
+#: plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "לוג שינווים לא קיים."
+
+#. Plugin Name of the plugin/theme
+msgid "Bookings and Appointments For WooCommerce"
+msgstr "הזמנות ומפגשים עבור WooCommerce Premium"
+
+#. Description of the plugin/theme
+msgid "Bookings and Appointments solution for all types of businesses."
+msgstr "הזמנות ופגישות מינוי לכל סוגי העסקים."
+
+#. Author of the plugin/theme
+msgid "PluginHive"
+msgstr "‫PluginHive"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pluginhive.com/"
+msgstr "‫https://www.pluginhive.com/"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:102
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:102
+msgid "Reset to Default"
+msgstr "אפס את ברירת המחדל"
+
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:124
+msgid "Cost"
+msgstr "עלות"

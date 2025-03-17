@@ -1,0 +1,325 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "primary": "primary-menu",
+                "expanded": null,
+                "mobile": "primary-menu",
+                "footer": "primary-menu",
+                "jetpack-social-menu": "social-links-menu",
+                "social": "social-links-menu"
+            },
+            "custom_css_post_id": -1,
+            "hide_front_page_title": false
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [],
+    "content": [
+        {
+            "post_type": "page",
+            "post_title": "シニャックからマティスまで",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">「凡庸な肖像画からは程遠く、考え抜かれた絶妙な色彩と描線で緻密に構成された絵画になるでしょう。角度を付けたリズムのあるポーズ」</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:group {\"backgroundColor\":\"primary\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-primary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:columns --> <div class=\"wp-block-columns\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>会期</em><br>8月1日～12月1日</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>会場</em><br>展示ホール B</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\"><em>料金</em><br>込み</p> <!-- /wp:paragraph --></div> <!-- /wp:column --></div> <!-- /wp:columns --></div></div> <!-- /wp:group --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- /wp:paragraph --> <!-- wp:gallery {\"ids\":[38,39],\"align\":\"wide\"} --> <figure class=\"wp-block-gallery alignwide columns-2 is-cropped\"><ul class=\"blocks-gallery-grid\"><li class=\"blocks-gallery-item\"><figure><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" data-id=\"38\" data-link=\"http://2020.wordpress.net/2020-square-1/\" class=\"wp-image-38\" /></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&h=1024\" alt=\"\" data-id=\"39\" data-link=\"http://2020.wordpress.net/2020-square-2/\" class=\"wp-image-39\" /></figure></li></ul></figure> <!-- /wp:gallery --> <!-- wp:pullquote {\"align\":\"left\"} --> <figure class=\"wp-block-pullquote alignleft\"><blockquote><p>本展覧会ではフェネオンが称えた主要作品も含め、160点余りの作品を展示します。</p><cite>展示目録</cite></blockquote></figure> <!-- /wp:pullquote --> <!-- wp:paragraph --> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p> <!-- /wp:paragraph --> <!-- wp:image {\"align\":\"full\",\"id\":37,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image alignfull size-large\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png?w=1024&h=498\" alt=\"\" class=\"wp-image-37\" /></figure> <!-- /wp:image --> <!-- wp:paragraph --> <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p><!-- /wp:paragraph --> <!-- wp:separator {\"className\":\"is-style-wide\"} --> <hr class=\"wp-block-separator is-style-wide\" /> <!-- /wp:separator --> <!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"accent\"} --> <h6 class=\"has-accent-color has-text-color has-text-align-center\">その他の展覧会</h6> <!-- /wp:heading --> <!-- wp:block {\"ref\":53} /-->",
+            "post_name": "from-signac-to-matisse",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 60,
+            "hs_post_parent": 57,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/e9bd7-2020-landscape-3.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "展覧会",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">ここでは、現在 UMoMA で開催中の展覧会をすべて確認できます。過去の展覧会を表示するには、<a href=\"https://twentytwentydemo.wordpress.com/exhibitions/\">こちらをクリック</a>してください。</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:block {\"ref\":53} /--> <!-- wp:block {\"ref\":54} /-->",
+            "post_name": "exhibitions",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 57,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "wp_block",
+            "post_title": "展示2",
+            "post_content": "<!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-3.png\" alt=\"\" class=\"wp-image-42\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>開催会場</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10月1日～12月1日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">続きを読む</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":95,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png?w=1024\" alt=\"\" class=\"wp-image-95\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>シニャックからマティスまで</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10月1日～12月1日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">続きを読む</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns -->",
+            "post_name": "untitled-reusable-block-2",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 54,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "wp_block",
+            "post_title": "展示1",
+            "post_content": "<!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":40,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-1.png\" alt=\"\" class=\"wp-image-40\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Works and Days (作品と日々)</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8月1日～12月1日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">続きを読む</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":94,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png?w=1024\" alt=\"\" class=\"wp-image-94\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>The Life I Deserve (私に値する人生)</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8月1日～12月1日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">続きを読む</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns -->",
+            "post_name": "untitled-reusable-block",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 53,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "スウェーデン現代美術館にようこそ",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\",\"className\":\"alignwide\"} --> <h2 class=\"has-text-align-center alignwide\">スウェーデンを代表する現代美術の見どころ。冬季開館時間は毎日午前10時から午後6時までです。</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":40,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-1.png\" alt=\"\" class=\"wp-image-40\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>Works and Days (作品と日々)</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8月1日～12月1日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">続きを読む</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":94,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png?w=1024\" alt=\"\" class=\"wp-image-94\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>The Life I Deserve (私に値する人生)</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">8月1日～12月1日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">続きを読む</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns --> <!-- wp:columns {\"align\":\"wide\"} --> <div class=\"wp-block-columns alignwide\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":42,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image size-full\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-three-quarters-3.png\" alt=\"\" class=\"wp-image-42\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>開催会場</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10月1日～12月1日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">続きを読む</a></div> <!-- /wp:button --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:image {\"id\":95,\"width\":1160,\"height\":870,\"sizeSlug\":\"large\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png?w=1024\" alt=\"\" class=\"wp-image-95\" width=\"1160\" height=\"870\" /></figure> <!-- /wp:image --> <!-- wp:heading --> <h2>シニャックからマティスまで</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"larger\"} --> <p class=\"has-larger-font-size\">10月1日～12月1日</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/exhibitions/from-signac-to-matisse/\">続きを読む</a></div> <!-- /wp:button --></div> <!-- /wp:column --></div> <!-- /wp:columns --> <!-- wp:image {\"align\":\"full\",\"id\":37,\"sizeSlug\":\"full\"} --> <figure class=\"wp-block-image alignfull size-full\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png\" alt=\"\" class=\"wp-image-37\" /></figure> <!-- /wp:image --> <!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"accent\",\"className\":\"alignwide\"} --> <h2 class=\"has-accent-color has-text-color has-text-align-center alignwide\">「著者であるダナ・ハラウェイが証明したとおり、サイボーグは敬虔ではないのです。彼らは宇宙のことを覚えていません」</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:separator {\"className\":\"is-style-wide\"} --> <hr class=\"wp-block-separator is-style-wide\" /> <!-- /wp:separator --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">息をのむような7階建て建築の UMoMA では、国際的な現代美術を展示しており、時には美術の歴史的考察も行っています。実存的、政治的、哲学的な問題が当館のプログラムの本質です。来館者にはガイド付きツアー、アーティストトーク、講演、映画上映などの無料イベントをお楽しみいただけます</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>各展覧会は UMoMA と世界中のアーティスト、美術館とのコラボレーションの成果であり、国際的に注目されることも少なくありません。UMoMA は欧州博物館大賞の特別賞を獲得したほか、スウェーデン博物館大賞や欧州博物館評議会賞の選考でも上位に残りました。</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --> <!-- wp:group {\"customBackgroundColor\":\"#ffffff\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-background\" style=\"background-color:#ffffff;\"><div class=\"wp-block-group__inner-container\"><!-- wp:group --> <div class=\"wp-block-group\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">入会して会員特典をご利用ください !</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\"} --> <p class=\"has-text-align-center\">会員限定の展示や販売をお楽しみいただけます。年会費は99.99ドルです。</p> <!-- /wp:paragraph --> <!-- wp:button {\"align\":\"center\",\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button aligncenter is-style-outline\"><a class=\"wp-block-button__link\" href=\"#\">入会する</a></div> <!-- /wp:button --></div></div> <!-- /wp:group --></div></div> <!-- /wp:group --> <!-- wp:gallery {\"ids\":[39,38],\"align\":\"wide\"} --> <figure class=\"wp-block-gallery alignwide columns-2 is-cropped\"><ul class=\"blocks-gallery-grid\"><li class=\"blocks-gallery-item\"><figure><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&amp;h=1024\" alt=\"\" data-id=\"39\" data-link=\"http://2020.wordpress.net/2020-square-2/\" class=\"wp-image-39\" /></figure></li><li class=\"blocks-gallery-item\"><figure><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" data-id=\"38\" data-link=\"http://2020.wordpress.net/2020-square-1/\" class=\"wp-image-38\" /></figure></li></ul></figure> <!-- /wp:gallery -->",
+            "post_name": "the-new-umoma-opens-its-doors",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 68,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_front_page",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "私たちについて",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">スウェーデンを代表する現代美術の見どころ。冬季開館時間は毎日午前10時から午後6時までです。</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:paragraph {\"dropCap\":true} --> <p class=\"has-drop-cap\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <!-- /wp:paragraph --> <!-- wp:paragraph --> <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> <!-- /wp:paragraph --> <!-- wp:media-text {\"customBackgroundColor\":\"#ffffff\",\"mediaId\":39,\"mediaType\":\"image\"} --> <div class=\"wp-block-media-text alignwide has-background is-stacked-on-mobile\" style=\"background-color:#ffffff;\"><figure class=\"wp-block-media-text__media\"><img src=\"https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png?w=1024&amp;h=1024\" alt=\"\" class=\"wp-image-39\" /></figure><div class=\"wp-block-media-text__content\"><!-- wp:heading --> <h2>当館のミッション</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"large\"} --> <p class=\"has-large-font-size\">当館のミッションについて簡単にご紹介します。</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/about/\">続きを読む</a></div> <!-- /wp:button --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --></div></div> <!-- /wp:media-text --> <!-- wp:media-text {\"customBackgroundColor\":\"#ffffff\",\"mediaId\":38,\"mediaType\":\"image\"} --> <div class=\"wp-block-media-text alignwide has-background is-stacked-on-mobile\" style=\"background-color:#ffffff;\"><figure class=\"wp-block-media-text__media\"><img src=\"http://2020.wordpress.net/wp-content/uploads/2019/10/2020-square-1-1024x1024.png\" alt=\"\" class=\"wp-image-38\" /></figure><div class=\"wp-block-media-text__content\"><!-- wp:heading --> <h2>沿革</h2> <!-- /wp:heading --> <!-- wp:paragraph {\"fontSize\":\"large\"} --> <p class=\"has-large-font-size\">当館には長い歴史と多くの逸話があります。そのすべてを詳しく見るには、以下のボタンをクリックしてください。</p> <!-- /wp:paragraph --> <!-- wp:button {\"className\":\"is-style-outline\"} --> <div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link\" href=\"https://twentytwentydemo.wordpress.com/about/\">続きを読む</a></div> <!-- /wp:button --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph --></div></div> <!-- /wp:media-text --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph -->",
+            "post_name": "about",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 69,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra",
+            "page_template": "templates/template-cover.php",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "お問い合わせ",
+            "post_content": "<!-- wp:group {\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide\"><div class=\"wp-block-group__inner-container\"><!-- wp:heading {\"align\":\"center\"} --> <h2 class=\"has-text-align-center\">当館や当館の展示、売店についてご不明の点は以下までお問い合わせください。</h2> <!-- /wp:heading --></div></div> <!-- /wp:group --> <!-- wp:group {\"backgroundColor\":\"primary\",\"align\":\"wide\"} --> <div class=\"wp-block-group alignwide has-primary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:columns --> <div class=\"wp-block-columns\"><!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"background\"} --> <h6 class=\"has-background-color has-text-color has-text-align-center\">アドレス</h6> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\">123 Main Street<br>New York, NY 10001</p> <!-- /wp:paragraph --></div> <!-- /wp:column --> <!-- wp:column --> <div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"level\":6,\"textColor\":\"background\"} --> <h6 class=\"has-background-color has-text-color has-text-align-center\">開館時間</h6> <!-- /wp:heading --> <!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"background\",\"fontSize\":\"large\"} --> <p class=\"has-text-color has-text-align-center has-large-font-size has-background-color\">平日9:00～5:00<br>週末11:00～3:00</p> <!-- /wp:paragraph --></div> <!-- /wp:column --></div> <!-- /wp:columns --></div></div> <!-- /wp:group --> <!-- wp:paragraph --> <p></p> <!-- /wp:paragraph -->",
+            "post_name": "contact",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 70,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "ニュース",
+            "post_content": "",
+            "post_name": "blog",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "_starter_page_template": "",
+            "hs_old_id": 71,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_blog_page"
+        },
+        {
+            "post_type": "post",
+            "post_title": "Hello world!",
+            "post_content": "<!-- wp:paragraph --> <p>WordPress へようこそ。これは初めての投稿です。編集や削除をしてから記述しましょう !</p> <!-- /wp:paragraph -->",
+            "post_name": "hello-world",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "open",
+            "_starter_page_template": "",
+            "hs_old_id": 66,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Uncategorized"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra",
+            "attachment_url": "https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png"
+        },
+        {
+            "post_type": "page",
+            "post_title": "サンプルページ",
+            "post_content": "<!-- wp:paragraph --> <p>これはサンプルページです。同じ位置に固定され、(多くのテーマでは) サイトナビゲーションメニューに含まれるため、ブログ投稿とは異なります。サイト訪問者に対して自分のことを説明する自己紹介ページを作成するのが一般的です。たとえば以下のようなものになります。</p> <!-- /wp:paragraph --> <!-- wp:quote --> <blockquote class=\"wp-block-quote\"><p>こんにちは。昼間はバイク便のメッセンジャーとして働いていますが、俳優志望でもあります。これは僕のサイトです。ロサンゼルスに住み、ジャックという名前のかわいい犬を飼っています。ピニャコラーダが好きです(通り雨に濡れるのも)。</p></blockquote> <!-- /wp:quote --> <!-- wp:paragraph --> <p>または、このようなものです。</p> <!-- /wp:paragraph --> <!-- wp:quote --> <blockquote class=\"wp-block-quote\"><p>XYZ 小道具株式会社は1971年の創立以来、高品質の小道具を皆様に提供しております。ゴッサム・シティに所在する当社では2,000名以上の社員が働いており、様々な形で地域のコミュニティへ貢献しています。</p></blockquote> <!-- /wp:quote --> <!-- wp:paragraph --> <p>新しく WordPress ユーザーになった方は、<a href=\"http://2020.wordpress.net/wp-admin/\">ダッシュボード</a>に移動してこのページを削除し、新しいページを作成してご自分のコンテンツを追加してください。ではお楽しみください !</p> <!-- /wp:paragraph -->",
+            "post_name": "sample-page",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "open",
+            "_starter_page_template": "",
+            "hs_old_id": 67,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        }
+    ],
+    "menus": {
+        "primary-menu": {
+            "name": "メインメニュー",
+            "items": [
+                {
+                    "menu-item-title": "ホーム",
+                    "menu-item-db-id": 90,
+                    "menu-item-object-id": "68",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "展覧会",
+                    "menu-item-db-id": 75,
+                    "menu-item-object-id": "57",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "私たちについて",
+                    "menu-item-db-id": 73,
+                    "menu-item-object-id": "69",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "お問い合わせ",
+                    "menu-item-db-id": 76,
+                    "menu-item-object-id": "70",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "73",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "ニュース",
+                    "menu-item-db-id": 74,
+                    "menu-item-object-id": "71",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 5,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                }
+            ]
+        },
+        "social-links-menu": {
+            "name": "﻿ソーシャルリンクメニュー",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 12,
+                    "menu-item-object-id": "12",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.facebook.com/wordpress"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 13,
+                    "menu-item-object-id": "13",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://twitter.com/wordpress"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 14,
+                    "menu-item-object-id": "14",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.instagram.com/explore/tags/wordcamp/"
+                },
+                {
+                    "menu-item-title": "メール",
+                    "menu-item-db-id": 15,
+                    "menu-item-object-id": "15",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "mailto:wordpress@example.com"
+                }
+            ]
+        }
+    },
+    "images": [
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-square-1.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-4.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2020-three-quarters-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/e9bd7-2020-landscape-3.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/74b66-2020-three-quarters-3.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/48815-2020-three-quarters-1.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/2b998-2020-square-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/4bca8-2020-landscape-2.png",
+        "https://twentytwentydemo.files.wordpress.com/2019/11/1ffd4-2020-landscape-1.png"
+    ]
+}

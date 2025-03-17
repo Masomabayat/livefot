@@ -1,0 +1,495 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Bookings and Appointments For WooCommerce\n"
+"POT-Creation-Date: 2019-05-31 10:29+0530\n"
+"PO-Revision-Date: 2019-05-31 11:05+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ph-bookings-appointments-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-ph-booking-admin-pages.php:14
+#: includes/admin/class-ph-booking-admin-pages.php:35
+msgid "Bookings"
+msgstr "Buchungen"
+
+#: includes/admin/class-ph-booking-admin-pages.php:24
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/admin/class-ph-booking-admin-pages.php:56
+msgid "Customize Calendar Color"
+msgstr "Kalenderfarbe anpassen"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:26
+msgid "Order"
+msgstr "Bestellung"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:27
+msgid "Product"
+msgstr "Produkt"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:28
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:28
+#: includes/html-ph-booking-product-admin-availability.php:54
+msgid "From"
+msgstr "Von"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:29
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:32
+#: includes/html-ph-booking-product-admin-availability.php:55
+msgid "To"
+msgstr "Bis"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:30
+msgid "Booked by"
+msgstr "Gebucht von"
+
+#: includes/admin/market.php:66
+msgid "Woocommerce Bookings And Appointments"
+msgstr "Woocommerce Buchungen und Termine"
+
+#: includes/admin/market.php:70
+msgid "Allow multiple bookings for a time slot."
+msgstr "Erlaube mehrere Buchungen für ein Zeitfenster."
+
+#: includes/admin/market.php:71
+msgid "Add Participants/Materials to the booking."
+msgstr "Fügen Sie der Buchung Teilnehmer / Materialien hinzu."
+
+#: includes/admin/market.php:72
+msgid "Add Resources"
+msgstr "Füge Quellen hinzu"
+
+#: includes/admin/market.php:73
+msgid "Set special prices or discounts"
+msgstr "Legen Sie Sonderpreise oder Rabatte fest"
+
+#: includes/admin/market.php:74
+msgid "Create booking availability rules as you wish."
+msgstr "Erstellen Sie Buchungsverfügbarkeitsregeln nach Ihren Wünschen."
+
+#: includes/admin/market.php:75
+msgid "Allow booking cancellation"
+msgstr "Buchungsstornierung zulassen"
+
+#: includes/admin/market.php:76
+msgid "Configure the bookings to require confirmation from the Admin"
+msgstr ""
+"Konfigurieren Sie die Buchungen so, dass eine Bestätigung durch den "
+"Administrator erforderlich ist"
+
+#: includes/admin/market.php:81
+msgid "Upgrade to Premium"
+msgstr "Auf Premium upgraden"
+
+#: includes/admin/market.php:82
+msgid "Live Demo"
+msgstr "Live Demo"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:17
+msgid "Choose product"
+msgstr "Produkt auswählen"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:102
+msgid "Click anywhere in the calendar to apply your desired colour."
+msgstr ""
+"Klicken Sie auf eine beliebige Stelle im Kalender, um die gewünschte Farbe "
+"anzuwenden."
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:129
+#: includes/booking-callender/class-ph-booking-callender.php:356
+#: includes/booking-callender/html-ph-booking-datepicker.php:56
+msgid "Mo"
+msgstr "MO"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:130
+#: includes/booking-callender/class-ph-booking-callender.php:357
+#: includes/booking-callender/html-ph-booking-datepicker.php:57
+msgid "Tu"
+msgstr "DI"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:131
+#: includes/booking-callender/class-ph-booking-callender.php:358
+#: includes/booking-callender/html-ph-booking-datepicker.php:58
+msgid "We"
+msgstr "Mi"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:132
+#: includes/booking-callender/class-ph-booking-callender.php:359
+#: includes/booking-callender/html-ph-booking-datepicker.php:59
+msgid "Th"
+msgstr "DO"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:133
+#: includes/booking-callender/class-ph-booking-callender.php:360
+#: includes/booking-callender/html-ph-booking-datepicker.php:60
+msgid "Fr"
+msgstr "Fr"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:134
+#: includes/booking-callender/class-ph-booking-callender.php:361
+#: includes/booking-callender/html-ph-booking-datepicker.php:61
+msgid "Sa"
+msgstr "Sa"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:135
+#: includes/booking-callender/class-ph-booking-callender.php:362
+#: includes/booking-callender/html-ph-booking-datepicker.php:62
+msgid "Su"
+msgstr "So"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:38
+#: includes/booking-callender/html-ph-booking-monthpicker.php:38
+#: ph-bookings-appointments-woocommerce.php:121
+msgid "Please pick a booking period"
+msgstr "Bitte wählen Sie einen Buchungszeitraum"
+
+#: includes/booking-callender/html-ph-booking-monthpicker.php:41
+msgid "Pick Month(s)"
+msgstr "Monat (e) auswählen"
+
+#: includes/booking-callender/html-ph-booking-timepicker.php:68
+#: ph-bookings-appointments-woocommerce.php:122
+msgid "Please Pick a Date"
+msgstr "Bitte wählen Sie ein Datum"
+
+#: includes/class-ph-booking-product-manager.php:39
+msgid "Booking availability"
+msgstr "Buchungen Verfügbarkeit:"
+
+#: includes/class-ph-booking-product-manager.php:44
+#: ph-bookings-appointments-woocommerce.php:116
+msgid "Booking"
+msgstr "Buchung"
+
+#: includes/class-ph-booking-product-manager.php:57
+msgid "Bookable product"
+msgstr "Buchbares Produkt"
+
+#: includes/class-ph-booking-wc-product.php:132
+msgid "Book Now"
+msgstr "Jetzt buchen"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:43
+msgid "View cart"
+msgstr "Warenkorb ansehen"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:43
+msgid "Booking Done. Please check cart for payment."
+msgstr ""
+"Buchung abgeschlossen. Bitte überprüfen Sie den Warenkorb für die Zahlung."
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:96
+msgid "Booked"
+msgstr "Gebucht"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:102
+msgid "Booked from"
+msgstr "Gebucht von"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:108
+msgid "Booked to"
+msgstr "Gebucht bis"
+
+#: includes/html-ph-booking-product-admin-availability.php:53
+msgid "Non-working hours (All days)"
+msgstr "Arbeitsfreie Stunden (alle Tage)"
+
+#: includes/html-ph-booking-product-admin-availability.php:58
+msgid "Appointments within this period will appear blocked on the calendar."
+msgstr ""
+"Termine innerhalb dieses Zeitraums werden im Kalender als gesperrt angezeigt."
+
+#: includes/html-ph-booking-product-admin-availability.php:64
+msgid "Non-working days (Weekend)"
+msgstr "Arbeitsfreie Tage (Wochenende)"
+
+#: includes/html-ph-booking-product-admin-availability.php:65
+msgid "Saturday"
+msgstr "Samtag"
+
+#: includes/html-ph-booking-product-admin-availability.php:66
+msgid "Sunday"
+msgstr "Sonntag"
+
+#: includes/html-ph-booking-product-admin-availability.php:69
+msgid "If checked, these days would appear blocked on the calendar."
+msgstr ""
+"Wenn diese Option aktiviert ist, werden diese Tage im Kalender blockiert "
+"angezeigt."
+
+#: includes/html-ph-booking-product-admin-options.php:16
+msgid "Booking Period"
+msgstr "Buchungszeitraum"
+
+#: includes/html-ph-booking-product-admin-options.php:18
+msgid "Fixed period of"
+msgstr "Fester Zeitraum von"
+
+#: includes/html-ph-booking-product-admin-options.php:19
+msgid "Enable Calendar Range"
+msgstr "Zeitraums-Picker für Kalender aktivieren?"
+
+#: includes/html-ph-booking-product-admin-options.php:24
+msgid "Minutes(s)"
+msgstr "Minute (n)"
+
+#: includes/html-ph-booking-product-admin-options.php:25
+msgid "Hour(s)"
+msgstr "Stunde(n)"
+
+#: includes/html-ph-booking-product-admin-options.php:26
+msgid "Day(s)"
+msgstr "Tag(e)"
+
+#: includes/html-ph-booking-product-admin-options.php:28
+msgid "Month(s)"
+msgstr "Monat(e)"
+
+#: includes/html-ph-booking-product-admin-options.php:33
+msgid ""
+"Fixed Period : Allows users to select a single appointment with the duration "
+"you define here."
+msgstr ""
+"Feste Dauer: Ermöglicht Benutzern die Auswahl eines einzelnen Termins mit "
+"der hier festgelegten Dauer."
+
+#: includes/html-ph-booking-product-admin-options.php:38
+msgid ""
+"Enable Range : Allows users to choose multiple days by selecting a start "
+"date and an end date."
+msgstr ""
+"Bereich aktivieren: Ermöglicht Benutzern die Auswahl mehrerer Tage durch "
+"Auswahl eines Start- und eines Enddatums."
+
+#: includes/html-ph-booking-product-admin-options.php:43
+msgid "Price"
+msgstr "Preis"
+
+#: includes/html-ph-booking-product-admin-options.php:46
+msgid ""
+"This price applies to one block of time. Gets multiplied if user chooses "
+"multiple days."
+msgstr ""
+"Dieser Preis gilt für einen Zeitblock. Wird multipliziert, wenn der Benutzer "
+"mehrere Tage auswählt."
+
+#: includes/html-ph-booking-product-admin-options.php:55
+msgid "First booking of the day starts at"
+msgstr "Die erste Buchung des Tages beginnt um"
+
+#: includes/html-ph-booking-product-admin-options.php:62
+msgid "Last booking of the day starts at"
+msgstr "Die letzte Buchung des Tages beginnt um"
+
+#: ph-bookings-appointments-woocommerce.php:25
+msgid ""
+"Is everything fine? You already have the Premium version installed in your "
+"website. For any issues, kindly raise a ticket via <a target='_blank' "
+"href='//pluginhive.com/support/'>pluginhive.com/support</a>"
+msgstr ""
+"Ist alles in Ordnung? Sie haben bereits die Premium-Version auf Ihrer "
+"Website installiert. Bei Problemen erheben Sie <a target='_blank' href='//"
+"pluginhive.com/support/'>bitte</a> ein Ticket über <a target='_blank' "
+"href='//pluginhive.com/support/'>pluginhive.com/support</a>"
+
+#: ph-bookings-appointments-woocommerce.php:88
+msgid "January"
+msgstr "Januar"
+
+#: ph-bookings-appointments-woocommerce.php:89
+msgid "February"
+msgstr "Februar"
+
+#: ph-bookings-appointments-woocommerce.php:90
+msgid "March"
+msgstr "März"
+
+#: ph-bookings-appointments-woocommerce.php:91
+msgid "April"
+msgstr "April"
+
+#: ph-bookings-appointments-woocommerce.php:92
+#: ph-bookings-appointments-woocommerce.php:106
+msgid "May"
+msgstr "May"
+
+#: ph-bookings-appointments-woocommerce.php:93
+msgid "June"
+msgstr "Juni"
+
+#: ph-bookings-appointments-woocommerce.php:94
+msgid "July"
+msgstr "Juli"
+
+#: ph-bookings-appointments-woocommerce.php:95
+msgid "August"
+msgstr "Augist"
+
+#: ph-bookings-appointments-woocommerce.php:96
+msgid "September"
+msgstr "Septiember"
+
+#: ph-bookings-appointments-woocommerce.php:97
+msgid "October"
+msgstr "Oktober"
+
+#: ph-bookings-appointments-woocommerce.php:98
+msgid "November"
+msgstr "November"
+
+#: ph-bookings-appointments-woocommerce.php:99
+msgid "December"
+msgstr "Dezember"
+
+#: ph-bookings-appointments-woocommerce.php:102
+msgid "Jan"
+msgstr "Jan"
+
+#: ph-bookings-appointments-woocommerce.php:103
+msgid "Feb"
+msgstr "Feb"
+
+#: ph-bookings-appointments-woocommerce.php:104
+msgid "Mar"
+msgstr "Mär"
+
+#: ph-bookings-appointments-woocommerce.php:105
+msgid "Apr"
+msgstr "Apr"
+
+#: ph-bookings-appointments-woocommerce.php:107
+msgid "Jun"
+msgstr "Jun"
+
+#: ph-bookings-appointments-woocommerce.php:108
+msgid "Jul"
+msgstr "Jul"
+
+#: ph-bookings-appointments-woocommerce.php:109
+msgid "Aug"
+msgstr "Aug"
+
+#: ph-bookings-appointments-woocommerce.php:110
+msgid "Sep"
+msgstr "Sept"
+
+#: ph-bookings-appointments-woocommerce.php:111
+msgid "Oct"
+msgstr "Okt"
+
+#: ph-bookings-appointments-woocommerce.php:112
+msgid "Nov"
+msgstr "Nov"
+
+#: ph-bookings-appointments-woocommerce.php:113
+msgid "Dec"
+msgstr "Dez"
+
+#: ph-bookings-appointments-woocommerce.php:115
+msgid "Booking cost"
+msgstr "Buchungskosten"
+
+#: ph-bookings-appointments-woocommerce.php:117
+msgid "is not available."
+msgstr "ist nicht verfügbar."
+
+#: ph-bookings-appointments-woocommerce.php:118
+msgid "are not available."
+msgstr "sind nicht verfügbar."
+
+#: ph-bookings-appointments-woocommerce.php:119
+msgid "Pick a later end date"
+msgstr "Wählen Sie ein späteres Enddatum"
+
+#: ph-bookings-appointments-woocommerce.php:120
+msgid "Max no of blocks available to book is"
+msgstr "Es können maximal keine Blöcke gebucht werden"
+
+#: ph-bookings-appointments-woocommerce.php:129
+msgid "Support"
+msgstr "Unterstützung"
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:395
+msgid "Check for updates"
+msgstr "Nach Updates suchen"
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:432
+msgid "View details"
+msgstr "Details anzeigen"
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:455
+#, php-format
+msgid "More information about %s"
+msgstr "Mehr Informationen zu %s"
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:548
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "Das %s-Plugin ist auf dem neuesten Stand."
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:550
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "Eine neue Version des %s-Plugins ist verfügbar."
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:552
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Konnte nicht prüfen, ob Updates für das Plugin %s verfügbar sind."
+
+#: plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php:558
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Unbekannter Update-Checker-Status „%s“"
+
+#: plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Es ist kein Changelog verfügbar."
+
+#. Plugin Name of the plugin/theme
+msgid "Bookings and Appointments For WooCommerce"
+msgstr "Termine"
+
+#. Description of the plugin/theme
+msgid "Bookings and Appointments solution for all types of businesses."
+msgstr "EVE ist die perfekte Lösung für alle Arten von Unternehmen."
+
+#. Author of the plugin/theme
+msgid "PluginHive"
+msgstr "PluginHive"
+
+#. Author URI of the plugin/theme
+msgid "https://www.pluginhive.com/"
+msgstr "https://www.pluginhive.com/about/"
+
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:102
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:102
+msgid "Reset to Default"
+msgstr "Zurücksetzen"
+
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:124
+msgid "Cost"
+msgstr "Kosten"

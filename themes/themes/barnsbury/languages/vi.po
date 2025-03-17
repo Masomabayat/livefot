@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Barnsbury\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-21T03:39:52+00:00\n"
+"PO-Revision-Date: 2024-09-12 01:42:19+0000\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: inc/wpcom-colors.php:224
+#: inc/wpcom-editor-colors.php:116
+msgid "Link Color"
+msgstr "Màu sắc liên kết"
+
+#: inc/wpcom-colors.php:312
+#: inc/wpcom-editor-colors.php:179
+msgid "Text Color"
+msgstr "Màu chữ"
+
+#: functions.php:84
+msgid "Background"
+msgstr "Nền"
+
+#: inc/wpcom-colors.php:104
+#: inc/wpcom-editor-colors.php:68
+msgid "Background Color"
+msgstr "Màu nền"
+
+#. Description of the theme
+#: style.css
+msgid "Barnsbury is an earthy and friendly theme design with farming and agriculture businesses in mind."
+msgstr "Barnsbury là một thiết kế giao diện thân thiện và mộc mạc với tâm trí hướng đến các doanh nghiệp nông nghiệp và chăn nuôi."
+
+#: functions.php:48
+msgid "Huge"
+msgstr "Rất lớn"
+
+#: functions.php:49
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:74
+msgid "Primary"
+msgstr "Chính"
+
+#: functions.php:79
+msgid "Secondary"
+msgstr "Phụ"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Rubik, translate this to 'off'. Do not translate into your own language.
+#: functions.php:135
+msgctxt "Rubik font: on or off"
+msgid "on"
+msgstr "bật"
+
+#: functions.php:30
+msgid "Small"
+msgstr "Nhỏ"
+
+#: functions.php:31
+msgid "S"
+msgstr "S"
+
+#: functions.php:36
+msgid "Normal"
+msgstr "Bình thường"
+
+#: functions.php:37
+msgid "M"
+msgstr "M"
+
+#: functions.php:42
+msgid "Large"
+msgstr "Lớn"
+
+#: functions.php:43
+msgid "L"
+msgstr "L"

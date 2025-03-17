@@ -1,0 +1,558 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Twentytwenty\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-19T06:07:53+00:00\n"
+"PO-Revision-Date: 2024-04-08 11:58:03+0000\n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: inc/block-patterns.php:33
+msgid "Call to Action"
+msgstr "Instigo al ago"
+
+#: inc/block-patterns.php:142
+msgid "Featured Content"
+msgstr "Elstarigita enhavo"
+
+#: inc/block-patterns.php:187
+msgid "Introduction"
+msgstr "Enkonduko"
+
+#: inc/block-patterns.php:93
+msgid "Shop Now"
+msgstr "Butikumi nun"
+
+#: index.php:54
+msgid "Nothing Found"
+msgstr "Nenio estis trovita"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "Afiŝo"
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr "Plenlarĝa modelo"
+
+#. Description of the theme
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr "Nia defaŭlta etoso por 2020 estas desegnita por profiti plenan flekseblecon de la blokredaktilo. Organizaĵoj kaj kompanioj havas la kapablon krei dinamikajn alteriĝpaĝojn kun senfinaj enpaĝigoj per la grupaj kaj kolumnaj blokoj. La centrita enhava kolumno kaj bonorda agordita tipografio ankaŭ perfektigas tradiciajn blogojn. Kompletaj redaktaj stiloj donas al vi bonan ideon pri kiel aspektos via enhavo, eĉ antaŭ ol vi publikigos. Vi povas doni al via retejo personan tuŝon ŝanĝante la fonajn kolorojn kaj la akcentan koloron en la Agordilo. La koloroj de ĉiuj elementoj de via retejo aŭtomate kalkuliĝas laŭ la koloroj, kiujn vi elektas, certigante altan atingeblan koloron por viaj vizitantoj."
+
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:27
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "Pli malnovaj <span class=\"nav-short\">afiŝoj</span>"
+
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:19
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "Novaj <span class=\"nav-short\">afiŝoj</span>"
+
+#. translators: Hidden accessibility text.
+#: template-parts/modal-search.php:29
+msgid "Close search"
+msgstr "Fermi la serĉujon"
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr "Etenditaj sociaj ligiloj"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "la teamo de WordPress"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Fermi menuon"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "Sociaj ligiloj"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Piedo"
+
+#: template-parts/entry-author-bio.php:30
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "Vidi arkivon <span aria-hidden=\"true\">&rarr;</span>"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "Daŭrigi la legadon"
+
+#: template-parts/content-cover.php:148
+#: template-parts/content.php:48
+msgid "Page"
+msgstr "Paĝo"
+
+#: template-parts/content-cover.php:148
+#: template-parts/content.php:48
+msgid "Pages:"
+msgstr "Paĝoj:"
+
+#. translators: Hidden accessibility text.
+#: template-parts/content-cover.php:96
+msgid "Scroll Down"
+msgstr "Rulumi suben"
+
+#: searchform.php:36
+msgctxt "submit button"
+msgid "Search"
+msgstr "Priserĉi"
+
+#: inc/template-tags.php:488
+msgid "Sticky post"
+msgstr "Gluita afiŝo"
+
+#: index.php:35
+msgid "Search:"
+msgstr "Serĉi:"
+
+#. translators: Hidden accessibility text.
+#: searchform.php:31
+#: template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr "Serĉi:"
+
+#: searchform.php:34
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Priserĉi &hellip;"
+
+#: index.php:104
+msgid "search again"
+msgstr "denove serĉi"
+
+#. translators: %s: Number of search results.
+#: index.php:42
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Ni trovis %s rezulton por via serĉado."
+msgstr[1] "Ni trovis %s rezultojn por via serĉado."
+
+#: index.php:51
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "Ni ne trovis rezultojn por via serĉo. Vi povas reprovi per la serĉa formularo sube."
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:425
+#: template-parts/content-cover.php:73
+#: template-parts/entry-header.php:39
+msgid "Categories"
+msgstr "Kategorioj"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:448
+msgid "Tags"
+msgstr "Etikedoj"
+
+#: inc/template-tags.php:431
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "En"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:402
+msgid "Post date"
+msgstr "Dato de publikigo"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "Menuo por sociaj ligoj"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:223
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Redakti <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: Hidden accessibility text.
+#: inc/template-tags.php:373
+msgid "Post author"
+msgstr "Aŭtoro"
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:382
+#: template-parts/entry-author-bio.php:21
+msgid "By %s"
+msgstr "De %s"
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr "Aliĝu"
+
+#: inc/block-patterns.php:45
+#: inc/starter-content.php:148
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr "Membroj akiras aliron al ekskluzivaj ekspozicioj kaj rabatoj. Niaj membriĝoj kostas 99,99 USD kaj estas fakturitaj ĉiujare."
+
+#: inc/block-patterns.php:78
+#: inc/block-patterns.php:160
+#: inc/block-patterns.php:174
+#: inc/starter-content.php:73
+#: inc/starter-content.php:88
+#: inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr "Legi pli"
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "La nova UMoMA malfermas siajn pordojn"
+
+#: inc/starter-content.php:145
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr "Fariĝu membro kaj akiru ekskluzivajn ofertojn!"
+
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "La ekspozicioj estas produktitaj de UMoMA kunlabore kun artistoj kaj muzeoj tra la mondo kaj ili ofte altiras internacian atenton. UMoMA ricevis Specialan Komandon de la Eŭropa Muzeo de la Jaro, kaj estis inter la plej bonaj kandidatoj por la Sveda Muzeo de la Jara Premio kaj ankaŭ por la Konsilio de Eŭropo-Muzeo-Premio."
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "Kun sep etaĝoj da okulfrapa arkitekturo, UMoMA montras ekspoziciojn de internacia nuntempa arto, foje kune kun artaj historiaj retrospektivoj. Ekzistecaj, politikaj kaj filozofiaj aferoj estas nepraj al nia programo. Kiel vizitanto vi estas invitita al gvidataj vizitoj pri artisto-prelegoj, prelegoj, filmaj projektoj kaj aliaj eventoj kun senpaga aliro"
+
+#: inc/starter-content.php:130
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr "\"Kiborgoj, kiel la filozofo Donna Haraway establis, ne estas respektemaj. Ili ne memoras la kosmon.\""
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "De Signac al Matisse"
+
+#: inc/block-patterns.php:168
+#: inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "The Life I Deserve"
+
+#: inc/starter-content.php:85
+#: inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr "Oktobro 1 -- Decembro 1"
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "Teatro de Operacioj"
+
+#: inc/starter-content.php:70
+#: inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr "Aŭgusto 1 -- Decembro 1"
+
+#: inc/block-patterns.php:154
+#: inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "Laboro kaj tagoj"
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "La unua vojaĝocelo por moderna arto en Norda Svedio. Malfermita de 10 atm ĝis 6 ptm ĉiutage dum la someraj monatoj."
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr "La nova UMoMA malfermas siajn pordojn"
+
+#: header.php:76
+#: header.php:137
+msgid "Menu"
+msgstr "Menuo"
+
+#: functions.php:560
+msgid "Background Color"
+msgstr "Fona koloro"
+
+#: template-parts/modal-search.php:11
+msgid "Search"
+msgstr "Serĉi"
+
+#: functions.php:594
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:593
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "Pli granda"
+
+#: functions.php:588
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:587
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "Granda"
+
+#: functions.php:582
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:581
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "Kutima"
+
+#: functions.php:576
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:575
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "Malgranda"
+
+#: functions.php:279
+msgid "Footer Menu"
+msgstr "Pieda menuo"
+
+#: functions.php:280
+msgid "Social Menu"
+msgstr "Socia menuo"
+
+#: functions.php:395
+msgid "Footer #1"
+msgstr "Piedo numero 1"
+
+#: functions.php:407
+msgid "Footer #2"
+msgstr "Piedo numero 2"
+
+#: inc/starter-content.php:177
+#: inc/starter-content.php:187
+msgid "Primary"
+msgstr "Ĉefa"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr "Supren %s"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr "Ĝis la supro %s"
+
+#: functions.php:409
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "Fenestraĵoj en ĉi tiu areo estos montrataj en la dua kolumno en la piedo."
+
+#: functions.php:397
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "Fenestraĵoj en ĉi tiu areo estos montrataj en la unua kolumno en la piedo."
+
+#. translators: Hidden accessibility text.
+#: functions.php:367
+msgid "Skip to the content"
+msgstr "Iri rekte al enhavo"
+
+#: functions.php:278
+msgid "Mobile Menu"
+msgstr "Poŝtelefona menuo"
+
+#: functions.php:277
+msgid "Desktop Expanded Menu"
+msgstr "Etendita menuo por fiksa komputilo"
+
+#: functions.php:276
+msgid "Desktop Horizontal Menu"
+msgstr "Horizontala menu por fiksa komputilo"
+
+#: functions.php:532
+msgid "Accent Color"
+msgstr "Emfaza koloro"
+
+#. Author URI of the theme
+#: footer.php:32
+msgid "https://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "Povigita de WordPress"
+
+#. translators: Copyright date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "J"
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Komentoj"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Komentado estas fermita."
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Unu respondo pri &ldquo;%s&rdquo;"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s respondo pri &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s respondoj pri &ldquo;%2$s&rdquo;"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Pli novaj komentoj"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "Pli malnovaj komentoj"
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Lasi respondon"
+
+#. translators: Hidden accessibility text.
+#: classes/class-twentytwenty-walker-page.php:117
+#: inc/template-tags.php:604
+msgid "Show sub menu"
+msgstr "Montri submenuon"
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:78
+msgid "#%d (no title)"
+msgstr "#%d (neniu titolo)"
+
+#: classes/class-twentytwenty-walker-comment.php:137
+msgid "By Post Author"
+msgstr "Laŭ afiŝaŭtoro"
+
+#: classes/class-twentytwenty-walker-comment.php:102
+msgid "Your comment is awaiting moderation."
+msgstr "Via komento atendas kontroladon"
+
+#: classes/class-twentytwenty-walker-comment.php:86
+msgid "Edit"
+msgstr "Redakti"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:73
+msgid "%1$s at %2$s"
+msgstr "%1$s je %2$s"
+
+#: classes/class-twentytwenty-customize.php:273
+msgid "Full text"
+msgstr "Plenan tekston"
+
+#: classes/class-twentytwenty-customize.php:274
+msgid "Summary"
+msgstr "Resumon"
+
+#. translators: Hidden accessibility text.
+#: classes/class-twentytwenty-walker-comment.php:61
+msgid "says:"
+msgstr "Diras:"
+
+#: classes/class-twentytwenty-customize.php:250
+msgid "Show author bio"
+msgstr "Montri biografion de la autoro"
+
+#: classes/class-twentytwenty-customize.php:399
+msgid "Overlay Opacity"
+msgstr "Opakeco de supermetaĵo"
+
+#: classes/class-twentytwenty-customize.php:379
+msgid "The color used for the text in the overlay."
+msgstr "La koloro uzata por la teksto en la supermetaĵo."
+
+#: classes/class-twentytwenty-customize.php:378
+msgid "Overlay Text Color"
+msgstr "Teksta koloro de la supermetaĵo"
+
+#: classes/class-twentytwenty-customize.php:357
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr "La koloro uzita por la supermetaĵo. Defaŭltas la akcentan koloron."
+
+#: classes/class-twentytwenty-customize.php:356
+msgid "Overlay Background Color"
+msgstr "Fona koloro de la supermetaĵo"
+
+#: classes/class-twentytwenty-customize.php:287
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr "Agordoj por la \"Kovrila ŝablono\" paĝa ŝablono. Aldonu elstarigitan bildon por uzi kiel fonon."
+
+#: classes/class-twentytwenty-customize.php:400
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "Certigu, ke la kontrasto estas sufiĉe alta por ke la teksto estu legebla."
+
+#: classes/class-twentytwenty-customize.php:310
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "Kreas paralaksan efekton kiam la vizitanto rulumas."
+
+#: classes/class-twentytwenty-customize.php:309
+msgid "Fixed Background Image"
+msgstr "Fiksita fonbildo"
+
+#. Template Name of the theme
+#: classes/class-twentytwenty-customize.php:285
+msgid "Cover Template"
+msgstr "Kovrila ŝablono"
+
+#: classes/class-twentytwenty-customize.php:271
+msgid "On archive pages, posts show:"
+msgstr "En arkivigitaj paĝoj, afiŝoj montras:"
+
+#: classes/class-twentytwenty-customize.php:229
+msgid "Show search in header"
+msgstr "Montri la serĉujon en la kapo"
+
+#: classes/class-twentytwenty-customize.php:206
+msgid "Theme Options"
+msgstr "Etosaj opcioj"
+
+#: classes/class-twentytwenty-customize.php:187
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "Apliki propran koloron al butonoj, ligiloj, elstarigitaj bildoj, ktp."
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Ne eblis trovi la paĝon"
+
+#: classes/class-twentytwenty-customize.php:127
+msgid "Primary Color"
+msgstr "Ĉefa koloro"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 ne trovita"
+
+#: classes/class-twentytwenty-customize.php:105
+msgid "Header &amp; Footer Background Color"
+msgstr "Fona koloro por la kapo kaj la piedo"
+
+#: classes/class-twentytwenty-customize.php:86
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Malgrandigas la emblemon al la duono de ĝia alŝuta grando, akrigante ĝin je altdistingivaj ekranoj."
+
+#: classes/class-twentytwenty-customize.php:85
+msgid "Retina logo"
+msgstr "Retina-emblemo"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "La paĝo, kiun vi serĉis, ne troveblis. Ĝi eble estis forigita, alinomita, aŭ neniam ekzistis."

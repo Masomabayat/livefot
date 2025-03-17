@@ -1,0 +1,868 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ads.txt & App-ads.txt Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-26 20:31+0000\n"
+"PO-Revision-Date: 2021-05-27 20:54+0000\n"
+"Last-Translator: Gautier Dorval\n"
+"Language-Team: Bengali (Bangladesh)\n"
+"Language: bn-BD\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#: admin-ui-inc/ads-txt-inc.php:44 admin-ui-inc/ads-txt-inc.php:109 
+#: admin-ui-inc/app-ads-txt-inc.php:44 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:45 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:109
+msgid ""
+" This must contain the same value used in transactions (i.e. OpenRTB bid "
+"requests) in the field specified by the SSP/exchange (For OpenRTB = "
+"publisher ID | For OpenDirect = publisher’s organization ID)."
+msgstr ""
+" এতে অবশ্যই এসএসপি / এক্সচেঞ্জ (ওপেনআরটিবি = প্রকাশক আইডির জন্য | "
+"ওপেনডাইরেক্টের জন্য = প্রকাশকের সংস্থা আইডির) ক্ষেত্রে ক্ষেত্রের "
+"লেনদেনগুলিতে (যেমন ওপেনআরটিবি বিড অনুরোধগুলি) ব্যবহৃত একই মান থাকতে হবে।"
+
+#: inc/recommendations.php:28
+msgid "404 to 301 By Joel James"
+msgstr "404 থেকে 301 জোয়েল জেমস লিখেছেন"
+
+#: app-ads-txt-admin.php:80
+#, php-format
+msgid "<a href=\"%s\">Get Pro version</a> to enable"
+msgstr "সক্ষম করতে <a href=\"%s\">প্রো সংস্করণ পান</a>"
+
+#: inc/recommendations.php:148
+msgid ""
+"A new way to boost your marketing content. Writing Web Content that is "
+"ranking like those of SEO Experts."
+msgstr ""
+"আপনার বিপণনের বিষয়বস্তু বাড়ানোর জন্য একটি নতুন উপায়। ওয়েব সামগ্রী লিখিত "
+"যা এসইও বিশেষজ্ঞদের মতো র‌্যাঙ্কিং করছে।"
+
+#: inc/faq.php:92
+msgid ""
+"Ad fraud prevention. App-ads.txt blocks unauthorized developers who "
+"impersonate legitimate apps and mislead DSPs into spending brand budgets on "
+"fake inventory. With fraud instances minimized, authentic developers can "
+"retain more of the ad revenue from inventory genuinely targeted to their app."
+msgstr ""
+"বিজ্ঞাপন জালিয়াতি প্রতিরোধ। অ্যাপ্লিকেশন-বিজ্ঞাপন.টিএফএসটি অননুমোদিত "
+"বিকাশকারীদের অবরুদ্ধ করে যারা বৈধ অ্যাপ্লিকেশনগুলির ছদ্মবেশ তৈরি করে এবং "
+"ডিএসপিগুলিকে ভুয়া তালিকাতে ব্র্যান্ডের বাজেট ব্যয় করতে ভুল পথে চালিত করে "
+"ad জালিয়াতির উদাহরণগুলি হ্রাস করা হলে, খাঁটি বিকাশকারীরা প্রকৃতপক্ষে তাদের "
+"অ্যাপ্লিকেশনটিকে লক্ষ্যযুক্ত ইনভেন্টরি থেকে বিজ্ঞাপনের বেশি আয় করতে পারে।"
+
+#: admin-ui-inc/ads-txt-inc.php:162 admin-ui-inc/app-ads-txt-inc.php:95 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:162
+msgid "Add more custom rules if you need them, otherwise, leave it blank."
+msgstr ""
+"আপনার প্রয়োজন হলে আরও কাস্টম বিধি যুক্ত করুন, অন্যথায়, এটিকে ফাঁকা রাখুন।"
+
+#: admin-ui-inc/ads-txt-inc.php:15
+msgid "Add rules for Ads.txt, one line at a time. Then save"
+msgstr "একবারে এক লাইনে অ্যাড.সেক্সট জন্য নিয়ম যুক্ত করুন। তারপরে সেভ করুন"
+
+#: admin-ui-inc/app-ads-txt-inc.php:15 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:15
+msgid "Add rules for App-Ads.txt, one line at a time. Then save"
+msgstr "একবারে এক লাইন App-Ads.txt এর জন্য বিধি যুক্ত করুন। তারপরে সেভ করুন"
+
+#. Name of the plugin
+msgid "Ads.txt & App-ads.txt Manager"
+msgstr "Ads.txt এবং অ্যাপ-বিজ্ঞাপন.txt পরিচালক"
+
+#: inc/recommendations.php:16
+msgid "Akismet Anti-Spam by Automattic"
+msgstr "আকসমেট অ্যান্টি-স্প্যাম অটোমেটিক দ্বারা"
+
+#: inc/recommendations.php:17
+msgid ""
+"Akismet checks your comments and contact form submissions against our global "
+"database of spam to protect you and your site from malicious content."
+msgstr ""
+"আকিসমেট আপনার এবং আপনার সাইটেরটিকে দূষিত সামগ্রী থেকে রক্ষা করতে আমাদের "
+"স্প্যামের বিশ্বব্যাপী ডাটাবেসের বিরুদ্ধে আপনার মন্তব্য এবং যোগাযোগের ফর্ম "
+"জমাগুলি পরীক্ষা করে।"
+
+#: admin-ui-inc/ads-txt-inc.php:68 admin-ui-inc/ads-txt-inc.php:133 
+#: admin-ui-inc/app-ads-txt-inc.php:68 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:69 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:133
+msgid ""
+"An ID that uniquely identifies the advertising system within a certification "
+"authority."
+msgstr ""
+"একটি শংসাপত্র কর্তৃপক্ষের মধ্যে বিজ্ঞাপন সিস্টেমটি অনন্যভাবে চিহ্নিত করে এমন "
+"একটি আইডি।"
+
+#: inc/seo-recommendations.php:16 inc/seo-recommendations.php:18
+msgid "Analyse my site"
+msgstr "আমার সাইট বিশ্লেষণ করুন"
+
+#: inc/seo-recommendations.php:27
+msgid ""
+"Analyse your Google ranking with keywords, traffic and more (REGISTER TO GET "
+"10 FREE REQUESTS)"
+msgstr ""
+"কীওয়ার্ড, ট্র্যাফিক এবং আরও অনেক কিছু দিয়ে আপনার গুগল র‌্যাঙ্কিং বিশ্লেষণ "
+"করুন (10 বিনামূল্যে অনুরোধ পাওয়ার জন্য নিবন্ধিত করুন)"
+
+#: admin-ui-inc/app-ads-txt-inc.php:19
+msgid "App-Ads.txt"
+msgstr "অ্যাপ-বিজ্ঞাপন.টিএসটিএসটি"
+
+#. Description of the plugin
+msgid ""
+"App-ads.txt & Ads.txt manager allows you to create, manage & publish your "
+"app-ads.txt & ads.txt files from your WordPress dashboard."
+msgstr ""
+"অ্যাপ্লিকেশন-বিজ্ঞাপন.txt এবং বিজ্ঞাপন.txt পরিচালক আপনাকে আপনার ওয়ার্ডপ্রেস "
+"ড্যাশবোর্ড থেকে আপনার অ্যাপ-বিজ্ঞাপন.txt এবং বিজ্ঞাপন.txt ফাইলগুলি তৈরি, "
+"পরিচালনা এবং প্রকাশ করতে দেয় publish"
+
+#: inc/recommendations.php:49
+msgid ""
+"App-Ads.txt & Ads.txt Manager by Pagup provides a selection of plugins "
+"allowing to keep your website healthy, get better results on Search engines "
+"and increase your sales for ecommerce solutions."
+msgstr ""
+"পেগআপ দ্বারা অ্যাপ-অ্যাড.টেক্সট এবং অ্যাড.টেক্সট ম্যানেজার আপনার ওয়েবসাইটকে "
+"সুস্থ রাখতে, সার্চ ইঞ্জিনগুলিতে আরও ভাল ফলাফল পেতে এবং ইকমারস সমাধানের জন্য "
+"আপনার বিক্রয় বাড়ানোর অনুমতি দেয় এমন একটি প্লাগইনগুলির একটি নির্বাচন "
+"সরবরাহ করে।"
+
+#: inc/faq.php:88
+msgid ""
+"Authorized in-app inventory. An ever-increasing amount of brands are looking "
+"to advertise in-app today. Brand buyers now rely on an adherence to app-ads."
+"txt to make sure they don’t buy unauthorized inventory from app developers "
+"and negatively impact campaign performance. Developers who don’t implement "
+"app-ads.txt can be removed from any brand buyer’s target media list. That’s "
+"why joining the app-ads.txt movement is crucial for publishers to maintain "
+"their revenue."
+msgstr ""
+"অ্যাপ্লিকেশন ইনভেন্টরি অনুমোদিত। ব্র্যান্ডের ক্রমবর্ধমান পরিমাণ আজ অ্যাপে "
+"বিজ্ঞাপনের জন্য খুঁজছেন। ব্র্যান্ড ক্রেতারা অ্যাপ্লিকেশন বিকাশকারীদের কাছ "
+"থেকে অননুমোদিত তালিকা কিনবেন না এবং প্রচারের কার্যকারিতাটিকে নেতিবাচকভাবে "
+"প্রভাবিত করবেন না তা নিশ্চিত করতে এখন অ্যাপ-বিজ্ঞাপন.txt এর অনুসরণের উপর "
+"নির্ভর করে। অ্যাপ্লিকেশন-বিজ্ঞাপন.txt বাস্তবায়ন করেন না এমন বিকাশকারীদের যে "
+"কোনও ব্র্যান্ড ক্রেতার লক্ষ্য মিডিয়া তালিকা থেকে সরানো যেতে পারে। এজন্য "
+"প্রকাশকরা তাদের উপার্জন বজায় রাখতে অ্যাপ্লিকেশন-টেক্সট আন্দোলনে যোগদান "
+"গুরুত্বপূর্ণ।"
+
+#: inc/sidebar.php:13
+msgid ""
+"Auto optimize all image alt texts (including Woocommerce online store), of "
+"your pages, posts & product, from Yoast SEO optimization settings (keywords) "
+"and/or Post title."
+msgstr ""
+"ইওস্ট এসইও অপ্টিমাইজেশন সেটিংস (কীওয়ার্ড) এবং / অথবা পোস্টের শিরোনাম থেকে "
+"আপনার পৃষ্ঠাগুলি, পোস্ট এবং পণ্যগুলির সমস্ত চিত্রের ওয়েল টেক্সটগুলিকে "
+"(ওউকমার্স অনলাইন স্টোর সহ) স্বয়ংক্রিয়রূপে অনুকূলিত করুন।"
+
+#: inc/recommendations.php:124
+msgid ""
+"Automatically insert rel=nofollow and target=_blank to all the external "
+"links into your website posts, pages or menus. Support exclude domain."
+msgstr ""
+"আপনার ওয়েবসাইটের পোস্ট, পৃষ্ঠাগুলি বা মেনুগুলিতে সমস্ত বাহ্যিক লিঙ্কগুলিতে "
+"স্বয়ংক্রিয়ভাবে rel = nofollow এবং টার্গেট = _ ব্ল্যাঙ্ক .োকান। সমর্থন "
+"ডোমেন বাদ।"
+
+#: inc/recommendations.php:29
+msgid ""
+"Automatically redirect, log and notify all 404 page errors to any page using "
+"301 redirection."
+msgstr ""
+"301 পুনঃনির্দেশ ব্যবহার করে যে কোনও পৃষ্ঠাতে 4040 পৃষ্ঠার ত্রুটি "
+"স্বয়ংক্রিয়ভাবে পুনঃনির্দেশ করুন, লগ করুন এবং অবহিত করুন।"
+
+#: inc/recommendations.php:156
+msgid "Awesome plugins for SEO & Conversion performance:"
+msgstr "এসইও এবং রূপান্তর পারফরম্যান্সের জন্য দুর্দান্ত প্লাগইনগুলি:"
+
+#: inc/seo-recommendations.php:90
+msgid "Bing Webmaster tool"
+msgstr "বিং ওয়েবমাস্টার সরঞ্জাম"
+
+#: inc/recommendations.php:11
+msgid ""
+"Boost the way people interact with your website, e-commerce or blog with an "
+"easy and intuitive WordPress rating system!"
+msgstr ""
+"একটি সহজ এবং স্বজ্ঞাত ওয়ার্ডপ্রেস রেটিং সিস্টেমের সাথে লোকেরা কীভাবে আপনার "
+"ওয়েবসাইট, ই-বাণিজ্য বা ব্লগের সাথে যোগাযোগ করে তা বাড়িয়ে তোলেন!"
+
+#: inc/sidebar.php:6
+msgid "Boost your ranking on Google"
+msgstr "গুগলে আপনার র‌্যাঙ্কিং বাড়ান"
+
+#: inc/faq.php:67
+msgid ""
+"Capturing revenue from brand spend. Brands today represent a growing and "
+"potentially significant revenue opportunity for developers. We can expect "
+"that many DSPs that adhere to app-ads.txt won’t purchase inventory missing "
+"the app-ads.txt file, just as they won’t buy unauthorized inventory on web. "
+"Developers who don’t implement app-ads.txt are likely to be removed from "
+"DSPs’ pool of targeted media."
+msgstr ""
+"ব্র্যান্ড ব্যয় থেকে রাজস্ব আয় করা। ব্র্যান্ডগুলি আজ বিকাশকারীদের জন্য "
+"ক্রমবর্ধমান এবং সম্ভাব্য উল্লেখযোগ্য উপার্জনের সুযোগ উপস্থাপন করে। আমরা আশা "
+"করতে পারি যে অ্যাপ্লিকেশন-টেক্সটকে মেনে চলা অনেক ডিএসপিএস ওয়েবে অননুমোদিত "
+"তালিকা কিনে না, ঠিক তেমনি অ্যাপ-বিজ্ঞাপন.txt ফাইল অনুপস্থিত তালিকা ক্রয় "
+"করবে না। ডেভেলপাররা যারা অ্যাপ-বিজ্ঞাপন.txt বাস্তবায়ন করেন না তাদের "
+"লক্ষ্যযুক্ত মিডিয়া ডিএসপি'র পুল থেকে সরানো হতে পারে।"
+
+#: inc/seo-recommendations.php:48 inc/seo-recommendations.php:50
+msgid "Check my links"
+msgstr "আমার লিঙ্কগুলি পরীক্ষা করুন"
+
+#: app-ads-txt-admin.php:239
+msgid ""
+"Checking this box will remove ALL settings (app-ads.txt & ads.txt) when you "
+"deactivate plugin."
+msgstr ""
+"আপনি যখন প্লাগইন নিষ্ক্রিয় করবেন তখন এই বাক্সটি চেক করা সমস্ত সেটিংস (app-"
+"বিজ্ঞাপন.txt এবং বিজ্ঞাপন.txt) সরিয়ে ফেলবে।"
+
+#: inc/recommendations.php:23
+msgid ""
+"Compress and optimize (or optimise) image files, improve performance and "
+"boost your SEO rank using Smush WordPress image compression and optimization."
+msgstr ""
+"চিত্র ফাইলগুলি সংকুচিত করুন এবং অনুকূলিত করুন (বা অনুকূলিত করুন), কর্মক্ষমতা "
+"উন্নত করুন এবং স্মুশ ওয়ার্ডপ্রেস ইমেজ সংক্ষেপণ এবং অপ্টিমাইজেশন ব্যবহার করে "
+"আপনার এসইও র‌্যাঙ্ক বাড়ান।"
+
+#: inc/faq.php:37
+msgid ""
+"Concretely, publishers drop a text file on their web servers that lists all "
+"of the companies that are authorized to sell the publishers’ inventory. "
+"Similarly, programmatic platforms also integrate ads.txt files to confirm "
+"which publishers’ inventory they are authorized to sell. This allows buyers "
+"to check the validity of the inventory they purchase."
+msgstr ""
+"কংক্রিটরূপে, প্রকাশকরা তাদের ওয়েব সার্ভারে একটি পাঠ্য ফাইল ফেলে যা "
+"প্রকাশকদের তালিকা বিক্রয় করার জন্য অনুমোদিত সমস্ত সংস্থাকে তালিকাবদ্ধ করে। "
+"একইভাবে, প্রোগ্রাম্যাটিক প্ল্যাটফর্মগুলি কোন প্রকাশকদের তালিকা বিক্রি করার "
+"জন্য তাদের অনুমোদিত তা নিশ্চিত করার জন্য বিজ্ঞাপন.টেক্সট ফাইলগুলিকেও সংহত "
+"করে। এটি ক্রেতাদের যে পণ্যগুলি কিনেছিল তার বৈধতা পরীক্ষা করতে সহায়তা করে।"
+
+#: inc/seo-recommendations.php:44
+msgid "Dead links"
+msgstr "মৃত লিঙ্কগুলি"
+
+#: inc/seo-recommendations.php:45
+msgid ""
+"Dead links, 404 errors, 503 errors, ... all bad links that could hurt your "
+"website ranking."
+msgstr ""
+"ডেড লিঙ্কস, 404 ত্রুটি, 503 ত্রুটি, ... সমস্ত খারাপ লিঙ্কগুলি যা আপনার "
+"ওয়েবসাইটের র‌্যাঙ্কিংয়ে ক্ষতি করতে পারে।"
+
+#: app-ads-txt-admin.php:226
+msgid "Delete Settings"
+msgstr "সেটিংস মুছুন"
+
+#: inc/recommendations.php:69 inc/recommendations.php:175
+msgid "Download"
+msgstr "ডাউনলোড করুন"
+
+#: inc/faq.php:71
+msgid ""
+"Fighting ad fraud. Bad actors may forge apps that impersonate legitimate "
+"apps, and mislead DSPs to spend brand budgets on their forged inventory. "
+"Legitimate developers end up losing out on ad revenue that was originally "
+"intended for them. App-ads.txt blocks unauthorized developer impersonations "
+"and minimizes instances of fraud that ultimately hurt developers’ bottom "
+"line."
+msgstr ""
+"অ্যাড জালিয়াতি লড়াই। খারাপ অভিনেতারা এমন অ্যাপ্লিকেশনগুলি জাল করতে পারে যা "
+"বৈধ অ্যাপ্লিকেশনগুলির ছদ্মবেশ তৈরি করে এবং তাদের নকল তালিকাতে ব্র্যান্ড "
+"বাজেট ব্যয় করতে ডিএসপিগুলিকে বিভ্রান্ত করে। আইনী বিকাশকারীরা মূলত তাদের "
+"জন্য তৈরি বিজ্ঞাপনের রাজস্ব হারাতে শুরু করে। অ্যাপ্লিকেশন-বিজ্ঞাপন.txt "
+"অননুমোদিত বিকাশকারীদের ছদ্মবেশকে অবরুদ্ধ করে এবং জালিয়াতির ঘটনাগুলি হ্রাস "
+"করে যা শেষ পর্যন্ত বিকাশকারীদের নীচের লাইনে আঘাত করে।"
+
+#: inc/seo-recommendations.php:59
+msgid ""
+"Get a simple and professional-quality SEO audit of your website for FREE"
+msgstr ""
+"বিনামূল্যে জন্য আপনার ওয়েবসাইটের একটি সহজ এবং পেশাদার মানের মানের এসইডি "
+"অডিট পান"
+
+#: inc/sidebar.php:14
+msgid "Get BIALTY by Pagup &raquo;"
+msgstr "প্যাগআপের মাধ্যমে বাইলটি পান »"
+
+#: inc/seo-recommendations.php:13
+msgid ""
+"Get insight on how well your site loads with actionable recommendations on "
+"how to optimize it."
+msgstr ""
+"কীভাবে আপনার সাইটটিকে এটি অপ্টিমাইজ করা যায় সে সম্পর্কে কার্যক্ষম "
+"সুপারিশগুলির সাথে কতটা লোড হয় সে সম্পর্কে অন্তর্দৃষ্টি পান Get"
+
+#: inc/sidebar.php:20
+msgid "Get Mobilook by Pagup &raquo;"
+msgstr "প্যাগআপ দ্বারা মবিলুক পান »"
+
+#: inc/recommendations.php:5
+msgid ""
+"Get Schema.org structured data for all pages, posts, categories and profile "
+"pages on activation."
+msgstr ""
+"সক্রিয়করণের সমস্ত পৃষ্ঠা, পোস্ট, বিভাগ এবং প্রোফাইল পৃষ্ঠাগুলির জন্য স্কিমা."
+"আর।"
+
+#: inc/seo-recommendations.php:26
+msgid "Google Ranking"
+msgstr "গুগল র‌্যাঙ্কিং"
+
+#: inc/recommendations.php:129
+msgid "Google Reviews Widget By RichPlugins"
+msgstr "গুগল রিচপ্লাগিনস দ্বারা উইজেট পর্যালোচনা"
+
+#: inc/recommendations.php:130
+msgid ""
+"Google Reviews Widget show Google Places Reviews on your WordPress website "
+"to increase user confidence and SEO."
+msgstr ""
+"গুগল রিভিউ উইজেট ব্যবহারকারীর আস্থা এবং এসইও বাড়াতে আপনার ওয়ার্ডপ্রেস "
+"ওয়েবসাইটে গুগল প্লেস পর্যালোচনাগুলি দেখায়।"
+
+#: inc/seo-recommendations.php:82
+msgid "Google Search Console"
+msgstr "গুগল অনুসন্ধান কনসোল"
+
+#: app-ads-txt.php:86
+#, php-format
+msgid ""
+"Hey %1$s, %2$s Click on Allow & Continue to start optimizing your app-ads."
+"txt and ads-txt files. %2$s Never miss an important update -- opt-in to our "
+"security and feature updates notifications. %2$s See you on the other side."
+msgstr ""
+"আরে% 1 $ s,% 2 $ s আপনার অ্যাপ্লিকেশন-বিজ্ঞাপন.txt এবং বিজ্ঞাপন-টেক্সট "
+"ফাইলগুলি অনুকূল করতে শুরু করার জন্য & এ ক্লিক করুন। % 2 $ s কখনই কোনও "
+"গুরুত্বপূর্ণ আপডেট মিস করবেন না - আমাদের সুরক্ষা এবং বৈশিষ্ট্য আপডেটের "
+"বিজ্ঞপ্তিগুলি বেছে নিন। % 2 $ s আপনাকে অন্যদিকে দেখা হবে।"
+
+#: inc/faq.php:60
+msgid "How app-ads.txt can benefit your mobile app?"
+msgstr ""
+"অ্যাপ-বিজ্ঞাপন.txt কীভাবে আপনার মোবাইল অ্যাপ্লিকেশনটিকে উপকৃত করতে পারে?"
+
+#: inc/faq.php:84
+msgid ""
+"How does app-ads.txt help mobile app developers capture more ad revenue?"
+msgstr ""
+"অ্যাপ-বিজ্ঞাপন.txt কীভাবে মোবাইল অ্যাপ্লিকেশন বিকাশকারীদের আরও বেশি "
+"বিজ্ঞাপনের আয় ক্যাপচার করতে সহায়তা করে?"
+
+#. Author URI of the plugin
+msgid "https://pagup.com/"
+msgstr "https://pagup.com/"
+
+#: app-ads-txt-admin.php:260
+msgid "If app-ads.txt is still not working. Please try to save Settings >"
+msgstr ""
+"যদি অ্যাপ-বিজ্ঞাপন.txt এখনও কাজ করে না। দয়া করে সেটিংস> সংরক্ষণ করার চেষ্টা "
+"করুন"
+
+#: inc/recommendations.php:35
+msgid ""
+"Improve your WordPress SEO: Write better content and have a fully optimized "
+"WordPress site using the Yoast SEO plugin."
+msgstr ""
+"আপনার ওয়ার্ডপ্রেস এসইও উন্নত করুন: আরও ভাল সামগ্রী লিখুন এবং ইয়োস্ট এসইও "
+"প্লাগইন ব্যবহার করে একটি সম্পূর্ণরূপে অনুকূলিত ওয়ার্ডপ্রেস সাইট রয়েছে।"
+
+#: inc/faq.php:9
+msgid ""
+"In June 2017, the IAB (The Interactive Advertising Bureau Tech Lab) launched "
+"ads.txt, a file enabling web publishers to designate authorized digital "
+"sellers of their ad inventory. Ads.txt helped the industry distinguish real "
+"supply sources from fake ones, and after its immediate success and adoption, "
+"the next logical step was to extend the reach of ads.txt into the mobile app "
+"ecosystem. App-ads.txt is the mobile in-app equivalent of this specification,"
+" which mobile publishers can implement."
+msgstr ""
+"জুন ২০১ 2017 এ, আইএবি (ইন্টারেক্টিভ অ্যাডভারটাইজিং ব্যুরো টেক ল্যাব) "
+"বিজ্ঞাপন.txt চালু করেছে, এটি একটি ফাইল ওয়েব প্রকাশকদের তাদের বিজ্ঞাপনের "
+"তালিকাভুক্ত অনুমোদিত ডিজিটাল বিক্রেতাদের মনোনীত করতে সক্ষম করে। বিজ্ঞাপন ডট "
+"টেক্সট শিল্পকে জাল সরবরাহগুলির থেকে প্রকৃত সরবরাহ উত্সকে আলাদা করতে সহায়তা "
+"করেছিল এবং এর তাত্ক্ষণিক সাফল্য এবং গ্রহণের পরে পরবর্তী যৌক্তিক পদক্ষেপটি "
+"ছিল মোবাইল অ্যাপ্লিকেশন বাস্তুসংস্থায় বিজ্ঞাপন.txt এর প্রসারকে প্রসারিত "
+"করা। অ্যাপ-বিজ্ঞাপন.txt হ'ল মোবাইল অ্যাপ্লিকেশনটি এই স্পেসিফিকেশনের সমতুল্য, "
+"যা মোবাইল প্রকাশকরা প্রয়োগ করতে পারেন।"
+
+#: inc/recommendations.php:100
+msgid ""
+"Increase engagement and drive more repeat traffic to your WordPress site "
+"with desktop push notifications. Now supporting Chrome, Firefox, and Safari."
+msgstr ""
+"ব্যস্ততা বৃদ্ধি করুন এবং ডেস্কটপ পুশ বিজ্ঞপ্তিগুলি সহ আপনার ওয়ার্ডপ্রেস "
+"সাইটে পুনরাবৃত্তি ট্র্যাফিক ড্রাইভ করুন। এখন ক্রোম, ফায়ারফক্স এবং সাফারি "
+"সমর্থন করছে।"
+
+#: inc/seo-recommendations.php:88
+msgid "Index your Website (Bing)"
+msgstr "আপনার ওয়েবসাইট সূচী করুন (বিং)"
+
+#: inc/seo-recommendations.php:80
+msgid "Index Your Website (Google)"
+msgstr "আপনার ওয়েবসাইট সূচী করুন (গুগল)"
+
+#: inc/sidebar.php:19
+msgid ""
+"Instant mobile view of website (pages, posts, products) for responsive web "
+"design on phone (+ dualscreen). This plugin also offers helpful tools on "
+"each page, such as Facebook Debugger, LinkedIn Post Inspector, and Google "
+"Mobile-Friendly Test Tool."
+msgstr ""
+"ফোনে প্রতিক্রিয়াশীল ওয়েব ডিজাইনের জন্য ওয়েবসাইটের তাত্ক্ষণিক মোবাইল ভিউ "
+"(পৃষ্ঠাগুলি, পোস্টগুলি, পণ্যগুলি) (+ ডুয়ালস্ক্রিন)। এই প্লাগইনটি প্রতিটি "
+"পৃষ্ঠায় সহায়ক সরঞ্জাম সরবরাহ করে যেমন ফেসবুক ডিবাগার, লিংকডইন পোস্ট "
+"পরিদর্শক এবং গুগল মোবাইল-বন্ধুত্বপূর্ণ পরীক্ষা সরঞ্জাম।"
+
+#: inc/sidebar.php:18
+msgid "Instant Mobile Viewer"
+msgstr "তাত্ক্ষণিক মোবাইল ভিউয়ার"
+
+#: inc/faq.php:33
+msgid ""
+"It is an IAB-approved text file that aims to prevent unauthorized inventory "
+"sales. In a fragmented advertising ecosystem, ads.txt serves as a method of "
+"improving transparency for demand side platforms. In fact, DSPs aren’t "
+"buying web supply that isn’t authorized via ads.txt."
+msgstr ""
+"এটি একটি আইএবি-অনুমোদিত টেক্সট ফাইল যা লক্ষ্য অননুমোদিত ইনভেন্টরি বিক্রয় "
+"রোধ করা। একটি খণ্ডিত বিজ্ঞাপন বাস্তুতন্ত্রে, বিজ্ঞাপন.txt চাহিদা সাইড "
+"প্ল্যাটফর্মগুলির জন্য স্বচ্ছতার উন্নতির একটি পদ্ধতি হিসাবে কাজ করে। "
+"প্রকৃতপক্ষে, ডিএসপিরা ওয়েব সরবরাহ ক্রয় করছে না যা বিজ্ঞাপন.এসটি টেক্সটের "
+"মাধ্যমে অনুমোদিত নয়।"
+
+#: app-ads-txt-admin.php:278
+msgid ""
+"Just a sample for copy-paste purpose. Make sure to change itaccordingaly "
+"inside custom rules box."
+msgstr ""
+"অনুলিপি-পেস্ট উদ্দেশ্যে একটি নমুনা। কাস্টম বিধি বাক্সের অভ্যন্তরে "
+"itaccordingaly পরিবর্তন করার বিষয়টি নিশ্চিত করুন।"
+
+#: inc/seo-recommendations.php:12
+msgid "Loading performance"
+msgstr "কর্মক্ষমতা লোড হচ্ছে"
+
+#: app-ads-txt-admin.php:268
+msgid ""
+"Make sure search engines can crawl your .txt files. Optimize your robots.txt "
+"with"
+msgstr ""
+"নিশ্চিত করুন যে অনুসন্ধান ইঞ্জিনগুলি আপনার .txt ফাইলগুলিকে ক্রল করতে পারে। "
+"এর সাথে আপনার রোবটস টেক্সট অনুকূল করুন"
+
+#: inc/seo-recommendations.php:100
+msgid "MASS PING"
+msgstr "ম্যাস পিং"
+
+#: inc/seo-recommendations.php:101
+msgid ""
+"Mass ping is a free online tool that easily promotes your blog or website on "
+"70 different search engines."
+msgstr ""
+"মাস পিং একটি নিখরচায় অনলাইন সরঞ্জাম যা সহজেই আপনার ব্লগ বা ওয়েবসাইটকে 70 "
+"টি বিভিন্ন অনুসন্ধান ইঞ্জিনে প্রচার করে easily"
+
+#: inc/faq.php:41
+msgid "More details here : https://youtu.be/T_4uK2HnOy0"
+msgstr "আরও বিশদ এখানে: https://youtu.be/T_4uK2HnOy0"
+
+#: inc/faq.php:49
+msgid "My .txt file doesn’t show up at all."
+msgstr "আমার .txt ফাইলটি মোটেও প্রদর্শিত হয় না।"
+
+#: inc/seo-recommendations.php:30 inc/seo-recommendations.php:32
+msgid "My Google Ranking"
+msgstr "আমার গুগল র‍্যাঙ্কিং"
+
+#: inc/seo-recommendations.php:62 inc/seo-recommendations.php:64
+msgid "My SEO profile"
+msgstr "আমার এসইও প্রোফাইল"
+
+#: inc/recommendations.php:123
+msgid "Nofollow for external link By CyberNetikz"
+msgstr "বাইরের লিঙ্কের জন্য নোফলো সাইবারনেটিক্জ দ্বারা"
+
+#: app-ads-txt-admin.php:257
+msgid ""
+"Note: app-ads.txt & ads.txt Manager creates virtual app-ads.txt & ads.txt "
+"files. Please make sure that your permalinks are enabled and there is no "
+"physical app-ads.txt & ads.txt file on your server. If you're using any kind "
+"of cache then make sure to clear it after Saving Changes. Please read FAQ "
+"for more details."
+msgstr ""
+"দ্রষ্টব্য: অ্যাপ্লিকেশন-বিজ্ঞাপন.txt এবং বিজ্ঞাপন.txt পরিচালকটি ভার্চুয়াল "
+"অ্যাপ-বিজ্ঞাপন.txt এবং বিজ্ঞাপন.txt ফাইল তৈরি করে creates আপনার পারমিলিংকস "
+"সক্ষম হয়েছে এবং আপনার সার্ভারে কোনও শারীরিক অ্যাপ্লিকেশন-বিজ্ঞাপন.txt এবং "
+"বিজ্ঞাপন.txt ফাইল নেই তা নিশ্চিত করুন। আপনি যদি কোনও ধরণের ক্যাশে ব্যবহার "
+"করেন তবে পরিবর্তনগুলি সংরক্ষণের পরে এটি সাফ করার বিষয়ে নিশ্চিত হন। আরও "
+"তথ্যের জন্য দয়া করে FAQ পড়ুন।"
+
+#: admin-ui-inc/ads-txt-inc.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your ads.txt</a>"
+msgstr ""
+"একবার আপনার সেটিংস প্রয়োগ হয়ে গেলে, দয়া করে এখানে আপনার বিজ্ঞাপন। টেক্সট "
+"ফাইলগুলি পরীক্ষা করে দেখুন। <a href=\"%s\" target=\"_blank\" class=\"note-"
+"btn\">আপনার বিজ্ঞাপন। টেক্সট</a>"
+
+#: admin-ui-inc/app-ads-txt-inc.php:5 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your app-ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your app-ads.txt</a>"
+msgstr ""
+"আপনার সেটিংস প্রয়োগ হয়ে গেলে, আপনার অ্যাপ্লিকেশন-বিজ্ঞাপন.টেক্সট ফাইলগুলি "
+"এখানে দেখুন। <a href=\"%s\" target=\"_blank\" class=\"note-btn\">আপনার "
+"অ্যাপ্লিকেশন</a>"
+
+#: inc/recommendations.php:99
+msgid "OneSignal – Free Web Push Notifications By OneSignal"
+msgstr "ওয়ানসিগনাল - ওয়ানসিগনালের মাধ্যমে ফ্রি ওয়েব পুশ বিজ্ঞপ্তি"
+
+#: inc/sidebar.php:12
+msgid "Optimize your ALT TEXT"
+msgstr "আপনার ALT পাঠ্যটি অনুকূলিত করুন"
+
+#: inc/sidebar.php:7
+msgid ""
+"Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
+"ranking on search engines."
+msgstr ""
+"আপনার রোবটস টেক্সটকে আরও উন্নততর রোবটস.টেক্সট (প্যাগআপ দ্বারা তৈরি) দিয়ে "
+"অনুকূলিত করুন এবং অনুসন্ধান ইঞ্জিনগুলিতে আপনার র‌্যাঙ্কিং বুস্ট করুন।"
+
+#. Author of the plugin
+msgid "Pagup"
+msgstr "প্যাগআপ"
+
+#: app-ads-txt-admin.php:261
+msgid "Permalinks"
+msgstr "পারমালিঙ্কস"
+
+#: inc/seo-recommendations.php:102
+msgid "Ping my links"
+msgstr "আমার লিঙ্কগুলি পিং করুন"
+
+#: inc/faq.php:53
+msgid ""
+"Please clear your browser cache and reload the ads.txt OR app-ads.txt link."
+msgstr ""
+"দয়া করে আপনার ব্রাউজারের ক্যাশে সাফ করুন এবং বিজ্ঞাপন.txt ও অ্যাপ-বিজ্ঞাপন."
+"txt লিঙ্কটি পুনরায় লোড করুন।"
+
+#: inc/seo-recommendations.php:5
+msgid "Premium Feature"
+msgstr "প্রিমিয়াম বৈশিষ্ট্য"
+
+#: inc/recommendations.php:111
+msgid "Recart - Abandoned Cart Toolbox"
+msgstr "পুনঃসূচনা - পরিত্যক্ত কার্ট টুলবক্স"
+
+#: inc/recommendations.php:112
+msgid ""
+"Recart Messenger Marketing and Abandoned Cart Toolbox is a All in one cart "
+"recovery marketing tools for ecommerce solution"
+msgstr ""
+"পুনঃসূচনা ম্যাসেঞ্জার বিপণন এবং পরিত্যক্ত কার্ট টুলবক্স হ'ল ই-কমার্স "
+"সলিউশনের জন্য একটি সমস্ত কার্ট পুনরুদ্ধার বিপণন সরঞ্জাম"
+
+#: app-ads-txt-admin.php:248
+msgid "Save Changes"
+msgstr "পরিবর্তনগুলোর সংরক্ষন"
+
+#: inc/recommendations.php:4
+msgid "Schema App Structured Data by Hunch Manifest"
+msgstr "হঞ্চ ম্যানিফেস্ট দ্বারা স্কিমা অ্যাপ স্ট্রাকচারড ডেটা"
+
+#: inc/seo-recommendations.php:58
+msgid "SEO Score"
+msgstr "এসইও স্কোর"
+
+#: inc/seo-recommendations.php:1
+msgid "SEO tools recommended by App-Ads.txt & Ads.txt Manager:"
+msgstr ""
+"অ্যাপ্লিকেশন- Ads.txt এবং বিজ্ঞাপন.txt পরিচালক দ্বারা প্রস্তাবিত এসইও "
+"সরঞ্জামগুলি:"
+
+#: app-ads-txt-admin.php:139
+msgid "Settings"
+msgstr "সেটিংস"
+
+#: app-ads-txt-admin.php:126
+msgid "Settings saved."
+msgstr "সেটিংস সংরক্ষিত."
+
+#: inc/recommendations.php:88
+msgid ""
+"Share buttons from AddThis help you get more traffic from sharing through "
+"social networks."
+msgstr ""
+"অ্যাডটিসের ভাগ বোতামগুলি আপনাকে সামাজিক নেটওয়ার্কগুলির মাধ্যমে ভাগ করে "
+"নেওয়া থেকে বেশি ট্র্যাফিক পেতে সহায়তা করে।"
+
+#: inc/notices.php:13
+#, php-format
+msgid ""
+"Show support for App-ads.txt & Ads.txt Manager with a 5-star rating » <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr ""
+"5-তারা রেটিং সহ অ্যাপ-বিজ্ঞাপন.txt এবং বিজ্ঞাপন.txt পরিচালকের জন্য সমর্থন "
+"দেখান here <a href=\"%s\" target=\"_blank\">এখানে ক্লিক করুন</a>"
+
+#: inc/recommendations.php:22
+msgid "Smush Image Compression and Optimization By WPMU DEV"
+msgstr "ডাব্লুপিএমইউ ডেভির মাধ্যমে স্মাশ ইমেজ সংক্ষেপণ এবং অপ্টিমাইজেশন"
+
+#: inc/faq.php:96
+msgid ""
+"Source : https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+msgstr ""
+"সূত্র: https://support.vungle.com/hc/en-us/articles/360029177591- App-ads-"
+"text- ওভারভিউ"
+
+#: inc/faq.php:75
+msgid "Source : https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+msgstr "সূত্র: https://www.ironsrc.com/blog/ কি-is-app-ads-txt/"
+
+#: inc/recommendations.php:118 inc/recommendations.php:136
+msgid ""
+"Speed up your WordPress website, more traffic, conversions and money with WP "
+"Rocket caching plugin."
+msgstr ""
+"আপনার ওয়ার্ডপ্রেস ওয়েবসাইট, আরও ট্র্যাফিক, রূপান্তর এবং ডাব্লুপি রকেট "
+"ক্যাচিং প্লাগইন সহ গতি বাড়ান।"
+
+#: inc/seo-recommendations.php:89
+msgid ""
+"Submit your website to Bing Webmaster tool and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"আপনার ওয়েবসাইট বিং ওয়েবমাস্টার সরঞ্জামে জমা দিন এবং আরও ভাল রোবটস.টি.এস.টি."
+" এর আসল সুবিধা উপভোগ করুন"
+
+#: inc/seo-recommendations.php:81
+msgid ""
+"Submit your website to Google Search Console and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"আপনার ওয়েবসাইটটি গুগল অনুসন্ধান কনসোলে জমা দিন এবং আরও ভাল রোবটস. টেক্সটের "
+"আসল সুবিধা উপভোগ করুন"
+
+#: inc/faq.php:17
+msgid ""
+"Thanks to app-ads.txt file, Mobile and OTT app publishers can list the ad "
+"tech vendors that are authorized to sell or resell their ad inventory, and "
+"programmatic ad buyers can check these lists to make sure that a company "
+"claiming to offer an app’s inventory is actually able to sell the app’s "
+"inventory."
+msgstr ""
+"অ্যাপ্লিকেশন-বিজ্ঞাপন.টিএসটিএল ফাইলের জন্য ধন্যবাদ, মোবাইল এবং ওটিটি অ্যাপ "
+"প্রকাশকরা তাদের বিজ্ঞাপনের তালিকা বিক্রয় বা পুনরায় বিক্রয় করার জন্য "
+"অনুমোদিত সেই বিজ্ঞাপন প্রযুক্তি বিক্রেতাদের তালিকাভুক্ত করতে পারেন এবং "
+"প্রোগ্রামেটিক বিজ্ঞাপন ক্রেতারা এই তালিকাগুলি চেক করতে পারেন যাতে কোনও "
+"অ্যাপ্লিকেশন সরবরাহ করার দাবিদার একটি সংস্থা নিশ্চিত হয় ইনভেন্টরিটি আসলে "
+"অ্যাপ্লিকেশনগুলির জায় বিক্রি করতে সক্ষম।"
+
+#: inc/faq.php:13
+msgid ""
+"The app-ads.txt file is the version of ads.txt for mobile in-app and OTT "
+"advertising, to combat bad actors that disguise themselves as another "
+"company’s app in order to siphon the money that advertisers are spending on "
+"mobile and OTT advertising. App-ads.txt files are formatted the same as ads."
+"txt files (view IAB FAQ for ads.txt and app-ads.txt)."
+msgstr ""
+"অ্যাপ্লিকেশন-বিজ্ঞাপন.টিএসটিএসটি ফাইলটি মোবাইল অ্যাপ্লিকেশন এবং ওটিটি "
+"বিজ্ঞাপনের জন্য বিজ্ঞাপন ডেস্কটেক্সের সংস্করণ, বিজ্ঞাপনদাতারা মোবাইল এবং "
+"ওটিটি বিজ্ঞাপনে যে অর্থ ব্যয় করছে তা চালানোর জন্য অন্য কোম্পানির "
+"অ্যাপ্লিকেশন হিসাবে নিজেকে ছদ্মবেশ দেয় এমন খারাপ অভিনেতাদের বিরুদ্ধে লড়াই "
+"করার জন্য। অ্যাপ্লিকেশন-টেক্সট ফাইলগুলি বিজ্ঞাপন.txt ফাইলগুলির মতোই ফর্ম্যাট "
+"করা হয় (বিজ্ঞাপনের জন্য আইএবি এফএকিউ এবং অ্যাপ্লিকেশন-বিজ্ঞাপন.টেক্সট) "
+"দেখুন।"
+
+#: admin-ui-inc/ads-txt-inc.php:34 admin-ui-inc/ads-txt-inc.php:99 
+#: admin-ui-inc/app-ads-txt-inc.php:34 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:35 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:99
+msgid ""
+"The canonical domain name of the SSP, Exchange, system that bidders connect "
+"to (they publishes a document detailing what domain name to use)."
+msgstr ""
+"এসএসপি, এক্সচেঞ্জ, সিস্টেমের ক্যানোনিকাল ডোমেন নাম যা দরদাতারা সংযুক্ত হন "
+"(তারা কোন ডোমেন নাম ব্যবহার করবেন তা বিশদ করে একটি নথি প্রকাশ করে)।"
+
+#: inc/faq.php:64
+msgid "There are two main benefits for app developers."
+msgstr "অ্যাপ বিকাশকারীদের জন্য দুটি প্রধান সুবিধা রয়েছে।"
+
+#: inc/faq.php:21
+msgid "This file opens the door for a new level of transparency."
+msgstr "এই ফাইলটি নতুন স্তরের স্বচ্ছতার দরজা উন্মুক্ত করে।"
+
+#: inc/recommendations.php:43
+msgid "Top plugins for SEO performance:"
+msgstr "এসইও পারফরম্যান্সের জন্য শীর্ষ প্লাগইনস:"
+
+#: inc/sidebar.php:8
+msgid "Try Better Robots.txt &raquo;"
+msgstr "উন্নততর রোবটস.টেক্সট চেষ্টা করুন »"
+
+#: inc/recommendations.php:186
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\">PRO version</a> to UNLOCK 12 additional awesome "
+"plugins recommendations for SEO & Conversion performance"
+msgstr ""
+"এসইও এবং রূপান্তর পারফরম্যান্সের জন্য অতিরিক্ত 12 টি দুর্দান্ত প্লাগইন "
+"প্রস্তাবনাগুলিকে আনলক 12 এ <a href=\"%s\">প্রো সংস্করণে</a> আপগ্রেড করুন"
+
+#: inc/recommendations.php:192
+msgid ""
+"Want to suggest another plugin ? ... Send us a message at support@better-"
+"robots.com"
+msgstr ""
+"অন্য প্লাগইন পরামর্শ দিতে চান? ... আমাদের একটি বার্তা পাঠান support@better-"
+"robots.com"
+
+#: app-ads-txt-admin.php:216
+msgid "Warning: make sure to clear your cache after saving changes."
+msgstr ""
+"সতর্কতা: পরিবর্তনগুলি সংরক্ষণের পরে আপনার ক্যাশে সাফ করার বিষয়টি নিশ্চিত "
+"করুন।"
+
+#: inc/faq.php:29
+msgid "What’s ads.txt ?"
+msgstr "বিজ্ঞাপন.টেক্সট কি?"
+
+#: inc/faq.php:5
+msgid "What’s app-ads.txt?"
+msgstr "অ্যাপ-বিজ্ঞাপন.টেক্সট কী?"
+
+#: inc/recommendations.php:87
+msgid "WordPress Share Buttons Plugin – AddThis By The AddThis Team"
+msgstr "ওয়ার্ডপ্রেস শেয়ার বোতাম প্লাগইন - অ্যাডটিস টিম যোগ করুন"
+
+#: inc/recommendations.php:135
+msgid "WP Chatbot for facebook Messenger customer chat By HoliThemes"
+msgstr "ফেসবুক মেসেঞ্জার গ্রাহক চ্যাট জন্য ডাব্লুপি চ্যাটবট হোলিমিনিমস দ্বারা"
+
+#: inc/recommendations.php:141
+msgid "WP Google My Business Auto Publish By Martin Gibson"
+msgstr "মার্টিন গিবসন দ্বারা ডাব্লুপি গুগল মাই বিজনেস অটো প্রকাশ করুন"
+
+#: inc/recommendations.php:142
+msgid ""
+"WP Google My Business Auto Publish lets you publish posts, custom posts and "
+"pages automatically from WordPress to your Google My Business page."
+msgstr ""
+"ডব্লিউপি গুগল আমার বিজনেস অটো প্রকাশ আপনাকে ওয়ার্ডপ্রেস থেকে আপনার গুগল "
+"আমার ব্যবসায়িক পৃষ্ঠাতে স্বয়ংক্রিয়ভাবে পোস্ট, কাস্টম পোস্ট এবং পৃষ্ঠাগুলি "
+"প্রকাশ করতে দেয়।"
+
+#: inc/recommendations.php:147
+msgid "WP Search Console"
+msgstr "ডাব্লুপি অনুসন্ধান কনসোল"
+
+#: inc/recommendations.php:81
+msgid "WP-Optimize by David Anderson, Ruhani Rabin, Team Updraft"
+msgstr "ডাব্লুপি-অপটিমাইজ ডেভিড অ্যান্ডারসন, রুহানি রবিন, টিম আপড্রাফ্ট"
+
+#: inc/recommendations.php:82
+msgid ""
+"WP-Optimize is WordPress's most-installed optimization plugin. With it, you "
+"can clean up your database easily and safely, without manual queries."
+msgstr ""
+"ডাব্লুপি-অপটিমাইজ হ'ল ওয়ার্ডপ্রেসের সর্বাধিক ইনস্টল হওয়া অপটিমাইজেশন "
+"প্লাগইন। এটির সাহায্যে আপনি ম্যানুয়াল প্রশ্নগুলি ছাড়াই সহজেই এবং নিরাপদে "
+"আপনার ডাটাবেস পরিষ্কার করতে পারেন।"
+
+#: inc/recommendations.php:117
+msgid "Wp-Roket - Probably the best caching Plugin for WordPress"
+msgstr "ডাব্লুপি-রোকেট - সম্ভবত ওয়ার্ডপ্রেসের জন্য সেরা ক্যাচিং প্লাগইন"
+
+#: inc/recommendations.php:94
+msgid ""
+"WP-SpamShield is a leading WordPress anti-spam plugin that stops spam "
+"instantly and improves your site's security. "
+msgstr ""
+"ডাব্লুপি-স্প্যামশিল্ড একটি শীর্ষস্থানীয় ওয়ার্ডপ্রেস অ্যান্টি-স্প্যাম "
+"প্লাগইন যা স্প্যাম তাত্ক্ষণিকভাবে বন্ধ করে দেয় এবং আপনার সাইটের সুরক্ষা "
+"উন্নত করে।"
+
+#: inc/recommendations.php:93
+msgid "WP-SpamShield WordPress Anti-Spam Plugin by Red Sand Media Group"
+msgstr ""
+"রেড স্যান্ড মিডিয়া গ্রুপ দ্বারা ডাব্লুপি-স্প্যামশিল্ড ওয়ার্ডপ্রেস অ্যান্টি-"
+"স্প্যাম প্লাগইন"
+
+#: inc/recommendations.php:105
+msgid "WPfomify - Social Proof & FOMO Marketing Plugin"
+msgstr "WPfomify - সামাজিক প্রুফ এবং FOMO বিপণন প্লাগইন"
+
+#: inc/recommendations.php:106
+msgid ""
+"WPfomify increases conversion rates on your websites by displaying recent "
+"interaction, sales and sign-ups"
+msgstr ""
+"WPfomify সাম্প্রতিক মিথস্ক্রিয়া, বিক্রয় এবং সাইন-আপ প্রদর্শন করে আপনার "
+"ওয়েবসাইটগুলিতে রূপান্তর হার বাড়ায়"
+
+#: inc/recommendations.php:10
+msgid "Yasr – Yet Another Stars Rating by Dario Curvino"
+msgstr "ইয়াসর - দ্যারিও কার্ভিনো দ্বারা এখনও আরও একটি তারা রেটিং"
+
+#: inc/recommendations.php:34
+msgid "Yoast SEO By Team Yoast"
+msgstr "Yoast SEO by Team Yoast"
+
+#: admin-ui-inc/ads-txt-inc.php:54 admin-ui-inc/ads-txt-inc.php:119 
+#: admin-ui-inc/app-ads-txt-inc.php:54
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your ads-txt.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"আপনার সরাসরি চাহিদা অংশীদারদের \"সরাসরি\" হিসাবে তালিকাভুক্ত করা উচিত। যদি "
+"আপনার অংশীদাররা আপনার তালিকা বিক্রয় করতে তৃতীয় পক্ষের রিসেলারগুলি ব্যবহার "
+"করে থাকে তবে এই জাতীয় সরবরাহকারীদের \"পুনরায় বিক্রয়কারী\" হিসাবে "
+"তালিকাভুক্ত করা উচিত। যাই হোক না কেন, আপনার বা আপনার সঙ্গীর সাথে সরাসরি "
+"সম্পর্ক না থাকলে আপনার বিজ্ঞাপন-txt.txt ফাইলটিতে কোনও সরবরাহকারী যুক্ত করা "
+"উচিত নয়।"
+
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:55 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:119
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your app-ads.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"আপনার সরাসরি চাহিদা অংশীদারদের \"সরাসরি\" হিসাবে তালিকাভুক্ত করা উচিত। যদি "
+"আপনার অংশীদাররা আপনার তালিকা বিক্রয় করতে তৃতীয় পক্ষের রিসেলারগুলি ব্যবহার "
+"করে থাকে তবে এই জাতীয় সরবরাহকারীদের \"পুনরায় বিক্রয়কারী\" হিসাবে "
+"তালিকাভুক্ত করা উচিত। যাই হোক না কেন, আপনার বা আপনার সঙ্গীর সাথে সরাসরি "
+"সম্পর্ক না থাকলে আপনার অ্যাপ্লিকেশন-বিজ্ঞাপন.txt ফাইলটিতে কোনও সরবরাহকারী "
+"যুক্ত করা উচিত নয়।"

@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Dalston\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T02:22:59+00:00\n"
+"PO-Revision-Date: 2020-08-06 00:50:45+0000\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: inc/wpcom-colors.php:405
+#: inc/wpcom-editor-colors.php:170
+msgid "Secondary Color"
+msgstr "Antroji spalva"
+
+#: inc/wpcom-colors.php:390
+#: inc/wpcom-editor-colors.php:153
+msgid "Text Color"
+msgstr "Teksto spalva"
+
+#: inc/wpcom-colors.php:257
+#: inc/wpcom-editor-colors.php:97
+msgid "Link Color"
+msgstr "Nuorodų spalva"
+
+#: inc/wpcom-colors.php:129
+#: inc/wpcom-editor-colors.php:64
+msgid "Background Color"
+msgstr "Fono spalva"
+
+#: functions.php:90
+msgid "Background"
+msgstr "Fono nustatymai"
+
+#: functions.php:85
+msgid "Foreground"
+msgstr "Priekinis planas"
+
+#: header.php:64
+msgid "Social Links Menu"
+msgstr "Socialinių nuorodų meniu"
+
+#: header.php:49
+msgid "collapsed"
+msgstr "suskleista"
+
+#: header.php:48
+msgid "expanded"
+msgstr "išskleista"
+
+#: header.php:45
+msgid "Menu"
+msgstr "Meniu"
+
+#: header.php:42
+msgid "Main Navigation"
+msgstr "Pagrindinis meniu"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Pereiti prie turinio"
+
+#: functions.php:148
+msgctxt "Crimson Text font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:80
+msgid "Secondary"
+msgstr "Antroji"
+
+#: functions.php:75
+msgid "Primary"
+msgstr "Pagrindinis meniu"
+
+#: functions.php:49
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:48
+msgid "Huge"
+msgstr "Labai didelis"
+
+#: functions.php:43
+msgid "L"
+msgstr "L"
+
+#: functions.php:42
+msgid "Large"
+msgstr "Didelis"
+
+#: functions.php:37
+msgid "M"
+msgstr "M"
+
+#: functions.php:36
+msgid "Normal"
+msgstr "Normalus"
+
+#: functions.php:31
+msgid "S"
+msgstr "S"
+
+#: functions.php:30
+msgid "Small"
+msgstr "Mažas"
+
+#. translators: %s: WordPress.
+#: footer.php:50
+msgid "proudly powered by %s."
+msgstr "Sistema: %s"
+
+#: footer.php:47
+msgid "https://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:27
+msgid "Footer Menu"
+msgstr "Poraštės navigacija"

@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.1','translation-revision-date'=>'2023-06-01 11:42:27+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Plugins - Page Builder Gutenberg Blocks – CoBlocks - Stable (latest release)','language'=>'de','messages'=>['Leave a Review'=>'Schreiben Sie eine Rezension','CoBlocks'=>'CoBlocks','Share on Tumblr'=>'Auf Tumblr teilen','Share on Pinterest'=>'Auf Pinterest teilen','Share on Facebook'=>'Auf Facebook teilen','Share on Twitter'=>'Auf Twitter teilen','Share on Linkedin'=>'Auf LinkedIn teilen']];

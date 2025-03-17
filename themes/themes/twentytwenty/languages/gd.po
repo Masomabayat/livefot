@@ -1,0 +1,495 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Twentytwenty\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-01-16T01:58:14+00:00\n"
+"PO-Revision-Date: 2020-07-28 03:00:39+0000\n"
+"Language: gd_GB\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : (n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#: index.php:51
+msgid "Nothing Found"
+msgstr "Cha deach dad a lorg"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "Phost"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/twentytwenty/templates/template-full-width.php
+msgid "Full Width Template"
+msgstr "Teamplaid làn-leud"
+
+#: template-parts/pagination.php:25
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "<span class=\"nav-short\">Puist</span> nas sìne"
+
+#: template-parts/pagination.php:21
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "<span class=\"nav-short\">Puist</span> as ùire"
+
+#: template-parts/modal-search.php:26
+msgid "Close search"
+msgstr "Dùin am bogsa-luirg"
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr "Ceanglaichean sòisealta leudaichte"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "Ceanglaichean sòisealta"
+
+#: template-parts/modal-menu.php:48
+msgid "Expanded"
+msgstr "Leudaichte"
+
+#: template-parts/modal-menu.php:73
+msgid "Mobile"
+msgstr "Fòn-làimhe"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Dùin an clàr-taice"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "Leugh an corr"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Bann-coise"
+
+#: template-parts/entry-author-bio.php:29
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "Faic an tasglann <span aria-hidden=\"true\">&rarr;</span>"
+
+#: template-parts/content-cover.php:138
+#: template-parts/content.php:48
+msgid "Page"
+msgstr "duilleag"
+
+#: template-parts/content-cover.php:138
+#: template-parts/content.php:48
+msgid "Pages:"
+msgstr "Duilleagan:"
+
+#: template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr "Sgrolaich sìos"
+
+#: searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr "Lorg"
+
+#: inc/template-tags.php:448
+msgid "Sticky post"
+msgstr "Fleodrainn"
+
+#: index.php:32
+msgid "Search:"
+msgstr "Lorg:"
+
+#: searchform.php:24
+#: template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr "Lorg na leanas:"
+
+#: searchform.php:25
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Lorg &hellip;"
+
+#: index.php:101
+msgid "search again"
+msgstr "lorg a-rithist"
+
+#: index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "Cha do lorg sinn toradh rannsachaidh sam bith airson na lorg thu. Faodaidh tu feuchainn a-rithist leis an fhoirm luirg gu h-ìosal."
+
+#. translators: %s: Number of search results.
+#: index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Lorg sinn %s toradh rannsachaidh airson na lorg thu."
+msgstr[1] "Lorg sinn %s thoradh rannsachaidh airson na lorg thu."
+msgstr[2] "Lorg sinn %s toraidhean rannsachaidh airson na lorg thu."
+msgstr[3] "Lorg sinn %s toradh rannsachaidh  airson na lorg thu."
+
+#: inc/wpcom.php:43
+msgid "Hide Homepage Title"
+msgstr "Falaich tiotal na duilleige-dachaigh"
+
+#: inc/wpcom.php:44
+msgid "Check to hide the page title, if your homepage is set to display a static page."
+msgstr "Ma tha duilleag-dachaigh stadaigeach agad, cuir cromag ris an roghainn seo gus tiotal na duilleige a chur am falach."
+
+#: inc/template-tags.php:392
+#: template-parts/content-cover.php:70
+#: template-parts/entry-header.php:36
+msgid "Categories"
+msgstr "Roinnean-seòrsa"
+
+#: inc/template-tags.php:410
+msgid "Tags"
+msgstr "Tagaichean"
+
+#: inc/template-tags.php:374
+msgid "Post date"
+msgstr "Ceann-là a’ phuist"
+
+#: inc/template-tags.php:396
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "An-seo:"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "Clàr-taice nan ceanglaichean sòisealta"
+
+#: inc/template-tags.php:350
+msgid "Post author"
+msgstr "Ùghdar a' phuist"
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:357
+#: template-parts/entry-author-bio.php:20
+msgid "By %s"
+msgstr "Le %s"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:207
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Deasaich <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr "Gabh pàirt"
+
+#: inc/starter-content.php:73
+#: inc/starter-content.php:88
+#: inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr "Leugh an corr"
+
+#: header.php:88
+msgid "Horizontal"
+msgstr "Còmhnard"
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "Bho Signac gu Matisse"
+
+#: inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "A’ bheatha air a bheil mi airidh"
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "Am prìomh cheann-uidhe airson nua-ealain ann an Ceann a Tuath na Suain.  Fosgailte eadar 10m agus 6f gach latha tro mhìosan an t-samhraidh."
+
+#: inc/starter-content.php:70
+#: inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr "1 dhen Lùnastal -- 1 dhen Dùbhlachd"
+
+#: inc/starter-content.php:85
+#: inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr "1 dhen  Dàmhair -- 1 dhen Dùbhlachd"
+
+#: inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "Obraichean agus làithean"
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "Àite obraichean"
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr "Tha an UMoMA ùr a’ fosgladh a dhorsan"
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "Tha an UMoMA ùr a’ fosgladh a dhorsan"
+
+#: header.php:76
+#: header.php:137
+msgid "Menu"
+msgstr "Clàr-taice"
+
+#: functions.php:512
+msgid "Background Color"
+msgstr "Dath a’ chùlaibh"
+
+#: header.php:53
+#: header.php:157
+msgid "Search"
+msgstr "Lorg"
+
+#: functions.php:539
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "Mòr"
+
+#: functions.php:545
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "Nas motha"
+
+#: functions.php:527
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "Beag"
+
+#: functions.php:533
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "Àbhaisteach"
+
+#: functions.php:528
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "B"
+
+#: functions.php:534
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "À"
+
+#: functions.php:540
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "M"
+
+#: functions.php:546
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "FM"
+
+#: functions.php:494
+msgid "Secondary"
+msgstr "Dàrnach"
+
+#: functions.php:499
+msgid "Subtle Background"
+msgstr "Cùlaibh sèimhidh"
+
+#: functions.php:261
+msgid "Footer Menu"
+msgstr "Clàr-taice a' bhann-choise"
+
+#: functions.php:484
+msgid "Accent Color"
+msgstr "Dath a' chuideim"
+
+#: functions.php:365
+msgid "Footer #1"
+msgstr "Bann-coise #1"
+
+#: functions.php:377
+msgid "Footer #2"
+msgstr "Bann-coise #2"
+
+#: functions.php:340
+msgid "Skip to the content"
+msgstr "Leum dhan t-susbaint"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "Up %s"
+msgstr "Suas %s"
+
+#: functions.php:489
+#: inc/starter-content.php:177
+#: inc/starter-content.php:187
+msgid "Primary"
+msgstr "Prìomh chlàr-taice"
+
+#: functions.php:367
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "Thèid widgets san raon seo a thaisbeanadh sa chiad cholbh sa bhann-choise."
+
+#: functions.php:379
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "Thèid widgets san raon seo a thaisbeanadh san dàrna colbh sa bhann-choise."
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:43
+msgid "To the top %s"
+msgstr "Gu na %s aig a’ bhàrr"
+
+#: functions.php:260
+msgid "Mobile Menu"
+msgstr "An clàr-taice mobile"
+
+#: functions.php:262
+msgid "Social Menu"
+msgstr "An clàr-taice sòisealta"
+
+#. #-#-#-#-#  twentytwenty.pot (Twenty Twenty 1.4-wpcom)  #-#-#-#-#
+#. Author URI of the plugin/theme
+#: footer.php:32
+#: wp-content/themes/pub/twentytwenty/style.css
+msgid "https://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: footer.php:33
+msgid "Powered by WordPress"
+msgstr "Le cumhachd WordPress"
+
+#. translators: Copyright date format, see https://www.php.net/date
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "B"
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Beachdan"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Tha na beachdan dùinte."
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Beachdan as ùire"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Aon bheachd air &ldquo;%s&rdquo;"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "Beachdan nas sine"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s bheachd air &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s bheachd air &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s beachdan air &ldquo;%2$s&rdquo;"
+msgstr[3] "%1$s beachd air &ldquo;%2$s&rdquo;"
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Sgrìobh beachd"
+
+#: classes/class-twentytwenty-walker-page.php:107
+#: inc/template-tags.php:558
+msgid "Show sub menu"
+msgstr "Seall am fo-chlàr-taice"
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:70
+msgid "#%d (no title)"
+msgstr "#%d (gun tiotal)"
+
+#: classes/class-twentytwenty-walker-comment.php:127
+msgid "By Post Author"
+msgstr "Le ùghdar a’ phuist"
+
+#: classes/class-twentytwenty-walker-comment.php:92
+msgid "Your comment is awaiting moderation."
+msgstr "Tha do bheachd a' feitheamh ri modarataireachd."
+
+#: classes/class-twentytwenty-walker-comment.php:77
+msgid "Edit"
+msgstr "Deasaich"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:69
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: classes/class-twentytwenty-customize.php:269
+msgid "Full text"
+msgstr "An teacsa slàn"
+
+#: classes/class-twentytwenty-customize.php:270
+msgid "Summary"
+msgstr "Gearr-chunntas"
+
+#: classes/class-twentytwenty-walker-comment.php:56
+msgid "says:"
+msgstr "Ag ràdh:"
+
+#: classes/class-twentytwenty-customize.php:396
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "Dèan cinnteach gu bheil an t-iomsgaradh mòr gu leòr airson an teacsa a dhèanamh furasta a leughadh."
+
+#: classes/class-twentytwenty-customize.php:246
+msgid "Show author bio"
+msgstr "Seall eachdraidh-bheatha an ùghdair"
+
+#: classes/class-twentytwenty-customize.php:225
+msgid "Show search in header"
+msgstr "Seall raon-luirg sa bhann-chinn"
+
+#: classes/class-twentytwenty-customize.php:267
+msgid "On archive pages, posts show:"
+msgstr "Air duilleagan na tasglainn, seallaidh na puist na leanas:"
+
+#: classes/class-twentytwenty-customize.php:305
+msgid "Fixed Background Image"
+msgstr "Dealbh cùlaibh socraichte"
+
+#: classes/class-twentytwenty-customize.php:202
+msgid "Theme Options"
+msgstr "Roghainnean an ùrlair"
+
+#: classes/class-twentytwenty-customize.php:183
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "Cuir dath gnàthaichte air ceanglaichean, putanan is dealbhan brosnaichte."
+
+#: classes/class-twentytwenty-customize.php:125
+msgid "Default"
+msgstr "Bun-roghainn"
+
+#: classes/class-twentytwenty-customize.php:126
+msgid "Custom"
+msgstr "Gnàthaichte"
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Cha deach an duilleag a lorg"
+
+#: classes/class-twentytwenty-customize.php:123
+msgid "Primary Color"
+msgstr "Prìomh-dhath"
+
+#: classes/class-twentytwenty-customize.php:81
+msgid "Retina logo"
+msgstr "Suaicheantas Retina"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "Cha b’ urrainn dhuinn an duilleag a bha a dhìth ort a lorg. ’S mathaid gun deach a sguabadh às, ath-ainmeachadh no ma dh’fhaoidte nach robh e ann a-riamh."
+
+#: classes/class-twentytwenty-customize.php:101
+msgid "Header &amp; Footer Background Color"
+msgstr "Dath a’ bhanna-chinn agus a’ bhanna-choise"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 Cha deach a lorg"
+
+#: classes/class-twentytwenty-customize.php:82
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Sgèilichidh seo an suaicheantas gu leth a’ mheud aig an deach a luchdachadh suas gus an tèid a thaisbeanadh gu soilleir air sgrìnichean le àrd-iomsgaradh"

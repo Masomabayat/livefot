@@ -1,0 +1,251 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "menu-1": "primary-menu",
+                "social": "social-menu",
+                "menu-2": "primary-menu"
+            },
+            "custom_css_post_id": -1,
+            "hide_front_page_title": true
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [],
+    "content": [
+        {
+            "post_type": "page",
+            "post_title": "食谱",
+            "post_content": "",
+            "post_name": "recipes",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 76,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_blog_page"
+        },
+        {
+            "post_type": "post",
+            "post_title": "蒜香帕尔玛干酪意面",
+            "post_content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":71,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/brooke-lark-f_5g8eehye-unsplash-1.jpg?w=689\" alt=\"\" class=\"wp-image-71\"  /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"level\":4} -->\n<h4>材料</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>120 毫升（1/2 杯）黄油</li><li>2 茶匙碾碎的干罗勒</li><li>2 茶匙柠檬汁</li><li>1.25 茶匙蒜粉</li><li>3/4 茶匙调味盐</li><li>220 克（8 盎司）意大利宽面或天使面（煮熟并沥干水分）</li><li>360 毫升（1.5 杯）西蓝花花（烹至松脆）</li><li>3 汤匙核桃碎</li><li>磨碎的新鲜帕尔马干酪</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4>步骤</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>在一个大煎锅里把黄油融化。</li><li>加入罗勒、柠檬汁、蒜粉和调味盐，搅拌均匀。</li><li>加入意大利宽面、西兰花、核桃。</li><li>搅拌均匀后，涂在意大利宽面上。</li><li>搅拌完毕后，加入磨碎的新鲜帕尔玛干酪即可大功告成。</li></ol>\n<!-- /wp:list -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><em>本文所用的材料来自维基百科文章“<a href=\"https://en.wikibooks.org/wiki/Cookbook:Garlic_Parmesan_Pasta\">Cookbook:Garlic Parmesan Pasta</a>”（菜谱：蒜香帕尔玛干酪意面），依照<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">创作共用-署名-相同方式共享协议 3.0 版</a>发布。</em></p>\n<!-- /wp:paragraph -->",
+            "post_name": "garlic-parmesan-pasta",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 69,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Recipes"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "联系信息",
+            "post_content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p style=\"text-align:left;\">我们一起来讨论 &amp;#128075; 您可以随时通过以下联系信息联系我们，或者使用表单发送消息。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:columns {\"className\":\"has-2-columns\"} -->\n<div class=\"wp-block-columns has-2-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/contact-info -->\n<div class=\"wp-block-jetpack-contact-info\"><!-- wp:heading {\"level\":3} -->\n<h3>联系我们</h3>\n<!-- /wp:heading -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:jetpack/address {\"address\":\"10 Street Road\",\"city\":\"City\",\"postal\":\"10100\",\"country\":\"USA\"} -->\n<div class=\"wp-block-jetpack-address\"><div class=\"jetpack-address__address jetpack-address__address1\">中关村北大街 1 号</div><div><span class=\"jetpack-address__city\">北京</span>，<span class=\"jetpack-address__region\"></span><span class=\"jetpack-address__postal\">10100</span></div><div class=\"jetpack-address__country\">中国</div></div>\n<!-- /wp:jetpack/address -->\n\n<!-- wp:jetpack/email {\"email\":\"mail@example.com\"} -->\n<div class=\"wp-block-jetpack-email\"><a href=\"mailto:mail@example.com\">mail@example.com</a></div>\n<!-- /wp:jetpack/email -->\n\n<!-- wp:jetpack/phone {\"phone\":\"(555) 555 1234\"} -->\n<div class=\"wp-block-jetpack-phone\"><a href=\"tel:5555551234\">(010) 6880 1234</a></div>\n<!-- /wp:jetpack/phone --></div>\n<!-- /wp:jetpack/contact-info -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3>营业时间</h3>\n<!-- /wp:heading -->\n\n<!-- wp:jetpack/business-hours /--></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/contact-form -->\n<!-- wp:jetpack/field-name {\"required\":true} /-->\n\n<!-- wp:jetpack/field-email {\"label\":\"Email\",\"required\":true} /-->\n\n<!-- wp:jetpack/field-url /-->\n\n<!-- wp:jetpack/field-textarea {\"required\":true} /-->\n<!-- /wp:jetpack/contact-form --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+            "post_name": "contact",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 43,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "首页",
+            "post_content": "<!-- wp:media-text {\"align\":\"full\",\"backgroundColor\":\"primary\",\"mediaPosition\":\"right\",\"mediaId\":11,\"mediaType\":\"image\",\"isStackedOnMobile\":true,\"imageFill\":true} -->\n<div class=\"wp-block-media-text alignfull has-media-on-the-right has-primary-background-color is-stacked-on-mobile is-image-fill\"><figure class=\"wp-block-media-text__media\" style=\"background-image:url('https://barnsburydemo.files.wordpress.com/2019/09/sri-lanka-ksa66ayiqnk-unsplash.jpg?w=750');background-position:50% 50%;\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/sri-lanka-ksa66ayiqnk-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-11\"  /></figure><div class=\"wp-block-media-text__content\"><!-- wp:spacer {\"height\":64} -->\n<div style=\"height:64px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"level\":1} -->\n<h1>配送本地种植的有机蔬菜</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>在 20 年里，我们一直在萨塞克斯 12 英亩的农场中种植有机蔬菜并配送蔬菜箱。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:button {\"textColor\":\"background\",\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link has-text-color has-background-color\" href=\"/contact\">联系我们</a></div>\n<!-- /wp:button -->\n\n<!-- wp:spacer {\"height\":64} -->\n<div style=\"height:64px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:media-text -->\n\n<!-- wp:group {\"backgroundColor\":\"background\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-background-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-half\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-half\"><strong>服务</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<h2 class=\"has-text-align-center margin-top-half\">我们的业务</h2>\n<!-- /wp:heading -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:columns {\"align\":\"wide\"} -->\n<div class=\"wp-block-columns alignwide\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":12,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/jeshoots-com-l8nlxbhwbw0-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-12\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>我们生产的有机蔬菜箱尽可能做到价格实惠、应季提供、新鲜水嫩且符合本地需要。</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":13,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/martin-adams-5xxfymman84-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-13\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>我们提供不同尺寸的蔬菜箱，可以满足从个人到家庭各种规模客户的需求。</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":10,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/agence-producteurs-locaux-damien-kuhn-dtbfrwd6qto-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-10\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>对于蔬菜箱中的蔬菜，我们提供灵活的方案。您可以根据自己的需要更改订单中的商品。</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:cover {\"url\":\"https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg\",\"id\":153,\"dimRatio\":30,\"align\":\"full\"} -->\n<div class=\"wp-block-cover alignfull has-background-dim-30 has-background-dim\" style=\"background-image:url('https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg');\"><div class=\"wp-block-cover__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-half\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-half\"><strong>更深入地了解我们</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<h2 class=\"has-text-align-center margin-top-half\">透过几个数字了解我们的有机农场</h2>\n<!-- /wp:heading -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:columns {\"align\":\"wide\"} -->\n<div class=\"wp-block-columns alignwide\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>370</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">每月服务的家庭数</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>23</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">在农场工作的专家人数</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>5 个</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">获奖数目</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>100%</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">客户满意度</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:cover -->\n\n<!-- wp:group {\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:media-text {\"mediaId\":15,\"mediaType\":\"image\",\"isStackedOnMobile\":true,\"imageFill\":true} -->\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile is-image-fill\"><figure class=\"wp-block-media-text__media\" style=\"background-image:url('https://barnsburydemo.files.wordpress.com/2019/09/phil-hearing-nfs0n3_d2xy-unsplash.jpg?w=750');background-position:50% 50%;\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/phil-hearing-nfs0n3_d2xy-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-15\"  /></figure><div class=\"wp-block-media-text__content\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3>您青睐我们的原因</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>现在即是品尝有机食品的最佳时机。有机意味着与大自然合作。我们正在走进欧洲饮食的美好时代。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul><li><strong>美味</strong></li><li><strong>合乎道德规范</strong> </li><li><strong>可持续</strong></li><li><strong>应季提供</strong></li><li><strong>免费配送</strong></li></ul>\n<!-- /wp:list -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:media-text -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"margin-top-none\"} -->\n<div class=\"wp-block-columns alignwide margin-top-none\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/rating-star {\"rating\":5,\"align\":\"center\",\"className\":\"margin-bottom-half\"} -->\n<figure class=\"wp-block-jetpack-rating-star margin-bottom-half\" style=\"text-align:center;\"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></figure>\n<!-- /wp:jetpack/rating-star -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>“优质的服务”</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">他们的服务超赞！我由衷希望他们中有些人现在正在使用您的服务。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Fiona</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/rating-star {\"rating\":5,\"align\":\"center\",\"className\":\"margin-bottom-half\"} -->\n<figure class=\"wp-block-jetpack-rating-star margin-bottom-half\" style=\"text-align:center;\"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></figure>\n<!-- /wp:jetpack/rating-star -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>“喜欢灵活多变的特点”</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">我们对蔬菜箱非常满意，我们可以选择标准的蔬菜箱，也可以选择自己需要的蔬菜箱，这点对我们而言很重要。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Joseph</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/rating-star {\"rating\":4,\"align\":\"center\",\"className\":\"margin-bottom-half\"} -->\n<figure class=\"wp-block-jetpack-rating-star margin-bottom-half\" style=\"text-align:center;\"><span>★</span><span>★</span><span>★</span><span>★</span></figure>\n<!-- /wp:jetpack/rating-star -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>“出色的品质”</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">我非常喜欢蔬菜的品质和外观。蔬菜的味道很好。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Michelle</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"backgroundColor\":\"secondary\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-secondary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-half\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-half\"><strong>试试用我们的蔬菜做菜</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"align\":\"center\",\"level\":3,\"className\":\"margin-top-half\"} -->\n<h3 class=\"has-text-align-center margin-top-half\">我们最喜欢的食谱</h3>\n<!-- /wp:heading -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:latest-posts {\"align\":\"wide\",\"postsToShow\":3,\"displayPostContent\":true,\"excerptLength\":40,\"displayPostDate\":true,\"postLayout\":\"grid\"} /-->\n\n<!-- wp:button {\"textColor\":\"background\",\"align\":\"center\",\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button aligncenter is-style-outline\"><a class=\"wp-block-button__link has-text-color has-background-color\" href=\"/recipes\">更多食谱</a></div>\n<!-- /wp:button -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->",
+            "post_name": "home",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 7,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_front_page"
+        },
+        {
+            "post_type": "page",
+            "post_title": "关于",
+            "post_content": "<!-- wp:paragraph -->\n<p>我们生产本地种植的有机蔬菜，并竭力使这些蔬菜价格实惠、应季提供且新鲜水嫩。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":153,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg?w=1024\" alt=\"\" class=\"wp-image-153\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:group {\"backgroundColor\":\"background-light\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-background-light-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\",\"level\":4} -->\n<h4 class=\"has-text-align-center\">客户的评论</h4>\n<!-- /wp:heading -->\n\n<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>“优质的服务”</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">他们的服务超赞！我由衷希望他们中有些人现在正在使用您的服务。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Fiona</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>“喜欢灵活多变的特点”</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">我们对蔬菜箱非常满意，我们可以选择标准的蔬菜箱，也可以选择自己需要的蔬菜箱，这点对我们而言很重要。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Joseph</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>“出色的品质”</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">我非常喜欢蔬菜的品质和外观。蔬菜的味道很好。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>Michelle</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:spacer {\"height\":64,\"className\":\"desktop-only\"} -->\n<div style=\"height:64px;\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\"} -->\n<h2 class=\"has-text-align-center\">我们一起种点东西吧！</h2>\n<!-- /wp:heading -->\n\n<!-- wp:button {\"align\":\"center\"} -->\n<div class=\"wp-block-button aligncenter\"><a class=\"wp-block-button__link\" href=\"https://mordendemo.wordpress.com/contact/\">联系我们！</a></div>\n<!-- /wp:button -->",
+            "post_name": "about",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "open",
+            "hs_old_id": 1,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "牛油果酱",
+            "post_content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":64,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/mariana-medvedeva-nm1fz-scxne-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-64\"  /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"level\":4} -->\n<h4>材料</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>4 个牛油果</li><li>2 大汤匙碎番茄粒</li><li>半个柠檬汁</li><li>2 个切碎的墨西哥胡椒或 2 汤匙碾碎的红辣椒或 1 汤匙辣椒</li><li>1 茶匙盐</li><li>4 茶匙橄榄油</li><li>1.5 茶匙蒜末</li><li>1/2 茶匙黑胡椒粉</li><li>1 个切碎的墨西哥胡椒或 2 个切碎的塞拉诺高山椒或 2 汤匙任意辣椒末（根据辣味调整）</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4>步骤</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>牛油果去核。</li><li>划开牛油果皮，而不要直接切开。</li><li>用一个大勺子挖出一个牛油果的瓤，放入搅拌碗中。</li><li>加入青柠汁，进行搅拌，然后均匀涂抹在牛油果上。</li><li>加入番茄粒、蒜末、油、墨西哥胡椒、盐、红椒和黑胡椒，捣碎牛油果瓤并进行搅拌，直至完全混合。</li><li>然后，把其他的牛油果瓤挖出，轻轻搅拌块较大的牛油果瓤。</li><li>如果留下的大块比捣碎的部分多，则牛油果酱粘稠度恰到好处。</li><li>用香菜加以装饰。</li></ol>\n<!-- /wp:list -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><em>本文所用的材料来自维基百科文章“<a href=\"https://en.wikibooks.org/wiki/Cookbook:Guacamole\">Cookbook: Guacamole</a>”（菜谱：牛油果酱），依照<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">创作共用-署名-相同方式共享协议 3.0 版</a>发布。</em></p>\n<!-- /wp:paragraph -->",
+            "post_name": "guacamole",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 57,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Recipes"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "香浓南瓜汤",
+            "post_content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":50,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/cayla1-w6ftfbpcs9i-unsplash.jpg?w=683\" alt=\"\" class=\"wp-image-50\"  /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"level\":4} -->\n<h4>材料</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>1 汤匙黄油</li><li>1 杯洋葱末</li><li>3 汤匙中筋面粉</li><li>1/2 茶匙咖喱粉</li><li>1/4 茶匙孜然</li><li>1/4 茶匙豆蔻粉</li><li>2 瓣大蒜，碾碎</li><li>1 杯去皮并切成方块的甘薯</li><li>1/4 茶匙盐</li><li>2 罐 14 盎司的脱脂低钠鸡汤或蔬菜高汤</li><li>1 罐 15 盎司的南瓜</li><li>1 杯脂肪含量为 1% 的牛奶</li><li>1 汤匙新鲜青柠汁</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4>步骤</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>将黄油放入荷兰锅或大深平底锅中，中至高温融化。洋葱炒 3-4 分钟，然后加入面粉、咖喱粉、孜然和豆蔻粉炒 1 分钟。</li><li>加入甘薯、盐、鸡汤及南瓜煮滚。将火调至中小火慢炖，盖上部分锅盖约 20-25 分钟，或直至甘薯煮透变软。熄火，静置 10 分钟冷却。</li><li>将一半的南瓜混合物放入搅拌机，搅拌至细腻顺滑。用滤网过滤，把汤倒回锅里。对剩余的汤执行同样的操作。</li><li>把火调至中火，然后加入牛奶搅拌，煮 5 分钟或直到汤完全变热。</li><li>熄火，加入青柠汁。</li></ol>\n<!-- /wp:list -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><em>本文所用的材料来自维基百科文章“<a href=\"https://en.wikibooks.org/wiki/Cookbook:Spiced_Pumpkin_Soup\">Cookbook: Spiced Pumpkin Soup</a>”（菜谱：香浓南瓜汤），依照<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">创作共用-署名-相同方式共享协议 3.0 版</a>发布。</em></p>\n<!-- /wp:paragraph -->",
+            "post_name": "spiced-pumpkin-soup",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 47,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Recipes"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        }
+    ],
+    "menus": {
+        "primary-menu": {
+            "name": "主菜单",
+            "items": [
+                {
+                    "menu-item-title": "首页",
+                    "menu-item-db-id": 81,
+                    "menu-item-object-id": "7",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "关于",
+                    "menu-item-db-id": 82,
+                    "menu-item-object-id": "1",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "食谱",
+                    "menu-item-db-id": 79,
+                    "menu-item-object-id": "76",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "联系信息",
+                    "menu-item-db-id": 80,
+                    "menu-item-object-id": "43",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                }
+            ]
+        },
+        "social-menu": {
+            "name": "社交菜单",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 83,
+                    "menu-item-object-id": "83",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.facebook.com/WordPresscom/"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 84,
+                    "menu-item-object-id": "84",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://twitter.com/wordpressdotcom"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 85,
+                    "menu-item-object-id": "85",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.instagram.com/wordpressdotcom/"
+                }
+            ]
+        }
+    },
+    "images": [
+        "https://barnsburydemo.files.wordpress.com/2019/09/healthy.png",
+        "https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/brooke-lark-f_5g8eehye-unsplash-1.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/brooke-lark-f_5g8eehye-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/mariana-medvedeva-nm1fz-scxne-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/cayla1-w6ftfbpcs9i-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/phil-hearing-nfs0n3_d2xy-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/martin-adams-5xxfymman84-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/jeshoots-com-l8nlxbhwbw0-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/sri-lanka-ksa66ayiqnk-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/agence-producteurs-locaux-damien-kuhn-dtbfrwd6qto-unsplash.jpg"
+    ]
+}

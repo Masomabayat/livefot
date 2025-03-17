@@ -1,0 +1,63 @@
+/*
+Theme Name: True News
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+.news-article-list.direct-ltr .entry-image {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.content-header:before {
+    left: inherit;
+    right: 0;
+}
+
+.content-header .block-title {
+    float: right;
+}
+
+.content-header .title-controls {
+    float: left;
+}
+
+.entry-meta .author-img {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.site-header .header-bg .twp-navbar-btn,
+.title-controls-nav .slide-icon-1 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.entry-header-1 .entry-title {
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.twp-comment-toggle {
+    text-align: right;
+}
+
+.comment-toggle-icon {
+    left: 0;
+    right: inherit;
+}
+
+.site-header .header-marquee .title-label:after {
+    left: -12px;
+    right: inherit;
+    border-left: 12px solid transparent;
+}
+
+.site-footer .site-footer-menu ul {
+    text-align: left;
+}

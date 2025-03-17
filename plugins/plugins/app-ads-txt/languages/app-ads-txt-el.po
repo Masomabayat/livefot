@@ -1,0 +1,872 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ads.txt & App-ads.txt Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-26 20:31+0000\n"
+"PO-Revision-Date: 2021-05-27 20:45+0000\n"
+"Last-Translator: Gautier Dorval\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#: admin-ui-inc/ads-txt-inc.php:44 admin-ui-inc/ads-txt-inc.php:109 
+#: admin-ui-inc/app-ads-txt-inc.php:44 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:45 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:109
+msgid ""
+" This must contain the same value used in transactions (i.e. OpenRTB bid "
+"requests) in the field specified by the SSP/exchange (For OpenRTB = "
+"publisher ID | For OpenDirect = publisher’s organization ID)."
+msgstr ""
+" Αυτό πρέπει να περιέχει την ίδια τιμή που χρησιμοποιείται στις συναλλαγές "
+"(δηλ. Αιτήματα προσφοράς OpenRTB) στο πεδίο που καθορίζεται από το SSP / "
+"exchange (Για OpenRTB = αναγνωριστικό εκδότη | Για OpenDirect = "
+"αναγνωριστικό οργανισμού εκδότη)."
+
+#: inc/recommendations.php:28
+msgid "404 to 301 By Joel James"
+msgstr "404 έως 301 του Joel James"
+
+#: app-ads-txt-admin.php:80
+#, php-format
+msgid "<a href=\"%s\">Get Pro version</a> to enable"
+msgstr "<a href=\"%s\">Λάβετε την έκδοση Pro</a> για ενεργοποίηση"
+
+#: inc/recommendations.php:148
+msgid ""
+"A new way to boost your marketing content. Writing Web Content that is "
+"ranking like those of SEO Experts."
+msgstr ""
+"Ένας νέος τρόπος ενίσχυσης του περιεχομένου μάρκετινγκ. Γράφοντας "
+"Περιεχόμενο Ιστού με κατάταξη όπως αυτά των Ειδικών SEO."
+
+#: inc/faq.php:92
+msgid ""
+"Ad fraud prevention. App-ads.txt blocks unauthorized developers who "
+"impersonate legitimate apps and mislead DSPs into spending brand budgets on "
+"fake inventory. With fraud instances minimized, authentic developers can "
+"retain more of the ad revenue from inventory genuinely targeted to their app."
+msgstr ""
+"Πρόληψη απάτης. Το app-ads.txt αποκλείει μη εξουσιοδοτημένους "
+"προγραμματιστές που πλαστοπροσωπούν νόμιμες εφαρμογές και παραπλανούν τους "
+"DSP ώστε να ξοδεύουν προϋπολογισμούς επωνυμίας σε ψεύτικο απόθεμα. Με την "
+"ελαχιστοποίηση των περιπτώσεων απάτης, οι αυθεντικοί προγραμματιστές μπορούν "
+"να διατηρήσουν περισσότερα από τα έσοδα από διαφημίσεις από απόθεμα που "
+"στοχεύουν πραγματικά στην εφαρμογή τους."
+
+#: admin-ui-inc/ads-txt-inc.php:162 admin-ui-inc/app-ads-txt-inc.php:95 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:162
+msgid "Add more custom rules if you need them, otherwise, leave it blank."
+msgstr ""
+"Προσθέστε περισσότερους προσαρμοσμένους κανόνες εάν τους χρειάζεστε, "
+"διαφορετικά, αφήστε το κενό."
+
+#: admin-ui-inc/ads-txt-inc.php:15
+msgid "Add rules for Ads.txt, one line at a time. Then save"
+msgstr ""
+"Προσθέστε κανόνες για το Ads.txt, μία γραμμή τη φορά. Στη συνέχεια "
+"αποθηκεύστε"
+
+#: admin-ui-inc/app-ads-txt-inc.php:15 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:15
+msgid "Add rules for App-Ads.txt, one line at a time. Then save"
+msgstr ""
+"Προσθέστε κανόνες για το App-Ads.txt, μία γραμμή τη φορά. Στη συνέχεια "
+"αποθηκεύστε"
+
+#. Name of the plugin
+msgid "Ads.txt & App-ads.txt Manager"
+msgstr "Διαχειριστής Ads.txt & App-ads.txt"
+
+#: inc/recommendations.php:16
+msgid "Akismet Anti-Spam by Automattic"
+msgstr "Akismet Anti-Spam από την Automattic"
+
+#: inc/recommendations.php:17
+msgid ""
+"Akismet checks your comments and contact form submissions against our global "
+"database of spam to protect you and your site from malicious content."
+msgstr ""
+"Το Akismet ελέγχει τα σχόλιά σας και τις υποβολές της φόρμας επικοινωνίας "
+"από την παγκόσμια βάση δεδομένων μας για ανεπιθύμητα μηνύματα για να "
+"προστατεύσει εσάς και τον ιστότοπό σας από κακόβουλο περιεχόμενο."
+
+#: admin-ui-inc/ads-txt-inc.php:68 admin-ui-inc/ads-txt-inc.php:133 
+#: admin-ui-inc/app-ads-txt-inc.php:68 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:69 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:133
+msgid ""
+"An ID that uniquely identifies the advertising system within a certification "
+"authority."
+msgstr ""
+"Ένα αναγνωριστικό που προσδιορίζει με μοναδικό τρόπο το διαφημιστικό σύστημα "
+"σε μια αρχή πιστοποίησης."
+
+#: inc/seo-recommendations.php:16 inc/seo-recommendations.php:18
+msgid "Analyse my site"
+msgstr "Αναλύστε τον ιστότοπό μου"
+
+#: inc/seo-recommendations.php:27
+msgid ""
+"Analyse your Google ranking with keywords, traffic and more (REGISTER TO GET "
+"10 FREE REQUESTS)"
+msgstr ""
+"Αναλύστε την κατάταξή σας στο Google με λέξεις-κλειδιά, επισκεψιμότητα και "
+"άλλα (ΕΓΓΡΑΦΕΙΤΕ ΓΙΑ ΛΗΨΗ 10 ΔΩΡΕΑΝ ΑΙΤΗΣΕΩΝ)"
+
+#: admin-ui-inc/app-ads-txt-inc.php:19
+msgid "App-Ads.txt"
+msgstr "App-Ads.txt"
+
+#. Description of the plugin
+msgid ""
+"App-ads.txt & Ads.txt manager allows you to create, manage & publish your "
+"app-ads.txt & ads.txt files from your WordPress dashboard."
+msgstr ""
+"Η εφαρμογή App-ads.txt & Ads.txt σάς επιτρέπει να δημιουργείτε, να "
+"διαχειρίζεστε και να δημοσιεύετε αρχεία app-ads.txt & ads.txt από τον πίνακα "
+"ελέγχου του WordPress."
+
+#: inc/recommendations.php:49
+msgid ""
+"App-Ads.txt & Ads.txt Manager by Pagup provides a selection of plugins "
+"allowing to keep your website healthy, get better results on Search engines "
+"and increase your sales for ecommerce solutions."
+msgstr ""
+"Το App-Ads.txt & Ads.txt Manager της Pagup παρέχει μια επιλογή προσθηκών που "
+"επιτρέπουν τη διατήρηση της υγείας του ιστότοπού σας, τη λήψη καλύτερων "
+"αποτελεσμάτων στις μηχανές αναζήτησης και την αύξηση των πωλήσεών σας για "
+"λύσεις ηλεκτρονικού εμπορίου."
+
+#: inc/faq.php:88
+msgid ""
+"Authorized in-app inventory. An ever-increasing amount of brands are looking "
+"to advertise in-app today. Brand buyers now rely on an adherence to app-ads."
+"txt to make sure they don’t buy unauthorized inventory from app developers "
+"and negatively impact campaign performance. Developers who don’t implement "
+"app-ads.txt can be removed from any brand buyer’s target media list. That’s "
+"why joining the app-ads.txt movement is crucial for publishers to maintain "
+"their revenue."
+msgstr ""
+"Εξουσιοδοτημένο απόθεμα εντός εφαρμογής. Ένας ολοένα αυξανόμενος αριθμός "
+"επωνυμιών ψάχνει να διαφημίσει εντός εφαρμογής σήμερα. Οι αγοραστές "
+"επωνυμιών στηρίζονται πλέον στην τήρηση του app-ads.txt για να βεβαιωθούν "
+"ότι δεν αγοράζουν μη εξουσιοδοτημένο απόθεμα από προγραμματιστές εφαρμογών "
+"και επηρεάζουν αρνητικά την απόδοση της καμπάνιας. Οι προγραμματιστές που "
+"δεν εφαρμόζουν το app-ads.txt μπορούν να καταργηθούν από τη λίστα μέσων "
+"στόχου οποιουδήποτε αγοραστή. Γι 'αυτό η συμμετοχή στο κίνημα app-ads.txt "
+"είναι ζωτικής σημασίας για τους εκδότες να διατηρήσουν τα έσοδά τους."
+
+#: inc/sidebar.php:13
+msgid ""
+"Auto optimize all image alt texts (including Woocommerce online store), of "
+"your pages, posts & product, from Yoast SEO optimization settings (keywords) "
+"and/or Post title."
+msgstr ""
+"Βελτιστοποιήστε αυτόματα όλα τα κείμενα alt εικόνας (συμπεριλαμβανομένου του "
+"διαδικτυακού καταστήματος Woocommerce), των σελίδων, των αναρτήσεων και του "
+"προϊόντος σας, από τις ρυθμίσεις βελτιστοποίησης Yoast SEO (λέξεις-κλειδιά) "
+"ή / και τον τίτλο Δημοσίευσης."
+
+#: inc/recommendations.php:124
+msgid ""
+"Automatically insert rel=nofollow and target=_blank to all the external "
+"links into your website posts, pages or menus. Support exclude domain."
+msgstr ""
+"Εισαγάγετε αυτόματα rel = nofollow και target = _blank σε όλους τους "
+"εξωτερικούς συνδέσμους στις αναρτήσεις, τις σελίδες ή τα μενού του ιστότοπού "
+"σας. Υποστήριξη εξαίρεση τομέα."
+
+#: inc/recommendations.php:29
+msgid ""
+"Automatically redirect, log and notify all 404 page errors to any page using "
+"301 redirection."
+msgstr ""
+"Αυτόματη ανακατεύθυνση, καταγραφή και ειδοποίηση και των 404 σφαλμάτων "
+"σελίδας σε οποιαδήποτε σελίδα χρησιμοποιώντας ανακατεύθυνση 301."
+
+#: inc/recommendations.php:156
+msgid "Awesome plugins for SEO & Conversion performance:"
+msgstr "Καταπληκτικά πρόσθετα για απόδοση SEO και μετατροπών:"
+
+#: inc/seo-recommendations.php:90
+msgid "Bing Webmaster tool"
+msgstr "Εργαλείο Webmaster Bing"
+
+#: inc/recommendations.php:11
+msgid ""
+"Boost the way people interact with your website, e-commerce or blog with an "
+"easy and intuitive WordPress rating system!"
+msgstr ""
+"Ενισχύστε τον τρόπο με τον οποίο οι άνθρωποι αλληλεπιδρούν με τον ιστότοπό "
+"σας, το ηλεκτρονικό εμπόριο ή το ιστολόγιό σας με ένα εύκολο και διαισθητικό "
+"σύστημα αξιολόγησης WordPress!"
+
+#: inc/sidebar.php:6
+msgid "Boost your ranking on Google"
+msgstr "Αυξήστε την κατάταξή σας στο Google"
+
+#: inc/faq.php:67
+msgid ""
+"Capturing revenue from brand spend. Brands today represent a growing and "
+"potentially significant revenue opportunity for developers. We can expect "
+"that many DSPs that adhere to app-ads.txt won’t purchase inventory missing "
+"the app-ads.txt file, just as they won’t buy unauthorized inventory on web. "
+"Developers who don’t implement app-ads.txt are likely to be removed from "
+"DSPs’ pool of targeted media."
+msgstr ""
+"Λήψη εσόδων από δαπάνες επωνυμίας. Οι επωνυμίες αντιπροσωπεύουν σήμερα μια "
+"αυξανόμενη και δυνητικά σημαντική ευκαιρία εσόδων για προγραμματιστές. "
+"Μπορούμε να αναμένουμε ότι πολλά DSP που συμμορφώνονται με το app-ads.txt "
+"δεν θα αγοράσουν απόθεμα που λείπουν από το αρχείο app-ads.txt, ακριβώς όπως "
+"δεν θα αγοράσουν μη εξουσιοδοτημένο απόθεμα στον ιστό. Οι προγραμματιστές "
+"που δεν εφαρμόζουν app-ads.txt είναι πιθανό να καταργηθούν από το σύνολο "
+"στοχευμένων μέσων DSP."
+
+#: inc/seo-recommendations.php:48 inc/seo-recommendations.php:50
+msgid "Check my links"
+msgstr "Ελέγξτε τους συνδέσμους μου"
+
+#: app-ads-txt-admin.php:239
+msgid ""
+"Checking this box will remove ALL settings (app-ads.txt & ads.txt) when you "
+"deactivate plugin."
+msgstr ""
+"Αν επιλέξετε αυτό το πλαίσιο, θα καταργηθούν ΟΛΕΣ οι ρυθμίσεις (app-ads.txt "
+"& ads.txt) όταν απενεργοποιήσετε την προσθήκη."
+
+#: inc/recommendations.php:23
+msgid ""
+"Compress and optimize (or optimise) image files, improve performance and "
+"boost your SEO rank using Smush WordPress image compression and optimization."
+msgstr ""
+"Συμπίεση και βελτιστοποίηση (ή βελτιστοποίηση) αρχείων εικόνας, βελτίωση της "
+"απόδοσης και ενίσχυση της κατάταξης SEO με τη χρήση συμπίεσης και "
+"βελτιστοποίησης εικόνας Smush WordPress."
+
+#: inc/faq.php:37
+msgid ""
+"Concretely, publishers drop a text file on their web servers that lists all "
+"of the companies that are authorized to sell the publishers’ inventory. "
+"Similarly, programmatic platforms also integrate ads.txt files to confirm "
+"which publishers’ inventory they are authorized to sell. This allows buyers "
+"to check the validity of the inventory they purchase."
+msgstr ""
+"Συγκεκριμένα, οι εκδότες ρίχνουν ένα αρχείο κειμένου στους διακομιστές ιστού "
+"τους που απαριθμούν όλες τις εταιρείες που είναι εξουσιοδοτημένες να πωλούν "
+"το απόθεμα των εκδοτών. Ομοίως, οι πλατφόρμες μέσω προγραμματισμού "
+"ενσωματώνουν επίσης αρχεία ads.txt για να επιβεβαιώσουν το απόθεμα των "
+"εκδοτών που έχουν την άδεια να πουλήσουν. Αυτό επιτρέπει στους αγοραστές να "
+"ελέγχουν την εγκυρότητα του αποθέματος που αγοράζουν."
+
+#: inc/seo-recommendations.php:44
+msgid "Dead links"
+msgstr "Νεκροί σύνδεσμοι"
+
+#: inc/seo-recommendations.php:45
+msgid ""
+"Dead links, 404 errors, 503 errors, ... all bad links that could hurt your "
+"website ranking."
+msgstr ""
+"Νεκροί σύνδεσμοι, 404 σφάλματα, 503 σφάλματα, ... όλοι οι κακοί σύνδεσμοι "
+"που θα μπορούσαν να βλάψουν την κατάταξη του ιστότοπού σας."
+
+#: app-ads-txt-admin.php:226
+msgid "Delete Settings"
+msgstr "Διαγραφή ρυθμίσεων"
+
+#: inc/recommendations.php:69 inc/recommendations.php:175
+msgid "Download"
+msgstr "Κατεβάστε"
+
+#: inc/faq.php:71
+msgid ""
+"Fighting ad fraud. Bad actors may forge apps that impersonate legitimate "
+"apps, and mislead DSPs to spend brand budgets on their forged inventory. "
+"Legitimate developers end up losing out on ad revenue that was originally "
+"intended for them. App-ads.txt blocks unauthorized developer impersonations "
+"and minimizes instances of fraud that ultimately hurt developers’ bottom "
+"line."
+msgstr ""
+"Καταπολέμηση της απάτης διαφημίσεων. Οι κακοί ηθοποιοί ενδέχεται να "
+"σφυρηλατήσουν εφαρμογές που πλαστοπροσωπούν νόμιμες εφαρμογές και να "
+"παραπλανήσουν τους DSP για να δαπανήσουν προϋπολογισμούς επωνυμίας στο "
+"πλαστό απόθεμά τους. Οι νόμιμοι προγραμματιστές καταλήγουν να χάνουν τα "
+"έσοδα από διαφημίσεις που προορίζονταν αρχικά για αυτούς. Το app-ads.txt "
+"αποκλείει μη εξουσιοδοτημένες πλαστοπροσωπίες προγραμματιστών και "
+"ελαχιστοποιεί τις περιπτώσεις απάτης που έβλαψαν τελικά την κατώτατη γραμμή."
+
+#: inc/seo-recommendations.php:59
+msgid ""
+"Get a simple and professional-quality SEO audit of your website for FREE"
+msgstr "Λάβετε έναν απλό και επαγγελματικό έλεγχο SEO στον ιστότοπό σας ΔΩΡΕΑΝ"
+
+#: inc/sidebar.php:14
+msgid "Get BIALTY by Pagup &raquo;"
+msgstr "Λήψη BIALTY από Pagup »"
+
+#: inc/seo-recommendations.php:13
+msgid ""
+"Get insight on how well your site loads with actionable recommendations on "
+"how to optimize it."
+msgstr ""
+"Λάβετε πληροφορίες σχετικά με το πόσο καλά φορτώνεται ο ιστότοπός σας με "
+"προτάσεις με δυνατότητα δράσης σχετικά με τον τρόπο βελτιστοποίησης."
+
+#: inc/sidebar.php:20
+msgid "Get Mobilook by Pagup &raquo;"
+msgstr "Λήψη Mobilook από την Pagup »"
+
+#: inc/recommendations.php:5
+msgid ""
+"Get Schema.org structured data for all pages, posts, categories and profile "
+"pages on activation."
+msgstr ""
+"Λάβετε δομημένα δεδομένα Schema.org για όλες τις σελίδες, αναρτήσεις, "
+"κατηγορίες και σελίδες προφίλ κατά την ενεργοποίηση."
+
+#: inc/seo-recommendations.php:26
+msgid "Google Ranking"
+msgstr "Κατάταξη Google"
+
+#: inc/recommendations.php:129
+msgid "Google Reviews Widget By RichPlugins"
+msgstr "Widget Κριτικές Google από RichPlugins"
+
+#: inc/recommendations.php:130
+msgid ""
+"Google Reviews Widget show Google Places Reviews on your WordPress website "
+"to increase user confidence and SEO."
+msgstr ""
+"Το Widget Κριτικές Google εμφανίζει τις Κριτικές Google Places στον ιστότοπό "
+"σας στο WordPress για να αυξήσει την εμπιστοσύνη των χρηστών και το SEO."
+
+#: inc/seo-recommendations.php:82
+msgid "Google Search Console"
+msgstr "Κονσόλα αναζήτησης Google"
+
+#: app-ads-txt.php:86
+#, php-format
+msgid ""
+"Hey %1$s, %2$s Click on Allow & Continue to start optimizing your app-ads."
+"txt and ads-txt files. %2$s Never miss an important update -- opt-in to our "
+"security and feature updates notifications. %2$s See you on the other side."
+msgstr ""
+"Γεια σας% 1 $ s,% 2 $ s Κάντε κλικ στο Αποδοχή & Συνέχεια για να ξεκινήσετε "
+"τη βελτιστοποίηση των αρχείων app-ads.txt και ads-txt. % 2 $ s Μην χάσετε "
+"ποτέ μια σημαντική ενημέρωση - επιλέξτε τις ειδοποιήσεις ενημερώσεων "
+"ασφαλείας και λειτουργιών. % 2 $ s Θα σας πούμε από την άλλη πλευρά."
+
+#: inc/faq.php:60
+msgid "How app-ads.txt can benefit your mobile app?"
+msgstr "Πώς το app-ads.txt μπορεί να ωφελήσει την εφαρμογή σας για κινητά;"
+
+#: inc/faq.php:84
+msgid ""
+"How does app-ads.txt help mobile app developers capture more ad revenue?"
+msgstr ""
+"Πώς βοηθά το app-ads.txt στους προγραμματιστές εφαρμογών για κινητά να "
+"αποκομίσουν περισσότερα έσοδα από διαφημίσεις;"
+
+#. Author URI of the plugin
+msgid "https://pagup.com/"
+msgstr "https://pagup.com/"
+
+#: app-ads-txt-admin.php:260
+msgid "If app-ads.txt is still not working. Please try to save Settings >"
+msgstr ""
+"Εάν το app-ads.txt εξακολουθεί να μην λειτουργεί. Δοκιμάστε να αποθηκεύσετε "
+"τις Ρυθμίσεις>"
+
+#: inc/recommendations.php:35
+msgid ""
+"Improve your WordPress SEO: Write better content and have a fully optimized "
+"WordPress site using the Yoast SEO plugin."
+msgstr ""
+"Βελτιώστε το WordPress SEO σας: Γράψτε καλύτερο περιεχόμενο και αποκτήστε "
+"έναν πλήρως βελτιστοποιημένο ιστότοπο WordPress χρησιμοποιώντας το πρόσθετο "
+"Yoast SEO."
+
+#: inc/faq.php:9
+msgid ""
+"In June 2017, the IAB (The Interactive Advertising Bureau Tech Lab) launched "
+"ads.txt, a file enabling web publishers to designate authorized digital "
+"sellers of their ad inventory. Ads.txt helped the industry distinguish real "
+"supply sources from fake ones, and after its immediate success and adoption, "
+"the next logical step was to extend the reach of ads.txt into the mobile app "
+"ecosystem. App-ads.txt is the mobile in-app equivalent of this specification,"
+" which mobile publishers can implement."
+msgstr ""
+"Τον Ιούνιο του 2017, το IAB (The Interactive Advertising Bureau Tech Lab) "
+"κυκλοφόρησε το ads.txt, ένα αρχείο που επιτρέπει στους εκδότες ιστού να "
+"ορίσουν εξουσιοδοτημένους ψηφιακούς πωλητές του αποθέματος διαφημίσεων. Το "
+"Ads.txt βοήθησε τη βιομηχανία να διακρίνει τις πραγματικές πηγές εφοδιασμού "
+"από τις ψεύτικες και μετά την άμεση επιτυχία και υιοθέτησή της, το επόμενο "
+"λογικό βήμα ήταν να επεκταθεί η εμβέλεια του ads.txt στο οικοσύστημα "
+"εφαρμογών για κινητά. Το app-ads.txt είναι το ισοδύναμο εντός εφαρμογής για "
+"κινητά αυτής της προδιαγραφής, το οποίο μπορούν να εφαρμόσουν οι εκδότες για "
+"κινητά."
+
+#: inc/recommendations.php:100
+msgid ""
+"Increase engagement and drive more repeat traffic to your WordPress site "
+"with desktop push notifications. Now supporting Chrome, Firefox, and Safari."
+msgstr ""
+"Αυξήστε την αφοσίωση και αυξήστε την επαναλαμβανόμενη επισκεψιμότητα στον "
+"ιστότοπό σας WordPress με ειδοποιήσεις push στην επιφάνεια εργασίας. Τώρα "
+"υποστηρίζουμε τα Chrome, Firefox και Safari."
+
+#: inc/seo-recommendations.php:88
+msgid "Index your Website (Bing)"
+msgstr "Ευρετήριο του ιστότοπού σας (Bing)"
+
+#: inc/seo-recommendations.php:80
+msgid "Index Your Website (Google)"
+msgstr "Ευρετήριο του ιστότοπού σας (Google)"
+
+#: inc/sidebar.php:19
+msgid ""
+"Instant mobile view of website (pages, posts, products) for responsive web "
+"design on phone (+ dualscreen). This plugin also offers helpful tools on "
+"each page, such as Facebook Debugger, LinkedIn Post Inspector, and Google "
+"Mobile-Friendly Test Tool."
+msgstr ""
+"Άμεση προβολή ιστότοπου για κινητά (σελίδες, δημοσιεύσεις, προϊόντα) για "
+"ανταποκρίσιμη σχεδίαση ιστού στο τηλέφωνο (+ διπλή οθόνη). Αυτή η προσθήκη "
+"προσφέρει επίσης χρήσιμα εργαλεία σε κάθε σελίδα, όπως το Facebook Debugger, "
+"το LinkedIn Post Inspector και το Google Mobile-Friendly Test Tool."
+
+#: inc/sidebar.php:18
+msgid "Instant Mobile Viewer"
+msgstr "Άμεσο πρόγραμμα προβολής για κινητά"
+
+#: inc/faq.php:33
+msgid ""
+"It is an IAB-approved text file that aims to prevent unauthorized inventory "
+"sales. In a fragmented advertising ecosystem, ads.txt serves as a method of "
+"improving transparency for demand side platforms. In fact, DSPs aren’t "
+"buying web supply that isn’t authorized via ads.txt."
+msgstr ""
+"Πρόκειται για ένα αρχείο κειμένου εγκεκριμένο από το IAB και στοχεύει στην "
+"αποτροπή μη εξουσιοδοτημένων πωλήσεων αποθέματος. Σε ένα κατακερματισμένο "
+"οικοσύστημα διαφήμισης, το ads.txt χρησιμεύει ως μέθοδος βελτίωσης της "
+"διαφάνειας για πλατφόρμες από πλευράς ζήτησης. Στην πραγματικότητα, οι DSP "
+"δεν αγοράζουν προμήθεια ιστού που δεν είναι εξουσιοδοτημένη μέσω του ads.txt."
+
+#: app-ads-txt-admin.php:278
+msgid ""
+"Just a sample for copy-paste purpose. Make sure to change itaccordingaly "
+"inside custom rules box."
+msgstr ""
+"Απλώς ένα δείγμα για αντιγραφή-επικόλληση. Φροντίστε να το αλλάξετε σύμφωνα "
+"με το πλαίσιο προσαρμοσμένων κανόνων."
+
+#: inc/seo-recommendations.php:12
+msgid "Loading performance"
+msgstr "Φόρτωση απόδοσης"
+
+#: app-ads-txt-admin.php:268
+msgid ""
+"Make sure search engines can crawl your .txt files. Optimize your robots.txt "
+"with"
+msgstr ""
+"Βεβαιωθείτε ότι οι μηχανές αναζήτησης μπορούν να ανιχνεύσουν τα αρχεία .txt. "
+"Βελτιστοποιήστε το robots.txt με"
+
+#: inc/seo-recommendations.php:100
+msgid "MASS PING"
+msgstr "ΠΙΣΩ ΜΑΣ"
+
+#: inc/seo-recommendations.php:101
+msgid ""
+"Mass ping is a free online tool that easily promotes your blog or website on "
+"70 different search engines."
+msgstr ""
+"Το Mass ping είναι ένα δωρεάν διαδικτυακό εργαλείο που προωθεί εύκολα το "
+"ιστολόγιο ή τον ιστότοπό σας σε 70 διαφορετικές μηχανές αναζήτησης."
+
+#: inc/faq.php:41
+msgid "More details here : https://youtu.be/T_4uK2HnOy0"
+msgstr "Περισσότερες λεπτομέρειες εδώ: https://youtu.be/T_4uK2HnOy0"
+
+#: inc/faq.php:49
+msgid "My .txt file doesn’t show up at all."
+msgstr "Το αρχείο .txt δεν εμφανίζεται καθόλου."
+
+#: inc/seo-recommendations.php:30 inc/seo-recommendations.php:32
+msgid "My Google Ranking"
+msgstr "Η κατάταξή μου στο Google"
+
+#: inc/seo-recommendations.php:62 inc/seo-recommendations.php:64
+msgid "My SEO profile"
+msgstr "Το προφίλ μου στο SEO"
+
+#: inc/recommendations.php:123
+msgid "Nofollow for external link By CyberNetikz"
+msgstr "Nofollow για εξωτερικό σύνδεσμο Από CyberNetikz"
+
+#: app-ads-txt-admin.php:257
+msgid ""
+"Note: app-ads.txt & ads.txt Manager creates virtual app-ads.txt & ads.txt "
+"files. Please make sure that your permalinks are enabled and there is no "
+"physical app-ads.txt & ads.txt file on your server. If you're using any kind "
+"of cache then make sure to clear it after Saving Changes. Please read FAQ "
+"for more details."
+msgstr ""
+"Σημείωση: ο διαχειριστής app-ads.txt & ads.txt δημιουργεί εικονικά αρχεία "
+"app-ads.txt & ads.txt. Βεβαιωθείτε ότι οι μόνιμοι σύνδεσμοι είναι "
+"ενεργοποιημένοι και ότι δεν υπάρχει φυσικό αρχείο app-ads.txt & ads.txt στον "
+"διακομιστή σας. Εάν χρησιμοποιείτε οποιοδήποτε είδος κρυφής μνήμης, "
+"βεβαιωθείτε ότι έχετε καθαρίσει μετά την αποθήκευση αλλαγών. Διαβάστε τις "
+"Συχνές Ερωτήσεις για περισσότερες λεπτομέρειες."
+
+#: admin-ui-inc/ads-txt-inc.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your ads.txt</a>"
+msgstr ""
+"Μόλις εφαρμοστούν οι ρυθμίσεις σας, ελέγξτε τα αρχεία ads.txt εδώ. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Το ads.txt σας</a>"
+
+#: admin-ui-inc/app-ads-txt-inc.php:5 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your app-ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your app-ads.txt</a>"
+msgstr ""
+"Μόλις εφαρμοστούν οι ρυθμίσεις σας, ελέγξτε τα αρχεία app-ads.txt εδώ. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Το app-ads.txt σας</a>"
+
+#: inc/recommendations.php:99
+msgid "OneSignal – Free Web Push Notifications By OneSignal"
+msgstr "OneSignal - Ειδοποιήσεις Δωρεάν Web Push από το OneSignal"
+
+#: inc/sidebar.php:12
+msgid "Optimize your ALT TEXT"
+msgstr "Βελτιστοποιήστε το ALT TEXT"
+
+#: inc/sidebar.php:7
+msgid ""
+"Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
+"ranking on search engines."
+msgstr ""
+"Βελτιστοποιήστε το Robots.txt με το Better Robots.txt (κατασκευασμένο από "
+"την PAGUP) & Ενισχύστε την κατάταξή σας στις μηχανές αναζήτησης."
+
+#. Author of the plugin
+msgid "Pagup"
+msgstr "Pagup"
+
+#: app-ads-txt-admin.php:261
+msgid "Permalinks"
+msgstr "Μόνιμοι σύνδεσμοι"
+
+#: inc/seo-recommendations.php:102
+msgid "Ping my links"
+msgstr "Ping τους συνδέσμους μου"
+
+#: inc/faq.php:53
+msgid ""
+"Please clear your browser cache and reload the ads.txt OR app-ads.txt link."
+msgstr ""
+"Εκκαθαρίστε την προσωρινή μνήμη του προγράμματος περιήγησής σας και φορτώστε "
+"ξανά το σύνδεσμο ads.txt Ή app-ads.txt."
+
+#: inc/seo-recommendations.php:5
+msgid "Premium Feature"
+msgstr "Premium χαρακτηριστικό"
+
+#: inc/recommendations.php:111
+msgid "Recart - Abandoned Cart Toolbox"
+msgstr "Recart - Εγκαταλειμμένη εργαλειοθήκη καλαθιού"
+
+#: inc/recommendations.php:112
+msgid ""
+"Recart Messenger Marketing and Abandoned Cart Toolbox is a All in one cart "
+"recovery marketing tools for ecommerce solution"
+msgstr ""
+"Το Recart Messenger Marketing και το Abandoned Cart Toolbox είναι ένα "
+"εργαλείο μάρκετινγκ ανάκτησης Όλα σε ένα για λύση ηλεκτρονικού εμπορίου"
+
+#: app-ads-txt-admin.php:248
+msgid "Save Changes"
+msgstr "Αποθήκευσε τις αλλαγές"
+
+#: inc/recommendations.php:4
+msgid "Schema App Structured Data by Hunch Manifest"
+msgstr "Δομημένα δεδομένα Schema App από το Hunch Manifest"
+
+#: inc/seo-recommendations.php:58
+msgid "SEO Score"
+msgstr "Σκορ SEO"
+
+#: inc/seo-recommendations.php:1
+msgid "SEO tools recommended by App-Ads.txt & Ads.txt Manager:"
+msgstr "Εργαλεία SEO που προτείνονται από το App-Ads.txt & Ads.txt Manager:"
+
+#: app-ads-txt-admin.php:139
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: app-ads-txt-admin.php:126
+msgid "Settings saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#: inc/recommendations.php:88
+msgid ""
+"Share buttons from AddThis help you get more traffic from sharing through "
+"social networks."
+msgstr ""
+"Κοινή χρήση κουμπιών από το AddThis σας βοηθά να έχετε περισσότερη "
+"επισκεψιμότητα από την κοινή χρήση μέσω κοινωνικών δικτύων."
+
+#: inc/notices.php:13
+#, php-format
+msgid ""
+"Show support for App-ads.txt & Ads.txt Manager with a 5-star rating » <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr ""
+"Εμφάνιση υποστήριξης για το App-ads.txt &amp; Ads.txt Manager με βαθμολογία "
+"5 αστέρων » <a href=\"%s\" target=\"_blank\">Κάντε κλικ εδώ</a>"
+
+#: inc/recommendations.php:22
+msgid "Smush Image Compression and Optimization By WPMU DEV"
+msgstr "Συμπίεση και βελτιστοποίηση εικόνων Smush από WPMU DEV"
+
+#: inc/faq.php:96
+msgid ""
+"Source : https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+msgstr ""
+"Πηγή: https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-text-"
+" Επισκόπηση"
+
+#: inc/faq.php:75
+msgid "Source : https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+msgstr "Πηγή: https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+
+#: inc/recommendations.php:118 inc/recommendations.php:136
+msgid ""
+"Speed up your WordPress website, more traffic, conversions and money with WP "
+"Rocket caching plugin."
+msgstr ""
+"Επιταχύνετε τον ιστότοπό σας στο WordPress, περισσότερη επισκεψιμότητα, "
+"μετατροπές και χρήματα με το πρόσθετο WP Rocket caching."
+
+#: inc/seo-recommendations.php:89
+msgid ""
+"Submit your website to Bing Webmaster tool and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"Υποβάλετε τον ιστότοπό σας στο εργαλείο Bing Webmaster και απολαύστε το "
+"πραγματικό όφελος του Better Robots.txt"
+
+#: inc/seo-recommendations.php:81
+msgid ""
+"Submit your website to Google Search Console and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"Υποβάλετε τον ιστότοπό σας στο Google Search Console και απολαύστε το "
+"πραγματικό όφελος του Better Robots.txt"
+
+#: inc/faq.php:17
+msgid ""
+"Thanks to app-ads.txt file, Mobile and OTT app publishers can list the ad "
+"tech vendors that are authorized to sell or resell their ad inventory, and "
+"programmatic ad buyers can check these lists to make sure that a company "
+"claiming to offer an app’s inventory is actually able to sell the app’s "
+"inventory."
+msgstr ""
+"Χάρη στο αρχείο app-ads.txt, οι εκδότες εφαρμογών για κινητά και OTT μπορούν "
+"να παραθέσουν τους προμηθευτές τεχνολογίας διαφημίσεων που είναι "
+"εξουσιοδοτημένοι να πουλήσουν ή να μεταπωλήσουν το απόθεμα διαφημίσεων και "
+"οι αγοραστές διαφημίσεων μέσω προγραμματισμού μπορούν να ελέγξουν αυτές τις "
+"λίστες για να βεβαιωθούν ότι μια εταιρεία που ισχυρίζεται ότι προσφέρει μια "
+"εφαρμογή Το απόθεμα είναι πραγματικά σε θέση να πουλήσει το απόθεμα της "
+"εφαρμογής."
+
+#: inc/faq.php:13
+msgid ""
+"The app-ads.txt file is the version of ads.txt for mobile in-app and OTT "
+"advertising, to combat bad actors that disguise themselves as another "
+"company’s app in order to siphon the money that advertisers are spending on "
+"mobile and OTT advertising. App-ads.txt files are formatted the same as ads."
+"txt files (view IAB FAQ for ads.txt and app-ads.txt)."
+msgstr ""
+"Το αρχείο app-ads.txt είναι η έκδοση του ads.txt για διαφημίσεις εντός "
+"εφαρμογής και OTT για κινητά, για την καταπολέμηση κακών παραγόντων που "
+"μεταμφιέζονται ως εφαρμογή μιας άλλης εταιρείας, προκειμένου να εισπράξουν "
+"τα χρήματα που ξοδεύουν οι διαφημιζόμενοι σε διαφημίσεις για κινητά και OTT. "
+"Τα αρχεία app-ads.txt έχουν την ίδια μορφή με τα αρχεία ads.txt (δείτε τις "
+"Συχνές ερωτήσεις IAB για ads.txt και app-ads.txt)."
+
+#: admin-ui-inc/ads-txt-inc.php:34 admin-ui-inc/ads-txt-inc.php:99 
+#: admin-ui-inc/app-ads-txt-inc.php:34 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:35 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:99
+msgid ""
+"The canonical domain name of the SSP, Exchange, system that bidders connect "
+"to (they publishes a document detailing what domain name to use)."
+msgstr ""
+"Το κανονικό όνομα τομέα του συστήματος SSP, Exchange με το οποίο συνδέονται "
+"οι πλειοδότες (δημοσιεύει ένα έγγραφο που περιγράφει λεπτομερώς το όνομα "
+"τομέα που θα χρησιμοποιηθεί)."
+
+#: inc/faq.php:64
+msgid "There are two main benefits for app developers."
+msgstr "Υπάρχουν δύο βασικά οφέλη για τους προγραμματιστές εφαρμογών."
+
+#: inc/faq.php:21
+msgid "This file opens the door for a new level of transparency."
+msgstr "Αυτό το αρχείο ανοίγει την πόρτα για ένα νέο επίπεδο διαφάνειας."
+
+#: inc/recommendations.php:43
+msgid "Top plugins for SEO performance:"
+msgstr "Κορυφαίες προσθήκες για απόδοση SEO:"
+
+#: inc/sidebar.php:8
+msgid "Try Better Robots.txt &raquo;"
+msgstr "Δοκιμάστε το Better Robots.txt »"
+
+#: inc/recommendations.php:186
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\">PRO version</a> to UNLOCK 12 additional awesome "
+"plugins recommendations for SEO & Conversion performance"
+msgstr ""
+"Αναβαθμίστε την <a href=\"%s\">έκδοση PRO</a> σε UNLOCK 12 επιπλέον "
+"καταπληκτικές προτάσεις προσθηκών για απόδοση SEO και μετατροπής"
+
+#: inc/recommendations.php:192
+msgid ""
+"Want to suggest another plugin ? ... Send us a message at support@better-"
+"robots.com"
+msgstr ""
+"Θέλετε να προτείνετε άλλο πρόσθετο; ... Στείλτε μας ένα μήνυμα στη διεύθυνση "
+"support@better-robots.com"
+
+#: app-ads-txt-admin.php:216
+msgid "Warning: make sure to clear your cache after saving changes."
+msgstr ""
+"Προειδοποίηση: φροντίστε να εκκαθαρίσετε την προσωρινή μνήμη σας μετά την "
+"αποθήκευση των αλλαγών."
+
+#: inc/faq.php:29
+msgid "What’s ads.txt ?"
+msgstr "Τι είναι το ads.txt;"
+
+#: inc/faq.php:5
+msgid "What’s app-ads.txt?"
+msgstr "Τι είναι το app-ads.txt;"
+
+#: inc/recommendations.php:87
+msgid "WordPress Share Buttons Plugin – AddThis By The AddThis Team"
+msgstr ""
+"Πρόσθετο κουμπιών κοινής χρήσης WordPress - AddThis από την ομάδα AddThis"
+
+#: inc/recommendations.php:135
+msgid "WP Chatbot for facebook Messenger customer chat By HoliThemes"
+msgstr "WP Chatbot για συνομιλία πελάτη στο Facebook Messenger Από HoliThemes"
+
+#: inc/recommendations.php:141
+msgid "WP Google My Business Auto Publish By Martin Gibson"
+msgstr "WP Google My Business Αυτόματη δημοσίευση από τον Martin Gibson"
+
+#: inc/recommendations.php:142
+msgid ""
+"WP Google My Business Auto Publish lets you publish posts, custom posts and "
+"pages automatically from WordPress to your Google My Business page."
+msgstr ""
+"Το WP Google My Business Auto Publish σάς επιτρέπει να δημοσιεύετε "
+"αναρτήσεις, προσαρμοσμένες αναρτήσεις και σελίδες αυτόματα από το WordPress "
+"στη σελίδα σας στο Google My Business."
+
+#: inc/recommendations.php:147
+msgid "WP Search Console"
+msgstr "WP Search Console"
+
+#: inc/recommendations.php:81
+msgid "WP-Optimize by David Anderson, Ruhani Rabin, Team Updraft"
+msgstr "WP-Optimize από τους David Anderson, Ruhani Rabin, Team Updraft"
+
+#: inc/recommendations.php:82
+msgid ""
+"WP-Optimize is WordPress's most-installed optimization plugin. With it, you "
+"can clean up your database easily and safely, without manual queries."
+msgstr ""
+"Το WP-Optimize είναι το πιο εγκατεστημένο plugin βελτιστοποίησης του "
+"WordPress. Με αυτό, μπορείτε να καθαρίσετε τη βάση δεδομένων σας εύκολα και "
+"με ασφάλεια, χωρίς χειροκίνητα ερωτήματα."
+
+#: inc/recommendations.php:117
+msgid "Wp-Roket - Probably the best caching Plugin for WordPress"
+msgstr "Wp-Roket - Ίσως το καλύτερο Plugin caching για WordPress"
+
+#: inc/recommendations.php:94
+msgid ""
+"WP-SpamShield is a leading WordPress anti-spam plugin that stops spam "
+"instantly and improves your site's security. "
+msgstr ""
+"Το WP-SpamShield είναι μια κορυφαία προσθήκη anti-spam του WordPress που "
+"σταματά αμέσως το spam και βελτιώνει την ασφάλεια του ιστότοπού σας."
+
+#: inc/recommendations.php:93
+msgid "WP-SpamShield WordPress Anti-Spam Plugin by Red Sand Media Group"
+msgstr "WP-SpamShield WordPress Anti-Spam Plugin από την Red Sand Media Group"
+
+#: inc/recommendations.php:105
+msgid "WPfomify - Social Proof & FOMO Marketing Plugin"
+msgstr "WPfomify - Πρόγραμμα κοινωνικής απόδειξης & μάρκετινγκ FOMO"
+
+#: inc/recommendations.php:106
+msgid ""
+"WPfomify increases conversion rates on your websites by displaying recent "
+"interaction, sales and sign-ups"
+msgstr ""
+"Το WPfomify αυξάνει τα ποσοστά μετατροπής στους ιστότοπούς σας εμφανίζοντας "
+"πρόσφατες αλληλεπιδράσεις, πωλήσεις και εγγραφές"
+
+#: inc/recommendations.php:10
+msgid "Yasr – Yet Another Stars Rating by Dario Curvino"
+msgstr "Yasr - Ακόμα μια άλλη βαθμολογία από τον Dario Curvino"
+
+#: inc/recommendations.php:34
+msgid "Yoast SEO By Team Yoast"
+msgstr "Yoast SEO ανά ομάδα Yoast"
+
+#: admin-ui-inc/ads-txt-inc.php:54 admin-ui-inc/ads-txt-inc.php:119 
+#: admin-ui-inc/app-ads-txt-inc.php:54
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your ads-txt.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"Οι συνεργάτες άμεσης ζήτησης θα πρέπει να αναφέρονται ως \"άμεσο\". Εάν οι "
+"συνεργάτες σας χρησιμοποιούν μεταπωλητές τρίτων για να πουλήσουν το απόθεμά "
+"σας, τέτοιοι πάροχοι θα πρέπει να αναφέρονται ως \"μεταπωλητής\". Σε κάθε "
+"περίπτωση, δεν πρέπει να προσθέσετε κανένα πάροχο στο αρχείο ads-txt.txt, "
+"εκτός εάν εσείς ή ο σύντροφός σας έχετε άμεση σχέση μαζί τους."
+
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:55 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:119
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your app-ads.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"Οι συνεργάτες άμεσης ζήτησης θα πρέπει να αναφέρονται ως \"άμεσο\". Εάν οι "
+"συνεργάτες σας χρησιμοποιούν μεταπωλητές τρίτων για να πουλήσουν το απόθεμά "
+"σας, τέτοιοι πάροχοι θα πρέπει να αναφέρονται ως \"μεταπωλητής\". Σε κάθε "
+"περίπτωση, δεν πρέπει να προσθέσετε κανένα πάροχο στο αρχείο app-ads.txt, "
+"εκτός εάν εσείς ή ο σύντροφός σας έχετε άμεση σχέση μαζί τους."

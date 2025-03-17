@@ -1,0 +1,855 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ads.txt & App-ads.txt Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-26 20:31+0000\n"
+"PO-Revision-Date: 2021-05-27 20:53+0000\n"
+"Last-Translator: Gautier Dorval\n"
+"Language-Team: Indonesian\n"
+"Language: id-ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#: admin-ui-inc/ads-txt-inc.php:44 admin-ui-inc/ads-txt-inc.php:109 
+#: admin-ui-inc/app-ads-txt-inc.php:44 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:45 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:109
+msgid ""
+" This must contain the same value used in transactions (i.e. OpenRTB bid "
+"requests) in the field specified by the SSP/exchange (For OpenRTB = "
+"publisher ID | For OpenDirect = publisher’s organization ID)."
+msgstr ""
+" Ini harus berisi nilai yang sama yang digunakan dalam transaksi (yaitu "
+"permintaan tawaran OpenRTB) di bidang yang ditentukan oleh SSP / bursa "
+"(Untuk OpenRTB = ID penayang | Untuk OpenDirect = ID organisasi penayang)."
+
+#: inc/recommendations.php:28
+msgid "404 to 301 By Joel James"
+msgstr "404 sampai 301 Oleh Joel James"
+
+#: app-ads-txt-admin.php:80
+#, php-format
+msgid "<a href=\"%s\">Get Pro version</a> to enable"
+msgstr "<a href=\"%s\">Dapatkan versi Pro</a> untuk mengaktifkan"
+
+#: inc/recommendations.php:148
+msgid ""
+"A new way to boost your marketing content. Writing Web Content that is "
+"ranking like those of SEO Experts."
+msgstr ""
+"Cara baru untuk meningkatkan konten pemasaran Anda. Menulis Konten Web yang "
+"peringkatnya seperti Pakar SEO."
+
+#: inc/faq.php:92
+msgid ""
+"Ad fraud prevention. App-ads.txt blocks unauthorized developers who "
+"impersonate legitimate apps and mislead DSPs into spending brand budgets on "
+"fake inventory. With fraud instances minimized, authentic developers can "
+"retain more of the ad revenue from inventory genuinely targeted to their app."
+msgstr ""
+"Pencegahan penipuan iklan. App-ads.txt memblokir developer tidak resmi yang "
+"meniru identitas aplikasi yang sah dan menyesatkan DSP agar membelanjakan "
+"anggaran merek untuk inventaris palsu. Dengan meminimalkan kasus penipuan, "
+"pengembang asli dapat mempertahankan lebih banyak pendapatan iklan dari "
+"inventaris yang benar-benar ditargetkan ke aplikasi mereka."
+
+#: admin-ui-inc/ads-txt-inc.php:162 admin-ui-inc/app-ads-txt-inc.php:95 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:162
+msgid "Add more custom rules if you need them, otherwise, leave it blank."
+msgstr ""
+"Tambahkan lebih banyak aturan kustom jika Anda membutuhkannya, jika tidak, "
+"biarkan kosong."
+
+#: admin-ui-inc/ads-txt-inc.php:15
+msgid "Add rules for Ads.txt, one line at a time. Then save"
+msgstr ""
+"Tambahkan aturan untuk Ads.txt, satu baris dalam satu waktu. Kemudian simpan"
+
+#: admin-ui-inc/app-ads-txt-inc.php:15 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:15
+msgid "Add rules for App-Ads.txt, one line at a time. Then save"
+msgstr ""
+"Tambahkan aturan untuk App-Ads.txt, satu baris dalam satu waktu. Kemudian "
+"simpan"
+
+#. Name of the plugin
+msgid "Ads.txt & App-ads.txt Manager"
+msgstr "Manajer Ads.txt & App-ads.txt"
+
+#: inc/recommendations.php:16
+msgid "Akismet Anti-Spam by Automattic"
+msgstr "Akismet Anti-Spam oleh Automattic"
+
+#: inc/recommendations.php:17
+msgid ""
+"Akismet checks your comments and contact form submissions against our global "
+"database of spam to protect you and your site from malicious content."
+msgstr ""
+"Akismet memeriksa komentar dan pengiriman formulir kontak Anda terhadap "
+"basis data spam global kami untuk melindungi Anda dan situs Anda dari konten "
+"berbahaya."
+
+#: admin-ui-inc/ads-txt-inc.php:68 admin-ui-inc/ads-txt-inc.php:133 
+#: admin-ui-inc/app-ads-txt-inc.php:68 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:69 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:133
+msgid ""
+"An ID that uniquely identifies the advertising system within a certification "
+"authority."
+msgstr ""
+"ID yang secara unik mengidentifikasi sistem periklanan dalam otoritas "
+"sertifikasi."
+
+#: inc/seo-recommendations.php:16 inc/seo-recommendations.php:18
+msgid "Analyse my site"
+msgstr "Analisis situs saya"
+
+#: inc/seo-recommendations.php:27
+msgid ""
+"Analyse your Google ranking with keywords, traffic and more (REGISTER TO GET "
+"10 FREE REQUESTS)"
+msgstr ""
+"Analisis peringkat Google Anda dengan kata kunci, lalu lintas, dan lainnya "
+"(DAFTAR UNTUK MENDAPATKAN 10 PERMINTAAN GRATIS)"
+
+#: admin-ui-inc/app-ads-txt-inc.php:19
+msgid "App-Ads.txt"
+msgstr "App-Ads.txt"
+
+#. Description of the plugin
+msgid ""
+"App-ads.txt & Ads.txt manager allows you to create, manage & publish your "
+"app-ads.txt & ads.txt files from your WordPress dashboard."
+msgstr ""
+"App-ads.txt & Ads.txt manager memungkinkan Anda membuat, mengelola & "
+"memublikasikan file app-ads.txt & ads.txt dari dasbor WordPress Anda."
+
+#: inc/recommendations.php:49
+msgid ""
+"App-Ads.txt & Ads.txt Manager by Pagup provides a selection of plugins "
+"allowing to keep your website healthy, get better results on Search engines "
+"and increase your sales for ecommerce solutions."
+msgstr ""
+"App-Ads.txt & Ads.txt Manager by Pagup menyediakan pilihan plugin yang "
+"memungkinkan situs web Anda tetap sehat, mendapatkan hasil yang lebih baik "
+"di Mesin telusur, dan meningkatkan penjualan Anda untuk solusi e-niaga."
+
+#: inc/faq.php:88
+msgid ""
+"Authorized in-app inventory. An ever-increasing amount of brands are looking "
+"to advertise in-app today. Brand buyers now rely on an adherence to app-ads."
+"txt to make sure they don’t buy unauthorized inventory from app developers "
+"and negatively impact campaign performance. Developers who don’t implement "
+"app-ads.txt can be removed from any brand buyer’s target media list. That’s "
+"why joining the app-ads.txt movement is crucial for publishers to maintain "
+"their revenue."
+msgstr ""
+"Inventaris dalam aplikasi resmi. Saat ini, jumlah merek yang ingin beriklan "
+"dalam aplikasi terus meningkat. Pembeli merek kini mengandalkan kepatuhan "
+"pada app-ads.txt untuk memastikan mereka tidak membeli inventaris tidak "
+"resmi dari pengembang aplikasi dan berdampak negatif pada kinerja kampanye. "
+"Pengembang yang tidak menerapkan app-ads.txt dapat dihapus dari daftar media "
+"target pembeli merek mana pun. Itulah mengapa bergabung dengan gerakan app-"
+"ads.txt sangat penting bagi penerbit untuk mempertahankan pendapatannya."
+
+#: inc/sidebar.php:13
+msgid ""
+"Auto optimize all image alt texts (including Woocommerce online store), of "
+"your pages, posts & product, from Yoast SEO optimization settings (keywords) "
+"and/or Post title."
+msgstr ""
+"Optimalkan otomatis semua teks alt gambar (termasuk toko online Woocommerce),"
+" halaman, posting & produk Anda, dari pengaturan optimasi Yoast SEO (kata "
+"kunci) dan / atau judul Posting."
+
+#: inc/recommendations.php:124
+msgid ""
+"Automatically insert rel=nofollow and target=_blank to all the external "
+"links into your website posts, pages or menus. Support exclude domain."
+msgstr ""
+"Sisipkan rel = nofollow dan target = _blank secara otomatis ke semua link "
+"eksternal ke dalam posting, halaman, atau menu situs Anda. Dukungan "
+"mengecualikan domain."
+
+#: inc/recommendations.php:29
+msgid ""
+"Automatically redirect, log and notify all 404 page errors to any page using "
+"301 redirection."
+msgstr ""
+"Alihkan, catat, dan beri tahu semua 404 halaman error secara otomatis ke "
+"halaman mana pun menggunakan pengalihan 301."
+
+#: inc/recommendations.php:156
+msgid "Awesome plugins for SEO & Conversion performance:"
+msgstr "Plugin luar biasa untuk kinerja SEO & Konversi:"
+
+#: inc/seo-recommendations.php:90
+msgid "Bing Webmaster tool"
+msgstr "Alat Bing Webmaster"
+
+#: inc/recommendations.php:11
+msgid ""
+"Boost the way people interact with your website, e-commerce or blog with an "
+"easy and intuitive WordPress rating system!"
+msgstr ""
+"Tingkatkan cara orang berinteraksi dengan situs web, e-commerce, atau blog "
+"Anda dengan sistem peringkat WordPress yang mudah dan intuitif!"
+
+#: inc/sidebar.php:6
+msgid "Boost your ranking on Google"
+msgstr "Tingkatkan peringkat Anda di Google"
+
+#: inc/faq.php:67
+msgid ""
+"Capturing revenue from brand spend. Brands today represent a growing and "
+"potentially significant revenue opportunity for developers. We can expect "
+"that many DSPs that adhere to app-ads.txt won’t purchase inventory missing "
+"the app-ads.txt file, just as they won’t buy unauthorized inventory on web. "
+"Developers who don’t implement app-ads.txt are likely to be removed from "
+"DSPs’ pool of targeted media."
+msgstr ""
+"Menangkap pendapatan dari pembelanjaan merek. Merek saat ini menunjukkan "
+"peluang pendapatan yang berkembang dan berpotensi signifikan bagi pengembang."
+" Kami dapat berharap bahwa banyak DSP yang mematuhi app-ads.txt tidak akan "
+"membeli inventaris yang tidak memiliki file app-ads.txt, sama seperti mereka "
+"tidak akan membeli inventaris yang tidak sah di web. Pengembang yang tidak "
+"menerapkan app-ads.txt kemungkinan besar akan dihapus dari kumpulan media "
+"yang ditargetkan DSP."
+
+#: inc/seo-recommendations.php:48 inc/seo-recommendations.php:50
+msgid "Check my links"
+msgstr "Periksa tautan saya"
+
+#: app-ads-txt-admin.php:239
+msgid ""
+"Checking this box will remove ALL settings (app-ads.txt & ads.txt) when you "
+"deactivate plugin."
+msgstr ""
+"Mencentang kotak ini akan menghapus SEMUA pengaturan (app-ads.txt & ads.txt) "
+"saat Anda menonaktifkan plugin."
+
+#: inc/recommendations.php:23
+msgid ""
+"Compress and optimize (or optimise) image files, improve performance and "
+"boost your SEO rank using Smush WordPress image compression and optimization."
+msgstr ""
+"Kompres dan optimalkan (atau optimalkan) file gambar, tingkatkan kinerja dan "
+"tingkatkan peringkat SEO Anda menggunakan kompresi dan pengoptimalan gambar "
+"WordPress Smush."
+
+#: inc/faq.php:37
+msgid ""
+"Concretely, publishers drop a text file on their web servers that lists all "
+"of the companies that are authorized to sell the publishers’ inventory. "
+"Similarly, programmatic platforms also integrate ads.txt files to confirm "
+"which publishers’ inventory they are authorized to sell. This allows buyers "
+"to check the validity of the inventory they purchase."
+msgstr ""
+"Konkretnya, penerbit meletakkan file teks di server web mereka yang "
+"mencantumkan semua perusahaan yang berwenang untuk menjual inventaris "
+"penerbit. Demikian pula, platform terprogram juga mengintegrasikan file ads."
+"txt untuk mengonfirmasi inventaris penerbit mana yang diizinkan untuk mereka "
+"jual. Ini memungkinkan pembeli untuk memeriksa validitas inventaris yang "
+"mereka beli."
+
+#: inc/seo-recommendations.php:44
+msgid "Dead links"
+msgstr "Tautan mati"
+
+#: inc/seo-recommendations.php:45
+msgid ""
+"Dead links, 404 errors, 503 errors, ... all bad links that could hurt your "
+"website ranking."
+msgstr ""
+"Tautan mati, kesalahan 404, kesalahan 503, ... semua tautan buruk yang dapat "
+"merusak peringkat situs web Anda."
+
+#: app-ads-txt-admin.php:226
+msgid "Delete Settings"
+msgstr "Hapus Pengaturan"
+
+#: inc/recommendations.php:69 inc/recommendations.php:175
+msgid "Download"
+msgstr "Unduh"
+
+#: inc/faq.php:71
+msgid ""
+"Fighting ad fraud. Bad actors may forge apps that impersonate legitimate "
+"apps, and mislead DSPs to spend brand budgets on their forged inventory. "
+"Legitimate developers end up losing out on ad revenue that was originally "
+"intended for them. App-ads.txt blocks unauthorized developer impersonations "
+"and minimizes instances of fraud that ultimately hurt developers’ bottom "
+"line."
+msgstr ""
+"Memerangi penipuan iklan. Pelaku jahat dapat memalsukan aplikasi yang meniru "
+"identitas aplikasi yang sah, dan menyesatkan DSP untuk membelanjakan "
+"anggaran merek pada inventaris palsu mereka. Pengembang yang sah akhirnya "
+"kehilangan pendapatan iklan yang semula ditujukan untuk mereka. App-ads.txt "
+"memblokir peniruan identitas developer yang tidak sah dan meminimalkan kasus "
+"penipuan yang pada akhirnya merugikan developer."
+
+#: inc/seo-recommendations.php:59
+msgid ""
+"Get a simple and professional-quality SEO audit of your website for FREE"
+msgstr ""
+"Dapatkan audit SEO sederhana dan berkualitas profesional untuk situs web "
+"Anda secara GRATIS"
+
+#: inc/sidebar.php:14
+msgid "Get BIALTY by Pagup &raquo;"
+msgstr "Dapatkan BIALTY dengan Pagup »"
+
+#: inc/seo-recommendations.php:13
+msgid ""
+"Get insight on how well your site loads with actionable recommendations on "
+"how to optimize it."
+msgstr ""
+"Dapatkan wawasan tentang seberapa baik situs Anda memuat dengan rekomendasi "
+"yang dapat ditindaklanjuti tentang cara mengoptimalkannya."
+
+#: inc/sidebar.php:20
+msgid "Get Mobilook by Pagup &raquo;"
+msgstr "Dapatkan Mobilook by Pagup »"
+
+#: inc/recommendations.php:5
+msgid ""
+"Get Schema.org structured data for all pages, posts, categories and profile "
+"pages on activation."
+msgstr ""
+"Dapatkan data terstruktur Schema.org untuk semua halaman, postingan, "
+"kategori, dan halaman profil pada aktivasi."
+
+#: inc/seo-recommendations.php:26
+msgid "Google Ranking"
+msgstr "Peringkat Google"
+
+#: inc/recommendations.php:129
+msgid "Google Reviews Widget By RichPlugins"
+msgstr "Widget Ulasan Google Oleh RichPlugins"
+
+#: inc/recommendations.php:130
+msgid ""
+"Google Reviews Widget show Google Places Reviews on your WordPress website "
+"to increase user confidence and SEO."
+msgstr ""
+"Widget Ulasan Google menampilkan Ulasan Google Places di situs WordPress "
+"Anda untuk meningkatkan kepercayaan pengguna dan SEO."
+
+#: inc/seo-recommendations.php:82
+msgid "Google Search Console"
+msgstr "Google Search Console"
+
+#: app-ads-txt.php:86
+#, php-format
+msgid ""
+"Hey %1$s, %2$s Click on Allow & Continue to start optimizing your app-ads."
+"txt and ads-txt files. %2$s Never miss an important update -- opt-in to our "
+"security and feature updates notifications. %2$s See you on the other side."
+msgstr ""
+"Hai% 1 $ s,% 2 $ s Klik Izinkan & Lanjutkan untuk mulai mengoptimalkan file "
+"app-ads.txt dan ads-txt Anda. % 2 $ s Jangan pernah melewatkan pembaruan "
+"penting - ikut serta dalam pemberitahuan pembaruan keamanan dan fitur kami. "
+"% 2 $ s Sampai jumpa di sisi lain."
+
+#: inc/faq.php:60
+msgid "How app-ads.txt can benefit your mobile app?"
+msgstr "Bagaimana app-ads.txt dapat bermanfaat bagi aplikasi seluler Anda?"
+
+#: inc/faq.php:84
+msgid ""
+"How does app-ads.txt help mobile app developers capture more ad revenue?"
+msgstr ""
+"Bagaimana app-ads.txt membantu pengembang aplikasi seluler memperoleh lebih "
+"banyak pendapatan iklan?"
+
+#. Author URI of the plugin
+msgid "https://pagup.com/"
+msgstr "https://pagup.com/"
+
+#: app-ads-txt-admin.php:260
+msgid "If app-ads.txt is still not working. Please try to save Settings >"
+msgstr ""
+"Jika app-ads.txt masih tidak berfungsi. Silakan coba untuk menyimpan "
+"Pengaturan>"
+
+#: inc/recommendations.php:35
+msgid ""
+"Improve your WordPress SEO: Write better content and have a fully optimized "
+"WordPress site using the Yoast SEO plugin."
+msgstr ""
+"Tingkatkan SEO WordPress Anda: Tulis konten yang lebih baik dan miliki situs "
+"WordPress yang dioptimalkan sepenuhnya menggunakan plugin Yoast SEO."
+
+#: inc/faq.php:9
+msgid ""
+"In June 2017, the IAB (The Interactive Advertising Bureau Tech Lab) launched "
+"ads.txt, a file enabling web publishers to designate authorized digital "
+"sellers of their ad inventory. Ads.txt helped the industry distinguish real "
+"supply sources from fake ones, and after its immediate success and adoption, "
+"the next logical step was to extend the reach of ads.txt into the mobile app "
+"ecosystem. App-ads.txt is the mobile in-app equivalent of this specification,"
+" which mobile publishers can implement."
+msgstr ""
+"Pada bulan Juni 2017, IAB (The Interactive Advertising Bureau Tech Lab) "
+"meluncurkan ads.txt, sebuah file yang memungkinkan penerbit web untuk "
+"menunjuk penjual digital resmi dari inventaris iklan mereka. Ads.txt "
+"membantu industri membedakan sumber pasokan asli dari yang palsu, dan "
+"setelah keberhasilan dan adopsi langsung, langkah logis berikutnya adalah "
+"memperluas jangkauan ads.txt ke dalam ekosistem aplikasi seluler. App-ads."
+"txt adalah dalam aplikasi seluler yang setara dengan spesifikasi ini, yang "
+"dapat diterapkan oleh penayang seluler."
+
+#: inc/recommendations.php:100
+msgid ""
+"Increase engagement and drive more repeat traffic to your WordPress site "
+"with desktop push notifications. Now supporting Chrome, Firefox, and Safari."
+msgstr ""
+"Tingkatkan keterlibatan dan dorong lebih banyak lalu lintas berulang ke "
+"situs WordPress Anda dengan pemberitahuan push desktop. Sekarang mendukung "
+"Chrome, Firefox, dan Safari."
+
+#: inc/seo-recommendations.php:88
+msgid "Index your Website (Bing)"
+msgstr "Indeks Situs Anda (Bing)"
+
+#: inc/seo-recommendations.php:80
+msgid "Index Your Website (Google)"
+msgstr "Indeks Situs Anda (Google)"
+
+#: inc/sidebar.php:19
+msgid ""
+"Instant mobile view of website (pages, posts, products) for responsive web "
+"design on phone (+ dualscreen). This plugin also offers helpful tools on "
+"each page, such as Facebook Debugger, LinkedIn Post Inspector, and Google "
+"Mobile-Friendly Test Tool."
+msgstr ""
+"Tampilan situs seluler instan (halaman, posting, produk) untuk desain web "
+"responsif di ponsel (+ layar ganda). Plugin ini juga menawarkan alat yang "
+"berguna di setiap halaman, seperti Facebook Debugger, LinkedIn Post "
+"Inspector, dan Alat Uji Ramah Seluler Google."
+
+#: inc/sidebar.php:18
+msgid "Instant Mobile Viewer"
+msgstr "Penampil Seluler Instan"
+
+#: inc/faq.php:33
+msgid ""
+"It is an IAB-approved text file that aims to prevent unauthorized inventory "
+"sales. In a fragmented advertising ecosystem, ads.txt serves as a method of "
+"improving transparency for demand side platforms. In fact, DSPs aren’t "
+"buying web supply that isn’t authorized via ads.txt."
+msgstr ""
+"Ini adalah file teks yang disetujui IAB yang bertujuan untuk mencegah "
+"penjualan inventaris yang tidak sah. Dalam ekosistem periklanan yang "
+"terfragmentasi, ads.txt berfungsi sebagai metode untuk meningkatkan "
+"transparansi untuk platform sisi permintaan. Faktanya, DSP tidak membeli "
+"persediaan web yang tidak diotorisasi melalui ads.txt."
+
+#: app-ads-txt-admin.php:278
+msgid ""
+"Just a sample for copy-paste purpose. Make sure to change itaccordingaly "
+"inside custom rules box."
+msgstr ""
+"Hanya contoh untuk tujuan salin-tempel. Pastikan untuk mengubahnya secara "
+"sesuai di dalam kotak aturan khusus."
+
+#: inc/seo-recommendations.php:12
+msgid "Loading performance"
+msgstr "Memuat kinerja"
+
+#: app-ads-txt-admin.php:268
+msgid ""
+"Make sure search engines can crawl your .txt files. Optimize your robots.txt "
+"with"
+msgstr ""
+"Pastikan mesin telusur dapat merayapi file .txt Anda. Optimalkan robots.txt "
+"Anda dengan"
+
+#: inc/seo-recommendations.php:100
+msgid "MASS PING"
+msgstr "PING MASSA"
+
+#: inc/seo-recommendations.php:101
+msgid ""
+"Mass ping is a free online tool that easily promotes your blog or website on "
+"70 different search engines."
+msgstr ""
+"Ping massal adalah alat online gratis yang dengan mudah mempromosikan blog "
+"atau situs web Anda di 70 mesin pencari yang berbeda."
+
+#: inc/faq.php:41
+msgid "More details here : https://youtu.be/T_4uK2HnOy0"
+msgstr "Detail lebih lanjut di sini: https://youtu.be/T_4uK2HnOy0"
+
+#: inc/faq.php:49
+msgid "My .txt file doesn’t show up at all."
+msgstr "File .txt saya tidak muncul sama sekali."
+
+#: inc/seo-recommendations.php:30 inc/seo-recommendations.php:32
+msgid "My Google Ranking"
+msgstr "Peringkat Google saya"
+
+#: inc/seo-recommendations.php:62 inc/seo-recommendations.php:64
+msgid "My SEO profile"
+msgstr "Profil SEO saya"
+
+#: inc/recommendations.php:123
+msgid "Nofollow for external link By CyberNetikz"
+msgstr "Nofollow untuk tautan eksternal Oleh CyberNetikz"
+
+#: app-ads-txt-admin.php:257
+msgid ""
+"Note: app-ads.txt & ads.txt Manager creates virtual app-ads.txt & ads.txt "
+"files. Please make sure that your permalinks are enabled and there is no "
+"physical app-ads.txt & ads.txt file on your server. If you're using any kind "
+"of cache then make sure to clear it after Saving Changes. Please read FAQ "
+"for more details."
+msgstr ""
+"Catatan: app-ads.txt & ads.txt Manager membuat file virtual app-ads.txt & "
+"ads.txt. Pastikan permalink Anda diaktifkan dan tidak ada file app-ads.txt & "
+"ads.txt fisik di server Anda. Jika Anda menggunakan jenis cache apa pun, "
+"pastikan untuk menghapusnya setelah Menyimpan Perubahan. Silakan baca FAQ "
+"untuk lebih jelasnya."
+
+#: admin-ui-inc/ads-txt-inc.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your ads.txt</a>"
+msgstr ""
+"Setelah pengaturan Anda diterapkan, periksa file ads.txt Anda di sini. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Ads.txt Anda</a>"
+
+#: admin-ui-inc/app-ads-txt-inc.php:5 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your app-ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your app-ads.txt</a>"
+msgstr ""
+"Setelah setelan Anda diterapkan, periksa file app-ads.txt Anda di sini. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">App-ads.txt Anda</a>"
+
+#: inc/recommendations.php:99
+msgid "OneSignal – Free Web Push Notifications By OneSignal"
+msgstr "OneSignal - Notifikasi Push Web Gratis Oleh OneSignal"
+
+#: inc/sidebar.php:12
+msgid "Optimize your ALT TEXT"
+msgstr "Optimalkan ALT TEXT Anda"
+
+#: inc/sidebar.php:7
+msgid ""
+"Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
+"ranking on search engines."
+msgstr ""
+"Optimalkan Robots.txt Anda dengan Better Robots.txt (dibuat oleh PAGUP) & "
+"Tingkatkan peringkat Anda di mesin pencari."
+
+#. Author of the plugin
+msgid "Pagup"
+msgstr "Pagup"
+
+#: app-ads-txt-admin.php:261
+msgid "Permalinks"
+msgstr "Tautan permanen"
+
+#: inc/seo-recommendations.php:102
+msgid "Ping my links"
+msgstr "Ping link saya"
+
+#: inc/faq.php:53
+msgid ""
+"Please clear your browser cache and reload the ads.txt OR app-ads.txt link."
+msgstr "Hapus cache browser Anda dan muat ulang link ads.txt ATAU app-ads.txt."
+
+#: inc/seo-recommendations.php:5
+msgid "Premium Feature"
+msgstr "Fitur Premium"
+
+#: inc/recommendations.php:111
+msgid "Recart - Abandoned Cart Toolbox"
+msgstr "Recart - Kotak Alat Keranjang Terbengkalai"
+
+#: inc/recommendations.php:112
+msgid ""
+"Recart Messenger Marketing and Abandoned Cart Toolbox is a All in one cart "
+"recovery marketing tools for ecommerce solution"
+msgstr ""
+"Recart Messenger Marketing dan Abandoned Cart Toolbox adalah alat pemasaran "
+"pemulihan semua dalam satu keranjang untuk solusi e-niaga"
+
+#: app-ads-txt-admin.php:248
+msgid "Save Changes"
+msgstr "Simpan perubahan"
+
+#: inc/recommendations.php:4
+msgid "Schema App Structured Data by Hunch Manifest"
+msgstr "Data Terstruktur Aplikasi Skema dengan Manifes Hunch"
+
+#: inc/seo-recommendations.php:58
+msgid "SEO Score"
+msgstr "Skor SEO"
+
+#: inc/seo-recommendations.php:1
+msgid "SEO tools recommended by App-Ads.txt & Ads.txt Manager:"
+msgstr "Alat SEO yang direkomendasikan oleh App-Ads.txt & Ads.txt Manager:"
+
+#: app-ads-txt-admin.php:139
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: app-ads-txt-admin.php:126
+msgid "Settings saved."
+msgstr "Pengaturan disimpan."
+
+#: inc/recommendations.php:88
+msgid ""
+"Share buttons from AddThis help you get more traffic from sharing through "
+"social networks."
+msgstr ""
+"Bagikan tombol dari AddThis membantu Anda mendapatkan lebih banyak lalu "
+"lintas dari berbagi melalui jejaring sosial."
+
+#: inc/notices.php:13
+#, php-format
+msgid ""
+"Show support for App-ads.txt & Ads.txt Manager with a 5-star rating » <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr ""
+"Tunjukkan dukungan untuk App-ads.txt &amp; Ads.txt Manager dengan rating 5-"
+"bintang » <a href=\"%s\" target=\"_blank\">Klik di sini</a>"
+
+#: inc/recommendations.php:22
+msgid "Smush Image Compression and Optimization By WPMU DEV"
+msgstr "Smush Image Compression and Optimization By WPMU DEV"
+
+#: inc/faq.php:96
+msgid ""
+"Source : https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+msgstr ""
+"Sumber: https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+
+#: inc/faq.php:75
+msgid "Source : https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+msgstr "Sumber: https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+
+#: inc/recommendations.php:118 inc/recommendations.php:136
+msgid ""
+"Speed up your WordPress website, more traffic, conversions and money with WP "
+"Rocket caching plugin."
+msgstr ""
+"Percepat situs WordPress Anda, lebih banyak lalu lintas, konversi, dan uang "
+"dengan plugin caching WP Rocket."
+
+#: inc/seo-recommendations.php:89
+msgid ""
+"Submit your website to Bing Webmaster tool and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"Kirimkan situs web Anda ke alat Bing Webmaster dan nikmati manfaat nyata "
+"dari Better Robots.txt"
+
+#: inc/seo-recommendations.php:81
+msgid ""
+"Submit your website to Google Search Console and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"Kirimkan situs Anda ke Google Search Console dan nikmati manfaat nyata dari "
+"Better Robots.txt"
+
+#: inc/faq.php:17
+msgid ""
+"Thanks to app-ads.txt file, Mobile and OTT app publishers can list the ad "
+"tech vendors that are authorized to sell or resell their ad inventory, and "
+"programmatic ad buyers can check these lists to make sure that a company "
+"claiming to offer an app’s inventory is actually able to sell the app’s "
+"inventory."
+msgstr ""
+"Berkat file app-ads.txt, penerbit aplikasi Seluler dan OTT dapat "
+"mencantumkan vendor teknologi iklan yang diberi otorisasi untuk menjual atau "
+"menjual kembali inventaris iklan mereka, dan pembeli iklan terprogram dapat "
+"memeriksa daftar ini untuk memastikan bahwa perusahaan yang mengklaim "
+"menawarkan aplikasi inventaris sebenarnya dapat menjual inventaris aplikasi."
+
+#: inc/faq.php:13
+msgid ""
+"The app-ads.txt file is the version of ads.txt for mobile in-app and OTT "
+"advertising, to combat bad actors that disguise themselves as another "
+"company’s app in order to siphon the money that advertisers are spending on "
+"mobile and OTT advertising. App-ads.txt files are formatted the same as ads."
+"txt files (view IAB FAQ for ads.txt and app-ads.txt)."
+msgstr ""
+"File app-ads.txt adalah versi ads.txt untuk dalam aplikasi seluler dan "
+"periklanan OTT, untuk memerangi pelaku jahat yang menyamar sebagai aplikasi "
+"perusahaan lain untuk menyedot uang yang dikeluarkan pengiklan untuk iklan "
+"seluler dan OTT. File app-ads.txt memiliki format yang sama dengan file ads."
+"txt (lihat FAQ IAB untuk ads.txt dan app-ads.txt)."
+
+#: admin-ui-inc/ads-txt-inc.php:34 admin-ui-inc/ads-txt-inc.php:99 
+#: admin-ui-inc/app-ads-txt-inc.php:34 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:35 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:99
+msgid ""
+"The canonical domain name of the SSP, Exchange, system that bidders connect "
+"to (they publishes a document detailing what domain name to use)."
+msgstr ""
+"Nama domain kanonik sistem SSP, Exchange, yang terhubung dengan penawar "
+"(mereka menerbitkan dokumen yang merinci nama domain apa yang akan digunakan)"
+"."
+
+#: inc/faq.php:64
+msgid "There are two main benefits for app developers."
+msgstr "Ada dua keuntungan utama bagi pengembang aplikasi."
+
+#: inc/faq.php:21
+msgid "This file opens the door for a new level of transparency."
+msgstr "File ini membuka pintu untuk tingkat transparansi yang baru."
+
+#: inc/recommendations.php:43
+msgid "Top plugins for SEO performance:"
+msgstr "Plugin teratas untuk kinerja SEO:"
+
+#: inc/sidebar.php:8
+msgid "Try Better Robots.txt &raquo;"
+msgstr "Coba Better Robots.txt »"
+
+#: inc/recommendations.php:186
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\">PRO version</a> to UNLOCK 12 additional awesome "
+"plugins recommendations for SEO & Conversion performance"
+msgstr ""
+"Tingkatkan ke <a href=\"%s\">versi PRO</a> untuk UNLOCK 12 rekomendasi "
+"plugin tambahan yang luar biasa untuk kinerja SEO &amp; Konversi"
+
+#: inc/recommendations.php:192
+msgid ""
+"Want to suggest another plugin ? ... Send us a message at support@better-"
+"robots.com"
+msgstr ""
+"Ingin menyarankan plugin lain? ... Kirimkan pesan kepada kami di "
+"support@better-robots.com"
+
+#: app-ads-txt-admin.php:216
+msgid "Warning: make sure to clear your cache after saving changes."
+msgstr ""
+"Peringatan: pastikan untuk menghapus cache Anda setelah menyimpan perubahan."
+
+#: inc/faq.php:29
+msgid "What’s ads.txt ?"
+msgstr "Apa itu ads.txt?"
+
+#: inc/faq.php:5
+msgid "What’s app-ads.txt?"
+msgstr "Apa itu app-ads.txt?"
+
+#: inc/recommendations.php:87
+msgid "WordPress Share Buttons Plugin – AddThis By The AddThis Team"
+msgstr "Plugin WordPress Share Buttons - AddThis Oleh Tim AddThis"
+
+#: inc/recommendations.php:135
+msgid "WP Chatbot for facebook Messenger customer chat By HoliThemes"
+msgstr "WP Chatbot untuk obrolan pelanggan facebook Messenger Oleh HoliThemes"
+
+#: inc/recommendations.php:141
+msgid "WP Google My Business Auto Publish By Martin Gibson"
+msgstr "WP Google Bisnisku Publikasikan Otomatis Oleh Martin Gibson"
+
+#: inc/recommendations.php:142
+msgid ""
+"WP Google My Business Auto Publish lets you publish posts, custom posts and "
+"pages automatically from WordPress to your Google My Business page."
+msgstr ""
+"WP Google My Business Auto Publish memungkinkan Anda mempublikasikan posting,"
+" posting kustom, dan halaman secara otomatis dari WordPress ke halaman "
+"Google Bisnisku milik Anda."
+
+#: inc/recommendations.php:147
+msgid "WP Search Console"
+msgstr "WP Search Console"
+
+#: inc/recommendations.php:81
+msgid "WP-Optimize by David Anderson, Ruhani Rabin, Team Updraft"
+msgstr "WP-Optimize oleh David Anderson, Ruhani Rabin, Team Updraft"
+
+#: inc/recommendations.php:82
+msgid ""
+"WP-Optimize is WordPress's most-installed optimization plugin. With it, you "
+"can clean up your database easily and safely, without manual queries."
+msgstr ""
+"WP-Optimize adalah plugin pengoptimalan yang paling banyak dipasang di "
+"WordPress. Dengannya, Anda dapat membersihkan database Anda dengan mudah dan "
+"aman, tanpa kueri manual."
+
+#: inc/recommendations.php:117
+msgid "Wp-Roket - Probably the best caching Plugin for WordPress"
+msgstr "Wp-Roket - Mungkin Plugin caching terbaik untuk WordPress"
+
+#: inc/recommendations.php:94
+msgid ""
+"WP-SpamShield is a leading WordPress anti-spam plugin that stops spam "
+"instantly and improves your site's security. "
+msgstr ""
+"WP-SpamShield adalah plugin anti-spam WordPress terkemuka yang menghentikan "
+"spam secara instan dan meningkatkan keamanan situs Anda."
+
+#: inc/recommendations.php:93
+msgid "WP-SpamShield WordPress Anti-Spam Plugin by Red Sand Media Group"
+msgstr "Plugin Anti-Spam WordPress WP-SpamShield oleh Red Sand Media Group"
+
+#: inc/recommendations.php:105
+msgid "WPfomify - Social Proof & FOMO Marketing Plugin"
+msgstr "WPfomify - Bukti Sosial & Plugin Pemasaran FOMO"
+
+#: inc/recommendations.php:106
+msgid ""
+"WPfomify increases conversion rates on your websites by displaying recent "
+"interaction, sales and sign-ups"
+msgstr ""
+"WPfomify meningkatkan tingkat konversi di situs web Anda dengan menampilkan "
+"interaksi, penjualan, dan pendaftaran terbaru"
+
+#: inc/recommendations.php:10
+msgid "Yasr – Yet Another Stars Rating by Dario Curvino"
+msgstr "Yasr - Peringkat Bintang Lainnya oleh Dario Curvino"
+
+#: inc/recommendations.php:34
+msgid "Yoast SEO By Team Yoast"
+msgstr "Yoast SEO Oleh Tim Yoast"
+
+#: admin-ui-inc/ads-txt-inc.php:54 admin-ui-inc/ads-txt-inc.php:119 
+#: admin-ui-inc/app-ads-txt-inc.php:54
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your ads-txt.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"Mitra permintaan langsung Anda harus terdaftar sebagai \"langsung\". Jika "
+"partner Anda menggunakan reseller pihak ketiga untuk menjual inventaris Anda,"
+" penyedia tersebut harus terdaftar sebagai \"reseller\". Bagaimanapun, Anda "
+"tidak boleh menambahkan penyedia apa pun ke file ads-txt.txt kecuali Anda "
+"atau partner Anda memiliki hubungan langsung dengan mereka."
+
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:55 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:119
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your app-ads.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"Mitra permintaan langsung Anda harus terdaftar sebagai \"langsung\". Jika "
+"partner Anda menggunakan reseller pihak ketiga untuk menjual inventaris Anda,"
+" penyedia tersebut harus terdaftar sebagai \"reseller\". Bagaimanapun, Anda "
+"tidak boleh menambahkan penyedia apa pun ke file app-ads.txt kecuali Anda "
+"atau mitra Anda memiliki hubungan langsung dengan mereka."

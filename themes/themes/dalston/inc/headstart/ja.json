@@ -1,0 +1,163 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "primary": "primary",
+                "social": "social-media"
+            },
+            "custom_css_post_id": -1,
+            "hide_front_page_title": true
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [],
+    "content": [
+        {
+            "post_title": "当スタジオについて",
+            "post_content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">訪問者に安心してこのページをご利用いただけるように、<em>自己紹介</em>をします。このページを使用して、ご自身やサイト、ビジネスなどについて自由に執筆、公開できます。以下の「推薦文」を使って、同じ内容の情報を、第三者が自分の言葉で表現した発言を引用します。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">これは各種機能を具体的に紹介するテンプレートに含まれるサンプルコンテンツ例です。削除するか、お客様独自の文章とメディアで置き換えてください。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\",\"level\":3} -->\n<h3 class=\"has-text-align-center\">名言集</h3>\n<!-- /wp:heading -->\n\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"has-3-columns\"} -->\n<div class=\"wp-block-columns alignwide has-3-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>何かを始めるためには、しゃべるのをやめて行動し始めなければならない。</p><cite>ウォルト・ディズニー</cite></blockquote>\n<!-- /wp:quote --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>ハリー、自分が本当に何者かということを示すのは、持っている能力ではなく、自分がどのような選択をするかなのだ。</p><cite>J.K.ローリング</cite></blockquote>\n<!-- /wp:quote --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>終わったと嘆くより、機会に恵まれたと喜ぼう。</p><cite>ドクター・スース</cite></blockquote>\n<!-- /wp:quote --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:separator {\"className\":\"is-style-wide\"} -->\n<hr class=\"wp-block-separator is-style-wide\" />\n<!-- /wp:separator -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\"} -->\n<h2 class=\"has-text-align-center\">一緒に何かを構築しましょう。</h2>\n<!-- /wp:heading -->\n\n<!-- wp:button {\"align\":\"center\"} -->\n<div class=\"wp-block-button aligncenter\"><a class=\"wp-block-button__link\" href=\"#\">お問い合わせ</a></div>\n<!-- /wp:button -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:separator {\"className\":\"is-style-wide\"} -->\n<hr class=\"wp-block-separator is-style-wide\" />\n<!-- /wp:separator -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->",
+            "post_status": "publish",
+            "menu_order": 2,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_about_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "attachment_url": "https://headstartdata.files.wordpress.com/2016/06/stairs-lights-abstract-bubbles1.jpg",
+            "hs_old_id": 100
+        },
+        {
+            "post_title": "お問い合わせ",
+            "post_content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">詳細はご相談にて。&amp;#128075; ぜひお気軽に以下の連絡先にお問い合わせください。フォームでのご連絡もお待ちしています。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:spacer {\"height\":32,\"className\":\"desktop-only\"} -->\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"has-2-columns\"} -->\n<div class=\"wp-block-columns alignwide has-2-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"left\"} -->\n<h2 class=\"has-text-align-left\">お問い合わせ</h2>\n<!-- /wp:heading -->\n\n<!-- wp:jetpack/contact-info -->\n<div class=\"wp-block-jetpack-contact-info\"><!-- wp:jetpack/address {\"address\":\"10 Street Road\",\"city\":\"City\",\"postal\":\"10100\",\"country\":\"USA\"} -->\n<div class=\"wp-block-jetpack-address\"><div class=\"jetpack-address__address jetpack-address__address1\">10 Street Road</div><div><span class=\"jetpack-address__city\">City</span>, <span class=\"jetpack-address__region\"></span> <span class=\"jetpack-address__postal\">10100</span></div><div class=\"jetpack-address__country\">USA</div></div>\n<!-- /wp:jetpack/address -->\n\n<!-- wp:jetpack/email {\"email\":\"mail@example.com\"} -->\n<div class=\"wp-block-jetpack-email\"><a href=\"mailto:mail@example.com\">mail@example.com</a></div>\n<!-- /wp:jetpack/email -->\n\n<!-- wp:jetpack/phone {\"phone\":\"(555) 555 1234\"} -->\n<div class=\"wp-block-jetpack-phone\"><a href=\"tel:5555551234\">(555) 555 1234</a></div>\n<!-- /wp:jetpack/phone --></div>\n<!-- /wp:jetpack/contact-info --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"left\"} -->\n<h2 class=\"has-text-align-left\">ご意見をお寄せください</h2>\n<!-- /wp:heading -->\n\n<!-- wp:jetpack/contact-form -->\n<!-- wp:jetpack/field-name {\"required\":true} /-->\n\n<!-- wp:jetpack/field-email {\"label\":\"Email\",\"required\":true} /-->\n\n<!-- wp:jetpack/field-url /-->\n\n<!-- wp:jetpack/field-textarea {\"required\":true} /-->\n<!-- /wp:jetpack/contact-form --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+            "post_status": "publish",
+            "menu_order": 3,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_contact_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "attachment_url": "https://headstartdata.files.wordpress.com/2016/06/person-smartphone-office-table.jpeg",
+            "hs_old_id": 101
+        },
+        {
+            "post_title": "最初のブログ投稿",
+            "post_content": "これは最初の投稿です。編集リンクをクリックして内容を変更または削除したり、<a href=\"https://wordpress.com/post\">新しい投稿を開始</a>したりしましょう。この投稿内で、なぜブログを始めたのか、どんなことについてブログを書いていくのか、といったことを読者に伝えるのもよいでしょう。",
+            "post_excerpt": "これは、最初の投稿の抜粋です。",
+            "post_status": "publish",
+            "comment_status": "open",
+            "ping_status": "open",
+            "post_type": "post",
+            "hs_custom_meta": "_hs_first_post",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "attachment_url": "https://headstartdata.files.wordpress.com/2016/06/pexels-photo-30732.jpg",
+            "hs_old_id": 102
+        },
+        {
+            "post_title": "ホーム",
+            "post_content": "<!-- wp:group {\"backgroundColor\":\"foreground\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-foreground-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/success-3.png\",\"id\":19,\"dimRatio\":80,\"overlayColor\":\"foreground\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"align\":\"wide\",\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover alignwide has-background-dim-80 has-foreground-background-color has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/success-3.png);background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong><a href=\"#\">Get Buckets</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">— <a href=\"#\">Sports Minimalist、2019年</a> —</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:columns {\"align\":\"full\",\"className\":\"is-style-full-bleed margin-top-none margin-bottom-none\"} -->\n<div class=\"wp-block-columns alignfull is-style-full-bleed margin-top-none margin-bottom-none\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#695daf\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#695daf\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-unsubscribed.png\",\"id\":16,\"dimRatio\":80,\"customOverlayColor\":\"#695daf\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-unsubscribed.png);background-color:#695daf;background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong><a href=\"#\">購読を解除</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">— <a href=\"#\">The Daily Emailer、2019年</a> —</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"backgroundColor\":\"background-dark\"} -->\n<div class=\"wp-block-group has-background-dark-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/no-connection-5.png\",\"id\":10,\"dimRatio\":90,\"overlayColor\":\"background-dark\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-90 has-background-dark-background-color has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/no-connection-5.png);background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">ヘッドレス (愚か) な宇宙飛行士、頭を見つける</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">— <a href=\"#\"><em>Whistler Views Magazine</em>、2016年</a> —</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:group {\"backgroundColor\":\"background\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-background-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-list-is-empty.png\",\"id\":13,\"dimRatio\":80,\"overlayColor\":\"background\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"align\":\"wide\",\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover alignwide has-background-dim-80 has-background-background-color has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-list-is-empty.png);background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">ソーシャルメディア博物館</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">— <a href=\"#\"><em>Halseytowne Chronicles</em>、2019年</a> —</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:columns {\"align\":\"full\",\"className\":\"is-style-full-bleed margin-top-none margin-bottom-none\"} -->\n<div class=\"wp-block-columns alignfull is-style-full-bleed margin-top-none margin-bottom-none\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#f5ede2\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#f5ede2\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-uploading.png\",\"id\":17,\"dimRatio\":80,\"customOverlayColor\":\"#f5ede2\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-uploading.png);background-color:#f5ede2;background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">全部クラウドに入れとこう</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">— <a href=\"#\"><em>Sofa Bed Examiner</em>、2018年</a> —</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#bbfbc0\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#bbfbc0\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-fatal-error.png\",\"id\":12,\"dimRatio\":80,\"customOverlayColor\":\"#bbfbc0\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-fatal-error.png);background-color:#bbfbc0;background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">自転車に乗って、降りる</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">— <a href=\"#\"><em>Whistler Views Magazine</em>、2016年</a> —</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:columns {\"align\":\"full\",\"className\":\"is-style-full-bleed margin-top-none margin-bottom-none\"} -->\n<div class=\"wp-block-columns alignfull is-style-full-bleed margin-top-none margin-bottom-none\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"backgroundColor\":\"background\"} -->\n<div class=\"wp-block-group has-background-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-logged-out.png\",\"id\":14,\"dimRatio\":80,\"overlayColor\":\"background\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-background-color has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-logged-out.png);background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">購読を解除しないでください</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">— <a href=\"#\"><em>Sofa Bed Examiner</em>、2018年</a> —</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#d65d58\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#d65d58\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/done-5.png\",\"id\":9,\"dimRatio\":80,\"customOverlayColor\":\"#d65d58\",\"focalPoint\":{\"x\":0.5,\"y\":0.5},\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/done-5.png);background-color:#d65d58;background-position:50% 50%\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"background\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-background-color has-text-align-center margin-bottom-none\"><strong><a href=\"https://allancoletest.wordpress.com/project-block-style-example/\">ストライプにチェックを重ねて</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-background-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-background-color margin-top-none\">— <a href=\"#\"><em>Hipped Beasts</em>、2018年</a> —</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"customBackgroundColor\":\"#f5ede2\"} -->\n<div class=\"wp-block-group has-background\" style=\"background-color:#f5ede2\"><div class=\"wp-block-group__inner-container\"><!-- wp:cover {\"url\":\"https://headstartdata.files.wordpress.com/2019/09/pale-waiting.png\",\"id\":18,\"dimRatio\":80,\"customOverlayColor\":\"#f5ede2\",\"className\":\"is-style-hover-reveal\"} -->\n<div class=\"wp-block-cover has-background-dim-80 has-background-dim is-style-hover-reveal\" style=\"background-image:url(https://headstartdata.files.wordpress.com/2019/09/pale-waiting.png);background-color:#f5ede2\"><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"align\":\"center\",\"textColor\":\"foreground-dark\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-foreground-dark-color has-text-align-center margin-bottom-none\"><strong><a href=\"#\">未来にタイムスリップ</a></strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\"} -->\n<p class=\"has-text-color has-text-align-center has-foreground-dark-color margin-top-none\">— <a href=\"#\"><em>Hipped Beasts</em>、2018年</a> —</p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+            "post_status": "publish",
+            "menu_order": 1,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_front_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "attachment_url": "https://headstartdata.files.wordpress.com/2019/09/success-3.png",
+            "page_template": "default",
+            "hs_old_id": 103
+        },
+        {
+            "post_title": "ブログ",
+            "post_content": "これはユーザーがサイトのブログを見つけるページです",
+            "post_status": "publish",
+            "menu_order": 4,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_blog_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "hs_old_id": 104
+        },
+        {
+            "post_title": "プロジェクト1",
+            "post_content": "<!-- wp:columns {\"align\":\"full\",\"className\":\"is-style-project\"} -->\n<div class=\"wp-block-columns alignfull is-style-project\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"fontSize\":\"small\"} -->\n<p class=\"has-small-font-size\"><a href=\"https://icons8.com/ouch/style/pale\">Icons8</a>からバスケットボール選手がダンクシュートをしているイラスト。Eum non sunt, eu, quos nulla doloribus vel voluptas nesciunt necessitatibus fuga aute mi, nunc, officiis iste?Vulputate atque deserunt cras sit accusamus.Fringilla velit modi.Sociis cupiditate repellendus ac pulvinar wisi, iure veritatis consequatur fringilla fermen tum taciti a quas sociis.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:button -->\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\" href=\"#\">ライブプロジェクトを表示</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group {\"backgroundColor\":\"foreground-dark\"} -->\n<div class=\"wp-block-group has-foreground-dark-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:image {\"id\":19,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://headstartdata.files.wordpress.com/2019/09/success-3.png?w=750\" alt=\"\" class=\"wp-image-19\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:image {\"id\":15,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://headstartdata.files.wordpress.com/2019/09/pale-order-completed.png?w=750\" alt=\"\" class=\"wp-image-15\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:image {\"id\":9,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://headstartdata.files.wordpress.com/2019/09/done-5.png?w=750\" alt=\"\" class=\"wp-image-9\" /></figure>\n<!-- /wp:image --></div></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+            "post_status": "publish",
+            "menu_order": 4,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "post_type": "page",
+            "hs_custom_meta": "_hs_project_page",
+            "hs_sharing": 1,
+            "hs_like_status": 1,
+            "hs_old_id": 106
+        }
+    ],
+    "menus": {
+        "social-media": {
+            "name": "ソーシャルメディア",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 175,
+                    "menu-item-object-id": "175",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 0,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http://www.facebook.com"
+                },
+                {
+                    "menu-item-title": "LinkedIn",
+                    "menu-item-db-id": 176,
+                    "menu-item-object-id": "176",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http://www.linkedin.com"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 177,
+                    "menu-item-object-id": "177",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http://www.twitter.com"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 178,
+                    "menu-item-object-id": "178",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "http://www.instagram.com"
+                }
+            ]
+        }
+    }
+}

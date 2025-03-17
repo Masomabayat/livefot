@@ -1,0 +1,867 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ads.txt & App-ads.txt Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-26 20:31+0000\n"
+"PO-Revision-Date: 2021-05-27 20:48+0000\n"
+"Last-Translator: Gautier Dorval\n"
+"Language-Team: Romanian\n"
+"Language: ro-RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 :(((n%100>19)||(( n%100==0)&&(n!"
+"=0)))? 2 : 1));\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2"
+
+#: admin-ui-inc/ads-txt-inc.php:44 admin-ui-inc/ads-txt-inc.php:109 
+#: admin-ui-inc/app-ads-txt-inc.php:44 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:45 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:109
+msgid ""
+" This must contain the same value used in transactions (i.e. OpenRTB bid "
+"requests) in the field specified by the SSP/exchange (For OpenRTB = "
+"publisher ID | For OpenDirect = publisher’s organization ID)."
+msgstr ""
+" Aceasta trebuie să conțină aceeași valoare utilizată în tranzacții (de "
+"exemplu, cereri de ofertă OpenRTB) în câmpul specificat de SSP / exchange "
+"(Pentru OpenRTB = ID editor | Pentru OpenDirect = ID organizație editor)."
+
+#: inc/recommendations.php:28
+msgid "404 to 301 By Joel James"
+msgstr "404 - 301 De Joel James"
+
+#: app-ads-txt-admin.php:80
+#, php-format
+msgid "<a href=\"%s\">Get Pro version</a> to enable"
+msgstr "<a href=\"%s\">Obțineți versiunea Pro</a> pentru activare"
+
+#: inc/recommendations.php:148
+msgid ""
+"A new way to boost your marketing content. Writing Web Content that is "
+"ranking like those of SEO Experts."
+msgstr ""
+"O nouă modalitate de a vă stimula conținutul de marketing. Scrierea de "
+"conținut web care se clasează ca cele ale experților SEO."
+
+#: inc/faq.php:92
+msgid ""
+"Ad fraud prevention. App-ads.txt blocks unauthorized developers who "
+"impersonate legitimate apps and mislead DSPs into spending brand budgets on "
+"fake inventory. With fraud instances minimized, authentic developers can "
+"retain more of the ad revenue from inventory genuinely targeted to their app."
+msgstr ""
+"Prevenirea fraudei publicitare. App-ads.txt blochează dezvoltatorii "
+"neautorizați care suplinesc aplicații legitime și induc în eroare DSP-urile "
+"în cheltuirea bugetelor mărcii pe inventar fals. Cu cazurile de fraudă "
+"reduse la minimum, dezvoltatorii autentici pot păstra mai mult din "
+"veniturile din publicitate din inventarul cu adevărat direcționat către "
+"aplicația lor."
+
+#: admin-ui-inc/ads-txt-inc.php:162 admin-ui-inc/app-ads-txt-inc.php:95 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:162
+msgid "Add more custom rules if you need them, otherwise, leave it blank."
+msgstr ""
+"Adăugați mai multe reguli personalizate dacă aveți nevoie de ele, altfel, "
+"lăsați-le necompletată."
+
+#: admin-ui-inc/ads-txt-inc.php:15
+msgid "Add rules for Ads.txt, one line at a time. Then save"
+msgstr "Adăugați reguli pentru Ads.txt, rând pe rând. Apoi salvați"
+
+#: admin-ui-inc/app-ads-txt-inc.php:15 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:15
+msgid "Add rules for App-Ads.txt, one line at a time. Then save"
+msgstr "Adăugați reguli pentru App-Ads.txt, rând pe rând. Apoi salvați"
+
+#. Name of the plugin
+msgid "Ads.txt & App-ads.txt Manager"
+msgstr "Manager Ads.txt și App-ads.txt"
+
+#: inc/recommendations.php:16
+msgid "Akismet Anti-Spam by Automattic"
+msgstr "Akismet Anti-Spam de la Automattic"
+
+#: inc/recommendations.php:17
+msgid ""
+"Akismet checks your comments and contact form submissions against our global "
+"database of spam to protect you and your site from malicious content."
+msgstr ""
+"Akismet verifică comentariile dvs. și trimiterile din formularul de contact "
+"împotriva bazei noastre de date globale de spam pentru a vă proteja pe dvs. "
+"și pe site-ul dvs. de conținut rău intenționat."
+
+#: admin-ui-inc/ads-txt-inc.php:68 admin-ui-inc/ads-txt-inc.php:133 
+#: admin-ui-inc/app-ads-txt-inc.php:68 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:69 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:133
+msgid ""
+"An ID that uniquely identifies the advertising system within a certification "
+"authority."
+msgstr ""
+"Un ID care identifică în mod unic sistemul de publicitate din cadrul unei "
+"autorități de certificare."
+
+#: inc/seo-recommendations.php:16 inc/seo-recommendations.php:18
+msgid "Analyse my site"
+msgstr "Analizează site-ul meu"
+
+#: inc/seo-recommendations.php:27
+msgid ""
+"Analyse your Google ranking with keywords, traffic and more (REGISTER TO GET "
+"10 FREE REQUESTS)"
+msgstr ""
+"Analizați clasamentul dvs. Google cu cuvinte cheie, trafic și multe altele "
+"(ÎNREGISTRAȚI-VĂ PENTRU A OBȚINE 10 CERERI GRATUITE)"
+
+#: admin-ui-inc/app-ads-txt-inc.php:19
+msgid "App-Ads.txt"
+msgstr "App-Ads.txt"
+
+#. Description of the plugin
+msgid ""
+"App-ads.txt & Ads.txt manager allows you to create, manage & publish your "
+"app-ads.txt & ads.txt files from your WordPress dashboard."
+msgstr ""
+"Managerul App-ads.txt și Ads.txt vă permite să creați, să gestionați și să "
+"publicați fișierele dvs. app-ads.txt și ads.txt din tabloul de bord "
+"WordPress."
+
+#: inc/recommendations.php:49
+msgid ""
+"App-Ads.txt & Ads.txt Manager by Pagup provides a selection of plugins "
+"allowing to keep your website healthy, get better results on Search engines "
+"and increase your sales for ecommerce solutions."
+msgstr ""
+"App-Ads.txt & Ads.txt Manager by Pagup oferă o selecție de pluginuri care vă "
+"permit să vă mențineți site-ul sănătos, să obțineți rezultate mai bune pe "
+"motoarele de căutare și să vă sporiți vânzările pentru soluții de comerț "
+"electronic."
+
+#: inc/faq.php:88
+msgid ""
+"Authorized in-app inventory. An ever-increasing amount of brands are looking "
+"to advertise in-app today. Brand buyers now rely on an adherence to app-ads."
+"txt to make sure they don’t buy unauthorized inventory from app developers "
+"and negatively impact campaign performance. Developers who don’t implement "
+"app-ads.txt can be removed from any brand buyer’s target media list. That’s "
+"why joining the app-ads.txt movement is crucial for publishers to maintain "
+"their revenue."
+msgstr ""
+"Inventar autorizat în aplicație. O cantitate din ce în ce mai mare de mărci "
+"caută să facă publicitate în aplicație astăzi. Cumpărătorii de mărci se "
+"bazează acum pe respectarea app-ads.txt pentru a se asigura că nu cumpără "
+"inventar neautorizat de la dezvoltatorii de aplicații și că au un impact "
+"negativ asupra performanței campaniei. Dezvoltatorii care nu implementează "
+"app-ads.txt pot fi eliminați din lista de suporturi vizate de orice "
+"cumpărător de marcă. De aceea, aderarea la mișcarea app-ads.txt este "
+"crucială pentru ca editorii să își mențină veniturile."
+
+#: inc/sidebar.php:13
+msgid ""
+"Auto optimize all image alt texts (including Woocommerce online store), of "
+"your pages, posts & product, from Yoast SEO optimization settings (keywords) "
+"and/or Post title."
+msgstr ""
+"Optimizați automat toate textele alternative ale imaginii (inclusiv "
+"magazinul online Woocommerce), ale paginilor, postărilor și produsului dvs., "
+"din setările de optimizare Yoast SEO (cuvinte cheie) și / sau titlul "
+"Postării."
+
+#: inc/recommendations.php:124
+msgid ""
+"Automatically insert rel=nofollow and target=_blank to all the external "
+"links into your website posts, pages or menus. Support exclude domain."
+msgstr ""
+"Introduceți automat rel = nofollow și target = _blank la toate linkurile "
+"externe în postările, paginile sau meniurile site-ului dvs. web. Suport "
+"exclude domeniul."
+
+#: inc/recommendations.php:29
+msgid ""
+"Automatically redirect, log and notify all 404 page errors to any page using "
+"301 redirection."
+msgstr ""
+"Redirecționați automat, jurnalizați și notificați toate erorile de 404 "
+"pagină către orice pagină utilizând redirecționarea 301."
+
+#: inc/recommendations.php:156
+msgid "Awesome plugins for SEO & Conversion performance:"
+msgstr "Pluginuri minunate pentru performanțe SEO și conversii:"
+
+#: inc/seo-recommendations.php:90
+msgid "Bing Webmaster tool"
+msgstr "Instrumentul pentru webmasteri Bing"
+
+#: inc/recommendations.php:11
+msgid ""
+"Boost the way people interact with your website, e-commerce or blog with an "
+"easy and intuitive WordPress rating system!"
+msgstr ""
+"Sporiți modul în care oamenii interacționează cu site-ul dvs., comerțul "
+"electronic sau blogul dvs. cu un sistem de evaluare WordPress ușor și "
+"intuitiv!"
+
+#: inc/sidebar.php:6
+msgid "Boost your ranking on Google"
+msgstr "Sporiți-vă clasamentul pe Google"
+
+#: inc/faq.php:67
+msgid ""
+"Capturing revenue from brand spend. Brands today represent a growing and "
+"potentially significant revenue opportunity for developers. We can expect "
+"that many DSPs that adhere to app-ads.txt won’t purchase inventory missing "
+"the app-ads.txt file, just as they won’t buy unauthorized inventory on web. "
+"Developers who don’t implement app-ads.txt are likely to be removed from "
+"DSPs’ pool of targeted media."
+msgstr ""
+"Captarea veniturilor din cheltuielile de marcă. Mărcile reprezintă astăzi o "
+"oportunitate de venituri în creștere și potențial semnificativă pentru "
+"dezvoltatori. Ne putem aștepta ca multe DSP-uri care aderă la app-ads.txt să "
+"nu achiziționeze inventar lipsind fișierul app-ads.txt, la fel cum nu vor "
+"cumpăra inventar neautorizat pe web. Este posibil ca dezvoltatorii care nu "
+"implementează app-ads.txt să fie eliminați din grupul de suporturi vizate de "
+"DSP-uri."
+
+#: inc/seo-recommendations.php:48 inc/seo-recommendations.php:50
+msgid "Check my links"
+msgstr "Verificați linkurile mele"
+
+#: app-ads-txt-admin.php:239
+msgid ""
+"Checking this box will remove ALL settings (app-ads.txt & ads.txt) when you "
+"deactivate plugin."
+msgstr ""
+"Bifând această casetă veți elimina TOATE setările (app-ads.txt și ads.txt) "
+"atunci când dezactivați pluginul."
+
+#: inc/recommendations.php:23
+msgid ""
+"Compress and optimize (or optimise) image files, improve performance and "
+"boost your SEO rank using Smush WordPress image compression and optimization."
+msgstr ""
+"Comprimați și optimizați (sau optimizați) fișierele de imagine, îmbunătățiți "
+"performanța și creșteți-vă rangul SEO utilizând compresia și optimizarea "
+"imaginilor Smush WordPress."
+
+#: inc/faq.php:37
+msgid ""
+"Concretely, publishers drop a text file on their web servers that lists all "
+"of the companies that are authorized to sell the publishers’ inventory. "
+"Similarly, programmatic platforms also integrate ads.txt files to confirm "
+"which publishers’ inventory they are authorized to sell. This allows buyers "
+"to check the validity of the inventory they purchase."
+msgstr ""
+"Concret, editorii lasă un fișier text pe serverele lor web, care listează "
+"toate companiile autorizate să vândă inventarul editorilor. În mod similar, "
+"platformele programatice integrează și fișiere ads.txt pentru a confirma "
+"inventarul editorilor pe care sunt autorizați să le vândă. Aceasta permite "
+"cumpărătorilor să verifice valabilitatea inventarului pe care îl "
+"achiziționează."
+
+#: inc/seo-recommendations.php:44
+msgid "Dead links"
+msgstr "Legături moarte"
+
+#: inc/seo-recommendations.php:45
+msgid ""
+"Dead links, 404 errors, 503 errors, ... all bad links that could hurt your "
+"website ranking."
+msgstr ""
+"Link-uri moarte, 404 erori, 503 erori, ... toate link-uri proaste care ar "
+"putea afecta clasamentul site-ului dvs. web."
+
+#: app-ads-txt-admin.php:226
+msgid "Delete Settings"
+msgstr "Ștergeți setările"
+
+#: inc/recommendations.php:69 inc/recommendations.php:175
+msgid "Download"
+msgstr "Descarca"
+
+#: inc/faq.php:71
+msgid ""
+"Fighting ad fraud. Bad actors may forge apps that impersonate legitimate "
+"apps, and mislead DSPs to spend brand budgets on their forged inventory. "
+"Legitimate developers end up losing out on ad revenue that was originally "
+"intended for them. App-ads.txt blocks unauthorized developer impersonations "
+"and minimizes instances of fraud that ultimately hurt developers’ bottom "
+"line."
+msgstr ""
+"Combaterea fraudei publicitare. Actorii răi pot falsifica aplicații care "
+"imită identitatea aplicațiilor legitime și pot induce în eroare DSP-urile "
+"pentru a cheltui bugetele mărcii pentru inventarul lor falsificat. "
+"Dezvoltatorii legitimi ajung să piardă din veniturile din publicitate care "
+"au fost inițial destinate lor. App-ads.txt blochează imitarea neautorizată a "
+"dezvoltatorilor și minimizează cazurile de fraudă care afectează în cele din "
+"urmă rezultatele dezvoltatorilor."
+
+#: inc/seo-recommendations.php:59
+msgid ""
+"Get a simple and professional-quality SEO audit of your website for FREE"
+msgstr ""
+"Obțineți un audit SEO simplu și de calitate profesională a site-ului dvs. "
+"GRATUIT"
+
+#: inc/sidebar.php:14
+msgid "Get BIALTY by Pagup &raquo;"
+msgstr "Obțineți BIALTY de Pagup »"
+
+#: inc/seo-recommendations.php:13
+msgid ""
+"Get insight on how well your site loads with actionable recommendations on "
+"how to optimize it."
+msgstr ""
+"Obțineți informații despre cât de bine se încarcă site-ul dvs. cu "
+"recomandări practice despre cum să-l optimizați."
+
+#: inc/sidebar.php:20
+msgid "Get Mobilook by Pagup &raquo;"
+msgstr "Obțineți Mobilook de Pagup »"
+
+#: inc/recommendations.php:5
+msgid ""
+"Get Schema.org structured data for all pages, posts, categories and profile "
+"pages on activation."
+msgstr ""
+"Obțineți date structurate Schema.org pentru toate paginile, postările, "
+"categoriile și paginile de profil la activare."
+
+#: inc/seo-recommendations.php:26
+msgid "Google Ranking"
+msgstr "Clasament Google"
+
+#: inc/recommendations.php:129
+msgid "Google Reviews Widget By RichPlugins"
+msgstr "Widget Google Reviews de RichPlugins"
+
+#: inc/recommendations.php:130
+msgid ""
+"Google Reviews Widget show Google Places Reviews on your WordPress website "
+"to increase user confidence and SEO."
+msgstr ""
+"Widgetul Google Reviews afișează Google Places Reviews pe site-ul dvs. "
+"WordPress pentru a crește încrederea utilizatorilor și SEO."
+
+#: inc/seo-recommendations.php:82
+msgid "Google Search Console"
+msgstr "Consola de căutare Google"
+
+#: app-ads-txt.php:86
+#, php-format
+msgid ""
+"Hey %1$s, %2$s Click on Allow & Continue to start optimizing your app-ads."
+"txt and ads-txt files. %2$s Never miss an important update -- opt-in to our "
+"security and feature updates notifications. %2$s See you on the other side."
+msgstr ""
+"Bună% 1 $ s,% 2 $ s Faceți clic pe Permiteți și continuați pentru a începe "
+"optimizarea fișierelor app-ads.txt și ads-txt. % 2 $ s Nu ratați niciodată o "
+"actualizare importantă - înscrieți-vă la notificările noastre de securitate "
+"și actualizări de caracteristici. % 2 $ s Ne vedem de cealaltă parte."
+
+#: inc/faq.php:60
+msgid "How app-ads.txt can benefit your mobile app?"
+msgstr "Cum poate beneficia app-ads.txt aplicația dvs. mobilă?"
+
+#: inc/faq.php:84
+msgid ""
+"How does app-ads.txt help mobile app developers capture more ad revenue?"
+msgstr ""
+"Cum ajută app-ads.txt dezvoltatorii de aplicații mobile să capteze mai multe "
+"venituri din publicitate?"
+
+#. Author URI of the plugin
+msgid "https://pagup.com/"
+msgstr "https://pagup.com/"
+
+#: app-ads-txt-admin.php:260
+msgid "If app-ads.txt is still not working. Please try to save Settings >"
+msgstr ""
+"Dacă app-ads.txt încă nu funcționează. Vă rugăm să încercați să salvați "
+"Setări>"
+
+#: inc/recommendations.php:35
+msgid ""
+"Improve your WordPress SEO: Write better content and have a fully optimized "
+"WordPress site using the Yoast SEO plugin."
+msgstr ""
+"Îmbunătățiți-vă WordPress WordPress: scrieți conținut mai bun și aveți un "
+"site WordPress complet optimizat folosind pluginul Yoast SEO."
+
+#: inc/faq.php:9
+msgid ""
+"In June 2017, the IAB (The Interactive Advertising Bureau Tech Lab) launched "
+"ads.txt, a file enabling web publishers to designate authorized digital "
+"sellers of their ad inventory. Ads.txt helped the industry distinguish real "
+"supply sources from fake ones, and after its immediate success and adoption, "
+"the next logical step was to extend the reach of ads.txt into the mobile app "
+"ecosystem. App-ads.txt is the mobile in-app equivalent of this specification,"
+" which mobile publishers can implement."
+msgstr ""
+"În iunie 2017, IAB (The Interactive Advertising Bureau Tech Lab) a lansat "
+"ads.txt, un fișier care permite editorilor web să desemneze vânzători "
+"digitali autorizați ai inventarului lor publicitar. Ads.txt a ajutat "
+"industria să distingă sursele reale de aprovizionare de cele false și, după "
+"succesul și adoptarea imediată, următorul pas logic a fost extinderea "
+"acoperirii ads.txt în ecosistemul aplicațiilor mobile. App-ads.txt este "
+"echivalentul în aplicație mobil al acestei specificații, pe care editorii de "
+"telefonie mobilă îl pot implementa."
+
+#: inc/recommendations.php:100
+msgid ""
+"Increase engagement and drive more repeat traffic to your WordPress site "
+"with desktop push notifications. Now supporting Chrome, Firefox, and Safari."
+msgstr ""
+"Sporiți implicarea și generați mai multe traficuri repetate către site-ul "
+"dvs. WordPress cu notificări push desktop. Acum acceptă Chrome, Firefox și "
+"Safari."
+
+#: inc/seo-recommendations.php:88
+msgid "Index your Website (Bing)"
+msgstr "Indexează-ți site-ul (Bing)"
+
+#: inc/seo-recommendations.php:80
+msgid "Index Your Website (Google)"
+msgstr "Indexează-ți site-ul (Google)"
+
+#: inc/sidebar.php:19
+msgid ""
+"Instant mobile view of website (pages, posts, products) for responsive web "
+"design on phone (+ dualscreen). This plugin also offers helpful tools on "
+"each page, such as Facebook Debugger, LinkedIn Post Inspector, and Google "
+"Mobile-Friendly Test Tool."
+msgstr ""
+"Vizualizare instantanee mobilă a site-ului web (pagini, postări, produse) "
+"pentru design web receptiv pe telefon (+ ecran dual). Acest plugin oferă, de "
+"asemenea, instrumente utile pe fiecare pagină, cum ar fi Facebook Debugger, "
+"LinkedIn Post Inspector și Google Mobile-Friendly Test Tool."
+
+#: inc/sidebar.php:18
+msgid "Instant Mobile Viewer"
+msgstr "Vizualizator instantaneu pentru mobil"
+
+#: inc/faq.php:33
+msgid ""
+"It is an IAB-approved text file that aims to prevent unauthorized inventory "
+"sales. In a fragmented advertising ecosystem, ads.txt serves as a method of "
+"improving transparency for demand side platforms. In fact, DSPs aren’t "
+"buying web supply that isn’t authorized via ads.txt."
+msgstr ""
+"Este un fișier text aprobat de IAB, care are ca scop prevenirea vânzărilor "
+"neautorizate de inventar. Într-un ecosistem publicitar fragmentat, ads.txt "
+"servește ca metodă de îmbunătățire a transparenței pentru platformele din "
+"partea cererii. De fapt, DSP-urile nu cumpără materiale web care nu sunt "
+"autorizate prin intermediul ads.txt."
+
+#: app-ads-txt-admin.php:278
+msgid ""
+"Just a sample for copy-paste purpose. Make sure to change itaccordingaly "
+"inside custom rules box."
+msgstr ""
+"Doar un eșantion pentru copiere-lipire. Asigurați-vă că îl modificați în "
+"conformitate cu caseta de reguli personalizate."
+
+#: inc/seo-recommendations.php:12
+msgid "Loading performance"
+msgstr "Performanță de încărcare"
+
+#: app-ads-txt-admin.php:268
+msgid ""
+"Make sure search engines can crawl your .txt files. Optimize your robots.txt "
+"with"
+msgstr ""
+"Asigurați-vă că motoarele de căutare vă pot accesa fișierele .txt. "
+"Optimizați-vă robots.txt cu"
+
+#: inc/seo-recommendations.php:100
+msgid "MASS PING"
+msgstr "MAS PING"
+
+#: inc/seo-recommendations.php:101
+msgid ""
+"Mass ping is a free online tool that easily promotes your blog or website on "
+"70 different search engines."
+msgstr ""
+"Mass ping este un instrument online gratuit care vă promovează cu ușurință "
+"blogul sau site-ul web pe 70 de motoare de căutare diferite."
+
+#: inc/faq.php:41
+msgid "More details here : https://youtu.be/T_4uK2HnOy0"
+msgstr "Mai multe detalii aici: https://youtu.be/T_4uK2HnOy0"
+
+#: inc/faq.php:49
+msgid "My .txt file doesn’t show up at all."
+msgstr "Fișierul meu .txt nu apare deloc."
+
+#: inc/seo-recommendations.php:30 inc/seo-recommendations.php:32
+msgid "My Google Ranking"
+msgstr "Clasamentul meu pe Google"
+
+#: inc/seo-recommendations.php:62 inc/seo-recommendations.php:64
+msgid "My SEO profile"
+msgstr "Profilul meu SEO"
+
+#: inc/recommendations.php:123
+msgid "Nofollow for external link By CyberNetikz"
+msgstr "Nofollow pentru link extern De CyberNetikz"
+
+#: app-ads-txt-admin.php:257
+msgid ""
+"Note: app-ads.txt & ads.txt Manager creates virtual app-ads.txt & ads.txt "
+"files. Please make sure that your permalinks are enabled and there is no "
+"physical app-ads.txt & ads.txt file on your server. If you're using any kind "
+"of cache then make sure to clear it after Saving Changes. Please read FAQ "
+"for more details."
+msgstr ""
+"Notă: app-ads.txt & ads.txt Manager creează fișiere virtuale app-ads.txt și "
+"ads.txt. Vă rugăm să vă asigurați că legăturile permanente sunt activate și "
+"că nu există fișier fizic app-ads.txt & ads.txt pe serverul dvs. Dacă "
+"utilizați orice fel de cache, asigurați-vă că îl ștergeți după Salvarea "
+"modificărilor. Vă rugăm să citiți FAQ pentru mai multe detalii."
+
+#: admin-ui-inc/ads-txt-inc.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your ads.txt</a>"
+msgstr ""
+"Odată ce setările sunt aplicate, vă rugăm să verificați fișierele dvs. ads."
+"txt aici. <a href=\"%s\" target=\"_blank\" class=\"note-btn\">Ads.txt</a>"
+
+#: admin-ui-inc/app-ads-txt-inc.php:5 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:5
+#, php-format
+msgid ""
+"Once your settings are applied, please check your app-ads.txt files here. <a "
+"href=\"%s\" target=\"_blank\" class=\"note-btn\">Your app-ads.txt</a>"
+msgstr ""
+"Odată ce setările sunt aplicate, vă rugăm să verificați fișierele dvs. app-"
+"ads.txt aici. <a href=\"%s\" target=\"_blank\" class=\"note-btn\">App-ads."
+"txt</a>"
+
+#: inc/recommendations.php:99
+msgid "OneSignal – Free Web Push Notifications By OneSignal"
+msgstr "OneSignal - Notificări Web Push gratuite de OneSignal"
+
+#: inc/sidebar.php:12
+msgid "Optimize your ALT TEXT"
+msgstr "Optimizați-vă ALT TEXT"
+
+#: inc/sidebar.php:7
+msgid ""
+"Optimize your Robots.txt with Better Robots.txt (made by PAGUP) & Boost your "
+"ranking on search engines."
+msgstr ""
+"Optimizați-vă Robots.txt cu Better Robots.txt (realizat de PAGUP) și "
+"îmbunătățiți-vă clasamentul pe motoarele de căutare."
+
+#. Author of the plugin
+msgid "Pagup"
+msgstr "Pagup"
+
+#: app-ads-txt-admin.php:261
+msgid "Permalinks"
+msgstr "Legături permanente"
+
+#: inc/seo-recommendations.php:102
+msgid "Ping my links"
+msgstr "Ping link-urile mele"
+
+#: inc/faq.php:53
+msgid ""
+"Please clear your browser cache and reload the ads.txt OR app-ads.txt link."
+msgstr ""
+"Vă rugăm să goliți memoria cache a browserului și să reîncărcați link-ul ads."
+"txt SAU app-ads.txt."
+
+#: inc/seo-recommendations.php:5
+msgid "Premium Feature"
+msgstr "Caracteristică Premium"
+
+#: inc/recommendations.php:111
+msgid "Recart - Abandoned Cart Toolbox"
+msgstr "Reîncărcare - Casetă de instrumente Coș abandonat"
+
+#: inc/recommendations.php:112
+msgid ""
+"Recart Messenger Marketing and Abandoned Cart Toolbox is a All in one cart "
+"recovery marketing tools for ecommerce solution"
+msgstr ""
+"Recart Messenger Marketing și Abandoned Cart Toolbox este un instrument de "
+"marketing All in one pentru recuperarea coșului pentru soluția de comerț "
+"electronic"
+
+#: app-ads-txt-admin.php:248
+msgid "Save Changes"
+msgstr "Salvează modificările"
+
+#: inc/recommendations.php:4
+msgid "Schema App Structured Data by Hunch Manifest"
+msgstr "Scheme App Structured Data by Hunch Manifest"
+
+#: inc/seo-recommendations.php:58
+msgid "SEO Score"
+msgstr "Scor SEO"
+
+#: inc/seo-recommendations.php:1
+msgid "SEO tools recommended by App-Ads.txt & Ads.txt Manager:"
+msgstr "Instrumentele SEO recomandate de App-Ads.txt și Ads.txt Manager:"
+
+#: app-ads-txt-admin.php:139
+msgid "Settings"
+msgstr "Setări"
+
+#: app-ads-txt-admin.php:126
+msgid "Settings saved."
+msgstr "Setari Salvate."
+
+#: inc/recommendations.php:88
+msgid ""
+"Share buttons from AddThis help you get more traffic from sharing through "
+"social networks."
+msgstr ""
+"Butoanele de partajare din AddThis vă ajută să obțineți mai mult trafic din "
+"partajarea prin rețelele sociale."
+
+#: inc/notices.php:13
+#, php-format
+msgid ""
+"Show support for App-ads.txt & Ads.txt Manager with a 5-star rating » <a "
+"href=\"%s\" target=\"_blank\">Click here</a>"
+msgstr ""
+"Afișați asistență pentru App-ads.txt și Ads.txt Manager cu o evaluare de 5 "
+"stele » <a href=\"%s\" target=\"_blank\">Faceți clic aici</a>"
+
+#: inc/recommendations.php:22
+msgid "Smush Image Compression and Optimization By WPMU DEV"
+msgstr "Comprimarea și optimizarea imaginilor Smush de către WPMU DEV"
+
+#: inc/faq.php:96
+msgid ""
+"Source : https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+msgstr ""
+"Sursă: https://support.vungle.com/hc/en-us/articles/360029177591-App-ads-"
+"text-Overview"
+
+#: inc/faq.php:75
+msgid "Source : https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+msgstr "Sursă: https://www.ironsrc.com/blog/what-is-app-ads-txt/"
+
+#: inc/recommendations.php:118 inc/recommendations.php:136
+msgid ""
+"Speed up your WordPress website, more traffic, conversions and money with WP "
+"Rocket caching plugin."
+msgstr ""
+"Accelerați site-ul dvs. WordPress, mai mult trafic, conversii și bani cu "
+"pluginul de cache WP Rocket."
+
+#: inc/seo-recommendations.php:89
+msgid ""
+"Submit your website to Bing Webmaster tool and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"Trimiteți site-ul dvs. web instrumentului Bing Webmaster și bucurați-vă de "
+"beneficiul real al Better Robots.txt"
+
+#: inc/seo-recommendations.php:81
+msgid ""
+"Submit your website to Google Search Console and enjoy the real benefit of "
+"Better Robots.txt"
+msgstr ""
+"Trimiteți site-ul dvs. Google Search Console și bucurați-vă de beneficiul "
+"real al Better Robots.txt"
+
+#: inc/faq.php:17
+msgid ""
+"Thanks to app-ads.txt file, Mobile and OTT app publishers can list the ad "
+"tech vendors that are authorized to sell or resell their ad inventory, and "
+"programmatic ad buyers can check these lists to make sure that a company "
+"claiming to offer an app’s inventory is actually able to sell the app’s "
+"inventory."
+msgstr ""
+"Datorită fișierului app-ads.txt, editorii de aplicații mobile și OTT pot "
+"lista furnizorii de tehnologie publicitară care sunt autorizați să vândă sau "
+"să revândă inventarul lor publicitar, iar cumpărătorii de anunțuri "
+"programatice pot verifica aceste liste pentru a se asigura că o companie "
+"care pretinde să ofere o aplicație Inventarul este de fapt capabil să vândă "
+"inventarul aplicației."
+
+#: inc/faq.php:13
+msgid ""
+"The app-ads.txt file is the version of ads.txt for mobile in-app and OTT "
+"advertising, to combat bad actors that disguise themselves as another "
+"company’s app in order to siphon the money that advertisers are spending on "
+"mobile and OTT advertising. App-ads.txt files are formatted the same as ads."
+"txt files (view IAB FAQ for ads.txt and app-ads.txt)."
+msgstr ""
+"Fișierul app-ads.txt este versiunea ads.txt pentru publicitate mobilă în "
+"aplicație și OTT, pentru a combate actorii răi care se deghizează în "
+"aplicația altei companii, pentru a sifona banii pe care agenții de "
+"publicitate îi cheltuiesc pentru publicitatea mobilă și OTT. Fișierele App-"
+"ads.txt sunt formatate la fel ca fișierele ads.txt (consultați întrebările "
+"frecvente IAB pentru ads.txt și app-ads.txt)."
+
+#: admin-ui-inc/ads-txt-inc.php:34 admin-ui-inc/ads-txt-inc.php:99 
+#: admin-ui-inc/app-ads-txt-inc.php:34 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:35 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:99
+msgid ""
+"The canonical domain name of the SSP, Exchange, system that bidders connect "
+"to (they publishes a document detailing what domain name to use)."
+msgstr ""
+"Numele de domeniu canonic al SSP, Exchange, sistem la care ofertanții se "
+"conectează (publică un document care detaliază ce nume de domeniu să "
+"utilizeze)."
+
+#: inc/faq.php:64
+msgid "There are two main benefits for app developers."
+msgstr "Există două avantaje principale pentru dezvoltatorii de aplicații."
+
+#: inc/faq.php:21
+msgid "This file opens the door for a new level of transparency."
+msgstr "Acest fișier deschide ușa unui nou nivel de transparență."
+
+#: inc/recommendations.php:43
+msgid "Top plugins for SEO performance:"
+msgstr "Cele mai bune pluginuri pentru performanța SEO:"
+
+#: inc/sidebar.php:8
+msgid "Try Better Robots.txt &raquo;"
+msgstr "Încercați Better Robots.txt »"
+
+#: inc/recommendations.php:186
+#, php-format
+msgid ""
+"Upgrade to <a href=\"%s\">PRO version</a> to UNLOCK 12 additional awesome "
+"plugins recommendations for SEO & Conversion performance"
+msgstr ""
+"Treceți la <a href=\"%s\">versiunea PRO</a> la UNLOCK 12 recomandări "
+"suplimentare minunate de plugin-uri pentru performanțe SEO și conversie"
+
+#: inc/recommendations.php:192
+msgid ""
+"Want to suggest another plugin ? ... Send us a message at support@better-"
+"robots.com"
+msgstr ""
+"Doriți să sugerați un alt plugin? ... Trimiteți-ne un mesaj la "
+"support@better-robots.com"
+
+#: app-ads-txt-admin.php:216
+msgid "Warning: make sure to clear your cache after saving changes."
+msgstr ""
+"Avertisment: asigurați-vă că vă goliți memoria cache după salvarea "
+"modificărilor."
+
+#: inc/faq.php:29
+msgid "What’s ads.txt ?"
+msgstr "Ce este ads.txt?"
+
+#: inc/faq.php:5
+msgid "What’s app-ads.txt?"
+msgstr "Ce este app-ads.txt?"
+
+#: inc/recommendations.php:87
+msgid "WordPress Share Buttons Plugin – AddThis By The AddThis Team"
+msgstr "Pluginul Butoanelor Share WordPress - AddThis de către echipa AddThis"
+
+#: inc/recommendations.php:135
+msgid "WP Chatbot for facebook Messenger customer chat By HoliThemes"
+msgstr ""
+"WP Chatbot pentru chat-ul clientului Facebook Messenger Prin HoliThemes"
+
+#: inc/recommendations.php:141
+msgid "WP Google My Business Auto Publish By Martin Gibson"
+msgstr "WP Google My Business Auto Publish De Martin Gibson"
+
+#: inc/recommendations.php:142
+msgid ""
+"WP Google My Business Auto Publish lets you publish posts, custom posts and "
+"pages automatically from WordPress to your Google My Business page."
+msgstr ""
+"WP Google My Business Auto Publish vă permite să publicați automat postări, "
+"postări personalizate și pagini în mod automat de la WordPress pe pagina "
+"Compania mea pe Google."
+
+#: inc/recommendations.php:147
+msgid "WP Search Console"
+msgstr "Consola de căutare WP"
+
+#: inc/recommendations.php:81
+msgid "WP-Optimize by David Anderson, Ruhani Rabin, Team Updraft"
+msgstr "WP-Optimize de David Anderson, Ruhani Rabin, Team Updraft"
+
+#: inc/recommendations.php:82
+msgid ""
+"WP-Optimize is WordPress's most-installed optimization plugin. With it, you "
+"can clean up your database easily and safely, without manual queries."
+msgstr ""
+"WP-Optimize este cel mai instalat plugin de optimizare WordPress. Cu acesta, "
+"puteți curăța baza de date cu ușurință și siguranță, fără interogări manuale."
+
+#: inc/recommendations.php:117
+msgid "Wp-Roket - Probably the best caching Plugin for WordPress"
+msgstr "Wp-Roket - Probabil cel mai bun plugin de cache pentru WordPress"
+
+#: inc/recommendations.php:94
+msgid ""
+"WP-SpamShield is a leading WordPress anti-spam plugin that stops spam "
+"instantly and improves your site's security. "
+msgstr ""
+"WP-SpamShield este un plugin WordPress anti-spam de top care oprește spamul "
+"instantaneu și îmbunătățește securitatea site-ului dvs."
+
+#: inc/recommendations.php:93
+msgid "WP-SpamShield WordPress Anti-Spam Plugin by Red Sand Media Group"
+msgstr "WP-SpamShield Plugin anti-spam WordPress de la Red Sand Media Group"
+
+#: inc/recommendations.php:105
+msgid "WPfomify - Social Proof & FOMO Marketing Plugin"
+msgstr "WPfomify - Social Proof & FOMO Marketing Plugin"
+
+#: inc/recommendations.php:106
+msgid ""
+"WPfomify increases conversion rates on your websites by displaying recent "
+"interaction, sales and sign-ups"
+msgstr ""
+"WPfomify crește ratele de conversie pe site-urile dvs. web, afișând "
+"interacțiuni recente, vânzări și înscrieri"
+
+#: inc/recommendations.php:10
+msgid "Yasr – Yet Another Stars Rating by Dario Curvino"
+msgstr "Yasr - Încă o evaluare de stele de Dario Curvino"
+
+#: inc/recommendations.php:34
+msgid "Yoast SEO By Team Yoast"
+msgstr "SEO de către echipa Yoast"
+
+#: admin-ui-inc/ads-txt-inc.php:54 admin-ui-inc/ads-txt-inc.php:119 
+#: admin-ui-inc/app-ads-txt-inc.php:54
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your ads-txt.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"Partenerii dvs. de cerere directă ar trebui să fie incluși în „direct”. Dacă "
+"partenerii dvs. utilizează revânzători terți pentru a vinde inventarul dvs., "
+"acești furnizori ar trebui să fie listați ca „revânzător”. În orice caz, nu "
+"ar trebui să adăugați niciun furnizor în fișierul dvs. ads-txt.txt decât "
+"dacă dvs. sau partenerul dvs. aveți o relație directă cu aceștia."
+
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:55 
+#: admin-ui-inc/app-ads-txt-inc__premium_only.php:119
+msgid ""
+"Your direct demand partners should be listed as “direct.” If your partners "
+"are using third-party resellers to sell your inventory, such providers "
+"should be listed as “reseller.” In any case, you should not add any provider "
+"to your app-ads.txt file unless you or your partner have a direct "
+"relationship with them."
+msgstr ""
+"Partenerii dvs. de cerere directă ar trebui să fie incluși în „direct”. Dacă "
+"partenerii dvs. utilizează revânzători terți pentru a vinde inventarul dvs., "
+"acești furnizori ar trebui să fie listați ca „revânzător”. În orice caz, nu "
+"ar trebui să adăugați niciun furnizor în fișierul dvs. app-ads.txt decât "
+"dacă dvs. sau partenerul dvs. aveți o relație directă cu aceștia."

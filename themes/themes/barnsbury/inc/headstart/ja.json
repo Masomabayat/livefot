@@ -1,0 +1,251 @@
+{
+    "settings": {
+        "options": {
+            "show_on_front": "page",
+            "featured-content": false
+        },
+        "theme_mods": {
+            "0": false,
+            "nav_menu_locations": {
+                "menu-1": "primary-menu",
+                "social": "social-menu",
+                "menu-2": "primary-menu"
+            },
+            "custom_css_post_id": -1,
+            "hide_front_page_title": true
+        },
+        "headstart": {
+            "mapped_id_options": [],
+            "mapped_id_theme_mods": [],
+            "keep_submenu_items": true
+        }
+    },
+    "widgets": [],
+    "content": [
+        {
+            "post_type": "page",
+            "post_title": "レシピ",
+            "post_content": "",
+            "post_name": "recipes",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 76,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_blog_page"
+        },
+        {
+            "post_type": "post",
+            "post_title": "ガーリックパルメザンパスタ",
+            "post_content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":71,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/brooke-lark-f_5g8eehye-unsplash-1.jpg?w=689\" alt=\"\" class=\"wp-image-71\"  /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"level\":4} -->\n<h4>材料</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>バター1/2カップ (約120ml)</li><li>乾燥バジル (砕く) 小さじ2</li><li>レモン汁小さじ2</li><li>ガーリックパウダー小さじ1 1/4</li><li>味付け用の塩小さじ3/4</li><li>フェットチーネまたはエンジェルヘアパスタ (茹でて湯を切る) 約220g</li><li>ブロッコリー (小房に切ってゆがく) 1 1/2カップ (約360ml)</li><li>クルミ (粗みじん切り) 大さじ3</li><li>すりおろした新鮮なパルメザンチーズ</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4>手順</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>大きめのスキレットでバターを溶かします。</li><li>バジル、レモン汁、ガーリックパウダー、味付け塩を加えてよく混ぜ合わせます。</li><li>フェットチーネ、ブロッコリー、クルミを加えます。</li><li>フェットチーネの表面にまんべんなく絡むようによく和えます。</li><li>和え終わったら、おろしたてのパルメザンチーズを散らして仕上げます。</li></ol>\n<!-- /wp:list -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><em>この投稿には、ウィキブックスの記事「<a href=\"https://en.wikibooks.org/wiki/Cookbook:Garlic_Parmesan_Pasta\">Cookbook:Garlic Parmesan Pasta</a>」(<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">クリエイティブ・コモンズ表示-継承ライセンス3.0</a>で発行) の素材を転載しています。</em></p>\n<!-- /wp:paragraph -->",
+            "post_name": "garlic-parmesan-pasta",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 69,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Recipes"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "お問い合わせ",
+            "post_content": "<!-- wp:paragraph {\"align\":\"left\"} -->\n<p style=\"text-align:left;\">詳細はご相談にて。&amp;#128075; ぜひお気軽に以下の連絡先にお問い合わせください。フォームでのご連絡もお待ちしています。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:columns {\"className\":\"has-2-columns\"} -->\n<div class=\"wp-block-columns has-2-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/contact-info -->\n<div class=\"wp-block-jetpack-contact-info\"><!-- wp:heading {\"level\":3} -->\n<h3>お問い合わせ</h3>\n<!-- /wp:heading -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:jetpack/address {\"address\":\"10 Street Road\",\"city\":\"City\",\"postal\":\"10100\",\"country\":\"USA\"} -->\n<div class=\"wp-block-jetpack-address\"><div class=\"jetpack-address__address jetpack-address__address1\">10 Street Road</div><div><span class=\"jetpack-address__city\">City</span>, <span class=\"jetpack-address__region\"></span> <span class=\"jetpack-address__postal\">10100</span></div><div class=\"jetpack-address__country\">USA</div></div>\n<!-- /wp:jetpack/address -->\n\n<!-- wp:jetpack/email {\"email\":\"mail@example.com\"} -->\n<div class=\"wp-block-jetpack-email\"><a href=\"mailto:mail@example.com\">mail@example.com</a></div>\n<!-- /wp:jetpack/email -->\n\n<!-- wp:jetpack/phone {\"phone\":\"(555) 555 1234\"} -->\n<div class=\"wp-block-jetpack-phone\"><a href=\"tel:5555551234\">(555) 555 1234</a></div>\n<!-- /wp:jetpack/phone --></div>\n<!-- /wp:jetpack/contact-info -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3>営業時間</h3>\n<!-- /wp:heading -->\n\n<!-- wp:jetpack/business-hours /--></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/contact-form -->\n<!-- wp:jetpack/field-name {\"required\":true} /-->\n\n<!-- wp:jetpack/field-email {\"label\":\"Email\",\"required\":true} /-->\n\n<!-- wp:jetpack/field-url /-->\n\n<!-- wp:jetpack/field-textarea {\"required\":true} /-->\n<!-- /wp:jetpack/contact-form --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+            "post_name": "contact",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 43,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "page",
+            "post_title": "ホーム",
+            "post_content": "<!-- wp:media-text {\"align\":\"full\",\"backgroundColor\":\"primary\",\"mediaPosition\":\"right\",\"mediaId\":11,\"mediaType\":\"image\",\"isStackedOnMobile\":true,\"imageFill\":true} -->\n<div class=\"wp-block-media-text alignfull has-media-on-the-right has-primary-background-color is-stacked-on-mobile is-image-fill\"><figure class=\"wp-block-media-text__media\" style=\"background-image:url('https://barnsburydemo.files.wordpress.com/2019/09/sri-lanka-ksa66ayiqnk-unsplash.jpg?w=750');background-position:50% 50%;\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/sri-lanka-ksa66ayiqnk-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-11\"  /></figure><div class=\"wp-block-media-text__content\"><!-- wp:spacer {\"height\":64} -->\n<div style=\"height:64px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"level\":1} -->\n<h1>地元で栽培されたオーガニック野菜を宅配</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>20年間、オーガニック野菜を栽培し、サセックスにある12エーカーの自社農場から箱詰めにした野菜を届けてきました。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:button {\"textColor\":\"background\",\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link has-text-color has-background-color\" href=\"/contact\">お問い合わせ</a></div>\n<!-- /wp:button -->\n\n<!-- wp:spacer {\"height\":64} -->\n<div style=\"height:64px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:media-text -->\n\n<!-- wp:group {\"backgroundColor\":\"background\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-background-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-half\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-half\"><strong>サービス</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<h2 class=\"has-text-align-center margin-top-half\">サービスの概要</h2>\n<!-- /wp:heading -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:columns {\"align\":\"wide\"} -->\n<div class=\"wp-block-columns alignwide\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":12,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/jeshoots-com-l8nlxbhwbw0-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-12\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>できる限り地元産の旬のオーガニック野菜を新鮮なまま箱詰めしたものを、お手頃価格で用意しています。</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":13,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/martin-adams-5xxfymman84-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-13\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>ひとり暮らしの方からご家族まで、ご入用の食材量に合わせ、さまざまなサイズの箱を用意しています。</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":10,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/agence-producteurs-locaux-damien-kuhn-dtbfrwd6qto-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-10\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>箱詰めするアイテムは柔軟に調整いたします。ご注文品に含まれるアイテムを他のお好きなアイテムに変更できます。</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:cover {\"url\":\"https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg\",\"id\":153,\"dimRatio\":30,\"align\":\"full\"} -->\n<div class=\"wp-block-cover alignfull has-background-dim-30 has-background-dim\" style=\"background-image:url('https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg');\"><div class=\"wp-block-cover__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-half\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-half\"><strong>事業者紹介</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<h2 class=\"has-text-align-center margin-top-half\">数値でわかる当オーガニック農場の概要</h2>\n<!-- /wp:heading -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:columns {\"align\":\"wide\"} -->\n<div class=\"wp-block-columns alignwide\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>370</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">利用世帯 (月間)</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>23</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">勤務する専門家の人数</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>5</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">獲得した賞</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"align\":\"center\",\"className\":\"margin-bottom-none\"} -->\n<h2 class=\"has-text-align-center margin-bottom-none\"><strong>100%</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center margin-top-none\">顧客満足度</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:cover -->\n\n<!-- wp:group {\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:media-text {\"mediaId\":15,\"mediaType\":\"image\",\"isStackedOnMobile\":true,\"imageFill\":true} -->\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile is-image-fill\"><figure class=\"wp-block-media-text__media\" style=\"background-image:url('https://barnsburydemo.files.wordpress.com/2019/09/phil-hearing-nfs0n3_d2xy-unsplash.jpg?w=750');background-position:50% 50%;\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/phil-hearing-nfs0n3_d2xy-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-15\"  /></figure><div class=\"wp-block-media-text__content\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"level\":3} -->\n<h3>当社の長所</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>今こそオーガニック食品を食べるべき時代です。オーガニック製品を生み出すには、自然と対峙する必要があります。私たちはこれから、ヨーロッパタイプの食品の最盛期を迎えます。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:list -->\n<ul><li><strong>おいしい</strong></li><li><strong>倫理的</strong> </li><li><strong>持続可能</strong></li><li><strong>季節</strong></li><li><strong>無料配送</strong></li></ul>\n<!-- /wp:list -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:media-text -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:columns {\"align\":\"wide\",\"className\":\"margin-top-none\"} -->\n<div class=\"wp-block-columns alignwide margin-top-none\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/rating-star {\"rating\":5,\"align\":\"center\",\"className\":\"margin-bottom-half\"} -->\n<figure class=\"wp-block-jetpack-rating-star margin-bottom-half\" style=\"text-align:center;\"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></figure>\n<!-- /wp:jetpack/rating-star -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>「素晴らしいサービス」</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">彼らのサービスは卓越しています。その一部だけでもサービスを利用するようになってほしいと心から願っています。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>フィオナ</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/rating-star {\"rating\":5,\"align\":\"center\",\"className\":\"margin-bottom-half\"} -->\n<figure class=\"wp-block-jetpack-rating-star margin-bottom-half\" style=\"text-align:center;\"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></figure>\n<!-- /wp:jetpack/rating-star -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>「柔軟なところが大好き」</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">商品をとても気に入っています。それに箱の内容を任せたり自分で選んだりできる点も評価しています。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>ジョゼフ</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:jetpack/rating-star {\"rating\":4,\"align\":\"center\",\"className\":\"margin-bottom-half\"} -->\n<figure class=\"wp-block-jetpack-rating-star margin-bottom-half\" style=\"text-align:center;\"><span>★</span><span>★</span><span>★</span><span>★</span></figure>\n<!-- /wp:jetpack/rating-star -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>「とても高品質」</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">品質も見栄えも最高です。野菜の風味が飛び抜けて優れています。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>ミシェル</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:group {\"backgroundColor\":\"secondary\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-secondary-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-half\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-half\"><strong>私たちの野菜を味わってみてください</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading {\"align\":\"center\",\"level\":3,\"className\":\"margin-top-half\"} -->\n<h3 class=\"has-text-align-center margin-top-half\">自家製定番レシピ</h3>\n<!-- /wp:heading -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:latest-posts {\"align\":\"wide\",\"postsToShow\":3,\"displayPostContent\":true,\"excerptLength\":40,\"displayPostDate\":true,\"postLayout\":\"grid\"} /-->\n\n<!-- wp:button {\"textColor\":\"background\",\"align\":\"center\",\"className\":\"is-style-outline\"} -->\n<div class=\"wp-block-button aligncenter is-style-outline\"><a class=\"wp-block-button__link has-text-color has-background-color\" href=\"/recipes\">その他のレシピ</a></div>\n<!-- /wp:button -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->",
+            "post_name": "home",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 7,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_front_page"
+        },
+        {
+            "post_type": "page",
+            "post_title": "このサイトについて",
+            "post_content": "<!-- wp:paragraph -->\n<p>できる限り地元で栽培された旬のオーガニック野菜を、極力新鮮なままお手頃価格で用意しています。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":153,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg?w=1024\" alt=\"\" class=\"wp-image-153\"  /></figure>\n<!-- /wp:image -->\n\n<!-- wp:group {\"backgroundColor\":\"background-light\",\"align\":\"full\"} -->\n<div class=\"wp-block-group alignfull has-background-light-background-color has-background\"><div class=\"wp-block-group__inner-container\"><!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\",\"level\":4} -->\n<h4 class=\"has-text-align-center\">お客様の声</h4>\n<!-- /wp:heading -->\n\n<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>「素晴らしいサービス」</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">彼らのサービスは卓越しています。その一部だけでもサービスを利用するようになってほしいと心から願っています。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>フィオナ</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>「柔軟なところが大好き」</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">商品をとても気に入っています。それに箱の内容を任せたり自分で選んだりできる点も評価しています。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>ジョゼフ</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:paragraph {\"align\":\"center\",\"className\":\"margin-top-half\"} -->\n<p class=\"has-text-align-center margin-top-half\"><strong>「とても高品質」</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-bottom-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-bottom-none\">品質も見栄えも最高です。野菜の風味が飛び抜けて優れています。</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\",\"className\":\"margin-top-none\"} -->\n<p class=\"has-text-align-center has-small-font-size margin-top-none\"><strong>ミシェル</strong></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:spacer {\"height\":32} -->\n<div style=\"height:32px;\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer --></div></div>\n<!-- /wp:group -->\n\n<!-- wp:spacer {\"height\":64,\"className\":\"desktop-only\"} -->\n<div style=\"height:64px;\" aria-hidden=\"true\" class=\"wp-block-spacer desktop-only\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:heading {\"align\":\"center\"} -->\n<h2 class=\"has-text-align-center\">一緒に素晴らしいものを育てましょう。</h2>\n<!-- /wp:heading -->\n\n<!-- wp:button {\"align\":\"center\"} -->\n<div class=\"wp-block-button aligncenter\"><a class=\"wp-block-button__link\" href=\"https://mordendemo.wordpress.com/contact/\">お問い合わせ</a></div>\n<!-- /wp:button -->",
+            "post_name": "about",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "open",
+            "hs_old_id": 1,
+            "hs_post_parent": 0,
+            "hs_taxonomies": [],
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "ワカモレ",
+            "post_content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":64,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/mariana-medvedeva-nm1fz-scxne-unsplash.jpg?w=750\" alt=\"\" class=\"wp-image-64\"  /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"level\":4} -->\n<h4>材料</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>アボカド4個</li><li>ピコデガロ大さじ2</li><li>ライム果汁 (しぼる) 1/2個分</li><li>ハラペーニョ (粗みじん切り) 2本分、または赤トウガラシ (砕く) 大さじ2、またはカイエンペッパー大さじ1</li><li>塩小さじ1</li><li>オリーブオイル小さじ4</li><li>ニンニク (粗みじん切り) 小さじ1 1/2</li><li>ブラックペッパー (挽く) 小さじ1/2</li><li>ハラペーニョ1本分またはセラーノペッパー2本分など、トウガラシ類のみじん切り大さじ2程度 (辛さに応じて増減)</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4>手順</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>アボカドの種を取り除きます。</li><li>皮を切らないように気を付けながら、アボカドに切り込みを入れます。</li><li>アボカド1個分は大きめのスプーンで皮からこそげ取るようにして実をすくい出します。</li><li>ライム果汁を加え、アボカドの表面をまんべんなく覆うように和えます。</li><li>ピコデガロ、ニンニク、オリーブオイル、ハラペーニョ、塩、赤トウガラシ、ブラックペッパーを混ぜ入れ、むらがなくなるまでアボカドをつぶしながら混ぜます。</li><li>ここで残りのアボカドの実をスプーンですくい出し、大きめの塊のまま加えて和えます。</li><li>ワカモレは、やや大きめの塊を残した状態でできあがりです。</li><li>シラントロ (パクチー、香菜) の小枝を1本あしらいます。</li></ol>\n<!-- /wp:list -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><em>この投稿には、ウィキブックスの記事「<a href=\"https://en.wikibooks.org/wiki/Cookbook:Guacamole\">Cookbook:Guacamole</a>」(<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">クリエイティブ・コモンズ表示-継承ライセンス3.0</a>で発行) の素材を転載しています。</em></p>\n<!-- /wp:paragraph -->",
+            "post_name": "guacamole",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 57,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Recipes"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        },
+        {
+            "post_type": "post",
+            "post_title": "スパイス入りカボチャスープ",
+            "post_content": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"id\":50,\"sizeSlug\":\"large\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://barnsburydemo.files.wordpress.com/2019/09/cayla1-w6ftfbpcs9i-unsplash.jpg?w=683\" alt=\"\" class=\"wp-image-50\"  /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:heading {\"level\":4} -->\n<h4>材料</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul><li>バター大さじ1</li><li>タマネギ (粗みじん切り) 1カップ (約240ml)</li><li>中力粉大さじ3</li><li>カレー粉小さじ1/2</li><li>クミン小さじ1/4</li><li>ナツメグ粉末小さじ1/4</li><li>ニンニク2片 (つぶす)</li><li>サツマイモ (皮をむき角切り) 1カップ (約240ml)</li><li>塩小さじ1/4</li><li>無脂肪低塩タイプの鶏または野菜の出汁2缶 (合計で約830ml)</li><li>カボチャ1缶 (約425g)</li><li>低脂肪牛乳 (乳脂肪1%) 1カップ (約240ml)</li><li>ライム果汁 (しぼる) 大さじ1</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:heading {\"level\":4} -->\n<h4>手順</h4>\n<!-- /wp:heading -->\n\n<!-- wp:list {\"ordered\":true} -->\n<ol><li>バターをダッチオーブンか大きめのソースパンに入れ、中～強火で溶かします。タマネギを加えて3～4分間ソテーし、小麦粉、カレー粉、クミン、ナツメグを振ってさらに1分間ソテーします。</li><li>サツマイモ、塩、鶏出汁、カボチャを加え、ひと煮立ちします。火加減を低～中火に弱めてから、鍋に蓋を少しずらして載せ、サツマイモに火が通って柔らかくなるまで20～25分間ほどコトコト煮ます。鍋を火から下ろし、10分ほど置いて粗熱を取ります。</li><li>鍋の中身を取り出し、半量をブレンダーで滑らかなスープにします。こし器を通しながらスープを鍋に戻します。残り半量でも同じ手順を繰り返します。</li><li>火加減を中火に強め、牛乳を混ぜ入れ、スープ全体が熱くなるまで5分間ほど加熱します。</li><li>鍋を火から下ろし、ライム果汁を加えます。</li></ol>\n<!-- /wp:list -->\n\n<!-- wp:separator -->\n<hr class=\"wp-block-separator\"  />\n<!-- /wp:separator -->\n\n<!-- wp:paragraph -->\n<p><em>この投稿には、ウィキブックスの記事「<a href=\"https://en.wikibooks.org/wiki/Cookbook:Spiced_Pumpkin_Soup\">Cookbook:Spiced Pumpkin Soup</a>」(<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">クリエイティブ・コモンズ表示-継承ライセンス3.0</a>で発行) の素材を転載しています。</em></p>\n<!-- /wp:paragraph -->",
+            "post_name": "spiced-pumpkin-soup",
+            "post_excerpt": "",
+            "menu_order": 0,
+            "post_status": "publish",
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "hs_old_id": 47,
+            "hs_post_parent": 0,
+            "hs_taxonomies": {
+                "category_name": [
+                    "Recipes"
+                ],
+                "post_tag_name": []
+            },
+            "hs_custom_meta": "_hs_extra"
+        }
+    ],
+    "menus": {
+        "primary-menu": {
+            "name": "メインメニュー",
+            "items": [
+                {
+                    "menu-item-title": "ホーム",
+                    "menu-item-db-id": 81,
+                    "menu-item-object-id": "7",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "このサイトについて",
+                    "menu-item-db-id": 82,
+                    "menu-item-object-id": "1",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "レシピ",
+                    "menu-item-db-id": 79,
+                    "menu-item-object-id": "76",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                },
+                {
+                    "menu-item-title": "お問い合わせ",
+                    "menu-item-db-id": 80,
+                    "menu-item-object-id": "43",
+                    "menu-item-object": "page",
+                    "menu-item-type": "post_type",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 4,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": ""
+                }
+            ]
+        },
+        "social-menu": {
+            "name": "ソーシャルメニュー",
+            "items": [
+                {
+                    "menu-item-title": "Facebook",
+                    "menu-item-db-id": 83,
+                    "menu-item-object-id": "83",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 1,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.facebook.com/WordPresscom/"
+                },
+                {
+                    "menu-item-title": "Twitter",
+                    "menu-item-db-id": 84,
+                    "menu-item-object-id": "84",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 2,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://twitter.com/wordpressdotcom"
+                },
+                {
+                    "menu-item-title": "Instagram",
+                    "menu-item-db-id": 85,
+                    "menu-item-object-id": "85",
+                    "menu-item-object": "custom",
+                    "menu-item-type": "custom",
+                    "menu-item-status": "publish",
+                    "menu-item-position": 3,
+                    "menu-item-parent-id": "0",
+                    "menu-item-description": "",
+                    "menu-item-url": "https://www.instagram.com/wordpressdotcom/"
+                }
+            ]
+        }
+    },
+    "images": [
+        "https://barnsburydemo.files.wordpress.com/2019/09/healthy.png",
+        "https://barnsburydemo.files.wordpress.com/2019/09/naseem-buras-cwpy-hpdt9q-unsplash-copy-4.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/brooke-lark-f_5g8eehye-unsplash-1.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/brooke-lark-f_5g8eehye-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/mariana-medvedeva-nm1fz-scxne-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/cayla1-w6ftfbpcs9i-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/phil-hearing-nfs0n3_d2xy-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/martin-adams-5xxfymman84-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/jeshoots-com-l8nlxbhwbw0-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/sri-lanka-ksa66ayiqnk-unsplash.jpg",
+        "https://barnsburydemo.files.wordpress.com/2019/09/agence-producteurs-locaux-damien-kuhn-dtbfrwd6qto-unsplash.jpg"
+    ]
+}

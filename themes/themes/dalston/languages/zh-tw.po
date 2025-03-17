@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress.com - Themes - Dalston\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-11-21T04:46:30+00:00\n"
+"PO-Revision-Date: 2022-06-01 09:54:03+0000\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://wordpress.com/theme/dalston"
+msgstr "https://wordpress.com/theme/dalston"
+
+#: inc/wpcom-colors.php:423
+#: inc/wpcom-editor-colors.php:173
+msgid "Secondary Color"
+msgstr "次要色彩"
+
+#: inc/wpcom-colors.php:403
+#: inc/wpcom-editor-colors.php:156
+msgid "Text Color"
+msgstr "文字顏色"
+
+#: inc/wpcom-colors.php:270
+#: inc/wpcom-editor-colors.php:100
+msgid "Link Color"
+msgstr "鏈結顏色"
+
+#: inc/wpcom-colors.php:138
+#: inc/wpcom-editor-colors.php:66
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: functions.php:99
+msgid "Foreground Dark"
+msgstr "前景深色"
+
+#: functions.php:94
+msgid "Foreground Light"
+msgstr "前景淺色"
+
+#: functions.php:89
+msgid "Background"
+msgstr "背景"
+
+#: functions.php:84
+msgid "Foreground"
+msgstr "前景"
+
+#. Description of the theme
+#: style.css
+msgid "Make your online portfolio impressively awesome with Dalston. With the ability to beautifully highlight your illustration and other projects, Dalston is also versatile enough to be your personal site too."
+msgstr "利用 Dalston 讓你的網路作品集顯得又酷又令人印象深刻。這個佈景主題可以讓你的繪圖作品與其他專案顯得美輪美奐，也很適合當做個人網站來用。"
+
+#: functions.php:152
+msgctxt "Crimson Text font: on or off"
+msgid "on"
+msgstr "於"
+
+#: functions.php:79
+msgid "Secondary"
+msgstr "次要"
+
+#: functions.php:74
+msgid "Primary"
+msgstr "主要"
+
+#: functions.php:49
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:48
+msgid "Huge"
+msgstr "極大"
+
+#: functions.php:43
+msgid "L"
+msgstr "大"
+
+#: functions.php:42
+msgid "Large"
+msgstr "大"
+
+#: functions.php:37
+msgid "M"
+msgstr "中"
+
+#: functions.php:36
+msgid "Normal"
+msgstr "一般"
+
+#: functions.php:31
+msgid "S"
+msgstr "S"
+
+#: functions.php:30
+msgid "Small"
+msgstr "小"

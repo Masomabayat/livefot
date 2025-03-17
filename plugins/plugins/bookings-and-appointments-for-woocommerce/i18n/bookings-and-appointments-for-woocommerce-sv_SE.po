@@ -1,0 +1,569 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bookings and Appointments For WooCommerce\n"
+"POT-Creation-Date: 2018-09-12 15:07+0530\n"
+"PO-Revision-Date: 2018-09-12 15:08+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ph-bookings-appointments-woocommerce.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-ph-booking-admin-pages.php:14
+#: includes/admin/class-ph-booking-admin-pages.php:35
+msgid "Bookings"
+msgstr "bokningar"
+
+#: includes/admin/class-ph-booking-admin-pages.php:24
+msgid "Settings"
+msgstr "inställningar"
+
+#: includes/admin/class-ph-booking-admin-pages.php:56
+msgid "Calendar Color"
+msgstr "Kalenderfärg"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:26
+msgid "Order"
+msgstr "Beställa"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:27
+msgid "Product"
+msgstr "Produkt"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:28
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:28
+#: includes/html-ph-booking-product-admin-availability.php:54
+msgid "From"
+msgstr "Från"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:29
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:32
+#: includes/html-ph-booking-product-admin-availability.php:55
+msgid "To"
+msgstr "Till"
+
+#: includes/admin/class-ph-booking-admin-reports-list.php:30
+msgid "Booked by"
+msgstr "Bokad av"
+
+#: includes/admin/market.php:66
+msgid "Woocommerce Bookings And Appointments"
+msgstr "Woocommerce bokningar och möten"
+
+#: includes/admin/market.php:70
+msgid "Allow multiple bookings for a time slot."
+msgstr "Tillåt flera bokningar för en tidslucka."
+
+#: includes/admin/market.php:71
+msgid "Add Participants/Materials to the booking."
+msgstr "Lägg till deltagare / material till bokningen."
+
+#: includes/admin/market.php:72
+msgid "Add Resources"
+msgstr "Lägg till resurser"
+
+#: includes/admin/market.php:73
+msgid "Set special prices or discounts"
+msgstr "Ange speciella priser eller rabatter"
+
+#: includes/admin/market.php:74
+msgid "Create booking availability rules as you wish."
+msgstr "Skapa bokningsregler för tillgänglighet som du önskar."
+
+#: includes/admin/market.php:75
+msgid "Allow booking cancellation"
+msgstr "Tillåt bokningsavbeställning"
+
+#: includes/admin/market.php:76
+msgid "Configure the bookings to require confirmation from the Admin"
+msgstr "Konfigurera bokningarna för att kräva bekräftelse från administratören"
+
+#: includes/admin/market.php:81
+msgid "Upgrade to Premium"
+msgstr "Uppgradera till Premium"
+
+#: includes/admin/market.php:82
+msgid "Live Demo"
+msgstr "Live-demo"
+
+#: includes/admin/views/html-ph-booking-admin-reports-list-filters.php:17
+msgid "Choose product"
+msgstr "Välj produkt"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color.php:106
+msgid "Click anywhere in the calendar to apply your desired colour."
+msgstr "Klicka någonstans i kalendern för att ange önskad färg."
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color.php:135
+#: includes/booking-callender/class-ph-booking-callender.php:390
+#: includes/booking-callender/html-ph-booking-datepicker.php:23
+msgid "Mo"
+msgstr "må"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color.php:136
+#: includes/booking-callender/class-ph-booking-callender.php:391
+#: includes/booking-callender/html-ph-booking-datepicker.php:24
+msgid "Tu"
+msgstr "Ti"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color.php:137
+#: includes/booking-callender/class-ph-booking-callender.php:392
+#: includes/booking-callender/html-ph-booking-datepicker.php:25
+msgid "We"
+msgstr "On"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color.php:138
+#: includes/booking-callender/class-ph-booking-callender.php:393
+#: includes/booking-callender/html-ph-booking-datepicker.php:26
+msgid "Th"
+msgstr "To"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color.php:139
+#: includes/booking-callender/class-ph-booking-callender.php:394
+#: includes/booking-callender/html-ph-booking-datepicker.php:27
+msgid "Fr"
+msgstr "Fr"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color.php:140
+#: includes/booking-callender/class-ph-booking-callender.php:395
+#: includes/booking-callender/html-ph-booking-datepicker.php:28
+msgid "Sa"
+msgstr "Lö"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color.php:141
+#: includes/booking-callender/class-ph-booking-callender.php:396
+#: includes/booking-callender/html-ph-booking-datepicker.php:29
+msgid "Su"
+msgstr "Sö"
+
+#: includes/booking-callender/html-ph-booking-datepicker.php:5
+#: includes/booking-callender/html-ph-booking-monthpicker.php:5
+#: ph-bookings-appointments-woocommerce.php:120
+msgid "Please pick a booking period"
+msgstr "Vänligen välj en bokningsperiod"
+
+#: includes/booking-callender/html-ph-booking-monthpicker.php:8
+msgid "Pick Month(s)"
+msgstr "Välj Månad (er)"
+
+#: includes/booking-callender/html-ph-booking-timepicker.php:36
+#: ph-bookings-appointments-woocommerce.php:121
+msgid "Please Pick a Date"
+msgstr "Var god välj ett datum"
+
+#: includes/class-ph-booking-product-manager.php:39
+msgid "Booking availability"
+msgstr "Boknings tillgänglighet"
+
+#: includes/class-ph-booking-product-manager.php:44
+#: ph-bookings-appointments-woocommerce.php:115
+msgid "Booking"
+msgstr "Bokning"
+
+#: includes/class-ph-booking-product-manager.php:57
+msgid "Bookable product"
+msgstr "Bokningsbar produkt"
+
+#: includes/class-ph-booking-wc-product.php:132
+msgid "Book Now"
+msgstr "Boka nu"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:43
+msgid "View cart"
+msgstr "Visa kundvagn"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:43
+msgid "Booking Done. Please check cart for payment."
+msgstr "Bokning klar. Vänligen kolla in kundvagnen för betalning."
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:96
+msgid "Booked"
+msgstr "bokade"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:102
+msgid "Booked from"
+msgstr "Bokad från"
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:108
+msgid "Booked to"
+msgstr "Bokat till"
+
+#: includes/html-ph-booking-product-admin-availability.php:53
+msgid "Non-working hours (All days)"
+msgstr "Icke-arbetstid (Alla dagar)"
+
+#: includes/html-ph-booking-product-admin-availability.php:58
+msgid "Appointments within this period will appear blocked on the calendar."
+msgstr "Tidningar inom denna period visas blockerade i kalendern."
+
+#: includes/html-ph-booking-product-admin-availability.php:64
+msgid "Non-working days (Weekend)"
+msgstr "Icke-arbetsdagar (Helg)"
+
+#: includes/html-ph-booking-product-admin-availability.php:65
+msgid "Saturday"
+msgstr "lördag"
+
+#: includes/html-ph-booking-product-admin-availability.php:66
+msgid "Sunday"
+msgstr "söndag"
+
+#: includes/html-ph-booking-product-admin-availability.php:69
+msgid "If checked, these days would appear blocked on the calendar."
+msgstr "Om de är markerade visas dessa dagar blockerade i kalendern."
+
+#: includes/html-ph-booking-product-admin-options.php:16
+msgid "Booking Period"
+msgstr "Bokningsperiod"
+
+#: includes/html-ph-booking-product-admin-options.php:18
+msgid "Fixed period of"
+msgstr "Fast period av"
+
+#: includes/html-ph-booking-product-admin-options.php:19
+msgid "Enable Calendar Range"
+msgstr "Aktivera kalenderintervall"
+
+#: includes/html-ph-booking-product-admin-options.php:24
+msgid "Minutes(s)"
+msgstr "Minuter(s)"
+
+#: includes/html-ph-booking-product-admin-options.php:25
+msgid "Hour(s)"
+msgstr "Timme (timmar)"
+
+#: includes/html-ph-booking-product-admin-options.php:26
+msgid "Day(s)"
+msgstr "Dag(ar)"
+
+#: includes/html-ph-booking-product-admin-options.php:28
+msgid "Month(s)"
+msgstr "Månad(er)"
+
+#: includes/html-ph-booking-product-admin-options.php:33
+msgid ""
+"Fixed Period : Allows users to select a single appointment with the duration "
+"you define here."
+msgstr ""
+"Fast period: Tillåter att användare väljer ett enda möte med den tid du "
+"definierar här."
+
+#: includes/html-ph-booking-product-admin-options.php:38
+msgid ""
+"Enable Range : Allows users to choose multiple days by selecting a start "
+"date and an end date."
+msgstr ""
+"Aktivera intervall: Tillåter att användare väljer flera dagar genom att "
+"välja ett startdatum och ett slutdatum."
+
+#: includes/html-ph-booking-product-admin-options.php:43
+msgid "Price"
+msgstr "Pris"
+
+#: includes/html-ph-booking-product-admin-options.php:46
+msgid ""
+"This price applies to one block of time. Gets multiplied if user chooses "
+"multiple days."
+msgstr ""
+"Detta pris gäller för ett klockslag. Gets multipliceras om användaren väljer "
+"flera dagar."
+
+#: includes/html-ph-booking-product-admin-options.php:55
+msgid "First booking of the day starts at"
+msgstr "Första bokningen av dagen börjar vid"
+
+#: includes/html-ph-booking-product-admin-options.php:62
+msgid "Last booking of the day starts at"
+msgstr "Senaste bokningen av dagen börjar kl"
+
+#: ph-bookings-appointments-woocommerce.php:21
+msgid ""
+"Is everything fine? You already have the Premium version installed in your "
+"website. For any issues, kindly raise a ticket via <a target='_blank' "
+"href='//pluginhive.com/support/'>pluginhive.com/support</a>"
+msgstr ""
+"Är allt bra? Du har redan Premium-versionen installerad på din webbplats. "
+"För eventuella problem, vänligen höja en biljett via <a target='_blank' "
+"href='//pluginhive.com/support/'>pluginhive.com/support</a>"
+
+#: ph-bookings-appointments-woocommerce.php:87
+msgid "January"
+msgstr "januari"
+
+#: ph-bookings-appointments-woocommerce.php:88
+msgid "February"
+msgstr "februari"
+
+#: ph-bookings-appointments-woocommerce.php:89
+msgid "March"
+msgstr "Mars"
+
+#: ph-bookings-appointments-woocommerce.php:90
+msgid "April"
+msgstr "april"
+
+#: ph-bookings-appointments-woocommerce.php:91
+#: ph-bookings-appointments-woocommerce.php:105
+msgid "May"
+msgstr "Maj"
+
+#: ph-bookings-appointments-woocommerce.php:92
+msgid "June"
+msgstr "juni"
+
+#: ph-bookings-appointments-woocommerce.php:93
+msgid "July"
+msgstr "juli"
+
+#: ph-bookings-appointments-woocommerce.php:94
+msgid "August"
+msgstr "augusti"
+
+#: ph-bookings-appointments-woocommerce.php:95
+msgid "September"
+msgstr "september"
+
+#: ph-bookings-appointments-woocommerce.php:96
+msgid "October"
+msgstr "oktober"
+
+#: ph-bookings-appointments-woocommerce.php:97
+msgid "November"
+msgstr "november"
+
+#: ph-bookings-appointments-woocommerce.php:98
+msgid "December"
+msgstr "december"
+
+#: ph-bookings-appointments-woocommerce.php:101
+msgid "Jan"
+msgstr "Jan"
+
+#: ph-bookings-appointments-woocommerce.php:102
+msgid "Feb"
+msgstr "Feb"
+
+#: ph-bookings-appointments-woocommerce.php:103
+msgid "Mar"
+msgstr "Mar"
+
+#: ph-bookings-appointments-woocommerce.php:104
+msgid "Apr"
+msgstr "Apr"
+
+#: ph-bookings-appointments-woocommerce.php:106
+msgid "Jun"
+msgstr "Jun"
+
+#: ph-bookings-appointments-woocommerce.php:107
+msgid "Jul"
+msgstr "Jul"
+
+#: ph-bookings-appointments-woocommerce.php:108
+msgid "Aug"
+msgstr "Aug"
+
+#: ph-bookings-appointments-woocommerce.php:109
+msgid "Sep"
+msgstr "Sep"
+
+#: ph-bookings-appointments-woocommerce.php:110
+msgid "Oct"
+msgstr "Okt"
+
+#: ph-bookings-appointments-woocommerce.php:111
+msgid "Nov"
+msgstr "Nov"
+
+#: ph-bookings-appointments-woocommerce.php:112
+msgid "Dec"
+msgstr "Dec"
+
+#: ph-bookings-appointments-woocommerce.php:114
+msgid "Booking cost"
+msgstr "Bokningskostnad"
+
+#: ph-bookings-appointments-woocommerce.php:116
+msgid "is not available."
+msgstr "är inte tillgänglig."
+
+#: ph-bookings-appointments-woocommerce.php:117
+msgid "are not available."
+msgstr "är inte tillgängliga."
+
+#: ph-bookings-appointments-woocommerce.php:118
+msgid "Pick a later end date"
+msgstr "Välj ett senare slutdatum"
+
+#: ph-bookings-appointments-woocommerce.php:119
+msgid "Max no of blocks available to book is"
+msgstr "Max antal block som är tillgängliga att boka är"
+
+#: ph-bookings-appointments-woocommerce.php:128
+msgid "Support"
+msgstr "Stöd"
+
+#~ msgid ""
+#~ "Allow the user to book a fixed unit/block of minutes/hrs/days/months or "
+#~ "allow the user to choose a range of days in the calendar"
+#~ msgstr ""
+#~ "Tillåt användaren att boka en fast enhet / block av minuter / timmar / "
+#~ "dagar / månader eller låta användaren välja ett antal dagar i kalendern"
+
+#~ msgid ""
+#~ "In case of fixed period the price applies to the fixed period chosen by "
+#~ "you above. In case of calendar range the price is for per day."
+#~ msgstr ""
+#~ "Vid fast period gäller priset för den fastställda perioden som du valt "
+#~ "ovan. Vid kalenderintervall är priset per dag."
+
+#~ msgid "First Booking Time"
+#~ msgstr "Första bokningstiden"
+
+#~ msgid ""
+#~ "When your booking period is in minutes, this will be the start time for "
+#~ "your first booking."
+#~ msgstr ""
+#~ "När din bokningsperiod är i minuter kommer det att vara starttiden för "
+#~ "din första bokning."
+
+#~ msgid "Last Booking Time"
+#~ msgstr "Senaste bokningstiden"
+
+#~ msgid ""
+#~ "When your booking period is in minutes, this will be the start time for "
+#~ "your last booking"
+#~ msgstr ""
+#~ "När din bokningsperiod är i minuter kommer det att vara starttiden för "
+#~ "din senaste bokning"
+
+#~ msgid "Mon"
+#~ msgstr "mån"
+
+#~ msgid "Tue"
+#~ msgstr "Tis"
+
+#~ msgid "Wed"
+#~ msgstr "Ons"
+
+#~ msgid "Thu"
+#~ msgstr "Tor"
+
+#~ msgid "Fri"
+#~ msgstr "Fre"
+
+#~ msgid "Sat"
+#~ msgstr "Lör"
+
+#~ msgid "Sun"
+#~ msgstr "Sön"
+
+#~ msgid "Bookings and Appointments For WooCommerce"
+#~ msgstr "Bokningar och avtal för WooCommerce"
+
+#~ msgid "Bookings and Appointments solution for all types of businesses."
+#~ msgstr "Bokningar och möten lösning för alla typer av företag."
+
+#~ msgid "PluginHive"
+#~ msgstr "PluginHive"
+
+#~ msgid "https://www.pluginhive.com/"
+#~ msgstr "https://www.pluginhive.com/"
+
+#~ msgid ""
+#~ "Allow multiple bookings for a block. Configure the no of bookings allowed "
+#~ "per block."
+#~ msgstr ""
+#~ "Permettre les réservations multiples pour un bloc. Configurer le nombre "
+#~ "de réservations autorisées par bloc."
+
+#~ msgid ""
+#~ "Add Participants/Materials to the booking. For Eg: Adults/Children etc in "
+#~ "case of a hotel room or Chairs/Tables in case of a party equipment "
+#~ "business."
+#~ msgstr ""
+#~ "Ajouter des Participants/matériaux à la réservation. Pour Eg : Adultes/"
+#~ "enfants etc. dans le cas d’une chambre d’hôtel ou des chaises/Tables dans "
+#~ "le cas d’une entreprise d’équipement de parti."
+
+#~ msgid ""
+#~ "Add Resources/Services to the booking. For Eg: Breakfast, AC in case of a "
+#~ "hotel room or Chair color in case of a party equipment product."
+#~ msgstr ""
+#~ "Ajouter des ressources/Services à la réservation. Pour Eg : Breakfast, AC "
+#~ "dans le cas d’une chambre d’hôtel ou de couleur Chair dans le cas d’un "
+#~ "produit matériel de parti."
+
+#~ msgid "Set special prices or discounts for specific dates or range of dates"
+#~ msgstr ""
+#~ "Définir des prix spéciaux ou des remises pour des dates spécifiques ou "
+#~ "une plage de dates"
+
+#~ msgid "Set special prices based on the number of dates selected"
+#~ msgstr ""
+#~ "Définir des prix spéciaux en fonction du nombre de dates sélectionnées"
+
+#~ msgid "Set prices based on the number of people or resources"
+#~ msgstr "Fixer les prix en fonction du nombre de personnes ou de ressources"
+
+#~ msgid "Set special prices per person/resource"
+#~ msgstr "Définir des prix spéciaux par personne / ressource"
+
+#~ msgid ""
+#~ "Set any number of non-working hours. You can set your lunch time, tea "
+#~ "time etc as non-bookable"
+#~ msgstr ""
+#~ "Définir n’importe quel nombre d’heures de travail. Vous pouvez définir "
+#~ "votre heure du déjeuner, l’heure du thé etc comme non-réserver en ligne"
+
+#~ msgid ""
+#~ "Allows admin to set any day or range of days as non-working days. You may "
+#~ "not be working on weekends or holidays so we have added a feature for you "
+#~ "to mark these days as non-bookable!"
+#~ msgstr ""
+#~ "Permet aux admin définir n’importe quel jour ou une période de jours "
+#~ "comme jours non ouvrables. Vous ne fonctionne ne peut-être pas les week-"
+#~ "ends et jours fériés nous avons ajouté une fonctionnalité pour vous à "
+#~ "l’occasion de ces jours comme non-réserver en ligne !"
+
+#~ msgid ""
+#~ "Create booking availability rules as you wish. You can restrict the "
+#~ "Bookings Opening and closing based on relativity to this day(today) or "
+#~ "based on specific dates."
+#~ msgstr ""
+#~ "Créer des règles de disponibilité de réservation que vous le souhaitez. "
+#~ "Vous pouvez restreindre l’ouverture des réservations et la fermeture "
+#~ "basée sur la relativité de cette day(today) ou sur la base des dates "
+#~ "précises."
+
+#~ msgid ""
+#~ "You can create availability rules based on a range/specific duration of "
+#~ "minutes/days/hours/months"
+#~ msgstr ""
+#~ "Vous pouvez créer des règles de disponibilité basées sur une durée de "
+#~ "gamme/spécifique de minutes/jours/heures/mois"
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:102
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+
+#: includes/admin/views/html-ph-booking-settings-calendar-color-customizer.php:102
+msgid "Reset to Default"
+msgstr "Återställ till standard"
+
+
+#: includes/class-ph-bookings-appointments-woocommerce.php:124
+msgid "Cost"
+msgstr "kosta"
