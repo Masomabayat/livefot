@@ -85,41 +85,47 @@
             return (now - cacheEntry.timestamp) < cacheEntry.duration;
         },
         set: function (date, data) {
+			console.log("MatchesCache set called");
+			date = new Date(jQuery(".flatpickr-input").val());
             const dateKey = this.getDateKey(date);
             const cacheDuration = this.getCacheDuration(date);
-            this.cache.set(dateKey, {
-                data: data,
-                timestamp: Date.now(),
-                duration: cacheDuration
-            });
-            this.prefetchAdjacentDates(date);
+            // this.cache.set(dateKey, {
+            //     data: data,
+            //     timestamp: Date.now(),
+            //     duration: cacheDuration
+            // });
+            // this.prefetchAdjacentDates(date);
         },
         get: function (date) {
+			date = new Date(jQuery(".flatpickr-input").val());
+			
             const dateKey = this.getDateKey(date);
             const cacheEntry = this.cache.get(dateKey);
             return this.isValidCache(cacheEntry) ? cacheEntry.data : null;
         },
         prefetchAdjacentDates: function (currentDate) {
+			console.log(currentDate);
             const self = this;
             const dates = [
                 new Date(currentDate.getTime() - 86400000), // Previous day
                 new Date(currentDate.getTime() + 86400000)  // Next day
             ];
-
-            dates.forEach(function (date) {
+            dates.forEach(async function (date) {
                 const dateKey = self.getDateKey(date);
+                console.log(dateKey);
+                
                 if (!self.cache.has(dateKey)) {
-                    self.fetchMatchData(date)
-                        .then(function (data) {
-                            self.set(date, data);
-                        })
-                        .catch(function (error) {
-                            console.error('Error prefetching data:', error);
-                        });
+					console.log(date);
+                    try {
+                        const data = await self.fetchMatchData(date);
+                        self.set(date, data);
+                    } catch (error) {
+                        console.error('Error prefetching data:', error);
+                    }
                 }
             });
         },
-        fetchMatchData: function (date) {
+        fetchMatchData: async function (date) {
             const dateKey = this.getDateKey(date);
             // Use the timezone offset for the selected date instead of the current time.
             const utcOffset = -(date.getTimezoneOffset());
@@ -272,9 +278,11 @@
         this.liveOnlyCache = new MatchesCache();
 
         this.currentRequest = null;
-
+		let currentDateTemp = new Date();
         this.state = {
             currentDate: new Date(),
+			previousDate: new Date(currentDateTemp.getTime() - 86400000), // Previous day
+            nextDate: new Date(currentDateTemp.getTime() + 86400000),  // Next day
             showLiveOnly: false,
             allLeaguesExpanded: true,
             liveMatches: {},
@@ -513,6 +521,7 @@
             }
 
             // Otherwise, fetch from server
+            console.log(dateToLoad);
             this.cache.fetchMatchData(dateToLoad)
                 .then(data => {
                     self.cache.set(dateToLoad, data);
@@ -636,22 +645,23 @@
 
         setupLineupRefresh: function () {
             const self = this;
-            setInterval(function () {
-                $('.match-item').each(function () {
-                    const matchId = $(this).data('match-id');
-                    self.fetchAndCacheLineup(matchId);
-                });
+            setInterval(async function () {
+                const matchItems = $('.match-item');
+                for (let i = 0; i < matchItems.length; i++) {
+                    const matchId = $(matchItems[i]).data('match-id');
+                    await self.fetchAndCacheLineup(matchId);
+                }
             }, INTERVALS.lineups);
         },
 
         setupEventsRefresh: function () {
             const self = this;
-            setInterval(function () {
-                $('.match-item').each(function () {
+            setInterval(async function () {
+                $('.match-item').each(async function () {
                     const matchId = $(this).data('match-id');
                     const status = $(this).data('match-status');
                     if (status !== 'NS' && status !== 'POSTPONED') {
-                        self.fetchAndCacheEvents(matchId);
+                        await self.fetchAndCacheEvents(matchId);
                     }
                 });
             }, INTERVALS.events);
@@ -659,9 +669,9 @@
 
         setupStatsRefresh: function () {
             const self = this;
-            setInterval(function () {
-                Object.keys(self.state.openStatsMatches).forEach(function (matchId) {
-                    self.fetchAndCacheStats(matchId);
+            setInterval(async function () {
+                Object.keys(self.state.openStatsMatches).forEach(async function (matchId) {
+                    await self.fetchAndCacheStats(matchId);
                 });
             }, INTERVALS.statistics);
         },
@@ -744,16 +754,16 @@
     $overlay.find('.scoreboard-time').html(scoreboardTimeHtml);
 }
 ,
-
+		
 
         // ========== LINEUPS / EVENTS / STATS FETCHING ==========
-        fetchAndCacheLineup: function (matchId) {
+        fetchAndCacheLineup: async function (matchId) {
             const cachedLineup = this.lineupCache.get(matchId);
             if (cachedLineup) {
                 this.state.openLineupMatches[matchId] = cachedLineup;
                 return;
             }
-            $.ajax({
+            await $.ajax({
                 url: livefotAjax.ajaxurl,
                 type: 'POST',
                 data: {
@@ -774,13 +784,13 @@
             });
         },
 
-        fetchAndCacheEvents: function (matchId) {
+        fetchAndCacheEvents: async function (matchId) {
             const cachedEvents = this.eventsCache.get(matchId);
             if (cachedEvents) {
                 this.state.openEventMatches[matchId] = cachedEvents;
                 return;
             }
-            $.ajax({
+            await $.ajax({
                 url: livefotAjax.ajaxurl,
                 type: 'POST',
                 data: {
@@ -801,9 +811,9 @@
             });
         },
 
-        fetchAndCacheStats: function (matchId) {
+        fetchAndCacheStats: async function (matchId) {
             const self = this;
-            $.ajax({
+            await $.ajax({
                 url: livefotAjax.ajaxurl,
                 type: 'POST',
                 data: {
@@ -837,6 +847,11 @@
                 const newDate = new Date(self.state.currentDate);
                 newDate.setDate(newDate.getDate() - 1);
                 self.state.currentDate = newDate;
+				
+                self.state.previousDate = new Date(newDate.getTime() - 86400000);
+                self.state.nextDate = new Date(newDate.getTime() + 86400000);
+				console.log(self.state);
+				
                 self.updateDateDisplay();
                 self.loadMatches();
                 self.setupRefreshInterval();
@@ -845,6 +860,12 @@
                 const newDate = new Date(self.state.currentDate);
                 newDate.setDate(newDate.getDate() + 1);
                 self.state.currentDate = newDate;
+				
+                self.state.previousDate = new Date(newDate.getTime() - 86400000);
+                self.state.nextDate = new Date(newDate.getTime() + 86400000);
+				
+				console.log(self.state);
+				
                 self.updateDateDisplay();
                 self.loadMatches();
                 self.setupRefreshInterval();
@@ -913,16 +934,22 @@
             });
 
             // --- Full Screen Match Details (NEW) ---
-            $(document).on('click', '.action-button.match-details', function (e) {
+            $(document).on('click', '.action-button.match-details, .match-item', function (e) {
+				console.log(e);
                 e.preventDefault();
-                const matchId = $(this).closest('.match-item').data('match-id');
+                const matchId = $(this).data('match-id');
+                if(!matchId) {
+                    matchId = $(this).closest('.match-item').data('match-id');
+                }
                 self.openMatchDetailsFullscreen(matchId);
             });
 
             // If you have a clickable bench toggle in the lineup
-            $(document).on('click', '.team-logo_name', function () {
+            $(document).on('click', '.team-logo_name_old, .team-header', function () {
                 const $benchSection = $(this).closest('.team-info-block').find('.bench-section');
                 $benchSection.slideToggle(300);
+				$(this).closest('.team-info-block').find(".toggle-arrow").toggleClass("expanded");
+
             });
 
             // Toggling "Important vs. All" events in the overlay
@@ -958,11 +985,15 @@
           <!-- SCOREBOARD SECTION (header) -->
           <div class="scoreboard-section">
             <div class="scoreboard-header">
-              <button class="back-to-matches"></button>
-              <div class="league-details">
-                <span class="league-name">${leagueName}</span>
-                <span class="league-subinfo">${leagueSubInfo}</span>
-              </div>
+              <button class="back-to-matches">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                </svg>  
+                <div class="league-details">
+                    <span class="league-name">${leagueName}</span>
+                    <span class="league-subinfo">${leagueSubInfo}</span>
+                </div>
+              </button>
             </div>
             <div class="scoreboard-teams"><!-- Teams & scores will be injected here --></div>
           </div>
@@ -1050,7 +1081,7 @@
     $overlay.find('.scoreboard-section .scoreboard-teams').html(scoreboardHtml);
 			
 			// Clear previous tab content to avoid flashing old data
-$overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
+$overlay.find('.tab-content').html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
 
     // Initialize live update functionality for the overlay
     this.setupOverlayRefresh(matchId);
@@ -1102,6 +1133,15 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
         const firstTab = $overlay.find('.tab-button.active').data('tab');
         this.loadOverlayTabContent(firstTab, matchId, $overlay);
     }
+	$(".tab-container").on("scroll", function () {
+		console.log("Scrolling...", $(".tab-container").scrollTop());
+
+		if ($(".tab-container").scrollTop() > 50) {
+			$(".scoreboard-section").addClass("scrolled");
+		} else {
+			$(".scoreboard-section").removeClass("scrolled");
+		}
+	});
 },
 
 
@@ -1113,7 +1153,7 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
 		
 		loadOverlayTabContent: function (tabName, matchId, $overlay) {
     const $tabContent = $overlay.find(`.tab-content[data-tab="${tabName}"]`);
-    $tabContent.html('<div class="loading">Loading...</div>');
+    $tabContent.html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
     
     // Load content based on tab name
     switch (tabName) {
@@ -1202,7 +1242,8 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
             const showImportant = !!this.state.showImportantEventsByMatch[matchId];
             const toggleButtonLabel = showImportant ? 'Show All Events' : 'Show Important Only';
             const toggleButtonHtml = `
-                <button class="toggle-important-events" data-match-id="${matchId}">
+                <button class="toggle-important-events control-button" data-match-id="${matchId}">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" style="width: 1.2em; height: 1.2em; vertical-align: middle; fill: currentColor; overflow: hidden;" viewBox="0 0 1024 1024" version="1.1"><path d="M504.7 138.1c-91.4 0-175.4 31.4-241.9 83.9l51.6 63.6c52.4-41.1 118.5-65.7 190.3-65.7 170.5 0 308.7 138.2 308.7 308.7 0 21.9-2.3 43.3-6.7 64l79.5 20.1c5.9-27.1 9.1-55.2 9.1-84 0-215.7-174.9-390.6-390.6-390.6zM702.4 765.8c-53.6 44.7-122.5 71.6-197.7 71.6-170.5 0-308.7-138.2-308.7-308.7 0-36.4 6.3-71.3 17.9-103.7l-79.7-20.1c-13 38.9-20.1 80.6-20.1 123.9 0 215.7 174.9 390.6 390.6 390.6 94.8 0 181.7-33.8 249.3-89.9l-51.6-63.7z" fill="#242424"/><path d="M173.5 416.4m-40.9 0a40.9 40.9 0 1 0 81.8 0 40.9 40.9 0 1 0-81.8 0Z" fill="#242424"/><path d="M286.5 256.4m-40.9 0a40.9 40.9 0 1 0 81.8 0 40.9 40.9 0 1 0-81.8 0Z" fill="#242424"/><path d="M727.5 799.4m-40.9 0a40.9 40.9 0 1 0 81.8 0 40.9 40.9 0 1 0-81.8 0Z" fill="#242424"/><path d="M845.8 605.8m-40.9 0a40.9 40.9 0 1 0 81.8 0 40.9 40.9 0 1 0-81.8 0Z" fill="#242424"/><path d="M33.5 528.4c-14.1-17.7-11.2-43.5 6.5-57.6l108-86.1c17.7-14.1 43.5-11.2 57.6 6.5 14.1 17.7 11.2 43.5-6.5 57.6L91 534.9c-17.7 14.1-43.4 11.2-57.5-6.5z" fill="#242424"/><path d="M285.2 556.4c-17.7 14.1-43.5 11.2-57.6-6.5l-86.1-108c-14.1-17.7-11.2-43.5 6.5-57.6 17.7-14.1 43.5-11.2 57.6 6.5l86.1 108c14.1 17.7 11.2 43.5-6.5 57.6zM977.7 483.6c15.4 16.5 14.5 42.5-2 57.9l-101 94.2c-16.5 15.4-42.5 14.5-57.9-2-15.4-16.5-14.5-42.5 2-57.9l101-94.2c16.6-15.4 42.5-14.5 57.9 2z" fill="#242424"/><path d="M723.2 474.1c16.5-15.4 42.5-14.5 57.9 2l94.2 101c15.4 16.5 14.5 42.5-2 57.9-16.5 15.4-42.5 14.5-57.9-2l-94.2-101c-15.5-16.6-14.6-42.5 2-57.9z" fill="#242424"/></svg>
                     ${toggleButtonLabel}
                 </button>
             `;
@@ -1430,6 +1471,7 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
                         }
                     });
                 }
+				console.log(coordMap);
                 return coordMap;
             }
             function distributeHorizontally(count, top) {
@@ -1455,14 +1497,23 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
 					leftVal = Math.max(0, Math.min(100, leftVal));
 					coords.push({ top, left: `${leftVal}%` });
 				}
+				console.log(coords);
+				
 				return coords;
 			}
             function mirrorCoordinatesForTeamB(coordMapTeamA) {
                 const coordMapTeamB = {};
                 for (let pos in coordMapTeamA) {
                     const { top, left } = coordMapTeamA[pos];
-                    const newTopVal = 100 - parseFloat(top);
-                    coordMapTeamB[pos] = { top: newTopVal + "%", left };
+					// For position 1 (goalkeeper), set to 4% directly
+					if (pos === '1') {
+						coordMapTeamB[pos] = { top: "90px", left };
+					} else {
+						const newTopVal = 100 - parseFloat(top);
+						coordMapTeamB[pos] = { top: newTopVal + "%", left };
+					}
+//                     const newTopVal = 100 - parseFloat(top);
+//                     coordMapTeamB[pos] = { top: newTopVal + "%", left };
                 }
                 return coordMapTeamB;
             }
@@ -1493,12 +1544,14 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
 					if (!playerName) return '';
 					const parts = playerName.split(' ');
 					if (parts.length < 3) {
-						return playerName; 
+						return `<span class="full-name">${playerName}</span>`; 
 					}
 					const firstInitial = parts[0];
 					const secondPart = parts[1];
 					const rest = parts.slice(2).join(' ');
-					return `${firstInitial} ${secondPart}<br>${rest}`;
+// 					return `${firstInitial} ${secondPart}<br>${rest}`;
+					return `<span class="name-1">${firstInitial} ${secondPart}</span><br><span class="name-2">${rest}</span>`;
+
 				}
 
                 const markers = Object.keys(coordMap).map(pos => {
@@ -1561,12 +1614,21 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
                     benchHtml,
                     headerHtml: `
                         <div class="team-info-block">
-                            <div class="team-header">
-                                <div class="team-logo_name" style="cursor:pointer;">
-                                    <img src="${teamLogo}" alt="${teamName}" class="team-logo"/>
-                                    <span class="team-name">
-                                        ${teamName} - Bench (${benchPlayers.length})
-                                    </span>
+                            <div class="team-header" style="cursor:pointer;">
+                                <div class="team-header-content">
+                                    <div class="team-logo_name">
+                                        <img src="${teamLogo}" alt="${teamName}" class="team-logo"/>
+                                        <span class="team-name">
+                                            ${teamName} - Bench (${benchPlayers.length})
+                                        </span>
+                                    </div>
+                                    <div class="team-toggle">
+                                        <svg class="toggle-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                                            stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+                                            stroke-linejoin="round" style="transform: rotate(0deg); transition: transform 0.3s ease;">
+                                            <polyline points="6 9 12 15 18 9"></polyline>
+                                        </svg>
+                                    </div>
                                 </div>
                             </div>
                             ${benchHtml}
@@ -1910,19 +1972,7 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
                     <div class="stats-comparison">
                         ${comparisonRows}
                     </div>
-                    <div class="teams-logos">
-                        ${localTeam.teamLogo
-                    ? `<img src="${localTeam.teamLogo}" alt="${localTeam.teamName || 'Local Team'}" class="team-logo" onerror="this.style.display='none'"/>`
-                    : ''
-                }
-                        <span class="team-name">${localTeam.teamName || 'Local Team'}</span>
-                        <span class="vs">vs</span>
-                        <span class="team-name">${visitorTeam.teamName || 'Visitor Team'}</span>
-                        ${visitorTeam.teamLogo
-                    ? `<img src="${visitorTeam.teamLogo}" alt="${visitorTeam.teamName || 'Visitor Team'}" class="team-logo" onerror="this.style.display='none'"/>`
-                    : ''
-                }
-                    </div>
+                    
                 </div>
             `;
         },
@@ -1950,7 +2000,19 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
                 return descriptionMap[a] - descriptionMap[b];
             });
             
-            const colorPalette = this.getColorPalette(sortedDescriptions.length);
+//             const colorPalette = this.getColorPalette(sortedDescriptions.length);
+			const colorPalette = [
+  "#00FF00",  
+  "#007BFF",  
+  "#FD7E14", 	 
+  "#6F42C1",  
+  "#FFC107",  
+  "#343A40",  
+  "#DC3545",  
+  "#20C997",  	
+  "#6610F2",  
+  "#FF5733" 
+];
             const descriptionColorMap = {};
             sortedDescriptions.forEach(function (desc, index) {
                 descriptionColorMap[desc] = colorPalette[index];
@@ -2022,9 +2084,9 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
                 sortedDescriptions.forEach(function (desc) {
                     const color = descriptionColorMap[desc];
                     html += `
-                        <div class="standing-description" style="color:${color};">
-                            <span class="description-color-box" style="background-color:${color};"></span>
-                            ${desc}
+                        <div class="standing-description" style="display: flex; align-items: center; gap: 8px;">
+                            <span class="description-color-box" style="background-color: ${color}; width: 12px; height: 12px; display: inline-block;"></span>
+                            <span style="color: #000;">${desc}</span>
                         </div>
                     `;
                 });
@@ -2219,7 +2281,7 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
                 '</div>',
 
                 '</div>',
-                this.renderMatchActions(match.time.status, match.time),
+//                 this.renderMatchActions(match.time.status, match.time),
                 '</div>',
                 '</div>',
                 '</div>'
@@ -2334,7 +2396,8 @@ $overlay.find('.tab-content').html('<div class="loading">Loading...</div>');
     $(document).ready(function () {
         const manager = new MatchesManager();
         manager.init();
+		
     });
-
+	
 })(jQuery); 
 
