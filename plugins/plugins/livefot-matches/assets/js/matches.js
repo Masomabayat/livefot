@@ -1,6 +1,6 @@
 (function ($) {
     'use strict';
-
+    window.needPrefetchAdjacentDates = true;
     // ========== CONFIGURATIONS & CONSTANTS ==========
 
     const iconBase = livefotAjax.icons_base_url;
@@ -85,37 +85,40 @@
             return (now - cacheEntry.timestamp) < cacheEntry.duration;
         },
         set: function (date, data) {
-			console.log("MatchesCache set called");
-			date = new Date(jQuery(".flatpickr-input").val());
+            // date = new Date(jQuery(".flatpickr-input").val());
+            console.log(date);
             const dateKey = this.getDateKey(date);
+            // console.log("MatchesCache set called", dateKey, [date]);
             const cacheDuration = this.getCacheDuration(date);
-            // this.cache.set(dateKey, {
-            //     data: data,
-            //     timestamp: Date.now(),
-            //     duration: cacheDuration
-            // });
-            // this.prefetchAdjacentDates(date);
+            this.cache.set(dateKey, {
+                data: data,
+                timestamp: Date.now(),
+                duration: cacheDuration
+            });
+            if (window.needPrefetchAdjacentDates) {
+                this.prefetchAdjacentDates(date);
+            }
         },
         get: function (date) {
-			date = new Date(jQuery(".flatpickr-input").val());
-			
-            const dateKey = this.getDateKey(date);
-            const cacheEntry = this.cache.get(dateKey);
+            // date = new Date(jQuery(".flatpickr-input").val());
+            // console.log(date);
+            // const dateKey = this.getDateKey(date);
+            const cacheEntry = this.cache.get(date);
             return this.isValidCache(cacheEntry) ? cacheEntry.data : null;
         },
         prefetchAdjacentDates: function (currentDate) {
-			console.log(currentDate);
+            window.needPrefetchAdjacentDates = false;
             const self = this;
             const dates = [
                 new Date(currentDate.getTime() - 86400000), // Previous day
                 new Date(currentDate.getTime() + 86400000)  // Next day
             ];
             dates.forEach(async function (date) {
+                console.log(date);
                 const dateKey = self.getDateKey(date);
-                console.log(dateKey);
-                
+
+                // console.log(date, dateKey, self.cache);
                 if (!self.cache.has(dateKey)) {
-					console.log(date);
                     try {
                         const data = await self.fetchMatchData(date);
                         self.set(date, data);
@@ -126,7 +129,9 @@
             });
         },
         fetchMatchData: async function (date) {
+            console.log(date);
             const dateKey = this.getDateKey(date);
+            // console.log('fetchMatchData', dateKey);
             // Use the timezone offset for the selected date instead of the current time.
             const utcOffset = -(date.getTimezoneOffset());
             return $.ajax({
@@ -278,10 +283,10 @@
         this.liveOnlyCache = new MatchesCache();
 
         this.currentRequest = null;
-		let currentDateTemp = new Date();
+        let currentDateTemp = new Date();
         this.state = {
             currentDate: new Date(),
-			previousDate: new Date(currentDateTemp.getTime() - 86400000), // Previous day
+            previousDate: new Date(currentDateTemp.getTime() - 86400000), // Previous day
             nextDate: new Date(currentDateTemp.getTime() + 86400000),  // Next day
             showLiveOnly: false,
             allLeaguesExpanded: true,
@@ -299,7 +304,7 @@
             showImportantEventsByMatch: {},
             // overlay refresh interval for the full-screen details view
             overlayRefreshInterval: null,
-			overlayTabIntervals: {}
+            overlayTabIntervals: {}
         };
 
         // The statuses that qualify as "live" for filtering
@@ -315,9 +320,9 @@
             this.updateDateDisplay();
             this.loadMatches();
             this.setupRefreshInterval();
-            this.setupLineupRefresh();
-            this.setupEventsRefresh();
-            this.setupStatsRefresh();
+            // this.setupLineupRefresh();
+            // this.setupEventsRefresh();
+            // this.setupStatsRefresh();
             this.setupStandingsCleanup();
             this.setupPageVisibilityHandling();
         },
@@ -456,6 +461,8 @@
         // ========== RENDERING ==========
 
         renderMatches: function (leagues) {
+            console.log("leagues", leagues);
+            
             if (!leagues) return;
             const self = this;
             const $container = $('.livefot-matches-list');
@@ -512,8 +519,14 @@
         loadMatches: function (forceRefresh = false, retryCount = 0, specificDate = null) {
             const self = this;
             const dateToLoad = specificDate || this.state.currentDate;
-            const cachedData = !forceRefresh && this.cache.get(dateToLoad);
+            const dateKey = dateToLoad.toISOString().split('T')[0];
 
+            // console.log([this.cache, dateToLoad, this.state.currentDate]);
+            // console.log(this.cache.get(dateKey));
+            // const cachedData = !forceRefresh && this.cache.get(dateToLoad);
+            const cachedData = this.cache.get(dateKey);
+            console.log(["cachedData", cachedData]);
+            
             // If we have valid cached data, render from cache
             if (cachedData) {
                 this.renderMatches(cachedData);
@@ -521,7 +534,6 @@
             }
 
             // Otherwise, fetch from server
-            console.log(dateToLoad);
             this.cache.fetchMatchData(dateToLoad)
                 .then(data => {
                     self.cache.set(dateToLoad, data);
@@ -684,77 +696,77 @@
         },
 
         // ========== NEW LIVE UPDATE METHODS FOR OVERLAY ==========//	
-		setupOverlayRefresh: function (matchId) {
-    const self = this;
-    // Clear any existing refresh interval
-    if (this.state.overlayRefreshInterval) {
-        clearInterval(this.state.overlayRefreshInterval);
-    }
-    // Set up a new refresh interval that runs every 10 seconds
-    this.state.overlayRefreshInterval = setInterval(function () {
-        self.updateOverlayData(matchId);
-    }, 10000);
+        setupOverlayRefresh: function (matchId) {
+            const self = this;
+            // Clear any existing refresh interval
+            if (this.state.overlayRefreshInterval) {
+                clearInterval(this.state.overlayRefreshInterval);
+            }
+            // Set up a new refresh interval that runs every 10 seconds
+            this.state.overlayRefreshInterval = setInterval(function () {
+                self.updateOverlayData(matchId);
+            }, 10000);
 
-    // Initial update
-    this.updateOverlayData(matchId);
-},
+            // Initial update
+            this.updateOverlayData(matchId);
+        },
 
-/*updateOverlayData: function(matchId) {
-    // Find the match element on the main screen
-    const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
-    if (!$matchItem.length) return; // Fallback if not found
+        /*updateOverlayData: function(matchId) {
+            // Find the match element on the main screen
+            const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
+            if (!$matchItem.length) return; // Fallback if not found
+        
+            // Extract score and minute from the main screen element
+            const scoreText = $matchItem.find('.match-score-results').text();
+            const matchTimeText = $matchItem.find('.match-time').html();
+        
+            // Update the overlay UI
+            const $overlay = $('#match-details-overlay');
+            $overlay.find('.scoreboard-score').text(scoreText);
+            $overlay.find('.scoreboard-time').html(matchTimeText);
+        }
+        ,*/
 
-    // Extract score and minute from the main screen element
-    const scoreText = $matchItem.find('.match-score-results').text();
-    const matchTimeText = $matchItem.find('.match-time').html();
+        updateOverlayData: function (matchId) {
+            // Find the match element on the main screen
+            const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
+            if (!$matchItem.length) return; // Fallback if not found
 
-    // Update the overlay UI
-    const $overlay = $('#match-details-overlay');
-    $overlay.find('.scoreboard-score').text(scoreText);
-    $overlay.find('.scoreboard-time').html(matchTimeText);
-}
-,*/
-		
-		updateOverlayData: function(matchId) {
-    // Find the match element on the main screen
-    const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
-    if (!$matchItem.length) return; // Fallback if not found
+            // Extract score text
+            const scoreText = $matchItem.find('.match-score-results').text();
 
-    // Extract score text
-    const scoreText = $matchItem.find('.match-score-results').text();
+            // Clone the .match-time element to extract time parts without altering the DOM
+            const $timeClone = $matchItem.find('.match-time').clone();
+            // Extract injury and added time texts
+            const injuryTimeText = $timeClone.find('span.injury-time').text();
+            const addedTimeText = $timeClone.find('span.added-time').text();
+            // Remove these spans so we get the base time text
+            $timeClone.find('span.injury-time, span.added-time').remove();
+            const baseTimeText = $timeClone.text().trim() || '';
 
-    // Clone the .match-time element to extract time parts without altering the DOM
-    const $timeClone = $matchItem.find('.match-time').clone();
-    // Extract injury and added time texts
-    const injuryTimeText = $timeClone.find('span.injury-time').text();
-    const addedTimeText = $timeClone.find('span.added-time').text();
-    // Remove these spans so we get the base time text
-    $timeClone.find('span.injury-time, span.added-time').remove();
-    const baseTimeText = $timeClone.text().trim() || '';
+            // Optionally adjust formatting if needed (e.g., for "FT PEN")
+            const matchTimeFormatted = baseTimeText.includes('FT PEN')
+                ? baseTimeText.replace(/(FT PEN)(.+)/, '$1<br>$2')
+                : baseTimeText;
 
-    // Optionally adjust formatting if needed (e.g., for "FT PEN")
-    const matchTimeFormatted = baseTimeText.includes('FT PEN')
-        ? baseTimeText.replace(/(FT PEN)(.+)/, '$1<br>$2')
-        : baseTimeText;
+            // Build the final scoreboard time HTML:
+            // - Injury time is inline with the base time
+            // - Added time is on a new line (using <br>)
+            let scoreboardTimeHtml = matchTimeFormatted;
+            if (injuryTimeText) {
+                scoreboardTimeHtml += `<span class="scoreboard-injury-time">${injuryTimeText}</span>`;
+            }
+            if (addedTimeText) {
+                scoreboardTimeHtml += `<br><span class="scoreboard-added-time">${addedTimeText}</span>`;
+            }
 
-    // Build the final scoreboard time HTML:
-    // - Injury time is inline with the base time
-    // - Added time is on a new line (using <br>)
-    let scoreboardTimeHtml = matchTimeFormatted;
-    if (injuryTimeText) {
-        scoreboardTimeHtml += `<span class="scoreboard-injury-time">${injuryTimeText}</span>`;
-    }
-    if (addedTimeText) {
-        scoreboardTimeHtml += `<br><span class="scoreboard-added-time">${addedTimeText}</span>`;
-    }
+            // Update the overlay UI with fresh values
+            const $overlay = $('#match-details-overlay');
+            $overlay.find('.scoreboard-score').text(scoreText);
+            $overlay.find('.scoreboard-time').html(scoreboardTimeHtml);
+        }
+        ,
 
-    // Update the overlay UI with fresh values
-    const $overlay = $('#match-details-overlay');
-    $overlay.find('.scoreboard-score').text(scoreText);
-    $overlay.find('.scoreboard-time').html(scoreboardTimeHtml);
-}
-,
-		
 
         // ========== LINEUPS / EVENTS / STATS FETCHING ==========
         fetchAndCacheLineup: async function (matchId) {
@@ -844,28 +856,30 @@
 
             // --- Prev/Next date ---
             $('.prev-date').on('click', function () {
+                window.needPrefetchAdjacentDates = true;
                 const newDate = new Date(self.state.currentDate);
                 newDate.setDate(newDate.getDate() - 1);
                 self.state.currentDate = newDate;
-				
+
                 self.state.previousDate = new Date(newDate.getTime() - 86400000);
                 self.state.nextDate = new Date(newDate.getTime() + 86400000);
-				console.log(self.state);
-				
+                // console.log(self.state);
+
                 self.updateDateDisplay();
                 self.loadMatches();
                 self.setupRefreshInterval();
             });
             $('.next-date').on('click', function () {
+                window.needPrefetchAdjacentDates = true;
                 const newDate = new Date(self.state.currentDate);
                 newDate.setDate(newDate.getDate() + 1);
                 self.state.currentDate = newDate;
-				
+
                 self.state.previousDate = new Date(newDate.getTime() - 86400000);
                 self.state.nextDate = new Date(newDate.getTime() + 86400000);
-				
-				console.log(self.state);
-				
+
+                // console.log(self.state);
+
                 self.updateDateDisplay();
                 self.loadMatches();
                 self.setupRefreshInterval();
@@ -935,10 +949,10 @@
 
             // --- Full Screen Match Details (NEW) ---
             $(document).on('click', '.action-button.match-details, .match-item', function (e) {
-				console.log(e);
+                // console.log(e);
                 e.preventDefault();
                 const matchId = $(this).data('match-id');
-                if(!matchId) {
+                if (!matchId) {
                     matchId = $(this).closest('.match-item').data('match-id');
                 }
                 self.openMatchDetailsFullscreen(matchId);
@@ -948,7 +962,7 @@
             $(document).on('click', '.team-logo_name_old, .team-header', function () {
                 const $benchSection = $(this).closest('.team-info-block').find('.bench-section');
                 $benchSection.slideToggle(300);
-				$(this).closest('.team-info-block').find(".toggle-arrow").toggleClass("expanded");
+                $(this).closest('.team-info-block').find(".toggle-arrow").toggleClass("expanded");
 
             });
 
@@ -963,32 +977,32 @@
             });
         },
 
-     
-	
-		
-		openMatchDetailsFullscreen: function (matchId) {
-    const self = this;
-    const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
 
-    // Get league details directly from the match item data attributes
-    const leagueName = $matchItem.data('league-name');
-    const leagueCountry = $matchItem.data('league-country');
-    const leagueStage = $matchItem.data('league-stage');
-    const leagueSubInfo = leagueStage ? `${leagueCountry} - ${leagueStage}` : leagueCountry;
 
-    // Create or update the overlay container
-    let $overlay = $('#match-details-overlay');
-    if ($overlay.length === 0) {
-        $overlay = $(`
+
+        openMatchDetailsFullscreen: function (matchId) {
+            const self = this;
+            const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
+
+            // Get league details directly from the match item data attributes
+            const leagueName = $matchItem.data('league-name');
+            const leagueCountry = $matchItem.data('league-country');
+            const leagueStage = $matchItem.data('league-stage');
+            const leagueSubInfo = leagueStage ? `${leagueCountry} - ${leagueStage}` : leagueCountry;
+
+            // Create or update the overlay container
+            let $overlay = $('#match-details-overlay');
+            if ($overlay.length === 0) {
+                $overlay = $(`
       <div id="match-details-overlay" class="match-details-overlay">
         <div class="overlay-content">
           <!-- SCOREBOARD SECTION (header) -->
           <div class="scoreboard-section">
             <div class="scoreboard-header">
               <button class="back-to-matches">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
-                </svg>  
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+  				<path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 						.708.708L5.707 7.5z"/>
+				</svg> 
                 <div class="league-details">
                     <span class="league-name">${leagueName}</span>
                     <span class="league-subinfo">${leagueSubInfo}</span>
@@ -1018,44 +1032,44 @@
             <button class="tab-button" data-tab="stats">Stats</button>
             <button class="tab-button" data-tab="lineup">Lineup</button>
             <button class="tab-button" data-tab="standings">Standings</button>
-          </div>
+         </div>
         </div>
       </div>
     `).appendTo('body');
-    } else {
-        $overlay.find('.league-name').text(leagueName);
-        $overlay.find('.league-subinfo').text(leagueSubInfo);
-    }
+            } else {
+                $overlay.find('.league-name').text(leagueName);
+                $overlay.find('.league-subinfo').text(leagueSubInfo);
+            }
 
-    // Show the overlay and prevent background scrolling
-    $overlay.show();
-    document.body.classList.add('overlay-open');
+            // Show the overlay and prevent background scrolling
+            $overlay.show();
+            document.body.classList.add('overlay-open');
 
-    // Get team names and logos from the match item
-    const localTeamName = $matchItem.find('.team.home .team-name').text() || 'Home Team';
-    const visitorTeamName = $matchItem.find('.team.away .team-name').text() || 'Away Team';
+            // Get team names and logos from the match item
+            const localTeamName = $matchItem.find('.team.home .team-name').text() || 'Home Team';
+            const visitorTeamName = $matchItem.find('.team.away .team-name').text() || 'Away Team';
 
-    const localTeamLogo =
-        $matchItem.find('.match-score .team-logo-container').eq(0)
-                  .find('.team-logo').attr('src') || 'https://via.placeholder.com/50';
-    const visitorTeamLogo =
-        $matchItem.find('.match-score .team-logo-container').eq(1)
-                  .find('.team-logo').attr('src') || 'https://via.placeholder.com/50';
+            const localTeamLogo =
+                $matchItem.find('.match-score .team-logo-container').eq(0)
+                    .find('.team-logo').attr('src') || 'https://via.placeholder.com/50';
+            const visitorTeamLogo =
+                $matchItem.find('.match-score .team-logo-container').eq(1)
+                    .find('.team-logo').attr('src') || 'https://via.placeholder.com/50';
 
-    // Use a clone of the .match-time element to extract the parts without affecting the original
-    const $timeClone = $matchItem.find('.match-time').clone();
-    const injuryTimeText = $timeClone.find('span.injury-time').text();
-    const addedTimeText = $timeClone.find('span.added-time').text();
-    $timeClone.find('span.injury-time, span.added-time').remove();
-    const baseTimeText = $timeClone.text().trim() || '';
+            // Use a clone of the .match-time element to extract the parts without affecting the original
+            const $timeClone = $matchItem.find('.match-time').clone();
+            const injuryTimeText = $timeClone.find('span.injury-time').text();
+            const addedTimeText = $timeClone.find('span.added-time').text();
+            $timeClone.find('span.injury-time, span.added-time').remove();
+            const baseTimeText = $timeClone.text().trim() || '';
 
-    // (Optional) Adjust formatting if needed (e.g. for FT PEN)
-    const matchTimeFormatted = baseTimeText.includes('FT PEN')
-        ? baseTimeText.replace(/(FT PEN)(.+)/, '$1<br>$2')
-        : baseTimeText;
+            // (Optional) Adjust formatting if needed (e.g. for FT PEN)
+            const matchTimeFormatted = baseTimeText.includes('FT PEN')
+                ? baseTimeText.replace(/(FT PEN)(.+)/, '$1<br>$2')
+                : baseTimeText;
 
-    // Build the scoreboard HTML using the extracted parts
-    const scoreboardHtml = `
+            // Build the scoreboard HTML using the extracted parts
+            const scoreboardHtml = `
         <div class="scoreboard-wrapper">
           <div class="scoreboard-team scoreboard-home">
             <img src="${localTeamLogo}" alt="${localTeamName} Logo" class="scoreboard-logo">
@@ -1077,128 +1091,128 @@
         </div>
     `;
 
-    // Inject the scoreboard HTML into the overlay
-    $overlay.find('.scoreboard-section .scoreboard-teams').html(scoreboardHtml);
-			
-			// Clear previous tab content to avoid flashing old data
-$overlay.find('.tab-content').html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
+            // Inject the scoreboard HTML into the overlay
+            $overlay.find('.scoreboard-section .scoreboard-teams').html(scoreboardHtml);
 
-    // Initialize live update functionality for the overlay
-    this.setupOverlayRefresh(matchId);
+            // Clear previous tab content to avoid flashing old data
+            $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
 
-			
-			$overlay.find('.back-to-matches').off('click').on('click', function () {
-    // Clear overlay refresh interval
-    if (self.state.overlayRefreshInterval) {
-        clearInterval(self.state.overlayRefreshInterval);
-        self.state.overlayRefreshInterval = null;
-    }
-    // Clear all overlay tab intervals
-    for (let tab in self.state.overlayTabIntervals) {
-        clearInterval(self.state.overlayTabIntervals[tab]);
-    }
-    self.state.overlayTabIntervals = {};
-    
-    $overlay.hide();
-    document.body.classList.remove('overlay-open');
-});
+            // Initialize live update functionality for the overlay
+            this.setupOverlayRefresh(matchId);
 
-			
-	
 
-    // If match status is NS, remove events tab
-    const status = $matchItem.data('match-status');
-    if (status === 'NS') {
-        $overlay.find('.tab-button[data-tab="events"]').remove();
-        $overlay.find('.tab-content[data-tab="events"]').remove();
-        $overlay.find('.tab-button').removeClass('active').first().addClass('active');
-        $overlay.find('.tab-content').removeClass('active').first().addClass('active');
-    }
+            $overlay.find('.back-to-matches').off('click').on('click', function () {
+                // Clear overlay refresh interval
+                if (self.state.overlayRefreshInterval) {
+                    clearInterval(self.state.overlayRefreshInterval);
+                    self.state.overlayRefreshInterval = null;
+                }
+                // Clear all overlay tab intervals
+                for (let tab in self.state.overlayTabIntervals) {
+                    clearInterval(self.state.overlayTabIntervals[tab]);
+                }
+                self.state.overlayTabIntervals = {};
 
-    // Bind tab switching
-    $overlay.find('.tab-button').off('click').on('click', function () {
-        const tab = $(this).data('tab');
-        $overlay.find('.tab-button').removeClass('active');
-        $(this).addClass('active');
-        $overlay.find('.tab-content').removeClass('active');
-        $overlay.find(`.tab-content[data-tab="${tab}"]`).addClass('active');
-        self.loadOverlayTabContent(tab, matchId, $overlay);
-    });
-
-    // Default tab loading
-    if (status !== 'NS') {
-        this.state.showImportantEventsByMatch[matchId] = true;
-        this.loadOverlayTabContent('events', matchId, $overlay);
-    } else {
-        const firstTab = $overlay.find('.tab-button.active').data('tab');
-        this.loadOverlayTabContent(firstTab, matchId, $overlay);
-    }
-	$(".tab-container").on("scroll", function () {
-		console.log("Scrolling...", $(".tab-container").scrollTop());
-
-		if ($(".tab-container").scrollTop() > 50) {
-			$(".scoreboard-section").addClass("scrolled");
-		} else {
-			$(".scoreboard-section").removeClass("scrolled");
-		}
-	});
-},
+                $overlay.hide();
+                document.body.classList.remove('overlay-open');
+            });
 
 
 
 
+            // If match status is NS, remove events tab
+            const status = $matchItem.data('match-status');
+            if (status === 'NS') {
+                $overlay.find('.tab-button[data-tab="events"]').remove();
+                $overlay.find('.tab-content[data-tab="events"]').remove();
+                $overlay.find('.tab-button').removeClass('active').first().addClass('active');
+                $overlay.find('.tab-content').removeClass('active').first().addClass('active');
+            }
+
+            // Bind tab switching
+            $overlay.find('.tab-button').off('click').on('click', function () {
+                const tab = $(this).data('tab');
+                $overlay.find('.tab-button').removeClass('active');
+                $(this).addClass('active');
+                $overlay.find('.tab-content').removeClass('active');
+                $overlay.find(`.tab-content[data-tab="${tab}"]`).addClass('active');
+                self.loadOverlayTabContent(tab, matchId, $overlay);
+            });
+
+            // Default tab loading
+            if (status !== 'NS') {
+                this.state.showImportantEventsByMatch[matchId] = true;
+                this.loadOverlayTabContent('events', matchId, $overlay);
+            } else {
+                const firstTab = $overlay.find('.tab-button.active').data('tab');
+                this.loadOverlayTabContent(firstTab, matchId, $overlay);
+            }
+            $(".tab-container").on("scroll", function () {
+                // console.log("Scrolling...", $(".tab-container").scrollTop());
+
+                if ($(".tab-container").scrollTop() > 50) {
+                    $(".scoreboard-section").addClass("scrolled");
+                } else {
+                    $(".scoreboard-section").removeClass("scrolled");
+                }
+            });
+        },
 
 
-   
-		
-		loadOverlayTabContent: function (tabName, matchId, $overlay) {
-    const $tabContent = $overlay.find(`.tab-content[data-tab="${tabName}"]`);
-    $tabContent.html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
-    
-    // Load content based on tab name
-    switch (tabName) {
-        case 'events':
-            this.loadMatchEventsOverlay(matchId, $tabContent);
-            break;
-        case 'stats':
-            this.loadMatchStatsOverlay(matchId, $tabContent);
-            break;
-        case 'lineup':
-            this.loadMatchLineupOverlay(matchId, $tabContent);
-            break;
-        case 'standings':
-            this.loadMatchStandingsOverlay(matchId, $tabContent);
-            break;
-    }
-    
-    // Determine if match is live using the match item's status.
-    const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
-    const status = $matchItem.data('match-status');
-    
-    // If the match is live, set an auto-refresh interval for this tab.
-    if (this.LIVE_STATUSES.indexOf(status) !== -1) {
-        // Clear an existing interval for this tab, if any.
-        if (this.state.overlayTabIntervals[tabName]) {
-            clearInterval(this.state.overlayTabIntervals[tabName]);
-        }
-        let intervalTime;
-        if (tabName === 'events') intervalTime = INTERVALS.events;
-        else if (tabName === 'stats') intervalTime = INTERVALS.statistics;
-        else if (tabName === 'lineup') intervalTime = INTERVALS.lineups;
-        else if (tabName === 'standings') intervalTime = 300000; // For example, 5 minutes for standings
-        
-        // Set the auto-refresh interval for this tab.
-        this.state.overlayTabIntervals[tabName] = setInterval(() => {
-            this.loadOverlayTabContent(tabName, matchId, $overlay);
-        }, intervalTime);
-    } else {
-        // If match is not live, clear any existing auto-refresh for this tab.
-        if (this.state.overlayTabIntervals[tabName]) {
-            clearInterval(this.state.overlayTabIntervals[tabName]);
-            delete this.state.overlayTabIntervals[tabName];
-        }
-    }
-},
+
+
+
+
+
+
+        loadOverlayTabContent: function (tabName, matchId, $overlay) {
+            const $tabContent = $overlay.find(`.tab-content[data-tab="${tabName}"]`);
+            $tabContent.html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
+
+            // Load content based on tab name
+            switch (tabName) {
+                case 'events':
+                    this.loadMatchEventsOverlay(matchId, $tabContent);
+                    break;
+                case 'stats':
+                    this.loadMatchStatsOverlay(matchId, $tabContent);
+                    break;
+                case 'lineup':
+                    this.loadMatchLineupOverlay(matchId, $tabContent);
+                    break;
+                case 'standings':
+                    this.loadMatchStandingsOverlay(matchId, $tabContent);
+                    break;
+            }
+
+            // Determine if match is live using the match item's status.
+            const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
+            const status = $matchItem.data('match-status');
+
+            // If the match is live, set an auto-refresh interval for this tab.
+            if (this.LIVE_STATUSES.indexOf(status) !== -1) {
+                // Clear an existing interval for this tab, if any.
+                if (this.state.overlayTabIntervals[tabName]) {
+                    clearInterval(this.state.overlayTabIntervals[tabName]);
+                }
+                let intervalTime;
+                if (tabName === 'events') intervalTime = INTERVALS.events;
+                else if (tabName === 'stats') intervalTime = INTERVALS.statistics;
+                else if (tabName === 'lineup') intervalTime = INTERVALS.lineups;
+                else if (tabName === 'standings') intervalTime = 300000; // For example, 5 minutes for standings
+
+                // Set the auto-refresh interval for this tab.
+                this.state.overlayTabIntervals[tabName] = setInterval(() => {
+                    this.loadOverlayTabContent(tabName, matchId, $overlay);
+                }, intervalTime);
+            } else {
+                // If match is not live, clear any existing auto-refresh for this tab.
+                if (this.state.overlayTabIntervals[tabName]) {
+                    clearInterval(this.state.overlayTabIntervals[tabName]);
+                    delete this.state.overlayTabIntervals[tabName];
+                }
+            }
+        },
 
 
         loadMatchEventsOverlay: function (matchId, $tabContent) {
@@ -1394,8 +1408,8 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                             }
                             break;
                         case 'penalty':
-                           /* icons += ' ⚽(P)';*/
-							 icons += `<img src="${iconBase}penalty.svg" alt="Goal Penalty" style="width:16px;height:16px;vertical-align:middle;" title="Goal Penalty" />`;
+                            /* icons += ' ⚽(P)';*/
+                            icons += `<img src="${iconBase}penalty.svg" alt="Goal Penalty" style="width:16px;height:16px;vertical-align:middle;" title="Goal Penalty" />`;
                             break;
                         case 'own-goal':
                             icons += `<img src="${iconBase}owngoal.svg" alt="Own Goal" style="width:16px;height:16px;vertical-align:middle;" title="Own Goal"/>`;
@@ -1403,13 +1417,13 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                         case 'yellowcard':
                             icons += `<img src="${iconBase}yellowcard.svg" alt="Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Yellow Card"/>`;
                             break;
-						 case 'var':
+                        case 'var':
                             icons += `<img src="${iconBase}var.svg" alt="Var" style="width:16px;height:16px;vertical-align:middle;" title="Var"/>`;
                             break;
-						case 'pen_shootout_miss':
+                        case 'pen_shootout_miss':
                             icons += `<img src="${iconBase}missed penalty.svg" alt="Var" style="width:16px;height:16px;vertical-align:middle;" title="missed penalty"/>`;
                             break;
-						case 'missed_penalty':
+                        case 'missed_penalty':
                             icons += `<img src="${iconBase}missed penalty.svg" alt="Var" style="width:16px;height:16px;vertical-align:middle;" title="missed penalty normal"/>`;
                             break;
                         case 'redcard':
@@ -1471,49 +1485,49 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                         }
                     });
                 }
-				console.log(coordMap);
+                // console.log(coordMap);
                 return coordMap;
             }
             function distributeHorizontally(count, top) {
-				if (count <= 0) return [];
-				if (count === 1) {
-					return [{ top, left: "50%" }];
-				}
+                if (count <= 0) return [];
+                if (count === 1) {
+                    return [{ top, left: "50%" }];
+                }
 
-				const coords = [];
-				const leftStart = 100 / (count + 1);
-				const step = 100 / (count + 1);
+                const coords = [];
+                const leftStart = 100 / (count + 1);
+                const step = 100 / (count + 1);
 
-				for (let i = 1; i <= count; i++) {
-					let leftVal = leftStart * i;
+                for (let i = 1; i <= count; i++) {
+                    let leftVal = leftStart * i;
 
-					// Ajustar los extremos (los laterales)
-					if (i === 1) {
-						leftVal -= 5;
-					} else if (i === count) {
-						leftVal += 5;
-					}
+                    // Ajustar los extremos (los laterales)
+                    if (i === 1) {
+                        leftVal -= 5;
+                    } else if (i === count) {
+                        leftVal += 5;
+                    }
 
-					leftVal = Math.max(0, Math.min(100, leftVal));
-					coords.push({ top, left: `${leftVal}%` });
-				}
-				console.log(coords);
-				
-				return coords;
-			}
+                    leftVal = Math.max(0, Math.min(100, leftVal));
+                    coords.push({ top, left: `${leftVal}%` });
+                }
+                // console.log(coords);
+
+                return coords;
+            }
             function mirrorCoordinatesForTeamB(coordMapTeamA) {
                 const coordMapTeamB = {};
                 for (let pos in coordMapTeamA) {
                     const { top, left } = coordMapTeamA[pos];
-					// For position 1 (goalkeeper), set to 4% directly
-					if (pos === '1') {
-						coordMapTeamB[pos] = { top: "90px", left };
-					} else {
-						const newTopVal = 100 - parseFloat(top);
-						coordMapTeamB[pos] = { top: newTopVal + "%", left };
-					}
-//                     const newTopVal = 100 - parseFloat(top);
-//                     coordMapTeamB[pos] = { top: newTopVal + "%", left };
+                    // For position 1 (goalkeeper), set to 4% directly
+                    if (pos === '1') {
+                        coordMapTeamB[pos] = { top: "90px", left };
+                    } else {
+                        const newTopVal = 100 - parseFloat(top);
+                        coordMapTeamB[pos] = { top: newTopVal + "%", left };
+                    }
+                    //                     const newTopVal = 100 - parseFloat(top);
+                    //                     coordMapTeamB[pos] = { top: newTopVal + "%", left };
                 }
                 return coordMapTeamB;
             }
@@ -1539,20 +1553,20 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                         slots[pos] = p;
                     }
                 });
-				
-				function formatPlayerName(playerName) {
-					if (!playerName) return '';
-					const parts = playerName.split(' ');
-					if (parts.length < 3) {
-						return `<span class="full-name">${playerName}</span>`; 
-					}
-					const firstInitial = parts[0];
-					const secondPart = parts[1];
-					const rest = parts.slice(2).join(' ');
-// 					return `${firstInitial} ${secondPart}<br>${rest}`;
-					return `<span class="name-1">${firstInitial} ${secondPart}</span><br><span class="name-2">${rest}</span>`;
 
-				}
+                function formatPlayerName(playerName) {
+                    if (!playerName) return '';
+                    const parts = playerName.split(' ');
+                    if (parts.length < 3) {
+                        return `<span class="full-name">${playerName}</span>`;
+                    }
+                    const firstInitial = parts[0];
+                    const secondPart = parts[1];
+                    const rest = parts.slice(2).join(' ');
+                    // 					return `${firstInitial} ${secondPart}<br>${rest}`;
+                    return `<span class="name-1">${firstInitial} ${secondPart}</span><br><span class="name-2">${rest}</span>`;
+
+                }
 
                 const markers = Object.keys(coordMap).map(pos => {
                     const player = slots[pos];
@@ -1563,7 +1577,7 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                     const icons = renderEventIcons(playerEvents, relatedEvents);
                     const imgUrl = player.LogoPath || 'https://via.placeholder.com/50';
                     const cMark = player.Captain ? ' (C)' : '';
-					const formattedName = formatPlayerName(player.PlayerName);
+                    const formattedName = formatPlayerName(player.PlayerName);
                     return `
                         <div class="player-marker ${team.isHome ? 'team-a' : 'team-b'}"
                             style="top:${top}; left:${left};">
@@ -1761,9 +1775,9 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                 'own-goal': `<img src="${iconBase}owngoal.svg" alt="Own Goal"/>`,
                 pen_shootout_goal: `<img src="${iconBase}penalty.svg" alt="Penalty Shootout Goal"/>`,
                 yellowcard: `<img src="${iconBase}yellowcard.svg" alt="Yellow Card"/>`,
-				var: `<img src="${iconBase}var.svg" alt="Var"/>`,
-				pen_shootout_miss: `<img src="${iconBase}missed penalty.svg" alt="missed penalty"/>`,
-				missed_penalty: `<img src="${iconBase}missed penalty.svg" alt="missed penalty match"/>`,
+                var: `<img src="${iconBase}var.svg" alt="Var"/>`,
+                pen_shootout_miss: `<img src="${iconBase}missed penalty.svg" alt="missed penalty"/>`,
+                missed_penalty: `<img src="${iconBase}missed penalty.svg" alt="missed penalty match"/>`,
                 redcard: `<img src="${iconBase}redcard.svg" alt="Red Card"/>`,
                 yellowred: `<img src="${iconBase}yellowred.svg" alt="Yellow Red Card"/>`,
                 substitution: `<img src="${iconBase}substitute.svg" alt="Substitution"/>`
@@ -1776,25 +1790,25 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
             }
 
             function renderEventItem(event) {
-				const icon = eventIcons[event.type] || event.type;
-				const playerName = event.player_name || 'Unknown Player';
-				const minute = event.minute + (event.extra_minute ? '+' + event.extra_minute : '');
-				const reason = event.reason ? ' - ' + event.reason : '';
-				
-				const labelAssist = icon.includes('substitute.svg') ? 'Out:' : 'Assist by:';
-				const relatedPlayer = event.related_player_name 
-					? `<br><span class="assist-by">${labelAssist} ${event.related_player_name}</span>` 
-					: '';
-				const result = event.result ? ` [${event.result}]` : '';
-				const playerImg = (event.player && event.player.image_path)
-					? event.player.image_path
-					: 'https://cdn.sportmonks.com/images/soccer/placeholder.png?text=?';
-				const teamLogo = (event.team && event.team.logo_path)
-					? event.team.logo_path
-					: 'https://cdn.sportmonks.com/images/soccer/placeholder.png?text=T';
-				const teamSide = (event.team_id === localTeamId) ? 'left' : 'right';
+                const icon = eventIcons[event.type] || event.type;
+                const playerName = event.player_name || 'Unknown Player';
+                const minute = event.minute + (event.extra_minute ? '+' + event.extra_minute : '');
+                const reason = event.reason ? ' - ' + event.reason : '';
 
-				return `
+                const labelAssist = icon.includes('substitute.svg') ? 'Out:' : 'Assist by:';
+                const relatedPlayer = event.related_player_name
+                    ? `<br><span class="assist-by">${labelAssist} ${event.related_player_name}</span>`
+                    : '';
+                const result = event.result ? ` [${event.result}]` : '';
+                const playerImg = (event.player && event.player.image_path)
+                    ? event.player.image_path
+                    : 'https://cdn.sportmonks.com/images/soccer/placeholder.png?text=?';
+                const teamLogo = (event.team && event.team.logo_path)
+                    ? event.team.logo_path
+                    : 'https://cdn.sportmonks.com/images/soccer/placeholder.png?text=T';
+                const teamSide = (event.team_id === localTeamId) ? 'left' : 'right';
+
+                return `
 					<li class="event-item ${teamSide}-event">
 						<span class="event-time" title="${minute}'">${minute}'</span>
 						<span class="event-icon">${icon}</span>
@@ -1804,7 +1818,7 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
 						<span class="event-reason">${reason}${result}</span>
 					</li>
 				`;
-			}
+            }
 
             const sortedEvents = [...events].sort((a, b) => getEventMinute(b) - getEventMinute(a));
             const eventsHtml = sortedEvents.map(event => renderEventItem(event)).join('');
@@ -1976,7 +1990,7 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                 </div>
             `;
         },
-		
+
         buildStandingsHtml: function (standings) {
             if (!standings || standings.length === 0) {
                 return `
@@ -1986,7 +2000,7 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                     </div>
                 `;
             }
-            
+
             const descriptionMap = {};
             standings.forEach(function (team) {
                 if (team.Description) {
@@ -1995,31 +2009,31 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                     }
                 }
             });
-            
+
             const sortedDescriptions = Object.keys(descriptionMap).sort(function (a, b) {
                 return descriptionMap[a] - descriptionMap[b];
             });
-            
-//             const colorPalette = this.getColorPalette(sortedDescriptions.length);
-			const colorPalette = [
-  "#00FF00",  
-  "#007BFF",  
-  "#FD7E14", 	 
-  "#6F42C1",  
-  "#FFC107",  
-  "#343A40",  
-  "#DC3545",  
-  "#20C997",  	
-  "#6610F2",  
-  "#FF5733" 
-];
+
+            //             const colorPalette = this.getColorPalette(sortedDescriptions.length);
+            const colorPalette = [
+                "#23cc8c",
+                "#007BFF",
+                "#FD7E14",
+                "#6F42C1",
+                "#FFC107",
+                "#343A40",
+                "#DC3545",
+                "#20C997",
+                "#6610F2",
+                "#FF5733"
+            ];
             const descriptionColorMap = {};
             sortedDescriptions.forEach(function (desc, index) {
                 descriptionColorMap[desc] = colorPalette[index];
             });
-            
+
             const hasStandingDescription = sortedDescriptions.length > 0;
-            
+
             let html = `
                 <div class="standings-section">
                     <h4 class="standings-title">Standings</h4>
@@ -2040,28 +2054,29 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                         </thead>
                         <tbody>
             `;
-            
+
             standings.forEach(function (team) {
 
                 let posStyle = '';
                 if (team.Description && descriptionColorMap[team.Description]) {
                     posStyle = ` style="color:${descriptionColorMap[team.Description]}; font-weight: bold;"`;
                 }
-                
+
                 html += `<tr>`;
-                
+
                 if (hasStandingDescription) {
                     let stCellStyle = team.Description && descriptionColorMap[team.Description]
                         ? ` style="background-color:${descriptionColorMap[team.Description]}; padding:0 !important;margin:0 !important; width:8px;"`
                         : ` style="padding:0 !important; margin:0 !important;"`;
                     html += `<td${stCellStyle}></td>`;
                 }
-                
+
                 html += `<td>${team.Position}</td>`;
                 html += `
                     <td class="team-column-data" style="display: flex !important; align-items: center !important; height: 50px !important; gap: 25px; font-weight: 800;">
     					<img src="${team.Team.LogoPath}" alt="${team.Team.Name}" style="margin-left: 10px !important;" class="standings-team-logo" />
-    					<span class="truncate-text">${team.Team.Name}</span>
+    					<span class="truncate-text">${team.Team.Name}</span>import { log } from '../../../woocommerce-paypal-payments/modules/ppcp-axo/resources/js/Helper/Debug';
+
             	</td>
                     <td>${team.Played}</td>
                     <td>${team.Wins}</td>
@@ -2073,12 +2088,12 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                 `;
                 html += `</tr>`;
             });
-            
+
             html += `
                         </tbody>
                     </table>
             `;
-            
+
             if (hasStandingDescription) {
                 html += `<div class="standings-descriptions">`;
                 sortedDescriptions.forEach(function (desc) {
@@ -2092,22 +2107,22 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                 });
                 html += `</div>`;
             }
-            
+
             html += `</div>`;
             return html;
         },
 
-		   getColorPalette: function (n) {
-	  if (n === 1) {
-		return ['hsl(120, 100%, 40%)'];
-	  }
-	  const colors = [];
-	  for (let i = 0; i < n; i++) {
-		const hue = 120 - (120 * i) / (n - 1);
-		colors.push(`hsl(${hue}, 100%, 40%)`);
-	  }
-	  return colors;
-	},
+        getColorPalette: function (n) {
+            if (n === 1) {
+                return ['hsl(120, 100%, 40%)'];
+            }
+            const colors = [];
+            for (let i = 0; i < n; i++) {
+                const hue = 120 - (120 * i) / (n - 1);
+                colors.push(`hsl(${hue}, 100%, 40%)`);
+            }
+            return colors;
+        },
 
         // ========== MISC RENDER HELPERS ==========
         updateDateDisplay: function () {
@@ -2133,48 +2148,48 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
             ].join('');
         },
 
-		renderLeagueSection: function (league, fixtures) {
-    const fixturesWithLeague = fixtures.map(function (match) {
-        match.league_id = league.league_info.id;
-        match.group_id = match.group_id || 0;
-        // Add league details from the league object
-        match.league_name = league.league_info.name;
-        match.league_country = league.league_info.country.name;
-        // Only show stage if it isn’t “Regular Season”
-        match.league_stage = (league.league_info.stage_name !== 'Regular Season') ? league.league_info.stage_name : '';
-        return match;
-    });
-    const shouldShowStage = league.league_info.stage_name !== 'Regular Season';
-    const stageHtml = shouldShowStage ? league.league_info.stage_name : '';
-    const matchCount = fixturesWithLeague.length;
+        renderLeagueSection: function (league, fixtures) {
+            const fixturesWithLeague = fixtures.map(function (match) {
+                match.league_id = league.league_info.id;
+                match.group_id = match.group_id || 0;
+                // Add league details from the league object
+                match.league_name = league.league_info.name;
+                match.league_country = league.league_info.country.name;
+                // Only show stage if it isn’t “Regular Season”
+                match.league_stage = (league.league_info.stage_name !== 'Regular Season') ? league.league_info.stage_name : '';
+                return match;
+            });
+            const shouldShowStage = league.league_info.stage_name !== 'Regular Season';
+            const stageHtml = shouldShowStage ? league.league_info.stage_name : '';
+            const matchCount = fixturesWithLeague.length;
 
-    return [
-        `<div class="league-section${this.state.allLeaguesExpanded ? '' : ' collapsed'}">`,
-            '<div class="league-header">',
+            return [
+                `<div class="league-section${this.state.allLeaguesExpanded ? '' : ' collapsed'}">`,
+                '<div class="league-header">',
                 '<div class="league-header-content">',
-                    `<img src="${league.league_info.logo_path}" alt="${league.league_info.name}" class="league-logo">`,
-                    '<div class="league-info">',
-                        `<h3>${league.league_info.name}</h3>`,
-                        `<span class="league-country">${league.league_info.country.name}${shouldShowStage ? ' - ' + stageHtml : ''}</span>`,
-                    '</div>',
-                    `<span class="match-count">${matchCount}</span>`,
+                `<img src="${league.league_info.logo_path}" alt="${league.league_info.name}" class="league-logo">`,
+                '<div class="league-info">',
+                `<h3>${league.league_info.name}</h3>`,
+                `<span class="league-country">${league.league_info.country.name}${shouldShowStage ? ' - ' + stageHtml : ''}</span>`,
+                '</div>',
+                `<span class="match-count">${matchCount}</span>`,
                 '</div>',
                 '<div class="league-toggle">',
-                    '<svg class="toggle-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">',
-                        '<polyline points="6 9 12 15 18 9"></polyline>',
-                    '</svg>',
+                '<svg class="toggle-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">',
+                '<polyline points="6 9 12 15 18 9"></polyline>',
+                '</svg>',
                 '</div>',
-            '</div>',
-            '<div class="matches-list">',
+                '</div>',
+                '<div class="matches-list">',
                 fixturesWithLeague.map(this.renderMatch.bind(this)).join(''),
-            '</div>',
-        '</div>'
-    ].join('');
-}
-,
-		
-		
-		
+                '</div>',
+                '</div>'
+            ].join('');
+        }
+        ,
+
+
+
 
         renderMatch: function (match) {
             const status = this.getMatchStatus(match.time, match.scores);
@@ -2185,23 +2200,23 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
             const starIcon = '<span class="qualified-icon" title="Qualified">★</span>';
             const localTeamName = `${match.localTeam.name}${isLocalWinner ? ` ${starIcon}` : ''}`;
             const visitorTeamName = `${match.visitorTeam.name}${isVisitorWinner ? ` ${starIcon}` : ''}`;
-			let aggregateHtml = '';
-			if (match.aggregate) {
-			  if (match.aggregate.result) {
-				const parts = match.aggregate.result.split('-').map(s => parseInt(s.trim(), 10));
-				let aggregateScore;
-				if (parts.some(val => isNaN(val))) {
-				  aggregateScore = "(-)";
-				} else {
-				  aggregateScore = (match.localTeam.id === match.aggregate.localteam_id)
-					? `${parts[0]} - ${parts[1]}`
-					: `${parts[1]} - ${parts[0]}`;
-				}
-				aggregateHtml = `<div class="aggregate-score">${aggregateScore}</div>`;
-			  } else {
-				aggregateHtml = `<div class="aggregate-score">(-)</div>`;
-			  }
-			}
+            let aggregateHtml = '';
+            if (match.aggregate) {
+                if (match.aggregate.result) {
+                    const parts = match.aggregate.result.split('-').map(s => parseInt(s.trim(), 10));
+                    let aggregateScore;
+                    if (parts.some(val => isNaN(val))) {
+                        aggregateScore = "(-)";
+                    } else {
+                        aggregateScore = (match.localTeam.id === match.aggregate.localteam_id)
+                            ? `${parts[0]} - ${parts[1]}`
+                            : `${parts[1]} - ${parts[0]}`;
+                    }
+                    aggregateHtml = `<div class="aggregate-score">${aggregateScore}</div>`;
+                } else {
+                    aggregateHtml = `<div class="aggregate-score">(-)</div>`;
+                }
+            }
 
             const redCards = {};
             const localTeamId = String(match.localTeam.id);
@@ -2281,7 +2296,7 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
                 '</div>',
 
                 '</div>',
-//                 this.renderMatchActions(match.time.status, match.time),
+                //                 this.renderMatchActions(match.time.status, match.time),
                 '</div>',
                 '</div>',
                 '</div>'
@@ -2303,101 +2318,101 @@ $overlay.find('.tab-content').html('<div class="loading"><img class="rotating-im
             `;
         },
 
-   	
-			
-			getMatchStatus: function (time, scores) {
-    const result = {
-        html: '',
-        showScore: false
-    };
 
-    // Base minute (e.g. "45'")
-    const baseMinute = (time.minute === null) ? '' : time.minute + "'";
-    // Injury time is displayed inline (if available)
-    const injuryTime = (time.status === MATCH_STATUSES.LIVE && time.injury_time !== null && time.injury_time > 0)
-                        ? `<span class="injury-time">+${time.injury_time}</span>` : '';
-    // Added time is rendered on a new line under the minute
-    const addedTime = (time.added_time !== null && time.added_time > 0)
-                        ? `<br><span class="added-time">+${time.added_time}</span>` : '';
 
-    switch (time.status) {
-        case MATCH_STATUSES.LIVE:
-            result.html = `<span class="status live">
+        getMatchStatus: function (time, scores) {
+            const result = {
+                html: '',
+                showScore: false
+            };
+
+            // Base minute (e.g. "45'")
+            const baseMinute = (time.minute === null) ? '' : time.minute + "'";
+            // Injury time is displayed inline (if available)
+            const injuryTime = (time.status === MATCH_STATUSES.LIVE && time.injury_time !== null && time.injury_time > 0)
+                ? `<span class="injury-time">+${time.injury_time}</span>` : '';
+            // Added time is rendered on a new line under the minute
+            const addedTime = (time.added_time !== null && time.added_time > 0)
+                ? `<br><span class="added-time">+${time.added_time}</span>` : '';
+
+            switch (time.status) {
+                case MATCH_STATUSES.LIVE:
+                    result.html = `<span class="status live">
                              <i class="icon-radio"></i>
                              ${baseMinute} ${injuryTime}${addedTime}
                            </span>`;
-            result.showScore = true;
-            break;
-        case MATCH_STATUSES.ET:
-            result.html = `<span class="status et">
+                    result.showScore = true;
+                    break;
+                case MATCH_STATUSES.ET:
+                    result.html = `<span class="status et">
                              <i class="icon-extra-time"></i>
                              ${baseMinute} ${injuryTime}
                            </span>`;
-            result.showScore = true;
-            break;
-        case MATCH_STATUSES.HT:
-            result.html = `<span class="status ht"><i class="icon-clock"></i>HT</span>`;
-            result.showScore = true;
-            break;
-        case MATCH_STATUSES.PEN_LIVE:
-        case MATCH_STATUSES.PEN:
-        case MATCH_STATUSES.FT_PEN:
-            const localPenScore = scores?.localteam_pen_score || 'N/A';
-            const visitorPenScore = scores?.visitorteam_pen_score || 'N/A';
-            result.html = `<span class="status pen">
+                    result.showScore = true;
+                    break;
+                case MATCH_STATUSES.HT:
+                    result.html = `<span class="status ht"><i class="icon-clock"></i>HT</span>`;
+                    result.showScore = true;
+                    break;
+                case MATCH_STATUSES.PEN_LIVE:
+                case MATCH_STATUSES.PEN:
+                case MATCH_STATUSES.FT_PEN:
+                    const localPenScore = scores?.localteam_pen_score || 'N/A';
+                    const visitorPenScore = scores?.visitorteam_pen_score || 'N/A';
+                    result.html = `<span class="status pen">
                              <i class="icon-target"></i>${time.status.replace('_', ' ')}<br>
                              ${localPenScore} - ${visitorPenScore}
                            </span>`;
-            result.showScore = true;
-            break;
-        case MATCH_STATUSES.BREAK:
-        case MATCH_STATUSES.INT:
-            result.html = `<span class="status break"><i class="icon-coffee"></i>Break</span>`;
-            result.showScore = true;
-            break;
-        case MATCH_STATUSES.FT:
-            result.html = `<span class="status ft"><i class="icon-check"></i>FT</span>`;
-            result.showScore = true;
-            break;
-        case MATCH_STATUSES.AET:
-            result.html = `<span class="status aet"><i class="icon-check"></i>AET</span>`;
-            result.showScore = true;
-            break;
-        case MATCH_STATUSES.NS:
-            const matchTimeUTC = new Date(time.starting_at.date_time);
-            const utcOffsetMinutes = new Date().getTimezoneOffset();
-            const localOffset = -(utcOffsetMinutes / 60);
-            const matchTimeLocal = new Date(matchTimeUTC.getTime() + (localOffset * 60 * 60 * 1000));
-            const localTimeFormatted = matchTimeLocal.toLocaleTimeString([], {
-                hour: '2-digit',
-                minute: '2-digit',
-                hour12: true
-            });
-            result.html = `<span class="status upcoming">
+                    result.showScore = true;
+                    break;
+                case MATCH_STATUSES.BREAK:
+                case MATCH_STATUSES.INT:
+                    result.html = `<span class="status break"><i class="icon-coffee"></i>Break</span>`;
+                    result.showScore = true;
+                    break;
+                case MATCH_STATUSES.FT:
+                    result.html = `<span class="status ft"><i class="icon-check"></i>FT</span>`;
+                    result.showScore = true;
+                    break;
+                case MATCH_STATUSES.AET:
+                    result.html = `<span class="status aet"><i class="icon-check"></i>AET</span>`;
+                    result.showScore = true;
+                    break;
+                case MATCH_STATUSES.NS:
+                    const matchTimeUTC = new Date(time.starting_at.date_time);
+                    const utcOffsetMinutes = new Date().getTimezoneOffset();
+                    const localOffset = -(utcOffsetMinutes / 60);
+                    const matchTimeLocal = new Date(matchTimeUTC.getTime() + (localOffset * 60 * 60 * 1000));
+                    const localTimeFormatted = matchTimeLocal.toLocaleTimeString([], {
+                        hour: '2-digit',
+                        minute: '2-digit',
+                        hour12: true
+                    });
+                    result.html = `<span class="status upcoming">
                              <i class="icon-clock"></i>${localTimeFormatted}
                            </span>`;
-            break;
-        case MATCH_STATUSES.POSTPONED:
-            result.html = `<span class="status postponed">
+                    break;
+                case MATCH_STATUSES.POSTPONED:
+                    result.html = `<span class="status postponed">
                              <i class="icon-alert-circle"></i>Postponed
                            </span>`;
-            break;
-        default:
-            result.html = `<span class="status">
+                    break;
+                default:
+                    result.html = `<span class="status">
                              <i class="icon-help-circle"></i>${time.status}
                            </span>`;
-    }
-    return result;
-}
-};
+            }
+            return result;
+        }
+    };
 
 
     // ========== ON DOCUMENT READY ==========
     $(document).ready(function () {
         const manager = new MatchesManager();
         manager.init();
-		
+
     });
-	
-})(jQuery); 
+
+})(jQuery);
 
