@@ -24,14 +24,14 @@
 .floating-icon svg {
     width: 31px !important; 
     height: 31px;
-    color: #333; 
+    color: var(--icon-muted); 
     cursor: pointer;
 }
 
 /* Show the icon only on mobile */
-@media (max-width: 600px) {
-    .back-to-matches svg {
-        display: block;
+@media (min-width: 600px) {
+    .floating-icon.float-back-to-matches svg {
+        display: none;
     }
 }
 
@@ -105,7 +105,7 @@
   justify-content: center !important;
     transition: all 0.3s ease;
 }
-/
+
 .scoreboard-wrapper {
   display: flex !important;
   align-items: center !important;
@@ -8011,7 +8011,7 @@ img.player-image {
   align-items: center;
   margin-bottom: 0.75rem;
   /* Removed position: relative; if not needed in this flow */
-/*   padding-top: 2.5rem; /* Adjusted for spacing */ */
+/*   padding-top: 2.5rem; /* Adjusted for spacing */
 }
 
 /* .league-details and league info come first */
@@ -8536,7 +8536,7 @@ img.player-image {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px){
   .back-to-matches {
     top: 0.5rem;
 	display:block;
@@ -8544,7 +8544,7 @@ img.player-image {
 	
   .back-to-matches svg {
   	color: var(--icon-muted);
-/*   	width: fit-content; */
+   /*width: fit-content; */
   	height: fit-content;
 	  display: none;
   }

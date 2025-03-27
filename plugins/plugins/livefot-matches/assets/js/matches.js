@@ -443,9 +443,9 @@
                 } else {
                     self.loadMatches(true);
                     self.setupRefreshInterval();
-                    self.setupLineupRefresh();
-                    self.setupEventsRefresh();
-                    self.setupStatsRefresh();
+                    // self.setupLineupRefresh();
+                    // self.setupEventsRefresh();
+                    // self.setupStatsRefresh();
                 }
             });
         },
@@ -1098,8 +1098,6 @@
 
           <div class="scoreboard-info">
             <span class="scoreboard-time">${matchTimeFormatted}</span>
-            ${injuryTimeText ? `<span class="scoreboard-injury-time">${injuryTimeText}</span>` : ''}
-            ${addedTimeText ? `<span class="scoreboard-added-time">${addedTimeText}</span>` : ''}
             <div class="scoreboard-score">${$matchItem.find('.match-score-results').text() || ''}</div>
             ${$matchItem.find('.aggregate-score').text() ? `<div class="scoreboard-aggregate">${$matchItem.find('.aggregate-score').text()}</div>` : ''}
           </div>
@@ -1110,6 +1108,10 @@
           </div>
         </div>
     `;
+
+
+    // ${injuryTimeText ? `<span class="scoreboard-injury-time">${injuryTimeText}</span>` : ''}
+    // ${addedTimeText ? `<span class="scoreboard-added-time">${addedTimeText}</span>` : ''}
 
             // Inject the scoreboard HTML into the overlay
             $overlay.find('.scoreboard-section .scoreboard-teams').html(scoreboardHtml);
@@ -2370,6 +2372,10 @@
             const addedTime = (time.added_time !== null && time.added_time > 0)
                 ? `<br><span class="added-time">+${time.added_time}</span>` : '';
 
+            // TO TEST
+            // const injuryTime = `<span class="injury-time">+3</span>`;
+            // const addedTime = `<br><span class="added-time">+5</span>`;
+
             switch (time.status) {
                 case MATCH_STATUSES.LIVE:
                     result.html = `<span class="status live">
@@ -2450,4 +2456,3 @@
     });
 
 })(jQuery);
-
