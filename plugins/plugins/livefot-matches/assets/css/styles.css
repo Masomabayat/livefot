@@ -3,6 +3,39 @@
 @tailwind utilities;
 
 
+.tabs-footer {
+    position: relative; /* Ensure the footer is the reference for absolute positioning */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff; /* Adjust based on your design */
+}
+
+.floating-icon {
+    border-radius: 100%;
+	position: fixed;
+    bottom: 40px;
+    right: 15px;
+    background: white;
+	z-index: 999999;
+}
+
+.floating-icon svg {
+    width: 31px !important; 
+    height: 31px;
+    color: #333; 
+    cursor: pointer;
+}
+
+/* Show the icon only on mobile */
+@media (max-width: 600px) {
+    .back-to-matches svg {
+        display: block;
+    }
+}
+
+
 .scoreboard-section {
   display: flex !important;
   flex-direction: column !important;
@@ -72,7 +105,7 @@
   justify-content: center !important;
     transition: all 0.3s ease;
 }
-
+/
 .scoreboard-wrapper {
   display: flex !important;
   align-items: center !important;
@@ -5950,9 +5983,9 @@ button.tab-button:hover {
 	.scoreboard-section.scrolled .scoreboard-teams .scoreboard-team-name{
 		display: none;
 	}
-	.scoreboard-section.scrolled .scoreboard-info .scoreboard-time{
+/* 	.scoreboard-section.scrolled .scoreboard-info .scoreboard-time{
 	    display: none;
-	}
+	} */
 		.scoreboard-section.scrolled .scoreboard-info .scoreboard-score{
 		margin: 0rem;
 ;
@@ -7978,7 +8011,7 @@ img.player-image {
   align-items: center;
   margin-bottom: 0.75rem;
   /* Removed position: relative; if not needed in this flow */
-/*   padding-top: 2.5rem; /* Adjusted for spacing */ 
+/*   padding-top: 2.5rem; /* Adjusted for spacing */ */
 }
 
 /* .league-details and league info come first */
@@ -8506,12 +8539,14 @@ img.player-image {
 @media (max-width: 480px) {
   .back-to-matches {
     top: 0.5rem;
+	display:block;
   }
 	
   .back-to-matches svg {
   	color: var(--icon-muted);
-   /*   	width: fit-content; */
+/*   	width: fit-content; */
   	height: fit-content;
+	  display: none;
   }
 
   .scoreboard-section {

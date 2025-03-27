@@ -1,6 +1,7 @@
 (function ($) {
     'use strict';
     window.needPrefetchAdjacentDates = true;
+    window.ajaxRequests = [];
     // ========== CONFIGURATIONS & CONSTANTS ==========
 
     const iconBase = livefotAjax.icons_base_url;
@@ -128,8 +129,19 @@
                 }
             });
         },
+        // Function to cancel all pending AJAX requests
+        cancelAllRequests: async function () {
+            window.ajaxRequests.forEach((req) => req.abort()); // Abort each request
+            window.ajaxRequests = []; // Reset the array
+        },
         fetchMatchData: async function (date) {
             console.log(date);
+            try {
+                await this.cancelAllRequests();
+            } catch (error) {
+                console.log(error);
+                
+            }
             const dateKey = this.getDateKey(date);
             // console.log('fetchMatchData', dateKey);
             // Use the timezone offset for the selected date instead of the current time.
@@ -142,6 +154,9 @@
                     nonce: livefotAjax.nonce,
                     date: dateKey,
                     utc_offset: utcOffset
+                },
+                beforeSend: function(xhr) {
+                    window.ajaxRequests.push(xhr); // Store the request in global array
                 }
             }).then(function (response) {
                 return response.data;
@@ -1035,6 +1050,11 @@
          </div>
         </div>
       </div>
+        <div class="floating-icon float-back-to-matches">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
+            </svg
+        </div>
     `).appendTo('body');
             } else {
                 $overlay.find('.league-name').text(leagueName);
@@ -1102,6 +1122,21 @@
 
 
             $overlay.find('.back-to-matches').off('click').on('click', function () {
+                // Clear overlay refresh interval
+                if (self.state.overlayRefreshInterval) {
+                    clearInterval(self.state.overlayRefreshInterval);
+                    self.state.overlayRefreshInterval = null;
+                }
+                // Clear all overlay tab intervals
+                for (let tab in self.state.overlayTabIntervals) {
+                    clearInterval(self.state.overlayTabIntervals[tab]);
+                }
+                self.state.overlayTabIntervals = {};
+
+                $overlay.hide();
+                document.body.classList.remove('overlay-open');
+            });
+			$overlay.find('.float-back-to-matches').off('click').on('click', function () {
                 // Clear overlay refresh interval
                 if (self.state.overlayRefreshInterval) {
                     clearInterval(self.state.overlayRefreshInterval);
@@ -2075,7 +2110,7 @@
                 html += `
                     <td class="team-column-data" style="display: flex !important; align-items: center !important; height: 50px !important; gap: 25px; font-weight: 800;">
     					<img src="${team.Team.LogoPath}" alt="${team.Team.Name}" style="margin-left: 10px !important;" class="standings-team-logo" />
-    					<span class="truncate-text">${team.Team.Name}</span>import { log } from '../../../woocommerce-paypal-payments/modules/ppcp-axo/resources/js/Helper/Debug';
+    					<span class="truncate-text">${team.Team.Name}</span>
 
             	</td>
                     <td>${team.Played}</td>
