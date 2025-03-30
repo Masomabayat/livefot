@@ -547,6 +547,9 @@
                 this.renderMatches(cachedData);
                 return;
             }
+            if(localStorage.getItem('reloadAction')) {
+                self.openMatchDetailsFullscreen(localStorage.getItem('reloadAction'));
+            }
 
             // Otherwise, fetch from server
             this.cache.fetchMatchData(dateToLoad)
@@ -995,14 +998,40 @@
 
 
 
+        unsetLocalStorage: function () {
+            if (!localStorage.getItem('reloadActionData') || localStorage.getItem('reloadActionData') === 'null') {
+                localStorage.removeItem('reloadActionData');
+            }
+            
+            if (!localStorage.getItem('reloadAction') || localStorage.getItem('reloadAction') === 'null') {
+                localStorage.removeItem('reloadAction');
+            }
+            if (!localStorage.getItem('reloadActionObj') || localStorage.getItem('reloadActionObj') === 'null') {
+                localStorage.removeItem('reloadActionObj');
+            }
+        },
         openMatchDetailsFullscreen: function (matchId) {
             const self = this;
-            const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
+            self.unsetLocalStorage();
+
+            var $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
 
             // Get league details directly from the match item data attributes
-            const leagueName = $matchItem.data('league-name');
-            const leagueCountry = $matchItem.data('league-country');
-            const leagueStage = $matchItem.data('league-stage');
+            var leagueName = $matchItem.data('league-name');
+            var leagueCountry = $matchItem.data('league-country');
+            var leagueStage = $matchItem.data('league-stage');
+
+            if(localStorage.getItem('reloadActionObj')) {
+                var reloadActionObj = JSON.parse(localStorage.getItem('reloadActionObj'));
+                if(reloadActionObj) {
+                    leagueName = reloadActionObj.leagueName;
+                    leagueCountry = reloadActionObj.leagueCountry;
+                    leagueStage = reloadActionObj.leagueStage;
+                } else {
+                    localStorage.removeItem('reloadActionObj');
+                }
+            }
+
             const leagueSubInfo = leagueStage ? `${leagueCountry} - ${leagueStage}` : leagueCountry;
 
             // Create or update the overlay container
@@ -1062,7 +1091,17 @@
             }
 
             // Show the overlay and prevent background scrolling
+            localStorage.setItem('reloadAction', matchId);
+            localStorage.setItem('reloadActionObj', JSON.stringify(
+                {
+                    leagueSubInfo: leagueSubInfo,
+                    leagueName: leagueName,
+                    leagueCountry: leagueCountry,
+                    leagueStage: leagueStage,
+                }
+            ));
             $overlay.show();
+            $(".floating-icon.float-back-to-matches").show();
             document.body.classList.add('overlay-open');
 
             // Get team names and logos from the match item
@@ -1089,7 +1128,7 @@
                 : baseTimeText;
 
             // Build the scoreboard HTML using the extracted parts
-            const scoreboardHtml = `
+            var scoreboardHtml = `
         <div class="scoreboard-wrapper">
           <div class="scoreboard-team scoreboard-home">
             <img src="${localTeamLogo}" alt="${localTeamName} Logo" class="scoreboard-logo">
@@ -1108,7 +1147,18 @@
           </div>
         </div>
     `;
-
+        
+            try {
+                let scoreboardHtml_cache = localStorage.getItem('reloadActionData');
+                if(scoreboardHtml_cache) {
+                    scoreboardHtml = scoreboardHtml_cache;
+                } else {
+                    localStorage.removeItem('reloadActionData');
+                }
+            } catch (error) {
+                localStorage.removeItem('reloadActionData');
+            }
+            localStorage.setItem('reloadActionData', scoreboardHtml);
 
     // ${injuryTimeText ? `<span class="scoreboard-injury-time">${injuryTimeText}</span>` : ''}
     // ${addedTimeText ? `<span class="scoreboard-added-time">${addedTimeText}</span>` : ''}
@@ -1136,9 +1186,15 @@
                 self.state.overlayTabIntervals = {};
 
                 $overlay.hide();
+                localStorage.removeItem('reloadActionData');
+                localStorage.removeItem('reloadAction');
+                localStorage.removeItem('reloadActionObj');
+
+                $(".floating-icon.float-back-to-matches").hide();
+
                 document.body.classList.remove('overlay-open');
             });
-			$overlay.find('.float-back-to-matches').off('click').on('click', function () {
+			$('.float-back-to-matches').off('click').on('click', function () {
                 // Clear overlay refresh interval
                 if (self.state.overlayRefreshInterval) {
                     clearInterval(self.state.overlayRefreshInterval);
@@ -1151,6 +1207,10 @@
                 self.state.overlayTabIntervals = {};
 
                 $overlay.hide();
+                localStorage.removeItem('reloadActionData');
+                localStorage.removeItem('reloadAction');
+                localStorage.removeItem('reloadActionObj');
+                $(".floating-icon.float-back-to-matches").hide();
                 document.body.classList.remove('overlay-open');
             });
 
@@ -1159,12 +1219,17 @@
 
             // If match status is NS, remove events tab
             const status = $matchItem.data('match-status');
-            if (status === 'NS') {
-                $overlay.find('.tab-button[data-tab="events"]').remove();
-                $overlay.find('.tab-content[data-tab="events"]').remove();
-                $overlay.find('.tab-button').removeClass('active').first().addClass('active');
-                $overlay.find('.tab-content').removeClass('active').first().addClass('active');
-            }
+            // if (status === 'NS') {
+            //     $overlay.find('.tab-button[data-tab="events"]').hide();
+            //     $overlay.find('.tab-content[data-tab="events"]').hide();
+            //     $overlay.find('.tab-button').removeClass('active');
+            //     $overlay.find('.tab-content').removeClass('active');
+            //     $overlay.find('.tab-button[data-tab="stats"]').addClass('active');
+            //     $overlay.find('.tab-button[data-tab="stats"]').addClass('active');
+            // } else {
+                $overlay.find('.tab-button[data-tab="events"]').show();
+                $overlay.find('.tab-content[data-tab="events"]').show();
+            // }
 
             // Bind tab switching
             $overlay.find('.tab-button').off('click').on('click', function () {
@@ -1177,13 +1242,20 @@
             });
 
             // Default tab loading
-            if (status !== 'NS') {
+            // if (status !== 'NS') {
                 this.state.showImportantEventsByMatch[matchId] = true;
                 this.loadOverlayTabContent('events', matchId, $overlay);
-            } else {
-                const firstTab = $overlay.find('.tab-button.active').data('tab');
-                this.loadOverlayTabContent(firstTab, matchId, $overlay);
-            }
+            // } else {
+            //     $overlay.find('.tab-button[data-tab="events"]').hide();
+            //     $overlay.find('.tab-content[data-tab="events"]').hide();
+            //     $overlay.find('.tab-button').removeClass('active');
+            //     $overlay.find('.tab-content').removeClass('active');
+            //     $overlay.find('.tab-button[data-tab="stats"]').addClass('active');
+            //     $overlay.find('.tab-content[data-tab="stats"]').addClass('active');
+                
+            //     const firstTab = $overlay.find('.tab-button.active').data('tab').click();
+            //     // this.loadOverlayTabContent(firstTab, matchId, $overlay);
+            // }
             $(".tab-container").on("scroll", function () {
                 // console.log("Scrolling...", $(".tab-container").scrollTop());
 
@@ -1205,7 +1277,7 @@
         loadOverlayTabContent: function (tabName, matchId, $overlay) {
             const $tabContent = $overlay.find(`.tab-content[data-tab="${tabName}"]`);
             $tabContent.html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
-
+            
             // Load content based on tab name
             switch (tabName) {
                 case 'events':
@@ -1338,6 +1410,7 @@
 
         loadMatchStatsOverlay: function (matchId, $tabContent) {
             const self = this;
+            
             const cachedStats = this.statsCache.get(matchId);
             if (cachedStats) {
                 const statsHtml = self.renderStats(cachedStats);
@@ -2235,6 +2308,7 @@
             const isLocalWinner = match.aggregate?.winner === match.localTeam.id;
             const isVisitorWinner = match.aggregate?.winner === match.visitorTeam.id;
             const starIcon = '<span class="qualified-icon" title="Qualified">★</span>';
+            const addedTimeHtml = (status.addedTime !== null && status.addedTime !== undefined && status.addedTime !== "") ? `<div class="match-added-time">${status.addedTime}</div>` : '';
             const localTeamName = `${match.localTeam.name}${isLocalWinner ? ` ${starIcon}` : ''}`;
             const visitorTeamName = `${match.visitorTeam.name}${isVisitorWinner ? ` ${starIcon}` : ''}`;
             let aggregateHtml = '';
@@ -2333,6 +2407,7 @@
                 '</div>',
 
                 '</div>',
+                addedTimeHtml,
                 //                 this.renderMatchActions(match.time.status, match.time),
                 '</div>',
                 '</div>',
@@ -2380,9 +2455,10 @@
                 case MATCH_STATUSES.LIVE:
                     result.html = `<span class="status live">
                              <i class="icon-radio"></i>
-                             ${baseMinute} ${injuryTime}${addedTime}
+                             ${baseMinute} ${injuryTime}
                            </span>`;
                     result.showScore = true;
+                    result.addedTime = addedTime;
                     break;
                 case MATCH_STATUSES.ET:
                     result.html = `<span class="status et">

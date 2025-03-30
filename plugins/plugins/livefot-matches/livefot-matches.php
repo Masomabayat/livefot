@@ -766,21 +766,33 @@ function livefot_add_admin_menu() {
 // Welcome page callback (main page)
 
 function livefot_welcome_page() {
+
+    wp_enqueue_style(
+        'livefot-styles',
+        LIVEFOT_PLUGIN_URL . 'assets/css/admin/styles.css',
+        array(),
+        LIVEFOT_VERSION
+    );
+
     ?>
     <div class="wrap livefot-welcome-page">
-        <h1>Welcome to LiveFot</h1>
-        
-        <div class="livefot-welcome-header">
-            <div class="livefot-welcome-text">
-                <p class="about-description">
+        <div class="header-title">
+          <h1>Welcome to <span>LiveFot</span></h1>
+          <p class="about-description">
                     Your ultimate solution for automatic live football scores, match lineups, standings, stats, and live events.
                 </p>
+        </div>
+        <div class="livefot-welcome-header">
+            <div class="livefot-welcome-text">
+<!--                 <p class="about-description">
+                    Your ultimate solution for automatic live football scores, match lineups, standings, stats, and live events.
+                </p> -->
             </div>
         </div>
 
         <div class="livefot-features-grid">
             <div class="feature-section">
-                <h2>🚀 Key Features</h2>
+                <h2 class="live-section-heading">🚀 Key Features</h2>
                 <div class="feature-grid">
                     <div class="feature-item">
                         <h3>Automatic Updates</h3>
@@ -803,9 +815,22 @@ function livefot_welcome_page() {
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="livefot-features-grid livefot-getting-started-wrapper">
+            <div class="livefot-getting-started">
+                <h2>🎯 Getting Started</h2>
+                <p>To begin displaying live football data on your website:</p>
+                <ol>
+                    <li>Configure your API key in the Settings page</li>
+                    <li>Use the shortcode <code>[livefot_matches]</code> in any post or page</li>
+                    <li>Customize the display options as needed</li>
+                </ol>
+            </div>
+        </div>
+        <div class="livefot-features-grid">
 
             <div class="livefot-versions">
-                <h2>📦 Available Versions</h2>
+                <h2 class="live-section-heading">📦 Available Versions</h2>
                 <div class="version-grid">
                     <div class="version-item">
                         <h3>Basic Version</h3>
@@ -832,7 +857,7 @@ function livefot_welcome_page() {
             </div>
 
             <div class="livefot-requirements">
-                <h2>⚙️ Technical Requirements</h2>
+                <h2 class="live-section-heading">⚙️ Technical Requirements</h2>
                 <div class="requirements-grid">
                     <div class="requirement-item">
                         <h3>Platform</h3>
@@ -852,7 +877,7 @@ function livefot_welcome_page() {
             </div>
 
             <div class="livefot-support">
-                <h2>📞 Support & Contact</h2>
+                <h2 class="live-section-heading">📞 Support & Contact</h2>
                 <p>For leagues, subscriptions, or support:</p>
                 <ul>
                     <li>Email: <a href="mailto:info@livefootballcenter.com">info@livefootballcenter.com</a></li>
@@ -860,15 +885,7 @@ function livefot_welcome_page() {
                 </ul>
             </div>
 
-            <div class="livefot-getting-started">
-                <h2>🎯 Getting Started</h2>
-                <p>To begin displaying live football data on your website:</p>
-                <ol>
-                    <li>Configure your API key in the Settings page</li>
-                    <li>Use the shortcode <code>[livefot_matches]</code> in any post or page</li>
-                    <li>Customize the display options as needed</li>
-                </ol>
-            </div>
+            
         </div>
     </div>
     <?php
