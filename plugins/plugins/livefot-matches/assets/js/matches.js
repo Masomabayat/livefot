@@ -4,7 +4,9 @@
     window.ajaxRequests = [];
     // ========== CONFIGURATIONS & CONSTANTS ==========
 
-    const iconBase = livefotAjax.icons_base_url;
+    const 
+    
+    iconBase = livefotAjax.icons_base_url;
 
     // Define icons globally for the module
     const icons = {
@@ -1217,19 +1219,24 @@
 
 
 
+
             // If match status is NS, remove events tab
             const status = $matchItem.data('match-status');
-            // if (status === 'NS') {
-            //     $overlay.find('.tab-button[data-tab="events"]').hide();
-            //     $overlay.find('.tab-content[data-tab="events"]').hide();
-            //     $overlay.find('.tab-button').removeClass('active');
-            //     $overlay.find('.tab-content').removeClass('active');
-            //     $overlay.find('.tab-button[data-tab="stats"]').addClass('active');
-            //     $overlay.find('.tab-button[data-tab="stats"]').addClass('active');
-            // } else {
-                $overlay.find('.tab-button[data-tab="events"]').show();
-                $overlay.find('.tab-content[data-tab="events"]').show();
-            // }
+            if (status === 'NS') {
+                // $overlay.find('.tab-button[data-tab="events"]').remove();
+                // $overlay.find('.tab-content[data-tab="events"]').remove();
+                $overlay.find('.tab-button').removeClass('active');
+                $overlay.find('.tab-content').removeClass('active');
+                let loadTab = 'stats';
+                if(localStorage.getItem('reloadTab0')) {
+                    loadTab = localStorage.getItem('reloadTab0');
+                }
+                console.log(loadTab);
+                
+                $overlay.find('.tab-button[data-tab="'+loadTab+'"]').addClass('active');
+                $overlay.find('.tab-content[data-tab="'+loadTab+'"]').addClass('active');
+                localStorage.setItem('reloadTab', loadTab);
+            }
 
             // Bind tab switching
             $overlay.find('.tab-button').off('click').on('click', function () {
@@ -1239,23 +1246,29 @@
                 $overlay.find('.tab-content').removeClass('active');
                 $overlay.find(`.tab-content[data-tab="${tab}"]`).addClass('active');
                 self.loadOverlayTabContent(tab, matchId, $overlay);
+                localStorage.setItem('reloadTab', tab);
             });
 
             // Default tab loading
-            // if (status !== 'NS') {
+            if (status !== 'NS') {
                 this.state.showImportantEventsByMatch[matchId] = true;
-                this.loadOverlayTabContent('events', matchId, $overlay);
-            // } else {
-            //     $overlay.find('.tab-button[data-tab="events"]').hide();
-            //     $overlay.find('.tab-content[data-tab="events"]').hide();
-            //     $overlay.find('.tab-button').removeClass('active');
-            //     $overlay.find('.tab-content').removeClass('active');
-            //     $overlay.find('.tab-button[data-tab="stats"]').addClass('active');
-            //     $overlay.find('.tab-content[data-tab="stats"]').addClass('active');
-                
-            //     const firstTab = $overlay.find('.tab-button.active').data('tab').click();
-            //     // this.loadOverlayTabContent(firstTab, matchId, $overlay);
-            // }
+                let loadTab = 'events';
+                if(localStorage.getItem('reloadTab0')) {
+                    loadTab = localStorage.getItem('reloadTab0');
+                }
+                console.log(loadTab);
+
+                this.loadOverlayTabContent(loadTab, matchId, $overlay);
+            } else {
+                let firstTab = $overlay.find('.tab-button.active').data('tab');
+                if(localStorage.getItem('reloadTab0')) {
+                    firstTab = localStorage.getItem('reloadTab0');
+                }
+                console.log(firstTab);
+
+                this.loadOverlayTabContent(firstTab, matchId, $overlay);
+            }
+            
             $(".tab-container").on("scroll", function () {
                 // console.log("Scrolling...", $(".tab-container").scrollTop());
 
@@ -1277,6 +1290,7 @@
         loadOverlayTabContent: function (tabName, matchId, $overlay) {
             const $tabContent = $overlay.find(`.tab-content[data-tab="${tabName}"]`);
             $tabContent.html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
+            console.log("tabName0", tabName);
             
             // Load content based on tab name
             switch (tabName) {
@@ -1403,7 +1417,8 @@
                 'own-goal',
                 'pen_shootout_goal',
                 'redcard',
-                'yellowred'
+                'yellowred',
+                'redcards2'
             ];
             return eventsArray.filter(ev => importantTypes.includes(ev.type));
         },
@@ -1545,6 +1560,9 @@
                         case 'substitution':
                             icons += `<img src="${iconBase}subin.svg" alt="Substitution In" style="width:16px;height:16px;vertical-align:middle;" title="Substitution"/>`;
                             break;
+                        case 'redcards2':
+                            icons += `<img src="${iconBase}redcards2.svg" alt="Multipul red card" style="width:16px;height:16px;vertical-align:middle;" title="Multipul Red Cards"/>`;
+                            break;
                         default:
                             break;
                     }
@@ -1571,7 +1589,7 @@
 
                 const coordMap = {};
                 // We'll fix GK at position 1
-                coordMap[1] = { top: "92%", left: "50%" };
+                coordMap[1] = { top: "90%", left: "50%" };
 
                 // The rest lines: start from top=82% to top=55% (for example)
                 const lineCount = parts.length;
@@ -1631,7 +1649,7 @@
                     const { top, left } = coordMapTeamA[pos];
                     // For position 1 (goalkeeper), set to 4% directly
                     if (pos === '1') {
-                        coordMapTeamB[pos] = { top: "90px", left };
+                        coordMapTeamB[pos] = { top: "72px", left };
                     } else {
                         const newTopVal = 100 - parseFloat(top);
                         coordMapTeamB[pos] = { top: newTopVal + "%", left };
@@ -1890,7 +1908,8 @@
                 missed_penalty: `<img src="${iconBase}missed penalty.svg" alt="missed penalty match"/>`,
                 redcard: `<img src="${iconBase}redcard.svg" alt="Red Card"/>`,
                 yellowred: `<img src="${iconBase}yellowred.svg" alt="Yellow Red Card"/>`,
-                substitution: `<img src="${iconBase}substitute.svg" alt="Substitution"/>`
+                substitution: `<img src="${iconBase}substitute.svg" alt="Substitution"/>`,
+                redcards2: `<img src="${iconBase}redcards2.svg" alt="Multipul Red Card"/>`
             };
 
             function getEventMinute(event) {
@@ -1957,6 +1976,7 @@
                 Offsides: "Offsides",
                 Yellowcards: "Yellow Cards",
                 Redcards: "Red Cards",
+                
                 Saves: "Saves",
                 Substitutions: "Substitutions",
                 Penalties: "Penalties",
@@ -2124,7 +2144,7 @@
                 return descriptionMap[a] - descriptionMap[b];
             });
 
-            //             const colorPalette = this.getColorPalette(sortedDescriptions.length);
+            //const colorPalette = this.getColorPalette(sortedDescriptions.length);
             const colorPalette = [
                 "#23cc8c",
                 "#007BFF",
@@ -2135,7 +2155,7 @@
                 "#DC3545",
                 "#20C997",
                 "#6610F2",
-                "#FF5733"
+                "#cb2027"
             ];
             const descriptionColorMap = {};
             sortedDescriptions.forEach(function (desc, index) {
@@ -2265,7 +2285,7 @@
                 // Add league details from the league object
                 match.league_name = league.league_info.name;
                 match.league_country = league.league_info.country.name;
-                // Only show stage if it isn’t “Regular Season”
+                // Only show stage if it isn't "Regular Season"
                 match.league_stage = (league.league_info.stage_name !== 'Regular Season') ? league.league_info.stage_name : '';
                 return match;
             });
@@ -2342,6 +2362,8 @@
                     redCards[cardTeamId] += cardCount;
                 });
             }
+            console.log(redCards);
+            
             const redCardsLocal = redCards[localTeamId] || 0;
             const redCardsVisitor = redCards[visitorTeamId] || 0;
 
@@ -2355,15 +2377,46 @@
                 </div>`;
 
             const redCardLocalHtml = (redCardsLocal > 0)
-                ? `<span class="red-card-icon" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
-                     <img src="${iconBase}redcard.svg" alt="Red Card" style="width:16px;height:16px;vertical-align:middle;" />
-                     ${redCardsLocal > 1 ? `<span class="red-card-count">${redCardsLocal}</span>` : ''}
+  ? `<span class="red-card-icon" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
+       <img src="${iconBase}${redCardsLocal > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
+            alt="${redCardsLocal > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
+            style="width:${redCardsLocal > 1 ? '24px' : '16px'};height:${redCardsLocal > 1 ? '24px' : '16px'};vertical-align:middle;" />
+     </span>`
+  : '';
+
+const redCardVisitorHtml = (redCardsVisitor > 0)
+  ? `<span class="red-card-icon" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
+       <img src="${iconBase}${redCardsVisitor > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
+            alt="${redCardsVisitor > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
+            style="width:${redCardsVisitor > 1 ? '24px' : '16px'};height:${redCardsVisitor > 1 ? '24px' : '16px'};vertical-align:middle;" />
+     </span>`
+  : '';
+
+
+            // Add yellow-red card handling
+            const yellowRedCards = {};
+            if (Array.isArray(match.yellow_red_cards)) {
+                match.yellow_red_cards.forEach(card => {
+                    const cardTeamId = String(card.team_id);
+                    const cardCount = Number(card.count) || 0;
+                    if (!yellowRedCards[cardTeamId]) {
+                        yellowRedCards[cardTeamId] = 0;
+                    }
+                    yellowRedCards[cardTeamId] += cardCount;
+                });
+            }
+
+            const yellowRedLocalHtml = yellowRedCards[localTeamId] 
+                ? `<span class="yellow-red-card-icon" title="${yellowRedCards[localTeamId]} Yellow-Red Card(s)">
+                     <img src="${iconBase}yellowred.svg" alt="Yellow-Red Card" style="width:16px;height:16px;vertical-align:middle;" />
+                     ${yellowRedCards[localTeamId] > 1 ? `<span class="yellowred-count">${yellowRedCards[localTeamId]}</span>` : ''}
                    </span>`
                 : '';
-            const redCardVisitorHtml = (redCardsVisitor > 0)
-                ? `<span class="red-card-icon" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
-                     <img src="${iconBase}redcard.svg" alt="Red Card" style="width:16px;height:16px;vertical-align:middle;" />
-                     ${redCardsVisitor > 1 ? `<span class="red-card-count">${redCardsVisitor}</span>` : ''}
+
+            const yellowRedVisitorHtml = yellowRedCards[visitorTeamId]
+                ? `<span class="yellow-red-card-icon" title="${yellowRedCards[visitorTeamId]} Yellow-Red Card(s)">
+                     <img src="${iconBase}yellowred.svg" alt="Yellow-Red Card" style="width:16px;height:16px;vertical-align:middle;" />
+                     ${yellowRedCards[visitorTeamId] > 1 ? `<span class="yellowred-count">${yellowRedCards[visitorTeamId]}</span>` : ''}
                    </span>`
                 : '';
 
@@ -2387,7 +2440,7 @@
 
                 '<div class="team home">',
                 `<span class="team-name${isLocalWinner ? ' winner' : ''}">${localTeamName}</span>`,
-                `<span class="card-team-name${isLocalWinner ? ' winner' : ''}">${redCardLocalHtml}</span>`,
+                `<span class="card-team-name${isLocalWinner ? ' winner' : ''}">${redCardLocalHtml}${yellowRedLocalHtml}</span>`,
                 '</div>',
 
                 '<div class="score-container">',
@@ -2402,7 +2455,7 @@
                 '</div>',
 
                 '<div class="team away">',
-                `${redCardVisitorHtml}`,
+                `${redCardVisitorHtml}${yellowRedVisitorHtml}`,
                 `<span class="team-name${isVisitorWinner ? ' winner' : ''}">${visitorTeamName}</span>`,
                 '</div>',
 
