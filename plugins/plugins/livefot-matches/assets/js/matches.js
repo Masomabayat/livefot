@@ -1018,18 +1018,23 @@
 
             var $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
 
+            localStorage.setItem('reloadAction', matchId);
+            if($matchItem) {
+                localStorage.setItem('reloadActionObj', JSON.stringify($matchItem.data()));
+            }
             // Get league details directly from the match item data attributes
             var leagueName = $matchItem.data('league-name');
             var leagueCountry = $matchItem.data('league-country');
             var leagueStage = $matchItem.data('league-stage');
 
             if(localStorage.getItem('reloadActionObj')) {
-                var reloadActionObj = JSON.parse(localStorage.getItem('reloadActionObj'));
-                if(reloadActionObj) {
+                var reloadActionObj = localStorage.getItem('reloadActionObj');
+                try {
+                    reloadActionObj = JSON.parse(reloadActionObj);
                     leagueName = reloadActionObj.leagueName;
                     leagueCountry = reloadActionObj.leagueCountry;
                     leagueStage = reloadActionObj.leagueStage;
-                } else {
+                } catch {
                     localStorage.removeItem('reloadActionObj');
                 }
             }
@@ -1093,15 +1098,7 @@
             }
 
             // Show the overlay and prevent background scrolling
-            localStorage.setItem('reloadAction', matchId);
-            localStorage.setItem('reloadActionObj', JSON.stringify(
-                {
-                    leagueSubInfo: leagueSubInfo,
-                    leagueName: leagueName,
-                    leagueCountry: leagueCountry,
-                    leagueStage: leagueStage,
-                }
-            ));
+            
             $overlay.show();
             $(".floating-icon.float-back-to-matches").show();
             document.body.classList.add('overlay-open');
@@ -1221,13 +1218,20 @@
 
 
             // If match status is NS, remove events tab
-            const status = $matchItem.data('match-status');
+            let status = $matchItem.data('match-status');
+            let ramd = localStorage.getItem('reloadActionObj');
+            if(ramd = JSON.parse(ramd)) {
+                status = ramd.matchStatus;
+            }
+            
             if (status === 'NS') {
-                // $overlay.find('.tab-button[data-tab="events"]').remove();
-                // $overlay.find('.tab-content[data-tab="events"]').remove();
+                $overlay.find('.tab-button[data-tab="events"]').hide();
+                // $overlay.find('.tab-content[data-tab="events"]').hide();
+                $overlay.find('.tab-button[data-tab="stats"]').hide();
+                // $overlay.find('.tab-content[data-tab="stats"]').hide();
                 $overlay.find('.tab-button').removeClass('active');
                 $overlay.find('.tab-content').removeClass('active');
-                let loadTab = 'stats';
+                let loadTab = 'lineup';
                 if(localStorage.getItem('reloadTab0')) {
                     loadTab = localStorage.getItem('reloadTab0');
                 }
@@ -1236,6 +1240,11 @@
                 $overlay.find('.tab-button[data-tab="'+loadTab+'"]').addClass('active');
                 $overlay.find('.tab-content[data-tab="'+loadTab+'"]').addClass('active');
                 localStorage.setItem('reloadTab', loadTab);
+            } else {
+                $overlay.find('.tab-button[data-tab="events"]').show();
+                // $overlay.find('.tab-content[data-tab="events"]').show();
+                $overlay.find('.tab-button[data-tab="stats"]').show();
+                // $overlay.find('.tab-content[data-tab="stats"]').show();
             }
 
             // Bind tab switching
@@ -1253,16 +1262,25 @@
             if (status !== 'NS') {
                 this.state.showImportantEventsByMatch[matchId] = true;
                 let loadTab = 'events';
-                if(localStorage.getItem('reloadTab0')) {
-                    loadTab = localStorage.getItem('reloadTab0');
+                if(localStorage.getItem('reloadTab')) {
+                    loadTab = localStorage.getItem('reloadTab');
                 }
+
+                $overlay.find('.tab-button').removeClass('active');
+                $overlay.find('.tab-content').removeClass('active');
+                $overlay.find(`.tab-button[data-tab="${loadTab}"]`).addClass('active');
+                $overlay.find(`.tab-content[data-tab="${loadTab}"]`).addClass('active');
                 console.log(loadTab);
 
                 this.loadOverlayTabContent(loadTab, matchId, $overlay);
             } else {
+                $overlay.find('.tab-button[data-tab="events"]').hide();
+                $overlay.find('.tab-button[data-tab="stats"]').hide();
+                $overlay.find('.tab-content[data-tab="events"]').removeClass('active');
+                $overlay.find('.tab-content[data-tab="stats"]').removeClass('active');
                 let firstTab = $overlay.find('.tab-button.active').data('tab');
-                if(localStorage.getItem('reloadTab0')) {
-                    firstTab = localStorage.getItem('reloadTab0');
+                if(localStorage.getItem('reloadTab')) {
+                    firstTab = localStorage.getItem('reloadTab');
                 }
                 console.log(firstTab);
 
@@ -1838,11 +1856,22 @@
         // [LINEUP CODE END]
 
         loadMatchStandingsOverlay: function (matchId, $tabContent) {
+            
             const self = this;
             const $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
-            const league_id = $matchItem.data('league-id') || 0;
-            const group_id = $matchItem.data('group-id') || 0;
-            const season_id = $matchItem.data('season-id') || 0;
+            let league_id = $matchItem.data('league-id') || 0;
+            let group_id = $matchItem.data('group-id') || 0;
+            let season_id = $matchItem.data('season-id') || 0;
+            if($matchItem.length) {
+                localStorage.setItem('reloadActionObj', JSON.stringify($matchItem.data()));
+            } else {
+                let data = localStorage.getItem('reloadActionObj');
+                if(data = JSON.parse(data)) {
+                    league_id = data.leagueId;
+                    group_id = data.groupId;
+                    season_id = data.seasonId;                   
+                }
+            }
             if (!league_id || !season_id) {
                 $tabContent.html('<div class="error-standings">Invalid parameters for standings.</div>');
                 return;
@@ -2120,7 +2149,6 @@
                 </div>
             `;
         },
-
         buildStandingsHtml: function (standings) {
             if (!standings || standings.length === 0) {
                 return `
@@ -2130,7 +2158,11 @@
                     </div>
                 `;
             }
-
+        
+            // Detect dark mode
+            const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const standingsSectionClass = isDarkMode ? 'dark-mode' : 'light-mode';
+        
             const descriptionMap = {};
             standings.forEach(function (team) {
                 if (team.Description) {
@@ -2139,33 +2171,35 @@
                     }
                 }
             });
-
+        
             const sortedDescriptions = Object.keys(descriptionMap).sort(function (a, b) {
                 return descriptionMap[a] - descriptionMap[b];
             });
-
-            //const colorPalette = this.getColorPalette(sortedDescriptions.length);
-            const colorPalette = [
-                "#23cc8c",
-                "#007BFF",
-                "#FD7E14",
-                "#6F42C1",
-                "#FFC107",
-                "#343A40",
-                "#DC3545",
-                "#20C997",
-                "#6610F2",
-                "#cb2027"
-            ];
+        
             const descriptionColorMap = {};
             sortedDescriptions.forEach(function (desc, index) {
-                descriptionColorMap[desc] = colorPalette[index];
+const lightModeColors = [
+    "#23cc8c", "#007BFF", "#FD7E14", "#6F42C1", "#FFC107",
+    "#343A40", "#DC3545", "#20C997", "#6610F2", "#cb2027"
+];
+
+const darkModeColors = [
+    "#17a374", "#0056b3", "#d96a0b", "#4b2c7a", "#d39e00",
+    "#1d2124", "#a71d2a", "#138c72", "#520dc2", "#9b1621"
+];
+
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const selectedColors = isDarkMode ? darkModeColors : lightModeColors;
+
+sortedDescriptions.forEach(function (desc, index) {
+    descriptionColorMap[desc] = selectedColors[index] || "#ffffff"; // Fallback to white if out of range
+});
             });
-
+        
             const hasStandingDescription = sortedDescriptions.length > 0;
-
+        
             let html = `
-                <div class="standings-section">
+                <div class="standings-section ${standingsSectionClass}">
                     <h4 class="standings-title">Standings</h4>
                     <table class="standings-table">
                         <thead>
@@ -2184,30 +2218,28 @@
                         </thead>
                         <tbody>
             `;
-
+        
             standings.forEach(function (team) {
-
                 let posStyle = '';
                 if (team.Description && descriptionColorMap[team.Description]) {
                     posStyle = ` style="color:${descriptionColorMap[team.Description]}; font-weight: bold;"`;
                 }
-
+        
                 html += `<tr>`;
-
+        
                 if (hasStandingDescription) {
                     let stCellStyle = team.Description && descriptionColorMap[team.Description]
                         ? ` style="background-color:${descriptionColorMap[team.Description]}; padding:0 !important;margin:0 !important; width:8px;"`
                         : ` style="padding:0 !important; margin:0 !important;"`;
                     html += `<td${stCellStyle}></td>`;
                 }
-
+        
                 html += `<td>${team.Position}</td>`;
                 html += `
                     <td class="team-column-data" style="display: flex !important; align-items: center !important; height: 50px !important; gap: 25px; font-weight: 800;">
-    					<img src="${team.Team.LogoPath}" alt="${team.Team.Name}" style="margin-left: 10px !important;" class="standings-team-logo" />
-    					<span class="truncate-text">${team.Team.Name}</span>
-
-            	</td>
+                        <img src="${team.Team.LogoPath}" alt="${team.Team.Name}" style="margin-left: 10px !important;margin-right: 8px !important;" class="standings-team-logo" />
+                        <span class="truncate-text">${team.Team.Name}</span>
+                    </td>
                     <td>${team.Played}</td>
                     <td>${team.Wins}</td>
                     <td>${team.Draws}</td>
@@ -2218,12 +2250,12 @@
                 `;
                 html += `</tr>`;
             });
-
+        
             html += `
                         </tbody>
                     </table>
             `;
-
+        
             if (hasStandingDescription) {
                 html += `<div class="standings-descriptions">`;
                 sortedDescriptions.forEach(function (desc) {
@@ -2237,10 +2269,11 @@
                 });
                 html += `</div>`;
             }
-
+        
             html += `</div>`;
             return html;
         },
+        
 
         getColorPalette: function (n) {
             if (n === 1) {
