@@ -1589,9 +1589,9 @@
                         case 'redcards2':
                             icons += `<img src="${iconBase}redcards2.svg" alt="Multipul red card" style="width:16px;height:16px;vertical-align:middle;" title="Multipul Red Cards"/>`;
                             break;
-                            case 'whistle':
-                                icons += `<img src="${iconBase}whistle.svg" alt="whistle" style="width:16px;height:16px;vertical-align:middle;" title="whistle"/>`;
-                                break;
+                        case 'whistle':
+                            icons += `<img src="${iconBase}whistle.svg" alt="whistle" style="width:16px;height:16px;vertical-align:middle;" title="whistle"/>`;
+                            break;
                         default:
                             break;
                     }
@@ -2546,11 +2546,11 @@ const redCardVisitorHtml = (redCardsVisitor > 0)
                 ? `<span class="injury-time">+${time.injury_time}</span>` : '';
             // Added time is rendered on a new line under the minute
             const addedTime = (time.added_time !== null && time.added_time > 0)
-                ? `<br><span class="added-time">+${time.added_time}</span>` : '';
+                ? `<br><span class="added-time" style=" display: flex; gap: 2px; "><img src="${iconBase}whistle.svg" alt="whistle" style="width:16px;height:16px;vertical-align:middle;" title="whistle"/><span class="match-time">+${time.added_time}</span></span>` : '';
 
             // TO TEST
             // const injuryTime = `<span class="injury-time">+3</span>`;
-            // const addedTime = `<br><span class="added-time">+5</span>`;
+            // const addedTime = `<br><span class="added-time">+5 </span>`;
 
             switch (time.status) {
                 case MATCH_STATUSES.LIVE:
