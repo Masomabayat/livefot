@@ -1009,7 +1009,7 @@
                 localStorage.removeItem('reloadAction');
             }
             if (!localStorage.getItem('reloadActionObj') || localStorage.getItem('reloadActionObj') === 'null') {
-                localStorage.removeItem('reloadActionObj');
+                // localStorage.removeItem('reloadActionObj');
             }
         },
         openMatchDetailsFullscreen: function (matchId) {
@@ -1019,7 +1019,9 @@
             var $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
 
             localStorage.setItem('reloadAction', matchId);
-            if($matchItem) {
+            console.log(typeof $matchItem);
+            
+            if($matchItem.length) {
                 localStorage.setItem('reloadActionObj', JSON.stringify($matchItem.data()));
             }
             // Get league details directly from the match item data attributes
@@ -1035,7 +1037,7 @@
                     leagueCountry = reloadActionObj.leagueCountry;
                     leagueStage = reloadActionObj.leagueStage;
                 } catch {
-                    localStorage.removeItem('reloadActionObj');
+                    // localStorage.removeItem('reloadActionObj');
                 }
             }
 
@@ -1219,10 +1221,15 @@
 
             // If match status is NS, remove events tab
             let status = $matchItem.data('match-status');
-            let ramd = localStorage.getItem('reloadActionObj');
-            if(ramd = JSON.parse(ramd)) {
-                status = ramd.matchStatus;
+            try {
+                let ramd = localStorage.getItem('reloadActionObj');
+                if(ramd = JSON.parse(ramd)) {
+                    status = ramd.matchStatus;
+                }
+            } catch (error) {
+                
             }
+            console.log([status]);
             
             if (status === 'NS') {
                 $overlay.find('.tab-button[data-tab="events"]').hide();
@@ -1436,7 +1443,8 @@
                 'pen_shootout_goal',
                 'redcard',
                 'yellowred',
-                'redcards2'
+                'redcards2',
+                'whistle'
             ];
             return eventsArray.filter(ev => importantTypes.includes(ev.type));
         },
@@ -1581,6 +1589,9 @@
                         case 'redcards2':
                             icons += `<img src="${iconBase}redcards2.svg" alt="Multipul red card" style="width:16px;height:16px;vertical-align:middle;" title="Multipul Red Cards"/>`;
                             break;
+                            case 'whistle':
+                                icons += `<img src="${iconBase}whistle.svg" alt="whistle" style="width:16px;height:16px;vertical-align:middle;" title="whistle"/>`;
+                                break;
                         default:
                             break;
                     }
@@ -1862,6 +1873,8 @@
             let league_id = $matchItem.data('league-id') || 0;
             let group_id = $matchItem.data('group-id') || 0;
             let season_id = $matchItem.data('season-id') || 0;
+            console.log(typeof $matchItem);
+
             if($matchItem.length) {
                 localStorage.setItem('reloadActionObj', JSON.stringify($matchItem.data()));
             } else {
@@ -1938,7 +1951,9 @@
                 redcard: `<img src="${iconBase}redcard.svg" alt="Red Card"/>`,
                 yellowred: `<img src="${iconBase}yellowred.svg" alt="Yellow Red Card"/>`,
                 substitution: `<img src="${iconBase}substitute.svg" alt="Substitution"/>`,
-                redcards2: `<img src="${iconBase}redcards2.svg" alt="Multipul Red Card"/>`
+                redcards2: `<img src="${iconBase}redcards2.svg" alt="Multipul Red Card"/>`,
+                whistle: `<img src="${iconBase}whistle.svg" alt="whistle"/>`
+
             };
 
             function getEventMinute(event) {
@@ -2441,14 +2456,14 @@ const redCardVisitorHtml = (redCardsVisitor > 0)
 
             const yellowRedLocalHtml = yellowRedCards[localTeamId] 
                 ? `<span class="yellow-red-card-icon" title="${yellowRedCards[localTeamId]} Yellow-Red Card(s)">
-                     <img src="${iconBase}yellowred.svg" alt="Yellow-Red Card" style="width:16px;height:16px;vertical-align:middle;" />
+                     <img src="${iconBase}yellowred.svg" alt="Yellow-Red Card" style="width:16px;height:16px;vertical-align:middle;border-radius:20px" />
                      ${yellowRedCards[localTeamId] > 1 ? `<span class="yellowred-count">${yellowRedCards[localTeamId]}</span>` : ''}
                    </span>`
                 : '';
 
             const yellowRedVisitorHtml = yellowRedCards[visitorTeamId]
                 ? `<span class="yellow-red-card-icon" title="${yellowRedCards[visitorTeamId]} Yellow-Red Card(s)">
-                     <img src="${iconBase}yellowred.svg" alt="Yellow-Red Card" style="width:16px;height:16px;vertical-align:middle;" />
+                     <img src="${iconBase}yellowred.svg" alt="Yellow-Red Card" style="width:16px;height:16px;vertical-align:middle;border-radius:20px" />
                      ${yellowRedCards[visitorTeamId] > 1 ? `<span class="yellowred-count">${yellowRedCards[visitorTeamId]}</span>` : ''}
                    </span>`
                 : '';
