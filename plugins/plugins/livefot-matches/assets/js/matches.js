@@ -67,6 +67,8 @@
     }
     MatchesCache.prototype = {
         getDateKey: function (date) {
+            // return date.toString();
+            // Fix this date to not go one day before
             return date.toISOString().split('T')[0];
         },
         getCacheDuration: function (matchDate) {
@@ -145,6 +147,7 @@
                 
             }
             const dateKey = this.getDateKey(date);
+            
             // console.log('fetchMatchData', dateKey);
             // Use the timezone offset for the selected date instead of the current time.
             const utcOffset = -(date.getTimezoneOffset());
@@ -370,6 +373,7 @@
                             selectedDate.getDate(),
                             0, 0, 0, 0
                         );
+                        
                         self.state.currentDate = localDate;
                         self.updateDateDisplay();
                         self.loadMatches(true);
@@ -536,13 +540,14 @@
         loadMatches: function (forceRefresh = false, retryCount = 0, specificDate = null) {
             const self = this;
             const dateToLoad = specificDate || this.state.currentDate;
+            
             const dateKey = dateToLoad.toISOString().split('T')[0];
 
             // console.log([this.cache, dateToLoad, this.state.currentDate]);
             // console.log(this.cache.get(dateKey));
             // const cachedData = !forceRefresh && this.cache.get(dateToLoad);
             const cachedData = this.cache.get(dateKey);
-            console.log(["cachedData", cachedData]);
+            // console.log(["cachedData", cachedData]);
             
             // If we have valid cached data, render from cache
             if (cachedData) {
@@ -1019,7 +1024,7 @@
             var $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
 
             localStorage.setItem('reloadAction', matchId);
-            console.log(typeof $matchItem);
+            // console.log(typeof $matchItem);
             
             if($matchItem.length) {
                 localStorage.setItem('reloadActionObj', JSON.stringify($matchItem.data()));
@@ -1229,7 +1234,7 @@
             } catch (error) {
                 
             }
-            console.log([status]);
+            // console.log([status]);
             
             if (status === 'NS') {
                 $overlay.find('.tab-button[data-tab="events"]').hide();
@@ -1242,7 +1247,7 @@
                 if(localStorage.getItem('reloadTab0')) {
                     loadTab = localStorage.getItem('reloadTab0');
                 }
-                console.log(loadTab);
+                // console.log(loadTab);
                 
                 $overlay.find('.tab-button[data-tab="'+loadTab+'"]').addClass('active');
                 $overlay.find('.tab-content[data-tab="'+loadTab+'"]').addClass('active');
@@ -1277,7 +1282,7 @@
                 $overlay.find('.tab-content').removeClass('active');
                 $overlay.find(`.tab-button[data-tab="${loadTab}"]`).addClass('active');
                 $overlay.find(`.tab-content[data-tab="${loadTab}"]`).addClass('active');
-                console.log(loadTab);
+                // console.log(loadTab);
 
                 this.loadOverlayTabContent(loadTab, matchId, $overlay);
             } else {
@@ -1289,7 +1294,7 @@
                 if(localStorage.getItem('reloadTab')) {
                     firstTab = localStorage.getItem('reloadTab');
                 }
-                console.log(firstTab);
+                // console.log(firstTab);
 
                 this.loadOverlayTabContent(firstTab, matchId, $overlay);
             }
@@ -1315,7 +1320,7 @@
         loadOverlayTabContent: function (tabName, matchId, $overlay) {
             const $tabContent = $overlay.find(`.tab-content[data-tab="${tabName}"]`);
             $tabContent.html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
-            console.log("tabName0", tabName);
+            // console.log("tabName0", tabName);
             
             // Load content based on tab name
             switch (tabName) {
@@ -1873,7 +1878,7 @@
             let league_id = $matchItem.data('league-id') || 0;
             let group_id = $matchItem.data('group-id') || 0;
             let season_id = $matchItem.data('season-id') || 0;
-            console.log(typeof $matchItem);
+            // console.log(typeof $matchItem);
 
             if($matchItem.length) {
                 localStorage.setItem('reloadActionObj', JSON.stringify($matchItem.data()));
