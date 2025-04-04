@@ -1571,7 +1571,9 @@
                             icons += `<img src="${iconBase}owngoal.svg" alt="Own Goal" style="width:16px;height:16px;vertical-align:middle;" title="Own Goal"/>`;
                             break;
                         case 'yellowcard':
-                            icons += `<img src="${iconBase}yellowcard.svg" alt="Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Yellow Card"/>`;
+                            // icons += `<img src="${iconBase}yellowcard.svg" alt="Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Yellow Card"/>`;
+                            icons += `<img src="/wp-content/uploads/2025/04/yellow.png" alt="Yellow Card" style="width:15x;height:22;vertical-align:middle;" title="Yellow Card"/>`;
+
                             break;
                         case 'var':
                             icons += `<img src="${iconBase}var.svg" alt="Var" style="width:16px;height:16px;vertical-align:middle;" title="Var"/>`;
@@ -1583,10 +1585,13 @@
                             icons += `<img src="${iconBase}missed penalty.svg" alt="Var" style="width:16px;height:16px;vertical-align:middle;" title="missed penalty normal"/>`;
                             break;
                         case 'redcard':
-                            icons += `<img src="${iconBase}redcard.svg" alt="Red Card" style="width:16px;height:16px;vertical-align:middle;" title="Red Card"/>`;
+                            // icons += `<img src="${iconBase}redcard.svg" alt="Red Card" style="width:16px;height:16px;vertical-align:middle;" title="Red Card"/>`;
+                            icons += `<img src="/wp-content/uploads/2025/04/redcard.png" alt="Red Card" style="width:16px;height:16px;vertical-align:middle;" title="Red Card"/>`;
+
                             break;
                         case 'yellowred':
-                            icons += `<img src="${iconBase}yellowred.svg" alt="Second Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Second Yellow Card"/>`;
+                            icons += `<img src="/wp-content/uploads/2025/04/yellowredcard3.png" alt="Second Yellow Card" style="width:15x;height:22;vertical-align:middle;" title="Second Yellow Card"/>`;
+                            // icons += `<img src="${iconBase}yellowred.svg" alt="Second Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Second Yellow Card"/>`;
                             break;
                         case 'substitution':
                             icons += `<img src="${iconBase}subin.svg" alt="Substitution In" style="width:16px;height:16px;vertical-align:middle;" title="Substitution"/>`;
@@ -1953,8 +1958,9 @@
                 var: `<img src="${iconBase}var.svg" alt="Var"/>`,
                 pen_shootout_miss: `<img src="${iconBase}missed penalty.svg" alt="missed penalty"/>`,
                 missed_penalty: `<img src="${iconBase}missed penalty.svg" alt="missed penalty match"/>`,
-                redcard: `<img src="${iconBase}redcard.svg" alt="Red Card"/>`,
-                yellowred: `<img src="${iconBase}yellowred.svg" alt="Yellow Red Card"/>`,
+                redcard: `<img src="/wp-content/uploads/2025/04/redcard.png" alt="Red Card"/>`,
+                // yellowred: `<img src="${iconBase}yellowred.svg" alt="Yellow Red Card"/>`,
+                yellowred: `<img src="/wp-content/uploads/2025/04/yellowredcard3.png" alt="Yellow Red Card"/>`,
                 substitution: `<img src="${iconBase}substitute.svg" alt="Substitution"/>`,
                 redcards2: `<img src="${iconBase}redcards2.svg" alt="Multipul Red Card"/>`,
                 whistle: `<img src="${iconBase}whistle.svg" alt="whistle"/>`
@@ -2551,7 +2557,7 @@ const redCardVisitorHtml = (redCardsVisitor > 0)
                 ? `<span class="injury-time">+${time.injury_time}</span>` : '';
             // Added time is rendered on a new line under the minute
             const addedTime = (time.added_time !== null && time.added_time > 0)
-                ? `<br><span class="added-time" style=" display: flex; gap: 2px; "><img src="${iconBase}whistle.svg" alt="whistle" style="width:16px;height:16px;vertical-align:middle;" title="whistle"/><span class="match-time">+${time.added_time}</span></span>` : '';
+                ? `<br><span class="added-time" style=" display: flex; gap: 2px; Base}whistle.svg" alt="whistle" style="width:16px;height:16px;vertical-align:middle;" title="whistle"/><span class="match-time">+${time.added_time}</span></span>` : '';
 
             // TO TEST
             // const injuryTime = `<span class="injury-time">+3</span>`;

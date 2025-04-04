@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Light Mode */
+.standings-section.light-mode .description-color-box:nth-child(1) { background-color: #23cc8c; }
+.standings-section.light-mode .description-color-box:nth-child(2) { background-color: #007BFF; }
+.standings-section.light-mode .description-color-box:nth-child(3) { background-color: #FD7E14; }
+.standings-section.light-mode .description-color-box:nth-child(4) { background-color: #6F42C1; }
+.standings-section.light-mode .description-color-box:nth-child(5) { background-color: #FFC107; }
+.standings-section.light-mode .description-color-box:nth-child(6) { background-color: #343A40; }
+.standings-section.light-mode .description-color-box:nth-child(7) { background-color: #DC3545; }
+.standings-section.light-mode .description-color-box:nth-child(8) { background-color: #20C997; }
+.standings-section.light-mode .description-color-box:nth-child(9) { background-color: #6610F2; }
+.standings-section.light-mode .description-color-box:nth-child(10) { background-color: #cb2027; }
+
+/* Dark Mode */
+.standings-section.dark-mode .description-color-box:nth-child(1) { background-color: #17a374; }
+.standings-section.dark-mode .description-color-box:nth-child(2) { background-color: #0056b3; }
+.standings-section.dark-mode .description-color-box:nth-child(3) { background-color: #d96a0b; }
+.standings-section.dark-mode .description-color-box:nth-child(4) { background-color: #4b2c7a; }
+.standings-section.dark-mode .description-color-box:nth-child(5) { background-color: #d39e00; }
+.standings-section.dark-mode .description-color-box:nth-child(6) { background-color: #1d2124; }
+.standings-section.dark-mode .description-color-box:nth-child(7) { background-color: #a71d2a; }
+.standings-section.dark-mode .description-color-box:nth-child(8) { background-color: #138c72; }
+.standings-section.dark-mode .description-color-box:nth-child(9) { background-color: #520dc2; }
+.standings-section.dark-mode .description-color-box:nth-child(10) { background-color: #9b1621; }
+
+
+
+
 
 .tabs-footer {
     position: relative; /* Ensure the footer is the reference for absolute positioning */
@@ -127,10 +154,15 @@
   margin-bottom: 5px !important;
 }
 
-img[alt="Yellow Red Card"] {
-  width: 40px !important;
-  height: 40px !important;
-}
+img[alt="Yellow Red Card"] { 
+    width: 40px !important; 
+    height: 35px !important; 
+} 
+    
+/* .event-icon img[alt="Red Card"]{ 
+    height: 33 !important; 
+    width: 20 !important; 
+} */
 
 
 .assist-by {
@@ -141,8 +173,8 @@ img[alt="Yellow Red Card"] {
     color: #000;
 }
 .event-icon img {
-    height: 24px;
-    width: 50px;
+    height: 36px !important;
+    width: 23px !important;
 }
 #match-details-overlay .overlay-content {
 /*     display: flex; */
@@ -414,6 +446,7 @@ img[alt="Yellow Red Card"] {
     display: inline-block;
     box-shadow: none;
     border-radius: 0;
+	margin: 2px;
 }
 /* main */
 .player-info {
