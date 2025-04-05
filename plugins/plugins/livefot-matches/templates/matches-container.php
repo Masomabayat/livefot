@@ -94,9 +94,9 @@
     font-weight: 600;
 }
 
-.event-icon {
+/* .event-icon {
     margin: 0 0.75rem;
-}
+} */
 
 /* Stats Tab */
 .stats-comparison {

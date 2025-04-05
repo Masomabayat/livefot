@@ -67,9 +67,9 @@
     }
     MatchesCache.prototype = {
         getDateKey: function (date) {
-            // return date.toString();
+            return  date.toLocaleDateString('en-CA');
             // Fix this date to not go one day before
-            return date.toISOString().split('T')[0];
+            // return date.toISOString().split('T')[0];
         },
         getCacheDuration: function (matchDate) {
             const now = new Date();
@@ -91,9 +91,7 @@
         },
         set: function (date, data) {
             // date = new Date(jQuery(".flatpickr-input").val());
-            console.log(date);
             const dateKey = this.getDateKey(date);
-            // console.log("MatchesCache set called", dateKey, [date]);
             const cacheDuration = this.getCacheDuration(date);
             this.cache.set(dateKey, {
                 data: data,
@@ -1750,7 +1748,7 @@
                             style="top:${top}; left:${left};">
                             <img src="${imgUrl}" alt="${player.PlayerName}" class="player-image"/>
                             <div class="player-info">
-                             <strong>${player.Number || ''}</strong>  <br> ${formattedName}${cMark} ${icons}
+                             <strong>${player.Number || ''}${icons} </strong>  <br> ${formattedName}${cMark} 
                             </div>
                         </div>
                     `;
@@ -2230,7 +2228,7 @@ sortedDescriptions.forEach(function (desc, index) {
                     <table class="standings-table">
                         <thead>
                             <tr>
-                            ${hasStandingDescription ? '<th style="width:8px; padding: 0px !important;"></th>' : ''}
+                            ${hasStandingDescription ? '<th style="width:8px; padding: 0px !important;"><div class="standing-first-column">#</div></th>' : ''}
                                 <th>Pos</th>
                                 <th class="team-column">Team</th>
                                 <th>Played</th>
@@ -2557,7 +2555,9 @@ const redCardVisitorHtml = (redCardsVisitor > 0)
                 ? `<span class="injury-time">+${time.injury_time}</span>` : '';
             // Added time is rendered on a new line under the minute
             const addedTime = (time.added_time !== null && time.added_time > 0)
-                ? `<br><span class="added-time" style=" display: flex; gap: 2px; Base}whistle.svg" alt="whistle" style="width:16px;height:16px;vertical-align:middle;" title="whistle"/><span class="match-time">+${time.added_time}</span></span>` : '';
+                ? `<br><span class="added-time" style=" display: flex; gap: 2px;">
+                    <img src="${iconBase}whistle.svg" alt="whistle"/>
+                <span class="match-time">+${time.added_time}</span></span>` : '';
 
             // TO TEST
             // const injuryTime = `<span class="injury-time">+3</span>`;
