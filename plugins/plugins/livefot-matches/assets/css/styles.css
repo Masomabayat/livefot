@@ -634,7 +634,7 @@ img[alt="Yellow Red Card"] {
 
 .added-time{
     float: right;
-    
+
 }
 
 @media (max-width: 480px) {
@@ -1531,38 +1531,31 @@ video {
     align-items: baseline;
 }
 
-/*.red-card-icon {
-    position: relative;
+.red-card-icon {
+    display: flex;
+   /* position: relative;
     display: inline-block;
     font-size: 0.8rem; /* 1.4rem;*/
 /*margin: 0 3px;*/
 /* width: 1.0em; /* 1.2em;*/
 /*  height: 1.6rem;
-    text-align: center;
-}*/
-
-
+    text-align: center;*/
+}
 
 
 .red-card-count {
-    position: absolute;
-    top: 50%;
-    /* Adjusted to position the count near the top */
-    right: 50%;
-    /* Positioned to the top-right corner */
+    position: relative;
+    top: 8px;
+    right: 16px;
     transform: translate(0, 0);
-    /* Removed the translate to use absolute positioning */
     color: white;
     border-radius: 50%;
     width: 0.8em;
-    /* Reduced size to fit the smaller icon */
     height: 0.8em;
-    /* Maintained aspect ratio for the count bubble */
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.7em;
-    /* Reduced font size for the count number */
+    font-size: 0.65em;
     font-weight: bold;
 }
 

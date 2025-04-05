@@ -2438,20 +2438,22 @@ sortedDescriptions.forEach(function (desc, index) {
                 </div>`;
 
             const redCardLocalHtml = (redCardsLocal > 0)
-  ? `<span class="red-card-icon" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
-       <img src="${iconBase}${redCardsLocal > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
-            alt="${redCardsLocal > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
-            style="width:${redCardsLocal > 1 ? '24px' : '16px'};height:${redCardsLocal > 1 ? '24px' : '16px'};vertical-align:middle;" />
-     </span>`
-  : '';
+            ? `<span class="red-card-icon" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
+                <img src="${iconBase}${redCardsLocal > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
+                    alt="${redCardsLocal > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
+                    style="width:${redCardsLocal > 1 ? '24px' : '16px'};height:${redCardsLocal > 1 ? '24px' : '16px'};vertical-align:middle;" />
+                    ${redCardsLocal > 1 ? `<span class="red-card-count">${redCardsLocal}</span>` : ''}
+                </span>`
+            : '';
 
-const redCardVisitorHtml = (redCardsVisitor > 0)
-  ? `<span class="red-card-icon" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
-       <img src="${iconBase}${redCardsVisitor > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
-            alt="${redCardsVisitor > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
-            style="width:${redCardsVisitor > 1 ? '24px' : '16px'};height:${redCardsVisitor > 1 ? '24px' : '16px'};vertical-align:middle;" />
-     </span>`
-  : '';
+            const redCardVisitorHtml = (redCardsVisitor > 0)
+            ? `<span class="red-card-icon" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
+                <img src="${iconBase}${redCardsVisitor > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
+                    alt="${redCardsVisitor > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
+                    style="width:${redCardsVisitor > 1 ? '24px' : '16px'};height:${redCardsVisitor > 1 ? '24px' : '16px'};vertical-align:middle;" />
+                    ${redCardsVisitor > 1 ? `<span class="red-card-count">${redCardsVisitor}</span>` : ''}
+                </span>`
+            : '';
 
 
             // Add yellow-red card handling
