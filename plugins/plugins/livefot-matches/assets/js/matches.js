@@ -538,7 +538,9 @@
         loadMatches: function (forceRefresh = false, retryCount = 0, specificDate = null) {
             const self = this;
             const dateToLoad = specificDate || this.state.currentDate;
-            
+            // Loading icon 
+            $('.livefot-matches-list').html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
+
             // const dateKey = dateToLoad.toISOString().split('T')[0];
             const dateKey = dateToLoad.toLocaleDateString('en-CA');
 
@@ -556,6 +558,7 @@
             if(localStorage.getItem('reloadAction')) {
                 self.openMatchDetailsFullscreen(localStorage.getItem('reloadAction'));
             }
+
 
             // Otherwise, fetch from server
             this.cache.fetchMatchData(dateToLoad)
