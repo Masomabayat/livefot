@@ -117,7 +117,7 @@
                 new Date(currentDate.getTime() + 86400000)  // Next day
             ];
             dates.forEach(async function (date) {
-                console.log(date);
+                // console.log(date);
                 const dateKey = self.getDateKey(date);
 
                 // console.log(date, dateKey, self.cache);
@@ -137,11 +137,11 @@
             window.ajaxRequests = []; // Reset the array
         },
         fetchMatchData: async function (date) {
-            console.log(date);
+            // console.log(date);
             try {
                 await this.cancelAllRequests();
             } catch (error) {
-                console.log(error);
+                // console.log(error);
                 
             }
             const dateKey = this.getDateKey(date);
@@ -480,7 +480,7 @@
         // ========== RENDERING ==========
 
         renderMatches: function (leagues) {
-            console.log("leagues", leagues);
+            // console.log("leagues", leagues);
             
             if (!leagues) return;
             const self = this;
@@ -539,9 +539,10 @@
             const self = this;
             const dateToLoad = specificDate || this.state.currentDate;
             
-            const dateKey = dateToLoad.toISOString().split('T')[0];
+            // const dateKey = dateToLoad.toISOString().split('T')[0];
+            const dateKey = dateToLoad.toLocaleDateString('en-CA');
 
-            // console.log([this.cache, dateToLoad, this.state.currentDate]);
+            // console.log([this.cache, dateToLoad, dateKey, this.state.currentDate]);
             // console.log(this.cache.get(dateKey));
             // const cachedData = !forceRefresh && this.cache.get(dateToLoad);
             const cachedData = this.cache.get(dateKey);
@@ -2419,7 +2420,7 @@ sortedDescriptions.forEach(function (desc, index) {
                     redCards[cardTeamId] += cardCount;
                 });
             }
-            console.log(redCards);
+            // console.log(redCards);
             
             const redCardsLocal = redCards[localTeamId] || 0;
             const redCardsVisitor = redCards[visitorTeamId] || 0;
