@@ -1,8 +1,20 @@
 <div id="livefot-matches" class="livefot-container">
     <div class="livefot-date-nav">
-        <button class="prev-date group">&lt;</button>
+        <button class="prev-date group">
+        <svg class="toggle-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+            stroke-linejoin="round" style="transform: rotate(0deg); transition: transform 0.3s ease;">
+            <polyline points="15 6 9 12 15 18"></polyline>
+        </svg>
+        </button>
         <span class="current-date group"></span>
-        <button class="next-date group">&gt;</button>
+        <button class="next-date group">
+        <svg class="toggle-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+            stroke-linejoin="round" style="transform: rotate(0deg); transition: transform 0.3s ease;">
+            <polyline points="9 6 15 12 9 18 "></polyline>
+        </svg>
+        </button>
         <div class="date-calendar-wrapper group">
             <button type="button" class="calendar-icon-button group" id="calendar-button">
                 <img src="<?php echo plugins_url('assets/images/calendar.svg', dirname(__FILE__)); ?>" 
