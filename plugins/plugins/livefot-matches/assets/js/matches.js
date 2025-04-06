@@ -2441,7 +2441,7 @@ sortedDescriptions.forEach(function (desc, index) {
             ? `<span class="red-card-icon" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
                 <img src="${iconBase}${redCardsLocal > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
                     alt="${redCardsLocal > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
-                    style="width:${redCardsLocal > 1 ? '24px' : '16px'};height:${redCardsLocal > 1 ? '24px' : '16px'};vertical-align:middle;" />
+                    style="width:${redCardsLocal > 1 ? 'auto' : '16px'};height:${redCardsLocal > 1 ? '27px' : '16px'};vertical-align:middle;" />
                     ${redCardsLocal > 1 ? `<span class="red-card-count">${redCardsLocal}</span>` : ''}
                 </span>`
             : '';
@@ -2450,7 +2450,7 @@ sortedDescriptions.forEach(function (desc, index) {
             ? `<span class="red-card-icon" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
                 <img src="${iconBase}${redCardsVisitor > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
                     alt="${redCardsVisitor > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
-                    style="width:${redCardsVisitor > 1 ? '24px' : '16px'};height:${redCardsVisitor > 1 ? '24px' : '16px'};vertical-align:middle;" />
+                    style="width:${redCardsVisitor > 1 ? 'auto' : '16px'};height:${redCardsVisitor > 1 ? '27px' : '16px'};vertical-align:middle;" />
                     ${redCardsVisitor > 1 ? `<span class="red-card-count">${redCardsVisitor}</span>` : ''}
                 </span>`
             : '';

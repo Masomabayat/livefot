@@ -1553,8 +1553,8 @@ video {
 
 .red-card-count {
     position: relative;
-    top: 8px;
-    right: 16px;
+    top: 10px;
+    right: 17px;
     transform: translate(0, 0);
     color: white;
     border-radius: 50%;
