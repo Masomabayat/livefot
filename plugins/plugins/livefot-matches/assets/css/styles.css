@@ -173,7 +173,7 @@ img[alt="Yellow Red Card"] {
     color: #000;
 }
 .event-icon img {
-    height: 36px !important;
+    height: 26px !important;
     width: 23px !important;
 }
 #match-details-overlay .overlay-content {
@@ -515,11 +515,19 @@ img[alt="Yellow Red Card"] {
 	.player-info .name-2,
 	.player-info .full-name{
 		white-space: nowrap;
-		width: 70px;
+		width: 57px;
 		overflow: hidden;
 		display: block;
 		float: left;
 	}
+
+    .name-1{
+        white-space: nowrap;
+		width: 60px;
+		overflow: hidden;
+		display: block;
+		float: left;
+    }
 	
 	.player-info {
         font-size: 0.6rem;

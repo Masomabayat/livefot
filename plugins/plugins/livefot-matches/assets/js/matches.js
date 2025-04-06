@@ -1630,7 +1630,7 @@
 
                 const coordMap = {};
                 // We'll fix GK at position 1
-                coordMap[1] = { top: "90%", left: "50%" };
+                coordMap[1] = { top: "91%", left: "50%" };
 
                 // The rest lines: start from top=82% to top=55% (for example)
                 const lineCount = parts.length;
