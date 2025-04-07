@@ -571,7 +571,7 @@
                     if (retryCount < 3) {
                         setTimeout(() => self.loadMatches(forceRefresh, retryCount + 1), 2000);
                     } else {
-                        $('.livefot-matches-list').html('<div class="error-message">Unable to load matches. Please try again later.</div>');
+                        $('.livefot-matches-list').html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
                     }
                 });
         },
@@ -2438,20 +2438,18 @@ sortedDescriptions.forEach(function (desc, index) {
                 </div>`;
 
             const redCardLocalHtml = (redCardsLocal > 0)
-            ? `<span class="red-card-icon" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
+            ? `<span class="red-card-icon rcc-${redCardsLocal}" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
                 <img src="${iconBase}${redCardsLocal > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
                     alt="${redCardsLocal > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
                     style="width:${redCardsLocal > 1 ? 'auto' : '16px'};height:${redCardsLocal > 1 ? '27px' : '16px'};vertical-align:middle;" />
-                    ${redCardsLocal > 1 ? `<span class="red-card-count">${redCardsLocal}</span>` : ''}
                 </span>`
             : '';
 
             const redCardVisitorHtml = (redCardsVisitor > 0)
-            ? `<span class="red-card-icon" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
+            ? `<span class="red-card-icon rcc-${redCardsLocal}" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
                 <img src="${iconBase}${redCardsVisitor > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
                     alt="${redCardsVisitor > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
                     style="width:${redCardsVisitor > 1 ? 'auto' : '16px'};height:${redCardsVisitor > 1 ? '27px' : '16px'};vertical-align:middle;" />
-                    ${redCardsVisitor > 1 ? `<span class="red-card-count">${redCardsVisitor}</span>` : ''}
                 </span>`
             : '';
 
