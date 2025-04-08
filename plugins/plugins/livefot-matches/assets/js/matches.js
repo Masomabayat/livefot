@@ -2446,7 +2446,7 @@ sortedDescriptions.forEach(function (desc, index) {
             : '';
 
             const redCardVisitorHtml = (redCardsVisitor > 0)
-            ? `<span class="red-card-icon rcc-${redCardsLocal}" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
+            ? `<span class="red-card-icon rcc-${redCardsVisitor}" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
                 <img src="${iconBase}${redCardsVisitor > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
                     alt="${redCardsVisitor > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
                     style="width:${redCardsVisitor > 1 ? 'auto' : '16px'};height:${redCardsVisitor > 1 ? '27px' : '16px'};vertical-align:middle;" />
