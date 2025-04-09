@@ -2441,7 +2441,7 @@ sortedDescriptions.forEach(function (desc, index) {
             ? `<span class="red-card-icon rcc-${redCardsLocal}" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
                 <img src="${iconBase}${redCardsLocal > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
                     alt="${redCardsLocal > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
-                    style="width:${redCardsLocal > 1 ? 'auto' : '16px'};height:${redCardsLocal > 1 ? '27px' : '16px'};vertical-align:middle;" />
+                    style="width:${redCardsLocal > 1 ? 'auto' : '16px'};height:${redCardsLocal > 1 ? '30px' : '16px'};vertical-align:middle;" />
                 </span>`
             : '';
 
@@ -2449,7 +2449,7 @@ sortedDescriptions.forEach(function (desc, index) {
             ? `<span class="red-card-icon rcc-${redCardsVisitor}" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
                 <img src="${iconBase}${redCardsVisitor > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
                     alt="${redCardsVisitor > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
-                    style="width:${redCardsVisitor > 1 ? 'auto' : '16px'};height:${redCardsVisitor > 1 ? '27px' : '16px'};vertical-align:middle;" />
+                    style="width:${redCardsVisitor > 1 ? 'auto' : '16px'};height:${redCardsVisitor > 1 ? '30px' : '16px'};vertical-align:middle;" />
                 </span>`
             : '';
 
@@ -2561,7 +2561,8 @@ sortedDescriptions.forEach(function (desc, index) {
             const addedTime = (time.added_time !== null && time.added_time > 0)
                 ? `<br><span class="added-time" style=" display: flex; gap: 2px;">
                     <img src="${iconBase}whistle.svg" alt="whistle"/>
-                <span class="match-time">+${time.added_time}</span></span>` : '';
+                    <span class="match-time">+${time.added_time}</span>
+                </span>` : '';
 
             // TO TEST
             // const injuryTime = `<span class="injury-time">+3</span>`;
