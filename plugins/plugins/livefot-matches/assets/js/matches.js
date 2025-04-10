@@ -1560,11 +1560,17 @@
                 events.forEach(event => {
                     switch (event.Type) {
                         case 'goal':
-                            icons += `<img src="${iconBase}goal.svg" alt="Goal" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />`;
-                            if (event.isPenalty) {
-                                icons += ' (P)';
-                            }
-                            break;
+    icons += `
+        <span class="event-icon">
+            <img src="${iconBase}goal.svg" class="light-mode" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
+            <img src="${iconBase}goal-white.svg" class="dark-mode" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
+        </span>
+    `;
+    if (event.isPenalty) {
+        icons += ' (P)';
+    }
+    break;
+
                         case 'penalty':
                             /* icons += ' ⚽(P)';*/
                             icons += `<img src="${iconBase}penalty.svg" alt="Goal Penalty" style="width:16px;height:16px;vertical-align:middle;" title="Goal Penalty" />`;
@@ -2291,7 +2297,7 @@ sortedDescriptions.forEach(function (desc, index) {
                     html += `
                         <div class="standing-description" style="display: flex; align-items: center; gap: 8px;">
                             <span class="description-color-box" style="background-color: ${color}; width: 12px; height: 12px; display: inline-block;"></span>
-                            <span style="color: #000;">${desc}</span>
+                            <span style="color: #AAAAAA;">${desc}</span>
                         </div>
                     `;
                 });

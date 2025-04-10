@@ -135,7 +135,13 @@ img[alt="Yellow Red Card"] {
     height: 33 !important; 
     width: 20 !important; 
 } */
-
+.dark-mode img.light-mode {
+    display: none;
+  }
+  .light-mode img.dark-mode {
+    display: none;
+  }
+  
 
 .assist-by {
     font-size: smaller;
@@ -4711,7 +4717,9 @@ body {
 }
 
 
-
+.team-column-data .truncate-text {
+    font-family: "Source Sans Pro", sans-serif;
+}
 
 /* League Section Styles */
 /*.league-section {
@@ -8003,7 +8011,8 @@ img.player-image {
     color: #000;
 }
 .standing-description {
-    color: #000;
+    color: #AAAAAA;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 /* .standing-description {
