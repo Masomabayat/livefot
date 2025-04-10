@@ -1560,16 +1560,16 @@
                 events.forEach(event => {
                     switch (event.Type) {
                         case 'goal':
-    icons += `
-        <span class="event-icon">
-            <img src="${iconBase}goal.svg" class="light-mode" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
-            <img src="${iconBase}goal-white.svg" class="dark-mode" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
-        </span>
-    `;
-    if (event.isPenalty) {
-        icons += ' (P)';
-    }
-    break;
+                            icons += `
+                                <span class="event-icon">
+                                    <img src="${iconBase}goal.svg" class="light-mode" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
+                                </span>
+                            `;
+                                    // <img src="${iconBase}goal-white.svg" class="dark-mode" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
+                            if (event.isPenalty) {
+                                 icons += ' (P)';
+                                }
+                            break;
 
                         case 'penalty':
                             /* icons += ' ⚽(P)';*/
@@ -1754,14 +1754,18 @@
                     const cMark = player.Captain ? ' (C)' : '';
                     const formattedName = formatPlayerName(player.PlayerName);
                     return `
-                        <div class="player-marker ${team.isHome ? 'team-a' : 'team-b'}"
-                            style="top:${top}; left:${left};">
-                            <img src="${imgUrl}" alt="${player.PlayerName}" class="player-image"/>
-                            <div class="player-info">
-                             <strong>${player.Number || ''}${icons} </strong>  <br> ${formattedName}${cMark} 
-                            </div>
+                    <div class="player-marker ${team.isHome ? 'team-a' : 'team-b'}" style="top:${top}; left:${left};">
+                        <div class="player-img-wrapper">
+                        ${player.Number ? `<div class="player-number">${player.Number}</div>` : ''}
+                        <img src="${imgUrl}" alt="${player.PlayerName}" class="player-image"/>
                         </div>
+                        <div class="player-info">
+                        <strong>${icons}</strong><br>
+                        ${formattedName}${cMark}
+                        </div>
+                    </div>
                     `;
+
                 }).join('');
 
                 const benchPlayers = team.players.filter(p => p.Type === 'bench');
@@ -2214,11 +2218,11 @@
             sortedDescriptions.forEach(function (desc, index) {
 const lightModeColors = [
     "#23cc8c", "#007BFF", "#FD7E14", "#6F42C1", "#FFC107",
-    "#343A40", "#DC3545", "#20C997", "#6610F2", "#cb2027"
+    "#343A40", "#DC3545", "#20C997", "#6610F2", "#CB2027"
 ];
 
 const darkModeColors = [
-    "#17a374", "#0056b3", "#d96a0b", "#4b2c7a", "#d39e00",
+    "#17a374", "#0056b3", "#EE7256", "#4b2c7a", "#d39e00",
     "#1d2124", "#a71d2a", "#138c72", "#520dc2", "#9b1621"
 ];
 

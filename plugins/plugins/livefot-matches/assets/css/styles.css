@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+.player-img-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.player-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 0 0 4px 0;
+  z-index: 2;
+}
+
 .tabs-footer {
     position: relative; /* Ensure the footer is the reference for absolute positioning */
     display: flex;
@@ -497,7 +516,7 @@ img[alt="Yellow Red Card"] {
 	.player-info .name-2,
 	.player-info .full-name{
 		white-space: nowrap;
-		width: 57px;
+		/* width: 57px; */
 		overflow: hidden;
 		display: block;
 		float: left;
@@ -628,6 +647,24 @@ img[alt="Yellow Red Card"] {
 }
 
 @media (max-width: 480px) {
+    .player-img-wrapper {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .player-number {
+        height: 13px;
+        width: 13px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.6);
+        color: white;
+        font-size: 8px;
+        padding: 2px 4px;
+        border-radius: 2 0 4px 0;
+        z-index: 2;
+      }
     
     .added-time{
         left: 20px;
