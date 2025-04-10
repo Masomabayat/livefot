@@ -652,7 +652,7 @@ img[alt="Yellow Red Card"] {
         display: inline-block;
       }
       
-      .player-number {
+      .player-img-wrapper .player-number {
         height: 13px;
         width: 13px;
         position: absolute;
