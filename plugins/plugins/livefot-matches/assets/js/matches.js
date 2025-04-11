@@ -2558,7 +2558,7 @@ sortedDescriptions.forEach(function (desc, index) {
                 html: '',
                 showScore: false
             };
-
+            
             // Base minute (e.g. "45'")
             const baseMinute = (time.minute === null) ? '' : time.minute + "'";
             // Injury time is displayed inline (if available)

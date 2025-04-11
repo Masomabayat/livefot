@@ -495,9 +495,20 @@ img[alt="Yellow Red Card"] {
     transform: translateX(-50%) translateY(2px);
 }
 
+div.match-added-time{
+	position: absolute;
+	right: 71px;
+	top: 310px;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
-    .player-info {
+	div.match-added-time{
+		position: absolute;
+		right: 71px;
+		top: 314px;
+	}
+    .player-info {
         font-size: 0.65rem;
         padding: 2px 4px;
         max-width: 150px;
@@ -512,6 +523,12 @@ img[alt="Yellow Red Card"] {
 }
 
 @media (max-width: 480px) {
+	
+	div.match-added-time{
+		position: absolute;
+		right: 71px;
+		top: 314px;
+	}
 
     .match-details-overlay .back-to-matches{
         left: 1rem !important;     /* Positions it on the left side */
