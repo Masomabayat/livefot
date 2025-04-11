@@ -21,6 +21,14 @@
   z-index: 2;
 }
 
+.back-to-matches.new-class .svg-icon{
+        background-color: var(--icon-muted);
+        width: 31px;
+        height: 30px;
+        border-radius: 50%;
+        padding-left: 0px;
+}
+
 .tabs-footer {
     position: relative; /* Ensure the footer is the reference for absolute positioning */
     display: flex;
@@ -35,7 +43,8 @@
 	position: fixed;
     bottom: 55px;
     right: 15px;
-    background: white;
+    width: 42px;
+    background: var(--icon-muted);
 	z-index: 999999;
 }
 
@@ -171,7 +180,7 @@ img[alt="Yellow Red Card"] {
 }
 .event-icon img {
     height: 26px !important;
-    width: 23px !important;
+    width: 18px !important;
 }
 #match-details-overlay .overlay-content {
 /*     display: flex; */
@@ -516,7 +525,7 @@ img[alt="Yellow Red Card"] {
 	.player-info .name-2,
 	.player-info .full-name{
 		white-space: nowrap;
-		/* width: 57px; */
+		width: 57px; 
 		overflow: hidden;
 		display: block;
 		float: left;
@@ -647,6 +656,10 @@ img[alt="Yellow Red Card"] {
 }
 
 @media (max-width: 480px) {
+    .added-time{
+        float: right;
+    }
+
     .player-img-wrapper {
         position: relative;
         display: inline-block;
@@ -2613,6 +2626,8 @@ body {
     cursor: pointer;
 }
 
+
+
 .team-logo_name .team-name:hover {
     color: #6b7280;
     transition: all var(--transition-fast);
@@ -2929,6 +2944,14 @@ body {
 }
 
 @media (max-width: 480px) {
+    div.team-toggle{
+        display: flex !important;
+        align-items: center !important;
+        /* padding: 0.5rem;
+        border-radius: 0.5rem;
+        transition: background-color 0.2s ease; */
+
+    }
     .livefot-container {
         padding: 0.75rem;
     }
@@ -3473,9 +3496,9 @@ body {
     display: flex;
     gap: 4px; /* Espacio entre las imágenes */
 }
-.bench-player-icons img {
-    width: 16px;
-    height: 16px;
+.bench-player-icons img[alt="Yellow Card"] {
+    width: 15px;
+    height: 20px;
     vertical-align: middle;
 }
 .team-info-block {
@@ -7689,11 +7712,12 @@ body {
     gap: 4px;
     align-items: center;
 }
-.bench-player-icons img {
-    width: 16px;
-    height: 16px;
+/* .event-icon {
+    width: auto;
+    height: 20px;
     vertical-align: middle;
-}
+    margin-right: 11px;
+} */
 
 .teams-info .team-name {
     color: #000 !important;
@@ -8375,6 +8399,13 @@ img.player-image {
 	
 }
 @media (max-width: 480px) {
+    .event-icon {
+        width: 16px;
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 11px;
+    }
+
 	.scoreboard-section.scrolled .scoreboard-header{
 		position: absolute;
 		top: 5px;
@@ -8645,6 +8676,10 @@ img.player-image {
   }
 }
 
+img[alt="Second Yellow Card"]{
+    width: 20px;
+    height: 20px;
+}
 @media (max-width: 480px){
 	.red-card-icon.rcc-1 img[alt="Red Card"],
 	.red-card-icon.rcc-0 img[alt="Red Card"] {

@@ -1059,10 +1059,8 @@
           <!-- SCOREBOARD SECTION (header) -->
           <div class="scoreboard-section">
             <div class="scoreboard-header">
-              <button class="back-to-matches">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-  				<path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 						.708.708L5.707 7.5z"/>
-				</svg> 
+              <button class="back-to-matches new-class">
+                <svg class="svg-icon" style="vertical-align: middle;fill: #FFF;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M725.333333 469.333333H401.493333l140.8-140.373333a42.666667 42.666667 0 1 0-60.586666-60.586667l-213.333334 213.333334a42.666667 42.666667 0 0 0-8.96 14.08 42.666667 42.666667 0 0 0 0 32.426666 42.666667 42.666667 0 0 0 8.96 14.08l213.333334 213.333334a42.666667 42.666667 0 0 0 60.586666 0 42.666667 42.666667 0 0 0 0-60.586667L401.493333 554.666667H725.333333a42.666667 42.666667 0 0 0 0-85.333334z"  /></svg>
                 <div class="league-details">
                     <span class="league-name">${leagueName}</span>
                     <span class="league-subinfo">${leagueSubInfo}</span>
@@ -1096,9 +1094,8 @@
         </div>
       </div>
         <div class="floating-icon float-back-to-matches">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
-                <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"/>
-            </svg
+            <svg class="svg-icon" style="vertical-align: middle;fill: #FFF;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M725.333333 469.333333H401.493333l140.8-140.373333a42.666667 42.666667 0 1 0-60.586666-60.586667l-213.333334 213.333334a42.666667 42.666667 0 0 0-8.96 14.08 42.666667 42.666667 0 0 0 0 32.426666 42.666667 42.666667 0 0 0 8.96 14.08l213.333334 213.333334a42.666667 42.666667 0 0 0 60.586666 0 42.666667 42.666667 0 0 0 0-60.586667L401.493333 554.666667H725.333333a42.666667 42.666667 0 0 0 0-85.333334z"  /></svg>
+
         </div>
     `).appendTo('body');
             } else {
@@ -1562,7 +1559,7 @@
                         case 'goal':
                             icons += `
                                 <span class="event-icon">
-                                    <img src="${iconBase}goal.svg" class="light-mode" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
+                                    <img src="${iconBase}goal.svg" class="goal-icon" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
                                 </span>
                             `;
                                     // <img src="${iconBase}goal-white.svg" class="dark-mode" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
@@ -1598,7 +1595,7 @@
 
                             break;
                         case 'yellowred':
-                            icons += `<img src="/wp-content/uploads/2025/04/yellowredcard3.png" alt="Second Yellow Card" style="width:15x;height:22;vertical-align:middle;" title="Second Yellow Card"/>`;
+                            icons += `<img src="/wp-content/uploads/2025/04/yellowredcard3.png" alt="Second Yellow Card" style="width:20x;height:20;vertical-align:middle;" title="Second Yellow Card"/>`;
                             // icons += `<img src="${iconBase}yellowred.svg" alt="Second Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Second Yellow Card"/>`;
                             break;
                         case 'substitution':
