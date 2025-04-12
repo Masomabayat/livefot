@@ -2558,7 +2558,7 @@
                 html: '',
                 showScore: false
             };
-            time.added_time = 2;
+            // time.added_time = 2;
 
             // Base minute (e.g. "45'")
             const baseMinute = (time.minute === null) ? '' : time.minute + "'";
