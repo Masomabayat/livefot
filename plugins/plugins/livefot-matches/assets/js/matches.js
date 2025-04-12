@@ -2213,22 +2213,22 @@
         
             const descriptionColorMap = {};
             sortedDescriptions.forEach(function (desc, index) {
-const lightModeColors = [
-    "#23cc8c", "#007BFF", "#FD7E14", "#6F42C1", "#FFC107",
-    "#343A40", "#DC3545", "#20C997", "#6610F2", "#CB2027"
-];
+            const lightModeColors = [
+                "#23cc8c", "#007BFF", "#FD7E14", "#6F42C1", "#FFC107",
+                "#343A40", "#DC3545", "#20C997", "#6610F2", "#CB2027"
+            ];
 
-const darkModeColors = [
-    "#17a374", "#0056b3", "#EE7256", "#4b2c7a", "#d39e00",
-    "#1d2124", "#a71d2a", "#138c72", "#520dc2", "#9b1621"
-];
+            const darkModeColors = [
+                "#17a374", "#0056b3", "#EE7256", "#4b2c7a", "#d39e00",
+                "#1d2124", "#a71d2a", "#138c72", "#520dc2", "#9b1621"
+            ];
 
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const selectedColors = isDarkMode ? darkModeColors : lightModeColors;
+            const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const selectedColors = isDarkMode ? darkModeColors : lightModeColors;
 
-sortedDescriptions.forEach(function (desc, index) {
-    descriptionColorMap[desc] = selectedColors[index] || "#ffffff"; // Fallback to white if out of range
-});
+            sortedDescriptions.forEach(function (desc, index) {
+                descriptionColorMap[desc] = selectedColors[index] || "#ffffff"; // Fallback to white if out of range
+            });
             });
         
             const hasStandingDescription = sortedDescriptions.length > 0;
@@ -2264,7 +2264,7 @@ sortedDescriptions.forEach(function (desc, index) {
         
                 if (hasStandingDescription) {
                     let stCellStyle = team.Description && descriptionColorMap[team.Description]
-                        ? ` style="background-color:${descriptionColorMap[team.Description]}; padding:0 !important;margin:0 !important; width:8px;"`
+                        ? ` style="color-scheme: light; background-color:${descriptionColorMap[team.Description]}; padding:0 !important;margin:0 !important; width:8px;"`
                         : ` style="padding:0 !important; margin:0 !important;"`;
                     html += `<td${stCellStyle}></td>`;
                 }
@@ -2297,7 +2297,7 @@ sortedDescriptions.forEach(function (desc, index) {
                     const color = descriptionColorMap[desc];
                     html += `
                         <div class="standing-description" style="display: flex; align-items: center; gap: 8px;">
-                            <span class="description-color-box" style="background-color: ${color}; width: 12px; height: 12px; display: inline-block;"></span>
+                            <span class="description-color-box" style="color-scheme: light; background: ${color}; width: 12px; height: 12px; display: inline-block;"></span>
                             <span style="color: #AAAAAA;">${desc}</span>
                         </div>
                     `;
@@ -2558,7 +2558,8 @@ sortedDescriptions.forEach(function (desc, index) {
                 html: '',
                 showScore: false
             };
-            
+            time.added_time = 2;
+
             // Base minute (e.g. "45'")
             const baseMinute = (time.minute === null) ? '' : time.minute + "'";
             // Injury time is displayed inline (if available)
