@@ -5,7 +5,7 @@
  * Description: Display live football matches and scores from LiveFot API .
  * Version: 1.3.1
  * Author: LiveFot
- * Author URI: https://livefootballcenter.com
+ * Author URI: https://api.livefootballcenter.com
  * Text Domain: livefot-matches
  */
 
@@ -796,22 +796,34 @@ function livefot_welcome_page() {
                 <div class="feature-grid">
                     <div class="feature-item">
                         <h3>Automatic Updates</h3>
-                        <p>Daily updates covering -5 to +7 days with hourly synchronization for matches within -1 to +1 day. Manual fetch option available for specific dates.</p>
+                        <p>Daily updates covering -5 to +7 days at a user-specified time (configured in the Settings page).</p>
                     </div>
                     
                     <div class="feature-item">
-                        <h3>User-Friendly</h3>
-                        <p>Matches automatically display in your timezone - no manual date configuration needed!</p>
+                        <h3>Secondary Cron Job</h3>
+                        <p>Frequent updates for matches within -1 to +1 day at an interval (in minutes) set by the user.</p>
                     </div>
                     
                     <div class="feature-item">
-                        <h3>Cross-Platform</h3>
-                        <p>Experience live updates on web or through our mobile apps on Google Play Store and Apple App Store.</p>
+                        <h3>Manual Fetch Option</h3>
+                        <p>Fetch match data for any specific date whenever needed.</p>
                     </div>
                     
                     <div class="feature-item">
-                        <h3>Real-Time Data</h3>
-                        <p>Get instant access to live scores, lineups, standings, and match events as they happen.</p>
+                        <h3>Timezone Conversion</h3>
+                        <p>Matches automatically adjust to each viewer’s local time—no manual setup required.</p>
+                    </div>
+					<div class="feature-item">
+                        <h3>Responsive Design</h3>
+                        <p>Works seamlessly on mobile and desktop with a modern, easy-to-use interface.</p>
+                    </div>
+					<div class="feature-item">
+                        <h3>Cross-Platform Availability</h3>
+                        <p>Monitor live updates online or via our mobile apps on Google Play Store and Apple App Store.</p>
+                    </div>
+					<div class="feature-item">
+                        <h3>Real-Time Data from LiveFot API</h3>
+                        <p>Enjoy fast and reliable data for live scores, lineups, standings, stats, and match events.</p>
                     </div>
                 </div>
             </div>
@@ -819,11 +831,13 @@ function livefot_welcome_page() {
         <div class="livefot-features-grid livefot-getting-started-wrapper">
             <div class="livefot-getting-started">
                 <h2>🎯 Getting Started</h2>
-                <p>To begin displaying live football data on your website:</p>
+<!--                 <p>To begin displaying live football data on your website:</p> -->
                 <ol>
-                    <li>Configure your API key in the Settings page</li>
-                    <li>Use the shortcode <code>[livefot_matches]</code> in any post or page</li>
-                    <li>Customize the display options as needed</li>
+                    <li>Log in or create an account</li>
+                    <li>Purchase a plan</li>
+                    <li>Receive your codes via email after the purchase</li>
+					<li>Use these codes to add leagues to your plan</li>
+					<p>For more information or assistance, feel free to contact our support team. Thank you for choosing Live Football Center!</p>
                 </ol>
             </div>
         </div>
@@ -878,10 +892,10 @@ function livefot_welcome_page() {
 
             <div class="livefot-support">
                 <h2 class="live-section-heading">📞 Support & Contact</h2>
-                <p>For leagues, subscriptions, or support:</p>
+                <p>For inquiries regarding leagues, subscriptions, or technical support, please reach out to us at:</p>
                 <ul>
                     <li>Email: <a href="mailto:info@livefootballcenter.com">info@livefootballcenter.com</a></li>
-                    <li>Documentation: <a href="https://livefootballcenter.com/docs" target="_blank">View Documentation</a></li>
+                    <li>To access our API services and view a live demo before subscribing, please visit: <a href="http://api.livefootballcenter.com/" target="_blank">api.livefootballcenter.com</a></li>
                 </ul>
             </div>
 
