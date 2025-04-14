@@ -9,6 +9,13 @@
   display: inline-block;
 }
 
+div.scoreboard-info .scoreboard-time .scoreboard-img-span{
+/*     width: 20px;
+    height: 20px; */
+	display: inline-block;
+
+}
+
 .player-number {
   position: absolute;
   top: 0;
@@ -302,7 +309,20 @@ img[alt="Yellow Red Card"] {
 	}
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body .tab-content .standings-section.dark-mode .standings-title {
+/*     color: red !important; */
+  }
+}
+
+
 @media (max-width: 430px) {
+	div.match-added-time{
+		position: absolute;
+		right: 71px;
+		margin-top: 30px;
+	}
     button.back-to-matches {
         top: 20px !important;  /* Adjusted top position for smaller screens */
         left: 50% !important;
@@ -495,18 +515,18 @@ img[alt="Yellow Red Card"] {
     transform: translateX(-50%) translateY(2px);
 }
 
-div.match-added-time{
+/* div.match-added-time{
 	position: absolute;
 	right: 71px;
 	top: 310px;
-}
+} */
 
 /* Responsive styles */
 @media (max-width: 768px) {
 	div.match-added-time{
 		position: absolute;
 		right: 71px;
-		top: 314px;
+		margin-top: 30px;
 	}
     .player-info {
         font-size: 0.65rem;
@@ -527,7 +547,7 @@ div.match-added-time{
 	div.match-added-time{
 		position: absolute;
 		right: 71px;
-		top: 314px;
+		margin-top: 30px;
 	}
 
     .match-details-overlay .back-to-matches{
@@ -536,7 +556,7 @@ div.match-added-time{
     }
 
     .player-marker{
-        scale: 0.8;
+        scale: 0.9;
     }
     
 	.player-info .name-2,
@@ -5919,7 +5939,7 @@ body.overlay-open {
 .scoreboard-added-time {
     margin-left: 5px;
     font-weight: bold;
-    color: #d00;
+    /* color: #d00; */
     /* or your chosen highlight color */
 }
 
@@ -6043,7 +6063,7 @@ body.overlay-open {
 }
 
 .scoreboard-added-time {
-    color: #ff4444;
+    /* color: #ff4444; */
     font-weight: 600;
 }
 
@@ -7336,7 +7356,7 @@ body {
 }
 
 .scoreboard-added-time {
-    color: #ef4444;
+    /* color: #ef4444; */
     font-weight: 600;
 }
 
@@ -8416,6 +8436,9 @@ img.player-image {
 	
 }
 @media (max-width: 480px) {
+	.player-info .event-icon {
+		margin-right: 0px;
+	}
     .event-icon {
         width: 16px;
         height: 20px;
@@ -8702,8 +8725,8 @@ img[alt="Second Yellow Card"]{
 	.red-card-icon.rcc-0 img[alt="Red Card"] {
     	height: initial !important;
     	max-width: none !important;
-		margin: 2px;
-}
+		margin: 3px;
+  }
 
 
   .back-to-matches {

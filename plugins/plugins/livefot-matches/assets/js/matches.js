@@ -632,7 +632,11 @@
                         self.renderFromCache();
                         self.loadMatches(true);
                         throw error;
-                    }
+                    } //jk13042025
+					
+						
+						
+						
                 });
         },
 
@@ -766,11 +770,14 @@
             const $timeClone = $matchItem.find('.match-time').clone();
             // Extract injury and added time texts
             const injuryTimeText = $timeClone.find('span.injury-time').text();
-            const addedTimeText = $timeClone.find('span.added-time').text();
+            let addedTimeText = $timeClone.find('span.added-time').text();
+            addedTimeText = 3;
             // Remove these spans so we get the base time text
             $timeClone.find('span.injury-time, span.added-time').remove();
             const baseTimeText = $timeClone.text().trim() || '';
 
+            console.log(baseTimeText, addedTimeText);
+            
             // Optionally adjust formatting if needed (e.g., for "FT PEN")
             const matchTimeFormatted = baseTimeText.includes('FT PEN')
                 ? baseTimeText.replace(/(FT PEN)(.+)/, '$1<br>$2')
@@ -784,7 +791,10 @@
                 scoreboardTimeHtml += `<span class="scoreboard-injury-time">${injuryTimeText}</span>`;
             }
             if (addedTimeText) {
-                scoreboardTimeHtml += `<br><span class="scoreboard-added-time">${addedTimeText}</span>`;
+                scoreboardTimeHtml += `<br><span class="scoreboard-added-time">
+                ${addedTimeText} 
+                <img class="scoreboard-img-span" src="${iconBase}whistle.svg" alt="whistle"/>
+                </span>`;
             }
 
             // Update the overlay UI with fresh values
@@ -949,7 +959,7 @@
             });
 
             // --- Show/Hide live only ---
-            $(document).on('click', '.toggle-live', function () {
+      /*      $(document).on('click', '.toggle-live', function () {
                 self.state.showLiveOnly = !self.state.showLiveOnly;
                 $('.toggle-live').toggleClass('active');
                 if (self.state.showLiveOnly) {
@@ -972,7 +982,43 @@
                     self.renderFromCache();
                     self.loadMatches(true);
                 }
-            });
+				self.setupRefreshInterval();
+            });*/
+			
+						$(document).on('click', '.toggle-live', function () {
+				self.state.showLiveOnly = !self.state.showLiveOnly;
+				$('.toggle-live').toggleClass('active');
+
+				if (self.state.showLiveOnly) {
+					$('.toggle-live').find('span').text('Show All Matches');
+					$('.toggle-live').find('i').attr('class', 'icon-live-active');
+
+					// 1) Render from cache if we have it
+					// 2) Then load live from server
+					self.renderFromCache();
+					self.loadLiveMatches(true)
+						.catch(function (error) {
+							console.error('Live matches error:', error);
+							// DO NOT forcibly flip showLiveOnly = false.
+						});
+
+				} else {
+					$('.toggle-live').find('span').text('Show Live Only');
+					$('.toggle-live').find('i').attr('class', 'icon-live-inactive');
+
+					// Call loadMatches so we get a fresh copy from server for this day.
+					// Remove the immediate renderFromCache() so we don't show partial data prematurely
+					self.loadMatches(true)
+						.catch(function (error) {
+							console.error('All matches error:', error);
+							// Just log it or show a small error - do not forcibly revert the user state
+						});
+				}
+
+				// Re-run the interval logic
+				self.setupRefreshInterval();
+			});
+
 
             // --- Full Screen Match Details (NEW) ---
             $(document).on('click', '.action-button.match-details, .match-item', function (e) {
@@ -1123,7 +1169,10 @@
             // Use a clone of the .match-time element to extract the parts without affecting the original
             const $timeClone = $matchItem.find('.match-time').clone();
             const injuryTimeText = $timeClone.find('span.injury-time').text();
-            const addedTimeText = $timeClone.find('span.added-time').text();
+            let addedTimeText = $timeClone.find('span.added-time').text();
+            console.log($timeClone, addedTimeText);
+            // addedTimeText = 2;
+            
             $timeClone.find('span.injury-time, span.added-time').remove();
             const baseTimeText = $timeClone.text().trim() || '';
 
@@ -1140,8 +1189,11 @@
             <span class="scoreboard-team-name">${localTeamName}</span>
           </div>
 
-          <div class="scoreboard-info">
-            <span class="scoreboard-time">${matchTimeFormatted}</span>
+          <div class="scoreboard-info new-class">
+            <span class="scoreboard-time">${matchTimeFormatted}
+                ${addedTimeText ? `<img class="scoreboard-img-span" src="${iconBase}whistle.svg" alt="whistle"/>` : ''}
+            </span>
+
             <div class="scoreboard-score">${$matchItem.find('.match-score-results').text() || ''}</div>
             ${$matchItem.find('.aggregate-score').text() ? `<div class="scoreboard-aggregate">${$matchItem.find('.aggregate-score').text()}</div>` : ''}
           </div>
@@ -1166,7 +1218,7 @@
             localStorage.setItem('reloadActionData', scoreboardHtml);
 
     // ${injuryTimeText ? `<span class="scoreboard-injury-time">${injuryTimeText}</span>` : ''}
-    // ${addedTimeText ? `<span class="scoreboard-added-time">${addedTimeText}</span>` : ''}
+    
 
             // Inject the scoreboard HTML into the overlay
             $overlay.find('.scoreboard-section .scoreboard-teams').html(scoreboardHtml);
