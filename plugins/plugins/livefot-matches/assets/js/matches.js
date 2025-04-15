@@ -1880,6 +1880,9 @@
             }
 
             function renderPitch(markersA, markersB, teamA, teamB) {
+                let teamaname = $(".scoreboard-home .scoreboard-team-name ").html();
+                let teambname = $(".scoreboard-away .scoreboard-team-name").html();
+                
                 return `
                     <div class="pitch-container">
                         <div class="football-pitch">
@@ -1901,18 +1904,18 @@
                             </div>
                             <div class="team-corner-info team-corner-info-top">
                                 <div class="team-corner-name">
-                                    ${teamB.teamData.Name || 'Away'} 
+                                    ${teamB.teamData.Name || teambname} 
                                 </div>
                                 <div class="team-corner-formation">
-                                    ${teamB.teamData.TeamFormation || 'Formation'}
+                                    ${teamB.teamData.TeamFormation || ' '}
                                 </div>
                             </div>
                             <div class="team-corner-info team-corner-info-bottom">
                                 <div class="team-corner-name">
-                                    ${teamA.teamData.Name || 'Home'}
+                                    ${teamA.teamData.Name || teamaname}
                                 </div>
                                 <div class="team-corner-formation">
-                                    ${teamA.teamData.TeamFormation || 'Formation'}
+                                    ${teamA.teamData.TeamFormation || ' '}
                                 </div>
                             </div>
                             ${markersA}
