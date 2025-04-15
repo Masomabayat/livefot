@@ -771,7 +771,7 @@
             // Extract injury and added time texts
             const injuryTimeText = $timeClone.find('span.injury-time').text();
             let addedTimeText = $timeClone.find('span.added-time').text();
-            addedTimeText = 3;
+            // addedTimeText = 3;
             // Remove these spans so we get the base time text
             $timeClone.find('span.injury-time, span.added-time').remove();
             const baseTimeText = $timeClone.text().trim() || '';
@@ -1851,8 +1851,15 @@
                 const teamName = team.teamData.Name || 'Unknown Team';
                 const formationLabel = team.teamData.TeamFormation || 'Unknown';
 
+                // let localteamalogo = $(".scoreboard-home .scoreboard-logo").html();
+                // let localteamblogo = $(".scoreboard-away .scoreboard-logo").html();
+
+                // let teamaname = $(".scoreboard-home .scoreboard-team-name ").html();
+                // let teambname = $(".scoreboard-away .scoreboard-team-name").html();
+
                 return {
                     pitchMarkers: markers,
+
                     benchHtml,
                     headerHtml: `
                         <div class="team-info-block">
@@ -1925,6 +1932,15 @@
                 `;
             }
 
+            
+            if (!teams[0].teamData.LogoPath) {
+                teams[0].teamData.LogoPath = $(".scoreboard-home .scoreboard-logo").attr('src');
+                teams[1].teamData.LogoPath = $(".scoreboard-away .scoreboard-logo").attr('src'); 
+    
+                teams[0].teamData.Name = $(".scoreboard-home .scoreboard-team-name ").html();
+                teams[1].teamData.Name = $(".scoreboard-away .scoreboard-team-name").html();
+            }
+                
             const lineupA = buildLineup(teams[0]);
             const lineupB = buildLineup(teams[1]);
 
