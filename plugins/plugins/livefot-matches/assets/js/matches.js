@@ -770,8 +770,8 @@
             const $timeClone = $matchItem.find('.match-time').clone();
             // Extract injury and added time texts
             const injuryTimeText = $timeClone.find('span.injury-time').text();
-            let addedTimeText = $timeClone.find('span.added-time').text();
-            // addedTimeText = 3;
+            let addedTimeText =  $matchItem.find('span.added-time-text').text();
+            addedTimeText = 3;
             // Remove these spans so we get the base time text
             $timeClone.find('span.injury-time, span.added-time').remove();
             const baseTimeText = $timeClone.text().trim() || '';
@@ -1169,7 +1169,7 @@
             // Use a clone of the .match-time element to extract the parts without affecting the original
             const $timeClone = $matchItem.find('.match-time').clone();
             const injuryTimeText = $timeClone.find('span.injury-time').text();
-            let addedTimeText = $timeClone.find('span.added-time').text();
+            let addedTimeText =  $matchItem.find('span.added-time-text').text();
             console.log($timeClone, addedTimeText);
             // addedTimeText = 2;
             
@@ -1868,7 +1868,7 @@
                                     <div class="team-logo_name">
                                         <img src="${teamLogo}" alt="${teamName}" class="team-logo"/>
                                         <span class="team-name">
-                                            ${teamName} - Bench (${benchPlayers.length})
+                                            ${teamName}${benchPlayers.length ? ` - Bench (${benchPlayers.length})` : ''}
                                         </span>
                                     </div>
                                     <div class="team-toggle">
@@ -2638,7 +2638,7 @@
                 ? `<span class="injury-time">+${time.injury_time}</span>` : '';
             // Added time is rendered on a new line under the minute
             const addedTime = (time.added_time !== null && time.added_time > 0)
-                ? `<br><span class="added-time" style=" display: flex; gap: 2px;">
+                ? `<br><span class="added-time-text" style=" display: flex; gap: 2px;">
                     <img src="${iconBase}whistle.svg" alt="whistle"/>
                     <span class="match-time">+${time.added_time}</span>
                 </span>` : '';
