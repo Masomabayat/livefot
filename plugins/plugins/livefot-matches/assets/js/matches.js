@@ -771,7 +771,7 @@
             // Extract injury and added time texts
             const injuryTimeText = $timeClone.find('span.injury-time').text();
             let addedTimeText =  $matchItem.find('span.added-time-text').text();
-            addedTimeText = 3;
+            // addedTimeText = 3;
             // Remove these spans so we get the base time text
             $timeClone.find('span.injury-time, span.added-time').remove();
             const baseTimeText = $timeClone.text().trim() || '';
@@ -1057,6 +1057,10 @@
             if (!localStorage.getItem('reloadActionData') || localStorage.getItem('reloadActionData') === 'null') {
                 localStorage.removeItem('reloadActionData');
             }
+
+            if (!localStorage.getItem('openedMatchDataObj') || localStorage.getItem('openedMatchDataObj') === 'null') {
+                localStorage.removeItem('openedMatchDataObj');
+            }
             
             if (!localStorage.getItem('reloadAction') || localStorage.getItem('reloadAction') === 'null') {
                 localStorage.removeItem('reloadAction');
@@ -1066,7 +1070,33 @@
             }
         },
         openMatchDetailsFullscreen: function (matchId) {
+
+            
             const self = this;
+
+            // find the match object data that being open
+            var openedMatch = {};
+            try {
+                if (localStorage.getItem('openedMatchDataObj')) {
+                    openedMatch = localStorage.getItem('openedMatchDataObj');
+                    openedMatch = JSON.parse(openedMatch);
+                    console.log(openedMatch);
+                } else {
+                    self.cache.cache.forEach(x => {
+                        x.data.forEach(y => {
+                            openedMatch = y.fixtures.find(z => z.id === matchId);
+                                if (openedMatch) {
+                                    console.log(openedMatch);
+                                    localStorage.setItem('openedMatchDataObj', JSON.stringify(openedMatch));
+                                }
+                        });
+                    });
+                }
+
+            } catch (error) {
+                console.log(error);
+            }
+            
             self.unsetLocalStorage();
 
             var $matchItem = $(`.match-item[data-match-id="${matchId}"]`);
@@ -1246,6 +1276,7 @@
                 localStorage.removeItem('reloadActionData');
                 localStorage.removeItem('reloadAction');
                 localStorage.removeItem('reloadActionObj');
+                localStorage.removeItem('openedMatchDataObj');
 
                 $(".floating-icon.float-back-to-matches").hide();
 
@@ -1267,6 +1298,8 @@
                 localStorage.removeItem('reloadActionData');
                 localStorage.removeItem('reloadAction');
                 localStorage.removeItem('reloadActionObj');
+                localStorage.removeItem('openedMatchDataObj');
+
                 $(".floating-icon.float-back-to-matches").hide();
                 document.body.classList.remove('overlay-open');
             });
