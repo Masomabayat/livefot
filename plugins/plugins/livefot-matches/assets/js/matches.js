@@ -776,13 +776,15 @@
             $timeClone.find('span.injury-time, span.added-time').remove();
             const baseTimeText = $timeClone.text().trim() || '';
 
-            console.log(baseTimeText, addedTimeText);
-            
             // Optionally adjust formatting if needed (e.g., for "FT PEN")
-            const matchTimeFormatted = baseTimeText.includes('FT PEN')
+            let matchTimeFormatted = baseTimeText.includes('FT PEN')
                 ? baseTimeText.replace(/(FT PEN)(.+)/, '$1<br>$2')
                 : baseTimeText;
 
+                if(matchTimeFormatted.match(/\d+'?/)) {
+                    matchTimeFormatted = matchTimeFormatted.match(/\d+'?/)[0];
+                    
+                }
             // Build the final scoreboard time HTML:
             // - Injury time is inline with the base time
             // - Added time is on a new line (using <br>)
@@ -1069,30 +1071,69 @@
                 // localStorage.removeItem('reloadActionObj');
             }
         },
-        openMatchDetailsFullscreen: function (matchId) {
+        openMatchDetailsFullscreen: async function (matchId) {
 
             
             const self = this;
 
             // find the match object data that being open
             var openedMatch = {};
+            var scoreboardRedCardLocalHtml = '';
+            var scoreboardRedCardVisitorHtml ='';
             try {
                 if (localStorage.getItem('openedMatchDataObj')) {
                     openedMatch = localStorage.getItem('openedMatchDataObj');
                     openedMatch = JSON.parse(openedMatch);
                     console.log(openedMatch);
+                    const redCardsLocal = openedMatch.red_cards[0].count || 0;
+                    const redCardsVisitor = openedMatch.red_cards[1].count || 0;
+                    
+                    scoreboardRedCardLocalHtml = (redCardsLocal > 0)
+                    ? `<span class="red-card-icon rcc-${redCardsLocal}" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
+                        <img src="${iconBase}${redCardsLocal > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
+                            alt="${redCardsLocal > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
+                            style="width:${redCardsLocal > 1 ? 'auto' : '16px'};height:${redCardsLocal > 1 ? '30px' : '16px'};vertical-align:middle;" />
+                        </span>`
+                    : '';
+
+                    scoreboardRedCardVisitorHtml = (redCardsVisitor > 0)
+                    ? `<span class="red-card-icon rcc-${redCardsVisitor}" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
+                        <img src="${iconBase}${redCardsVisitor > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
+                            alt="${redCardsVisitor > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
+                            style="width:${redCardsVisitor > 1 ? 'auto' : '16px'};height:${redCardsVisitor > 1 ? '30px' : '16px'};vertical-align:middle;" />
+                        </span>`
+                    : '';
                 } else {
-                    self.cache.cache.forEach(x => {
+                    await self.cache.cache.forEach(x => {
                         x.data.forEach(y => {
                             openedMatch = y.fixtures.find(z => z.id === matchId);
                                 if (openedMatch) {
-                                    console.log(openedMatch);
+                                    const redCardsLocal = openedMatch.red_cards[0].count || 0;
+                                    const redCardsVisitor = openedMatch.red_cards[1].count || 0;
+                                    
+                                    scoreboardRedCardLocalHtml = (redCardsLocal > 0)
+                                    ? `<span class="red-card-icon rcc-${redCardsLocal}" title="${redCardsLocal} Red Card${redCardsLocal > 1 ? 's' : ''}">
+                                        <img src="${iconBase}${redCardsLocal > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
+                                            alt="${redCardsLocal > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
+                                            style="width:${redCardsLocal > 1 ? 'auto' : '16px'};height:${redCardsLocal > 1 ? '30px' : '16px'};vertical-align:middle;" />
+                                        </span>`
+                                    : '';
+
+                                    scoreboardRedCardVisitorHtml = (redCardsVisitor > 0)
+                                    ? `<span class="red-card-icon rcc-${redCardsVisitor}" title="${redCardsVisitor} Red Card${redCardsVisitor > 1 ? 's' : ''}">
+                                        <img src="${iconBase}${redCardsVisitor > 1 ? 'redcards2.svg' : 'redcard.svg'}" 
+                                            alt="${redCardsVisitor > 1 ? 'Multiple Red Cards' : 'Red Card'}" 
+                                            style="width:${redCardsVisitor > 1 ? 'auto' : '16px'};height:${redCardsVisitor > 1 ? '30px' : '16px'};vertical-align:middle;" />
+                                        </span>`
+                                    : '';
                                     localStorage.setItem('openedMatchDataObj', JSON.stringify(openedMatch));
                                 }
                         });
                     });
                 }
-
+                
+                
+                
             } catch (error) {
                 console.log(error);
             }
@@ -1207,16 +1248,21 @@
             const baseTimeText = $timeClone.text().trim() || '';
 
             // (Optional) Adjust formatting if needed (e.g. for FT PEN)
-            const matchTimeFormatted = baseTimeText.includes('FT PEN')
+            let matchTimeFormatted = baseTimeText.includes('FT PEN')
                 ? baseTimeText.replace(/(FT PEN)(.+)/, '$1<br>$2')
                 : baseTimeText;
+
+            if(matchTimeFormatted.match(/\d+'?/)) {
+                matchTimeFormatted = matchTimeFormatted.match(/\d+'?/)[0];
+                
+            }
 
             // Build the scoreboard HTML using the extracted parts
             var scoreboardHtml = `
         <div class="scoreboard-wrapper">
           <div class="scoreboard-team scoreboard-home">
             <img src="${localTeamLogo}" alt="${localTeamName} Logo" class="scoreboard-logo">
-            <span class="scoreboard-team-name">${localTeamName}</span>
+            <span class="scoreboard-team-name">${localTeamName} ${scoreboardRedCardLocalHtml}</span>
           </div>
 
           <div class="scoreboard-info new-class">
@@ -1230,10 +1276,11 @@
 
           <div class="scoreboard-team scoreboard-away">
             <img src="${visitorTeamLogo}" alt="${visitorTeamName} Logo" class="scoreboard-logo">
-            <span class="scoreboard-team-name">${visitorTeamName}</span>
+            <span class="scoreboard-team-name">${visitorTeamName} ${scoreboardRedCardVisitorHtml}</span>
           </div>
         </div>
     `;
+        console.log(scoreboardHtml);
         
             try {
                 let scoreboardHtml_cache = localStorage.getItem('reloadActionData');
