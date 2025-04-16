@@ -7283,6 +7283,11 @@ body {
 }
 
 @media (max-width: 480px) {
+    .scoreboard-team-name {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 	.tab-content[data-tab="lineup"] .pitch-container {
         height: 130vh !important;
         
