@@ -149,6 +149,8 @@
             // console.log('fetchMatchData', dateKey);
             // Use the timezone offset for the selected date instead of the current time.
             const utcOffset = -(date.getTimezoneOffset());
+            console.log(utcOffset, date);
+            
             return $.ajax({
                 url: livefotAjax.ajaxurl,
                 type: 'POST',
@@ -788,8 +790,9 @@
                 : baseTimeText;
 
                 if(matchTimeFormatted.match(/\d+'?/)) {
-                    matchTimeFormatted = matchTimeFormatted.match(/\d+'?/)[0];
-                    
+                    if (!matchTimeFormatted.match(/FT|PEN|pm|am/i)) {
+                        matchTimeFormatted = matchTimeFormatted.match(/\d+'?/)[0];
+                    }
                 }
             // Build the final scoreboard time HTML:
             // - Injury time is inline with the base time
@@ -1255,8 +1258,9 @@
                 : baseTimeText;
 
             if(matchTimeFormatted.match(/\d+'?/)) {
-                matchTimeFormatted = matchTimeFormatted.match(/\d+'?/)[0];
-                
+                if (!matchTimeFormatted.match(/FT|PEN|pm|am/i)) {
+                    matchTimeFormatted = matchTimeFormatted.match(/\d+'?/)[0];
+                }
             }
 
             // Build the scoreboard HTML using the extracted parts
