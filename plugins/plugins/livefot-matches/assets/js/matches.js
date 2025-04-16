@@ -536,6 +536,7 @@
         // ========== MAIN LOAD FUNCTIONS ==========
 
         loadMatches: function (forceRefresh = false, retryCount = 0, specificDate = null) {
+            try {
             const self = this;
             const dateToLoad = specificDate || this.state.currentDate;
             // Loading icon 
@@ -574,6 +575,11 @@
                         $('.livefot-matches-list').html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
                     }
                 });
+            } catch (error) {
+                console.error('All matches error:', error);
+                // Just log it or show a small error - do not forcibly revert the user state
+            }
+
         },
 
         loadLiveMatches: function (forceRefresh = false, retryCount = 0) {
@@ -987,7 +993,7 @@
 				self.setupRefreshInterval();
             });*/
 			
-						$(document).on('click', '.toggle-live', function () {
+            $(document).on('click', '.toggle-live', function () {
 				self.state.showLiveOnly = !self.state.showLiveOnly;
 				$('.toggle-live').toggleClass('active');
 
@@ -998,11 +1004,11 @@
 					// 1) Render from cache if we have it
 					// 2) Then load live from server
 					self.renderFromCache();
-					self.loadLiveMatches(true)
-						.catch(function (error) {
-							console.error('Live matches error:', error);
-							// DO NOT forcibly flip showLiveOnly = false.
-						});
+					// self.loadLiveMatches(true)
+					// 	.catch(function (error) {
+					// 		console.error('Live matches error:', error);
+					// 		// DO NOT forcibly flip showLiveOnly = false.
+					// 	});
 
 				} else {
 					$('.toggle-live').find('span').text('Show Live Only');
@@ -1010,11 +1016,7 @@
 
 					// Call loadMatches so we get a fresh copy from server for this day.
 					// Remove the immediate renderFromCache() so we don't show partial data prematurely
-					self.loadMatches(true)
-						.catch(function (error) {
-							console.error('All matches error:', error);
-							// Just log it or show a small error - do not forcibly revert the user state
-						});
+					self.loadMatches(true);
 				}
 
 				// Re-run the interval logic
@@ -1262,8 +1264,10 @@
         <div class="scoreboard-wrapper">
           <div class="scoreboard-team scoreboard-home">
             <img src="${localTeamLogo}" alt="${localTeamName} Logo" class="scoreboard-logo">
+            <div class="scoreboard-team-container">
             <span class="scoreboard-team-name">${localTeamName}</span>
             <span class="scoreboard-team-card"> ${scoreboardRedCardLocalHtml} </span>
+            </div>
           </div>
 
           <div class="scoreboard-info new-class">
@@ -1277,7 +1281,10 @@
 
           <div class="scoreboard-team scoreboard-away">
             <img src="${visitorTeamLogo}" alt="${visitorTeamName} Logo" class="scoreboard-logo">
-            <span class="scoreboard-team-name">${visitorTeamName} ${scoreboardRedCardVisitorHtml}</span>
+            <div class="scoreboard-team-container">
+            <span class="scoreboard-team-card"> ${scoreboardRedCardVisitorHtml} </span>
+            <span class="scoreboard-team-name">${visitorTeamName}</span>
+            </div>
           </div>
         </div>
     `;
