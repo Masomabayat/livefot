@@ -1262,7 +1262,8 @@
         <div class="scoreboard-wrapper">
           <div class="scoreboard-team scoreboard-home">
             <img src="${localTeamLogo}" alt="${localTeamName} Logo" class="scoreboard-logo">
-            <span class="scoreboard-team-name">${localTeamName} ${scoreboardRedCardLocalHtml}</span>
+            <span class="scoreboard-team-name">${localTeamName}</span>
+            <span class="scoreboard-team-card"> ${scoreboardRedCardLocalHtml} </span>
           </div>
 
           <div class="scoreboard-info new-class">
@@ -1946,7 +1947,7 @@
                             <div class="team-header" style="cursor:pointer;">
                                 <div class="team-header-content">
                                     <div class="team-logo_name">
-                                        <img src="${teamLogo}" alt="${teamName}" class="team-logo"/>
+                                        <img class="team-logo" src="${teamLogo}" />
                                         <span class="team-name">
                                             ${teamName}${benchPlayers.length ? ` - Bench (${benchPlayers.length})` : ''}
                                         </span>
@@ -2718,7 +2719,7 @@
                 ? `<span class="injury-time">+${time.injury_time}</span>` : '';
             // Added time is rendered on a new line under the minute
             const addedTime = (time.added_time !== null && time.added_time > 0)
-                ? `<br><span class="added-time-text" style=" display: flex; gap: 2px;">
+                ? `<br><span class="added-time-text" style=" display: flex; gap: 2px; float: right;">
                     <img src="${iconBase}whistle.svg" alt="whistle"/>
                     <span class="match-time">+${time.added_time}</span>
                 </span>` : '';

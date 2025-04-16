@@ -1608,6 +1608,11 @@ video {
     align-items: baseline;
 }
 
+.scoreboard-team-card{
+    margin-right: 3px;
+}
+
+
 .red-card-icon {
     display: flex;
    /* position: relative;
@@ -2663,7 +2668,9 @@ body {
     cursor: pointer;
 }
 
-
+.added-time-text{
+    float: right;
+}
 
 .team-logo_name .team-name:hover {
     color: #6b7280;
@@ -6984,6 +6991,7 @@ body {
     font-weight: 600;
     color: #fff;
     transition: all 0.3s ease;
+    display: flex;
 }
 
 /* Score and match info */
