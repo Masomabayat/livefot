@@ -508,6 +508,8 @@
         },
 
         renderFromCache: function () {
+            console.log('renderFromCache loading here ');
+            
             const self = this;
             let leaguesArray = [];
 
@@ -538,11 +540,13 @@
         // ========== MAIN LOAD FUNCTIONS ==========
 
         loadMatches: function (forceRefresh = false, retryCount = 0, specificDate = null) {
+            console.log('Loading matches');
+
             try {
             const self = this;
             const dateToLoad = specificDate || this.state.currentDate;
             // Loading icon 
-            $('.livefot-matches-list').html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
+            // $('.livefot-matches-list').html('<div class="loading"><img class="rotating-img" src="/wp-content/uploads/2025/03/spinner.png" ></div>');
 
             // const dateKey = dateToLoad.toISOString().split('T')[0];
             const dateKey = dateToLoad.toLocaleDateString('en-CA');
@@ -550,7 +554,7 @@
             // console.log([this.cache, dateToLoad, dateKey, this.state.currentDate]);
             // console.log(this.cache.get(dateKey));
             // const cachedData = !forceRefresh && this.cache.get(dateToLoad);
-            const cachedData = this.cache.get(dateKey);
+            const cachedData = !forceRefresh && this.cache.get(dateKey);
             // console.log(["cachedData", cachedData]);
             
             // If we have valid cached data, render from cache
@@ -1006,12 +1010,13 @@
 
 					// 1) Render from cache if we have it
 					// 2) Then load live from server
+
 					self.renderFromCache();
-					// self.loadLiveMatches(true)
-					// 	.catch(function (error) {
-					// 		console.error('Live matches error:', error);
-					// 		// DO NOT forcibly flip showLiveOnly = false.
-					// 	});
+					self.loadLiveMatches(true)
+						.catch(function (error) {
+							console.error('Live matches error:', error);
+							// DO NOT forcibly flip showLiveOnly = false.
+						});
 
 				} else {
 					$('.toggle-live').find('span').text('Show Live Only');
@@ -1019,7 +1024,9 @@
 
 					// Call loadMatches so we get a fresh copy from server for this day.
 					// Remove the immediate renderFromCache() so we don't show partial data prematurely
+					// self.renderFromCache();
 					self.loadMatches(true);
+
 				}
 
 				// Re-run the interval logic
@@ -1706,7 +1713,7 @@
                                     <img src="${iconBase}goal.svg" class="goal-icon" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
                                 </span>
                             `;
-                                    // <img src="${iconBase}goal-white.svg" class="dark-mode" alt="[Goal]" style="width:16px;height:16px;vertical-align:middle;" title="Goal" />
+                              
                             if (event.isPenalty) {
                                  icons += ' (P)';
                                 }
@@ -1720,8 +1727,7 @@
                             icons += `<img src="${iconBase}owngoal.svg" alt="Own Goal" style="width:16px;height:16px;vertical-align:middle;" title="Own Goal"/>`;
                             break;
                         case 'yellowcard':
-                            // icons += `<img src="${iconBase}yellowcard.svg" alt="Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Yellow Card"/>`;
-                            icons += `<img src="/wp-content/uploads/2025/04/yellow.png" alt="Yellow Card" style="width:15x;height:22;vertical-align:middle;" title="Yellow Card"/>`;
+                            icons += `<img src="${iconBase}yellowcardnew.svg" alt="Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Yellow Card"/>`;
 
                             break;
                         case 'var':
@@ -1734,13 +1740,13 @@
                             icons += `<img src="${iconBase}missed penalty.svg" alt="Var" style="width:16px;height:16px;vertical-align:middle;" title="missed penalty normal"/>`;
                             break;
                         case 'redcard':
-                            // icons += `<img src="${iconBase}redcard.svg" alt="Red Card" style="width:16px;height:16px;vertical-align:middle;" title="Red Card"/>`;
-                            icons += `<img src="/wp-content/uploads/2025/04/redcard.png" alt="Red Card" style="width:16px;height:16px;vertical-align:middle;" title="Red Card"/>`;
+                           
+                            icons += `<img src="/wp-content/uploads/2025/04/redcard.png" alt="Red Card" style="width:11px;height:16px;vertical-align:middle;" title="Red Card"/>`;
 
                             break;
                         case 'yellowred':
-                            icons += `<img src="/wp-content/uploads/2025/04/yellowredcard3.png" alt="Second Yellow Card" style="width:20x;height:20;vertical-align:middle;" title="Second Yellow Card"/>`;
-                            // icons += `<img src="${iconBase}yellowred.svg" alt="Second Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Second Yellow Card"/>`;
+
+                            icons += `<img src="${iconBase}yellowredcard3.svg" alt="Second Yellow Card" style="width:16px;height:16px;vertical-align:middle;" title="Second Yellow Card"/>`;
                             break;
                         case 'substitution':
                             icons += `<img src="${iconBase}subin.svg" alt="Substitution In" style="width:16px;height:16px;vertical-align:middle;" title="Substitution"/>`;
